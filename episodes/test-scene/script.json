@@ -1,10 +1,5 @@
 {
   "title": "Test scene: What if you woke up 10x stronger? (cold open)",
-  "voices": {
-    "narrator": "am_michael",
-    "you": "am_puck",
-    "roommate": "af_bella"
-  },
   "facts": [
     {
       "line": 7,
@@ -17,7 +12,7 @@
       "scene": "alarm",
       "who": "narrator",
       "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
-      "say": "It's seven oh two A.M. Your alarm goes off, so you smack the snooze button."
+      "take": "voices/narrator.wav"
     },
     {
       "scene": "smash",
@@ -47,12 +42,12 @@
     {
       "scene": "fact",
       "who": "narrator",
-      "text": "Here's the thing. Most adults squeeze with about thirty to forty-five kilograms of force."
+      "text": "Here's the thing. Most adults squeeze with about 30 to 45 kilograms of force."
     },
     {
       "scene": "fact",
       "who": "narrator",
-      "text": "Overnight, yours went up ten times."
+      "text": "Overnight, yours went up 10 times."
     },
     {
       "scene": "door",

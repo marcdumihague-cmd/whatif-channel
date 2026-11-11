@@ -9,3 +9,4 @@ video/out/
 .venv-*/
 tts/compare/out/
 voice-samples/
+!voices/*.wav

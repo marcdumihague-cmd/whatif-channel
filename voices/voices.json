@@ -1,0 +1,15 @@
+{
+  "narrator": {
+    "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
+    "design": "A warm, confident male storyteller in his thirties with a slightly mischievous, playful tone, like a YouTube story narrator. Emotion: playful and knowing, a little smile in the voice, as if you know something is about to go wrong.",
+    "note": "Take 4, chosen by the user."
+  },
+  "you": {
+    "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
+    "design": "A young man in his early twenties with a light, expressive voice. Emotion: animated, storytelling to a friend."
+  },
+  "roommate": {
+    "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
+    "design": "A young woman in her twenties with a bright, energetic voice. Emotion: animated, storytelling to a friend."
+  }
+}

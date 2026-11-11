@@ -1,83 +1,83 @@
 {
- "duration": 33.437,
+ "duration": 35.81,
  "lines": [
   {
    "scene": "alarm",
    "who": "narrator",
    "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
-   "say": "It's seven oh two A.M. Your alarm goes off, so you smack the snooze button.",
+   "take": "voices/narrator.wav",
    "start": 0.0,
-   "end": 4.928
+   "end": 5.2
   },
   {
    "scene": "smash",
    "who": "narrator",
    "text": "Your hand goes straight through the nightstand.",
-   "start": 5.628,
-   "end": 7.996
+   "start": 5.9,
+   "end": 8.54
   },
   {
    "scene": "smash",
    "who": "you",
    "text": "Wait. What?",
-   "start": 8.346,
-   "end": 9.157
+   "start": 8.89,
+   "end": 10.41
   },
   {
    "scene": "bed",
    "who": "narrator",
    "text": "You sit up. The bed frame snaps like a breadstick.",
-   "start": 9.857,
-   "end": 13.035
+   "start": 11.11,
+   "end": 14.47
   },
   {
    "scene": "bed",
    "who": "roommate",
    "text": "What was that?!",
-   "start": 13.385,
-   "end": 14.153
+   "start": 14.82,
+   "end": 15.7
   },
   {
    "scene": "bed",
    "who": "you",
    "text": "Nothing! Just stretching!",
-   "start": 14.503,
-   "end": 15.911
+   "start": 16.05,
+   "end": 17.89
   },
   {
    "scene": "fact",
    "who": "narrator",
-   "text": "Here's the thing. Most adults squeeze with about thirty to forty-five kilograms of force.",
-   "start": 16.611,
-   "end": 22.329
+   "text": "Here's the thing. Most adults squeeze with about 30 to 45 kilograms of force.",
+   "start": 18.59,
+   "end": 23.87
   },
   {
    "scene": "fact",
    "who": "narrator",
-   "text": "Overnight, yours went up ten times.",
-   "start": 22.679,
-   "end": 25.089
+   "text": "Overnight, yours went up 10 times.",
+   "start": 24.22,
+   "end": 26.78
   },
   {
    "scene": "door",
    "who": "you",
    "text": "Okay. Gentle. Everything gentle.",
-   "start": 25.789,
-   "end": 27.816
+   "start": 27.48,
+   "end": 30.6
   },
   {
    "scene": "door",
    "who": "narrator",
    "text": "You reach for the doorknob.",
-   "start": 28.166,
-   "end": 29.809
+   "start": 30.95,
+   "end": 32.39
   },
   {
    "scene": "end",
    "who": "narrator",
    "text": "And that's when it gets weird.",
-   "start": 30.509,
-   "end": 32.237
+   "start": 33.09,
+   "end": 34.61
   }
  ]
 }
