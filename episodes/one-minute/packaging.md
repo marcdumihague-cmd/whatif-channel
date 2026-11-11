@@ -20,7 +20,17 @@ stay readable.
 > 30 days, 30 calls: Albert Einstein, a Wall Street trader with terrible advice, your mom's best friend, and $86,000 hidden in places only the dead remember.
 >
 > CHAPTERS
-> (filled in from the real voice timeline below)
+> 0:00 He Picked Up
+> 0:32 The Rules of the Phone
+> 0:52 Grandma's Last Month
+> 1:45 Calling Einstein
+> 2:12 The Worst Stock Tip Ever
+> 2:44 Mom's Test
+> 2:59 $70 Billion Nobody Claimed
+> 4:10 The Midnight Deadline
+> 4:32 The Blue Tin
+> 5:32 One Call Left
+> 6:00 3:07 A.M.
 >
 > REAL FACTS IN THIS VIDEO
 > Hearing near death: Blundon, Gallagher & Ward (2020), Scientific Reports.

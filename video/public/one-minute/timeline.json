@@ -1,159 +1,159 @@
 {
- "duration": 420.69,
+ "duration": 386.28,
  "lines": [
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Your grandpa died 9 days ago.",
-   "start": 0,
-   "end": 2.449
+   "start": 0.0,
+   "end": 2.72
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "But at 3 a.m., he picks up the phone. And you have 60 seconds before you lose him forever.",
-   "start": 2.799,
-   "end": 10.554
+   "start": 3.07,
+   "end": 7.95
   },
   {
    "scene": "cold_open",
    "who": "GRANDPA",
    "text": "Kiddo? Is that you?",
-   "start": 10.904,
-   "end": 12.537
+   "start": 8.3,
+   "end": 10.06
   },
   {
    "scene": "cold_open",
    "who": "YOU",
    "text": "Grandpa?!",
-   "start": 12.887,
-   "end": 13.295
+   "start": 10.41,
+   "end": 11.53
   },
   {
    "scene": "cold_open",
    "who": "GRANDPA",
    "text": "Listen. I don't have long. Don't let them sell the house. The blue tin. Second drawer. Tell your grandma I...",
-   "start": 13.645,
-   "end": 21.808
+   "start": 11.88,
+   "end": 19.72
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Click. The line goes dead. Exactly 60 seconds.",
-   "start": 22.158,
-   "end": 25.423
+   "start": 20.07,
+   "end": 24.15
   },
   {
    "scene": "promise",
    "who": "NARRATOR",
    "text": "Over the next 30 days, you'll talk to Albert Einstein, make 86,000 dollars, and find out how that sentence ends.",
-   "start": 26.123,
-   "end": 34.287
+   "start": 24.85,
+   "end": 32.05
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Here's how it works. It's Grandpa's old rotary phone. Dial anyone who has ever died, and they pick up.",
-   "start": 34.987,
-   "end": 42.742
+   "start": 32.75,
+   "end": 39.23
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "You get exactly 60 seconds. One call a day. And every person only once.",
-   "start": 43.092,
-   "end": 48.806
+   "start": 39.58,
+   "end": 45.34
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Grandpa already used his.",
-   "start": 49.156,
-   "end": 50.789
+   "start": 45.69,
+   "end": 47.61
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "More than 100 billion people have ever lived. You get to choose 30.",
-   "start": 51.139,
-   "end": 56.445
+   "start": 47.96,
+   "end": 52.2
   },
   {
    "scene": "grandma",
    "who": "NARRATOR",
    "text": "The next morning, you go to Grandma's.",
-   "start": 57.145,
-   "end": 60.002
+   "start": 52.9,
+   "end": 54.66
   },
   {
    "scene": "grandma",
    "who": "GRANDMA",
    "text": "The bank wants 86,000 dollars by the end of the month. Or the house goes.",
-   "start": 60.352,
-   "end": 66.474
+   "start": 55.01,
+   "end": 59.97
   },
   {
    "scene": "grandma",
    "who": "NARRATOR",
    "text": "The house. With the blue tin inside.",
-   "start": 66.824,
-   "end": 69.682
+   "start": 60.32,
+   "end": 62.72
   },
   {
    "scene": "grandma",
    "who": "GRANDMA",
    "text": "It's only a house, sweetheart. Fifty-one years, and he never once said he loved me.",
-   "start": 70.032,
-   "end": 76.154
+   "start": 63.07,
+   "end": 70.11
   },
   {
    "scene": "grandma",
    "who": "NARRATOR",
    "text": "Grandpa tapped the table three times before every dinner. Nobody ever asked him why.",
-   "start": 76.504,
-   "end": 82.218
+   "start": 70.46,
+   "end": 75.26
   },
   {
    "scene": "grandma",
    "who": "GRANDMA",
    "text": "I talked to him all night at the hospital. I don't know if he heard a word.",
-   "start": 82.568,
-   "end": 89.507
+   "start": 75.61,
+   "end": 80.49
   },
   {
    "scene": "grandma",
    "who": "NARRATOR",
    "text": "In 2020, scientists recorded the brains of dying hospice patients. Even the ones who couldn't respond still reacted to sound. Hearing may be one of the last things to go.",
-   "start": 89.857,
-   "end": 102.102
+   "start": 80.84,
+   "end": 91.16
   },
   {
    "scene": "mom",
    "who": "MOM",
    "text": "Phones don't call dead people. Go to bed.",
-   "start": 102.802,
-   "end": 106.067
+   "start": 91.86,
+   "end": 94.02
   },
   {
    "scene": "theo",
    "who": "NARRATOR",
    "text": "Your best friend Theo believes you instantly. Theo has lived alone with his mom since he was 9.",
-   "start": 106.767,
-   "end": 114.114
+   "start": 94.72,
+   "end": 100.56
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "Okay. Okay. Can you call Elvis?",
-   "start": 114.464,
-   "end": 116.913
+   "start": 100.91,
+   "end": 104.35
   },
   {
    "scene": "einstein",
    "who": "NARRATOR",
    "text": "Day 2. You want proof. So you call the smartest man who ever died.",
-   "start": 117.613,
-   "end": 123.328
+   "start": 105.05,
+   "end": 109.61
   },
   {
    "scene": "einstein",
@@ -161,22 +161,22 @@
    "text": "Hallo? Wer ist da?",
    "lang": "German",
    "caption": "Hallo? Wer ist da? (Hello? Who's there?)",
-   "start": 123.678,
-   "end": 125.31
+   "start": 109.96,
+   "end": 111.56
   },
   {
    "scene": "einstein",
    "who": "NARRATOR",
    "text": "Real fact: nobody knows Albert Einstein's last words. He said them in German, to a night nurse who didn't speak German.",
-   "start": 125.66,
-   "end": 134.232
+   "start": 111.91,
+   "end": 119.35
   },
   {
    "scene": "einstein",
    "who": "YOU",
    "text": "Mister Einstein, what were your last words?",
-   "start": 134.582,
-   "end": 137.439
+   "start": 119.7,
+   "end": 122.74
   },
   {
    "scene": "einstein",
@@ -184,394 +184,393 @@
    "text": "Ach. Das ist eine lange Geschichte.",
    "lang": "German",
    "caption": "Ach. Das ist eine lange Geschichte. (Oh. That's a long story.)",
-   "start": 137.789,
-   "end": 140.238
+   "start": 123.09,
+   "end": 126.05
   },
   {
    "scene": "einstein",
    "who": "NARRATOR",
    "text": "He says it in German. You don't speak German either. Click. 28 calls left.",
-   "start": 140.588,
-   "end": 146.302
+   "start": 126.4,
+   "end": 132.08
   },
   {
    "scene": "trader",
    "who": "NARRATOR",
    "text": "Day 3. You need money. So you call a Wall Street trader who died in 2001.",
-   "start": 147.002,
-   "end": 153.533
+   "start": 132.78,
+   "end": 138.06
   },
   {
    "scene": "trader",
    "who": "YOU",
    "text": "What should I buy?",
-   "start": 153.883,
-   "end": 155.515
+   "start": 138.41,
+   "end": 139.45
   },
   {
    "scene": "trader",
    "who": "TRADER",
    "text": "Easy. Blockbuster. They just laughed some tiny DVD company out of the room.",
-   "start": 155.865,
-   "end": 161.171
+   "start": 139.8,
+   "end": 145.48
   },
   {
    "scene": "trader",
    "who": "NARRATOR",
    "text": "True story. In 2000, Netflix offered to sell itself to Blockbuster for 50 million dollars. Blockbuster said no. Ten years later, Blockbuster was bankrupt.",
-   "start": 161.521,
-   "end": 171.317
+   "start": 145.83,
+   "end": 157.03
   },
   {
    "scene": "trader",
    "who": "NARRATOR",
    "text": "The dead don't know the future. Only their past.",
-   "start": 171.667,
-   "end": 175.341
+   "start": 157.38,
+   "end": 160.18
   },
   {
    "scene": "trader",
    "who": "THEO",
    "text": "Can you call Elvis?",
-   "start": 175.691,
-   "end": 177.323
+   "start": 160.53,
+   "end": 161.73
   },
   {
    "scene": "trader",
    "who": "YOU",
    "text": "Theo. No.",
-   "start": 177.673,
-   "end": 178.49
+   "start": 162.08,
+   "end": 163.44
   },
   {
    "scene": "sarah",
    "who": "MOM",
    "text": "Fine. Call my best friend, Sarah. She died in college. Ask her what I did with her red sweater.",
-   "start": 179.19,
-   "end": 186.945
+   "start": 164.14,
+   "end": 170.54
   },
   {
    "scene": "sarah",
    "who": "SARAH",
    "text": "Tell her she can keep the sweater. And tell her it was never her fault.",
-   "start": 187.295,
-   "end": 193.417
+   "start": 170.89,
+   "end": 174.73
   },
   {
    "scene": "sarah",
    "who": "NARRATOR",
    "text": "Your mom drops her coffee.",
-   "start": 193.767,
-   "end": 195.808
+   "start": 175.08,
+   "end": 177.24
   },
   {
    "scene": "sarah",
    "who": "MOM",
    "text": "How did you know about the sweater?",
-   "start": 196.158,
-   "end": 199.015
+   "start": 177.59,
+   "end": 179.27
   },
   {
    "scene": "unclaimed",
    "who": "NARRATOR",
    "text": "That's when you realize what the dead do know. Where they left things.",
-   "start": 199.715,
-   "end": 205.021
+   "start": 179.97,
+   "end": 183.49
   },
   {
    "scene": "unclaimed",
    "who": "NARRATOR",
    "text": "Real number: American states are holding about 70 billion dollars nobody has claimed. Forgotten bank accounts. Old paychecks. About 1 in 7 Americans has some.",
-   "start": 205.371,
-   "end": 215.576
+   "start": 183.84,
+   "end": 194.08
   },
   {
    "scene": "unclaimed",
    "who": "NARRATOR",
    "text": "A lot of it belongs to people who died before telling anyone.",
-   "start": 215.926,
-   "end": 220.823
+   "start": 194.43,
+   "end": 197.55
   },
   {
    "scene": "unclaimed",
    "who": "NARRATOR",
    "text": "There's even a job for this. Heir hunters find the families, and usually keep 10 to 30 percent.",
-   "start": 221.173,
-   "end": 228.52
+   "start": 197.9,
+   "end": 203.5
   },
   {
    "scene": "unclaimed",
    "who": "NARRATOR",
    "text": "You have 26 calls left. And a phone that can ask the dead directly.",
-   "start": 228.87,
-   "end": 234.585
+   "start": 203.85,
+   "end": 209.21
   },
   {
    "scene": "harold",
    "who": "NARRATOR",
    "text": "Day 5. Harold. Died in 1998.",
-   "start": 235.285,
-   "end": 237.734
+   "start": 209.91,
+   "end": 213.67
   },
   {
    "scene": "harold",
    "who": "HAROLD",
    "text": "Savings account. First Federal. 1983. My daughter never knew.",
-   "start": 238.084,
-   "end": 241.757
+   "start": 214.02,
+   "end": 219.94
   },
   {
    "scene": "harold",
    "who": "NARRATOR",
    "text": "Harold's daughter gets 42,000 dollars. You keep 20 percent.",
-   "start": 242.107,
-   "end": 245.781
+   "start": 220.29,
+   "end": 224.45
   },
   {
    "scene": "harold",
    "who": "NARRATOR",
    "text": "And Harold gets his last 10 seconds.",
-   "start": 246.131,
-   "end": 248.988
+   "start": 224.8,
+   "end": 227.2
   },
   {
    "scene": "harold",
    "who": "HAROLD",
    "text": "Tell her I'm proud of her.",
-   "start": 249.338,
-   "end": 251.787
+   "start": 227.55,
+   "end": 228.83
   },
   {
    "scene": "montage",
    "who": "NARRATOR",
    "text": "Day 6. A sailor's pension. Day 9. A safe deposit box in Ohio. Day 14. A piano teacher who buried cash in a coffee can.",
-   "start": 252.487,
-   "end": 262.691
+   "start": 229.53,
+   "end": 238.01
   },
   {
    "scene": "montage",
    "who": "THEO",
    "text": "Can you call Elvis?",
-   "start": 263.041,
-   "end": 264.673
+   "start": 238.36,
+   "end": 239.56
   },
   {
    "scene": "montage",
    "who": "YOU",
    "text": "Elvis does not have unclaimed money, Theo.",
-   "start": 265.023,
-   "end": 267.881
+   "start": 239.91,
+   "end": 242.87
   },
   {
    "scene": "montage",
    "who": "NARRATOR",
    "text": "Every call ends the same way. Money for the family. And 10 seconds for the thing they never said.",
-   "start": 268.231,
-   "end": 275.986
+   "start": 243.22,
+   "end": 249.38
   },
   {
    "scene": "setback",
    "who": "NARRATOR",
    "text": "Day 26. You have 71,000 dollars. You need 86,000. And you have 4 calls left.",
-   "start": 276.686,
-   "end": 282.808
+   "start": 250.08,
+   "end": 256.8
   },
   {
    "scene": "setback",
    "who": "NARRATOR",
    "text": "Then the bank calls. The buyer wants to close early. Day 30. Midnight.",
-   "start": 283.158,
-   "end": 288.464
+   "start": 257.15,
+   "end": 262.75
   },
   {
    "scene": "setback",
    "who": "NARRATOR",
    "text": "And the phone company sends a letter. Grandpa's line gets cut off the same night.",
-   "start": 288.814,
-   "end": 294.937
+   "start": 263.1,
+   "end": 267.98
   },
   {
    "scene": "setback",
    "who": "NARRATOR",
    "text": "After midnight, no more calls. Ever.",
-   "start": 295.287,
-   "end": 297.736
+   "start": 268.33,
+   "end": 271.69
   },
   {
    "scene": "eddie",
    "who": "NARRATOR",
    "text": "So you stop calling strangers. You call Grandpa's best friend, Eddie. Died in 2009.",
-   "start": 298.436,
-   "end": 304.15
+   "start": 272.39,
+   "end": 278.23
   },
   {
    "scene": "eddie",
    "who": "EDDIE",
    "text": "Walt? Every year on your grandma's birthday, he bought a savings bond. Never cashed a single one.",
-   "start": 304.5,
-   "end": 311.439
+   "start": 278.58,
+   "end": 283.94
   },
   {
    "scene": "eddie",
    "who": "NARRATOR",
    "text": "That's real too. The U.S. Treasury is holding almost 30 billion dollars in savings bonds nobody ever cashed.",
-   "start": 311.789,
-   "end": 319.136
+   "start": 284.29,
+   "end": 290.77
   },
   {
    "scene": "eddie",
    "who": "EDDIE",
    "text": "He kept them in a tin. A blue one.",
-   "start": 319.486,
-   "end": 323.159
+   "start": 291.12,
+   "end": 293.28
   },
   {
    "scene": "house",
    "who": "NARRATOR",
    "text": "Day 30. The bank lets the family in for one last walk-through.",
-   "start": 323.859,
-   "end": 328.757
+   "start": 293.98,
+   "end": 297.9
   },
   {
    "scene": "house",
    "who": "NARRATOR",
    "text": "Second drawer. Behind the tablecloths. A blue tin.",
-   "start": 329.107,
-   "end": 332.372
+   "start": 298.25,
+   "end": 302.33
   },
   {
    "scene": "house",
    "who": "NARRATOR",
    "text": "Fifty-one savings bonds. Enough. The house is saved.",
-   "start": 332.722,
-   "end": 335.988
+   "start": 302.68,
+   "end": 306.68
   },
   {
    "scene": "house",
    "who": "NARRATOR",
    "text": "But the money was never the point. Under the bonds, there's a note. In Grandpa's handwriting.",
-   "start": 336.338,
-   "end": 342.868
+   "start": 307.03,
+   "end": 312.95
   },
   {
    "scene": "letter",
    "who": "GRANDPA",
    "text": "Three taps means I love you. I was always too scared to say it out loud. So I said it every night.",
-   "start": 343.568,
-   "end": 352.548
+   "start": 313.65,
+   "end": 320.05
   },
   {
    "scene": "letter",
    "who": "NARRATOR",
    "text": "Fifty-one years. Three taps a night. He said it more than 18,000 times.",
-   "start": 352.898,
-   "end": 358.204
+   "start": 320.4,
+   "end": 325.6
   },
   {
    "scene": "letter",
    "who": "NARRATOR",
    "text": "Grandma taps the table three times.",
-   "start": 358.554,
-   "end": 361.003
+   "start": 325.95,
+   "end": 328.11
   },
   {
    "scene": "letter",
    "who": "GRANDMA",
    "text": "Me too, Walt. Me too.",
-   "start": 361.353,
-   "end": 363.394
+   "start": 328.46,
+   "end": 331.9
   },
   {
    "scene": "lastcall",
    "who": "NARRATOR",
    "text": "11:58 p.m. One call left. Two minutes until the line goes dead forever.",
-   "start": 364.094,
-   "end": 369.4
+   "start": 332.6,
+   "end": 338.36
   },
   {
    "scene": "lastcall",
    "who": "NARRATOR",
    "text": "You could call anyone. Einstein again. Elvis.",
-   "start": 369.75,
-   "end": 372.607
+   "start": 338.71,
+   "end": 342.87
   },
   {
    "scene": "lastcall",
    "who": "THEO",
    "text": "Hey. Can you call...",
-   "start": 372.957,
-   "end": 374.59
+   "start": 343.22,
+   "end": 345.06
   },
   {
    "scene": "lastcall",
    "who": "NARRATOR",
    "text": "For once, he doesn't say Elvis.",
-   "start": 374.94,
-   "end": 377.389
+   "start": 345.41,
+   "end": 347.41
   },
   {
    "scene": "lastcall",
    "who": "THEO",
    "text": "...my dad?",
-   "start": 377.739,
-   "end": 378.555
+   "start": 347.76,
+   "end": 348.96
   },
   {
    "scene": "theo_call",
    "who": "NARRATOR",
    "text": "You hand him the phone.",
-   "start": 379.255,
-   "end": 381.296
+   "start": 349.66,
+   "end": 350.94
   },
   {
    "scene": "theo_call",
    "who": "NARRATOR",
    "text": "You don't hear what Theo says. You just watch him talk for 60 seconds. He laughs. Then he cries. Then the line goes dead.",
-   "start": 381.646,
-   "end": 391.442
+   "start": 351.29,
+   "end": 359.69
   },
   {
    "scene": "bookend",
    "who": "NARRATOR",
    "text": "At 3:07 a.m., the disconnected phone rings one last time.",
-   "start": 392.142,
-   "end": 396.223
+   "start": 360.39,
+   "end": 365.19
   },
   {
    "scene": "bookend",
    "who": "NARRATOR",
    "text": "You pick up. There's no voice. Just three soft taps.",
-   "start": 396.573,
-   "end": 400.655
+   "start": 365.54,
+   "end": 369.38
   },
   {
    "scene": "bookend",
    "who": "NARRATOR",
    "text": "Then a click.",
-   "start": 401.005,
-   "end": 402.23
+   "start": 369.73,
+   "end": 370.53
   },
   {
    "scene": "coda",
    "who": "NARRATOR",
    "text": "Grandma still lives in the house. Theo still asks about Elvis.",
-   "start": 402.93,
-   "end": 407.419
+   "start": 371.23,
+   "end": 375.07
   },
   {
    "scene": "coda",
    "who": "THEO",
    "text": "Okay, but what if we find another phone?",
-   "start": 407.769,
-   "end": 411.035
+   "start": 375.42,
+   "end": 378.62
   },
   {
    "scene": "endcard",
    "who": "NARRATOR",
    "text": "So, if you had one minute with someone who's gone, who would you call? Tell us in the comments.",
-   "start": 411.735,
-   "end": 419.49
+   "start": 379.32,
+   "end": 385.08
   }
- ],
- "estimated": true
+ ]
 }
