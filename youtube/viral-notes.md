@@ -62,7 +62,7 @@ tested on transcripts, and still rest on one hit.
    buying?") give the comedy a spine.
 8. **A beat every 10-20 seconds**, fast time jumps marked by dates or ages, and a real fact roughly
    every minute, said flat and tied straight back to "you".
-9. **The climax uses the premise at its most meaningful** (titles about a person did 1.55x) (memory saves Dad's life), with real stakes.
+9. **The climax uses the premise at its most meaningful** (memory saves Dad's life), with real stakes. (Titles about a person did 1.55x.)
    It's about a person, not about winning.
 10. **End on callbacks and a playful glimpse of the future**, then one question to the viewer.
 
