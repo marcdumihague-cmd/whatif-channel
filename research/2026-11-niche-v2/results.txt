@@ -1,0 +1,24 @@
+
+== all long videos: 2335 videos, 73 channels
+feature                                          videos   lift      p
+money in the title                                   53  0.79x  0.248
+people / relationship                                92  1.34x  0.091
+time limit / deadline                                99  0.70x  0.028
+power for YOU                                       473  1.40x  0.000
+world changes                                        97  1.17x  0.317
+'except you'                                         20  1.93x  0.027
+number in title                                     600  0.97x  0.677
+superlative / extreme (10x, 500 IQ, only, last)     199  1.73x  0.000
+memories / reborn / time travel                      44  1.22x  0.318
+
+== only 'what if' titles: 1126 videos, 65 channels
+feature                                          videos   lift      p
+money in the title                                   32  0.62x  0.077
+people / relationship                                70  1.55x  0.018
+time limit / deadline                                52  0.78x  0.329
+power for YOU                                       473  1.34x  0.308
+world changes                                        97  1.06x  0.894
+'except you'                                         20  1.76x  0.082
+number in title                                     268  0.95x  0.586
+superlative / extreme (10x, 500 IQ, only, last)     152  1.78x  0.000
+memories / reborn / time travel                      32  1.34x  0.191
