@@ -12,17 +12,31 @@ Read this file and `youtube/episodes.md` at the start of every session. They are
 memory: update `youtube/episodes.md` whenever an episode changes status, and update this file when
 a decision about the channel changes.
 
-## Planned production pipeline
+## Production pipeline (working, proven on `episodes/test-scene`)
 
-Nothing is built yet. Agreed direction, to be set up when the first episode is made:
+Setup once per session: `./scripts/setup.sh` (Python venv, Kokoro voice model, faster-whisper,
+Remotion). The session must run in the `whatif-channel` cloud environment, which allows the
+Hugging Face hosts the models download from.
 
-1. Script: `/yt-script` (hooks scored with `.claude/skills/yt-script/hookscore.py`).
-2. Voiceover: text-to-speech with one narrator voice plus one voice per character (default:
-   Piper, free and local; can switch to a premium voice).
-3. Visuals: Remotion (React), flat-color shapes and a simple character.
-4. Captions: Whisper (open-source, e.g. faster-whisper) for word-level timing.
-5. Final render and audio mix: FFmpeg.
-6. Packaging: `/yt-package` (title + thumbnail), `/yt-seo` (description), `/yt-chapters`, `/yt-shorts`.
+1. Script: `/yt-script`, saved as `episodes/<name>/script.json`: `voices` (role -> Kokoro voice),
+   `facts` (each with a source), and `lines` (`scene`, `who`, `text`, optional `say` = spelling
+   for the voice when the caption text reads badly aloud).
+2. Voice: `.venv/bin/python tts/voice.py episodes/<name>/script.json` -> `video/public/<name>/`
+   `voice.wav` + `timeline.json` (start/end of every line). Kokoro-82M via kokoro-onnx,
+   Apache-2.0, OK for a monetized channel.
+3. Check the voice: transcribe `voice.wav` with faster-whisper (`base.en`, pass a 16 kHz array,
+   set `HF_HUB_DISABLE_XET=1`) and compare to the script. Claude cannot listen, so this is the
+   pronunciation check. Interjections ("Huh.") come out wrong; rewrite them as words.
+4. Visuals: Remotion in `video/` (React + SVG, flat colors, 1920x1080, 30 fps). Scenes are timed
+   from `timeline.json`. Render stills to check layout before a full render:
+   `REMOTION_CHROME=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell npx remotion still|render src/index.ts <Composition> out/...`
+5. Packaging: `/yt-package` (title + thumbnail), `/yt-seo` (description), `/yt-chapters`, `/yt-shorts`.
+
+Not decided yet: background music and sound effects (no source yet), premium voices.
+
+Voices tried: narrator `am_michael`, you `am_puck`, roommate `af_bella`. VoiceStudio was
+reviewed and not used: its default OmniVoice weights are non-commercial (CC-BY-NC) and it needs a
+desktop/GPU.
 
 Nothing is ever uploaded by Claude. The user publishes.
 

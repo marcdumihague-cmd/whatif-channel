@@ -4,3 +4,5 @@ node_modules/
 out/
 *.mp4
 *.wav
+tts/models/
+video/out/

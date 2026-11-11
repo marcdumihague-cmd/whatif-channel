@@ -1,0 +1,83 @@
+{
+ "duration": 33.437,
+ "lines": [
+  {
+   "scene": "alarm",
+   "who": "narrator",
+   "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
+   "say": "It's seven oh two A.M. Your alarm goes off, so you smack the snooze button.",
+   "start": 0.0,
+   "end": 4.928
+  },
+  {
+   "scene": "smash",
+   "who": "narrator",
+   "text": "Your hand goes straight through the nightstand.",
+   "start": 5.628,
+   "end": 7.996
+  },
+  {
+   "scene": "smash",
+   "who": "you",
+   "text": "Wait. What?",
+   "start": 8.346,
+   "end": 9.157
+  },
+  {
+   "scene": "bed",
+   "who": "narrator",
+   "text": "You sit up. The bed frame snaps like a breadstick.",
+   "start": 9.857,
+   "end": 13.035
+  },
+  {
+   "scene": "bed",
+   "who": "roommate",
+   "text": "What was that?!",
+   "start": 13.385,
+   "end": 14.153
+  },
+  {
+   "scene": "bed",
+   "who": "you",
+   "text": "Nothing! Just stretching!",
+   "start": 14.503,
+   "end": 15.911
+  },
+  {
+   "scene": "fact",
+   "who": "narrator",
+   "text": "Here's the thing. Most adults squeeze with about thirty to forty-five kilograms of force.",
+   "start": 16.611,
+   "end": 22.329
+  },
+  {
+   "scene": "fact",
+   "who": "narrator",
+   "text": "Overnight, yours went up ten times.",
+   "start": 22.679,
+   "end": 25.089
+  },
+  {
+   "scene": "door",
+   "who": "you",
+   "text": "Okay. Gentle. Everything gentle.",
+   "start": 25.789,
+   "end": 27.816
+  },
+  {
+   "scene": "door",
+   "who": "narrator",
+   "text": "You reach for the doorknob.",
+   "start": 28.166,
+   "end": 29.809
+  },
+  {
+   "scene": "end",
+   "who": "narrator",
+   "text": "And that's when it gets weird.",
+   "start": 30.509,
+   "end": 32.237
+  }
+ ]
+}

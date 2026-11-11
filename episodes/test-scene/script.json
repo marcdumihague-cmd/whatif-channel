@@ -1,0 +1,73 @@
+{
+  "title": "Test scene: What if you woke up 10x stronger? (cold open)",
+  "voices": {
+    "narrator": "am_michael",
+    "you": "am_puck",
+    "roommate": "af_bella"
+  },
+  "facts": [
+    {
+      "line": 7,
+      "claim": "Most adults grip with roughly 30 to 45 kg of force.",
+      "source": "Dodds et al. 2014, 'Grip strength across the life course: normative data from twelve British studies', PLoS ONE (peak means ~51 kg men, ~31 kg women)."
+    }
+  ],
+  "lines": [
+    {
+      "scene": "alarm",
+      "who": "narrator",
+      "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
+      "say": "It's seven oh two A.M. Your alarm goes off, so you smack the snooze button."
+    },
+    {
+      "scene": "smash",
+      "who": "narrator",
+      "text": "Your hand goes straight through the nightstand."
+    },
+    {
+      "scene": "smash",
+      "who": "you",
+      "text": "Wait. What?"
+    },
+    {
+      "scene": "bed",
+      "who": "narrator",
+      "text": "You sit up. The bed frame snaps like a breadstick."
+    },
+    {
+      "scene": "bed",
+      "who": "roommate",
+      "text": "What was that?!"
+    },
+    {
+      "scene": "bed",
+      "who": "you",
+      "text": "Nothing! Just stretching!"
+    },
+    {
+      "scene": "fact",
+      "who": "narrator",
+      "text": "Here's the thing. Most adults squeeze with about thirty to forty-five kilograms of force."
+    },
+    {
+      "scene": "fact",
+      "who": "narrator",
+      "text": "Overnight, yours went up ten times."
+    },
+    {
+      "scene": "door",
+      "who": "you",
+      "text": "Okay. Gentle. Everything gentle."
+    },
+    {
+      "scene": "door",
+      "who": "narrator",
+      "text": "You reach for the doorknob."
+    },
+    {
+      "scene": "end",
+      "who": "narrator",
+      "text": "And that's when it gets weird."
+    }
+  ]
+}
