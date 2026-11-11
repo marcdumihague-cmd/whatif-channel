@@ -1,0 +1,618 @@
+{
+ "title": "What If You Were the Last Liar on Earth?",
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "BARISTA": "roommate",
+  "WEATHERMAN": "man",
+  "DANA": "woman2",
+  "POKER PLAYER": "man",
+  "PIT BOSS": "older",
+  "POLICE OFFICER": "older",
+  "FLIGHT ATTENDANT": "roommate",
+  "CHEF": "man",
+  "CAR SALESMAN": "older",
+  "HR MANAGER": "woman2",
+  "POP STAR": "roommate",
+  "SNACK CEO": "older",
+  "AUDIENCE MEMBER": "man"
+ },
+ "lines": [
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "At 3 a.m., you became the last liar on Earth."
+  },
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "By lunch, you've won 2,000 dollars at poker."
+  },
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "But nobody warns you what one lie at a party will cost."
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Over the next 6 weeks, you'll make a million dollars. And you'll almost lose the one person who matters."
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "You don't know yet. You just want coffee."
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Morning! Honestly, the coffee's burnt today. I burnt it."
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Also, I don't like your jacket."
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "On the TV behind her, the weatherman looks like he hasn't slept."
+  },
+  {
+   "scene": "cafe",
+   "who": "WEATHERMAN",
+   "text": "Will it rain tomorrow? I have no idea. Nobody does. We guess."
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "You laugh, and say the first dumb thing that comes to mind."
+  },
+  {
+   "scene": "cafe",
+   "who": "YOU",
+   "text": "I'm the manager. This one's on the house."
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Oh! Sorry! On the house."
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "She believes you. Instantly. Completely."
+  },
+  {
+   "scene": "coin",
+   "who": "NARRATOR",
+   "text": "Here's the thing. You were never good at spotting liars. Nobody is."
+  },
+  {
+   "scene": "coin",
+   "who": "NARRATOR",
+   "text": "In studies, people catch a lie about 54 percent of the time. Barely better than flipping a coin."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Overnight, everyone else lost the ability to say anything they believe is false."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "And because lies don't exist anymore, nobody expects one. Whatever you say, they believe."
+  },
+  {
+   "scene": "planet",
+   "who": "NARRATOR",
+   "text": "The average person tells one or two lies a day. Today, the entire planet's total is... you."
+  },
+  {
+   "scene": "theo_call",
+   "who": "THEO",
+   "text": "Dude. Everyone's being so weird. My mom said my comedy is \"not funny, but brave.\""
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "This is Theo. Your best friend since third grade. He's wanted to be a stand-up comedian for ten years."
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "He is not good."
+  },
+  {
+   "scene": "theo_call",
+   "who": "THEO",
+   "text": "Be honest. Am I funny?"
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "And for the first time, you realize you're the only person on Earth who can answer that however you want."
+  },
+  {
+   "scene": "theo_call",
+   "who": "YOU",
+   "text": "...I gotta go."
+  },
+  {
+   "scene": "boss_call",
+   "who": "NARRATOR",
+   "text": "Then your boss calls."
+  },
+  {
+   "scene": "boss_call",
+   "who": "YOU",
+   "text": "Hi Dana. I'm sick today."
+  },
+  {
+   "scene": "boss_call",
+   "who": "DANA",
+   "text": "Oh no! Honestly, I was going to fire you today. Feel better!"
+  },
+  {
+   "scene": "boss_call",
+   "who": "NARRATOR",
+   "text": "You're not sick. You are, apparently, about to be fired. You have bigger plans."
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "You open an online poker game."
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "Bluffing is just lying with chips. And nobody else can do it."
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "When they have a good hand, they bet. When they don't, they fold. They might as well be playing with their cards face up."
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "You go all in with a seven and a two. The worst hand in poker."
+  },
+  {
+   "scene": "poker",
+   "who": "POKER PLAYER",
+   "text": "He must have something. I fold."
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "By lunch, you're up two thousand dollars. By Thursday, you're in Las Vegas."
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "Fun fact: counting cards isn't illegal in Las Vegas. But casinos can still ban you for being too good."
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "You last six hours."
+  },
+  {
+   "scene": "vegas",
+   "who": "PIT BOSS",
+   "text": "Sir. Honestly? You scare me. Please leave."
+  },
+  {
+   "scene": "cop",
+   "who": "NARRATOR",
+   "text": "And the small stuff works too."
+  },
+  {
+   "scene": "cop",
+   "who": "YOU",
+   "text": "Officer, I'm late for my own wedding."
+  },
+  {
+   "scene": "cop",
+   "who": "POLICE OFFICER",
+   "text": "Congratulations! Go, go!"
+  },
+  {
+   "scene": "plane",
+   "who": "YOU",
+   "text": "It's our honeymoon."
+  },
+  {
+   "scene": "plane",
+   "who": "FLIGHT ATTENDANT",
+   "text": "First class. On us."
+  },
+  {
+   "scene": "chef",
+   "who": "YOU",
+   "text": "I'm a food critic."
+  },
+  {
+   "scene": "chef",
+   "who": "CHEF",
+   "text": "...Everything is free. Please be kind."
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Poker made you 41,000 dollars. But you're about to make 10 times that without touching a single card."
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Every deal has a secret number. The most the buyer will pay. The least the seller will take."
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Nobody can hide theirs anymore."
+  },
+  {
+   "scene": "dealer",
+   "who": "NARRATOR",
+   "text": "Your car is dying, so you visit a dealership."
+  },
+  {
+   "scene": "dealer",
+   "who": "CAR SALESMAN",
+   "text": "This one's twenty-four thousand. Honestly, my boss lets me go down to nineteen. And the brakes squeak."
+  },
+  {
+   "scene": "dealer",
+   "who": "YOU",
+   "text": "Seventeen. Final offer. Another dealer's waiting for me."
+  },
+  {
+   "scene": "dealer",
+   "who": "NARRATOR",
+   "text": "There is no other dealer."
+  },
+  {
+   "scene": "dealer",
+   "who": "CAR SALESMAN",
+   "text": "...Seventeen it is."
+  },
+  {
+   "scene": "anchor",
+   "who": "NARRATOR",
+   "text": "Psychologists have found that the first number on the table drags the final price toward it. They call it anchoring."
+  },
+  {
+   "scene": "anchor",
+   "who": "NARRATOR",
+   "text": "And you're now the only person on Earth who can drop a fake anchor."
+  },
+  {
+   "scene": "broker",
+   "who": "NARRATOR",
+   "text": "So you start a business. Negotiator for hire. Salaries, houses, contracts. You take ten percent."
+  },
+  {
+   "scene": "broker",
+   "who": "HR MANAGER",
+   "text": "The budget for this job is ninety thousand. Honestly, we'd go to a hundred and ten."
+  },
+  {
+   "scene": "broker",
+   "who": "YOU",
+   "text": "My client already has an offer for a hundred and twenty."
+  },
+  {
+   "scene": "broker",
+   "who": "NARRATOR",
+   "text": "Your client gets a hundred and fifteen. You get eleven thousand five hundred dollars. For one phone call."
+  },
+  {
+   "scene": "showtitle",
+   "who": "NARRATOR",
+   "text": "Then you have the idea that makes you a millionaire in 6 weeks. And it almost costs you your best friend."
+  },
+  {
+   "scene": "showtitle",
+   "who": "NARRATOR",
+   "text": "If nobody can lie, every famous person on Earth has a problem. Because someone can just... ask."
+  },
+  {
+   "scene": "studio_pop",
+   "who": "NARRATOR",
+   "text": "Episode one: a pop star."
+  },
+  {
+   "scene": "studio_pop",
+   "who": "YOU",
+   "text": "Did you write your own songs?"
+  },
+  {
+   "scene": "studio_pop",
+   "who": "POP STAR",
+   "text": "...No. A man named Gary writes all of them. I've never met Gary."
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "NARRATOR",
+   "text": "Episode two: the boss of a snack company."
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "YOU",
+   "text": "Is your new chip healthy?"
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "SNACK CEO",
+   "text": "It's mostly salt and regret."
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "NARRATOR",
+   "text": "Technically, they're allowed to stay silent. But on live TV, silence is an answer too."
+  },
+  {
+   "scene": "views",
+   "who": "NARRATOR",
+   "text": "Ten million views. Then forty million. Sponsors line up, and every one of them has to tell you exactly how much they're willing to pay."
+  },
+  {
+   "scene": "views",
+   "who": "NARRATOR",
+   "text": "Six weeks in, you're a millionaire."
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "Theo comes to watch a taping."
+  },
+  {
+   "scene": "warmup",
+   "who": "THEO",
+   "text": "Be honest. Can I do the warm-up act?"
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "You let him. It does not go well."
+  },
+  {
+   "scene": "warmup",
+   "who": "AUDIENCE MEMBER",
+   "text": "I'm not laughing because it's not funny."
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "Theo laughs it off. But you notice he stops carrying his joke notebook."
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "That night, you tell one lie as a joke. By 2 a.m., half the city is about to lose its money."
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Someone at a party asks what you think about Harbor Bank. Half the city keeps their money there."
+  },
+  {
+   "scene": "party",
+   "who": "YOU",
+   "text": "Harbor Bank? It's going under. Get your money out tonight."
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Everyone at the party believes you. Of course they do."
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Then they text their friends. Who also can't imagine anyone would lie."
+  },
+  {
+   "scene": "svb",
+   "who": "NARRATOR",
+   "text": "And this part isn't fiction. In 2023, customers of a real bank, Silicon Valley Bank, tried to pull out 42 billion dollars in a single day. The next morning, regulators shut it down."
+  },
+  {
+   "scene": "svb",
+   "who": "NARRATOR",
+   "text": "A bank doesn't have to be broken to fail. It just needs enough people to believe it is."
+  },
+  {
+   "scene": "line_rain",
+   "who": "NARRATOR",
+   "text": "By 2 a.m., there's a line around the block. In the rain."
+  },
+  {
+   "scene": "live",
+   "who": "NARRATOR",
+   "text": "So you go live on your own show."
+  },
+  {
+   "scene": "live",
+   "who": "YOU",
+   "text": "I made it up. It was a joke. Harbor Bank is fine."
+  },
+  {
+   "scene": "live",
+   "who": "NARRATOR",
+   "text": "That one's true. They believe that too. The line goes home."
+  },
+  {
+   "scene": "argue",
+   "who": "NARRATOR",
+   "text": "But Theo was at that party. And Theo isn't stupid."
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "Wait. That was a lie. You can lie."
+  },
+  {
+   "scene": "argue",
+   "who": "YOU",
+   "text": "...Yeah."
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "Since when?"
+  },
+  {
+   "scene": "argue",
+   "who": "YOU",
+   "text": "Since everyone else stopped."
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "So every time I asked if I was funny..."
+  },
+  {
+   "scene": "argue",
+   "who": "NARRATOR",
+   "text": "You never answered. Not once. And that was its own answer."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "Here's what nobody tells you about a world without lies: you'd never hear \"you look great\" again. Not once. It's lonely."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "A lot of everyday lies aren't selfish at all. They're told to protect someone else. \"I love it.\" \"You look great.\" \"You were amazing up there.\""
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "All of that is gone. From everyone. Except you."
+  },
+  {
+   "scene": "theo_call2",
+   "who": "NARRATOR",
+   "text": "A week later, Theo calls."
+  },
+  {
+   "scene": "theo_call2",
+   "who": "THEO",
+   "text": "I'm doing one last set. Open mic, Friday. After that, I'm done. For real."
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "A basement comedy club. Forty people. Theo walks out."
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "And he's... okay. Not great. But there's one joke, about his mom calling his comedy \"brave,\" that gets a real laugh."
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "Forty honest people. One real laugh. That's not nothing."
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "After the show, he finds you by the door."
+  },
+  {
+   "scene": "door",
+   "who": "THEO",
+   "text": "Be honest. Was it good?"
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "You're the only person on Earth who gets to choose the answer."
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "You could tell him the truth. Three out of ten. One great joke."
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "Or you could say the one thing nobody else is allowed to say anymore."
+  },
+  {
+   "scene": "door",
+   "who": "YOU",
+   "text": "It was the best set I've ever seen."
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "He knows you can lie. He looks at you for a long time."
+  },
+  {
+   "scene": "door",
+   "who": "THEO",
+   "text": "Thanks. I needed someone to say it."
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "And he keeps going."
+  },
+  {
+   "scene": "bigshow",
+   "who": "NARRATOR",
+   "text": "A year later, Theo has a real show. Two hundred seats. Most of them laugh."
+  },
+  {
+   "scene": "phone3am",
+   "who": "NARRATOR",
+   "text": "At 3 a.m., your phone buzzes. It's Theo."
+  },
+  {
+   "scene": "phone3am",
+   "who": "THEO",
+   "text": "Remember the night you said I was amazing?"
+  },
+  {
+   "scene": "phone3am",
+   "who": "YOU",
+   "text": "Yeah."
+  },
+  {
+   "scene": "phone3am",
+   "who": "THEO",
+   "text": "Honestly? I was terrible."
+  },
+  {
+   "scene": "phone3am",
+   "who": "YOU",
+   "text": "Honestly? You were."
+  },
+  {
+   "scene": "phone3am",
+   "who": "NARRATOR",
+   "text": "You both laugh until four."
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "You still have the show. You still win poker night, every Thursday."
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "And you only lie when it's kind. Mostly."
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So, if you were the last liar on Earth, what would you do first? Tell us in the comments, and subscribe."
+  }
+ ]
+}

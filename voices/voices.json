@@ -11,5 +11,21 @@
   "roommate": {
     "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
     "design": "A young woman in her twenties with a bright, energetic voice. Emotion: animated, storytelling to a friend."
+  },
+  "theo": {
+    "text": "Okay, okay, hear me out, this next bit is actually funny, I tested it on my mom and she almost smiled.",
+    "design": "A young man in his mid twenties, the narrator's best friend: warm, slightly nasal, eager and a bit nervous, an aspiring stand-up comedian. Emotion: hopeful, animated."
+  },
+  "man": {
+    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+    "design": "A man in his thirties with a plain, friendly, everyday American voice. Emotion: casual, slightly confused."
+  },
+  "woman2": {
+    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+    "design": "A woman in her forties with a crisp, professional, slightly tired voice, like an office manager. Emotion: matter-of-fact."
+  },
+  "older": {
+    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+    "design": "An older man in his late fifties with a deep, gravelly, gruff voice. Emotion: blunt, world-weary."
   }
 }

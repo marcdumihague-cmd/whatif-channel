@@ -6,6 +6,7 @@ Every role is cloned from its reference clip in voices/ (Qwen3-TTS 1.7B Base, Ap
 character sounds like the same person on every line. A line may carry:
   "say":  a spelling for the voice when the caption text reads badly aloud
   "take": a ready-made recording to use instead of generating one
+An optional "cast" maps speaker labels to voices, so several small parts can share one voice.
 Each generated line is transcribed with Whisper and regenerated (up to 2 more tries) when the
 words don't match the script, since nobody listens to the lines one by one.
 
@@ -33,8 +34,10 @@ out.mkdir(parents=True, exist_ok=True)
 
 refs = json.loads((ROOT / "voices/voices.json").read_text())
 tts = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cpu", dtype=torch.float32)
-prompts = {who: tts.create_voice_clone_prompt(ref_audio=str(ROOT / f"voices/{who}.wav"), ref_text=refs[who]["text"])
-           for who in {l["who"] for l in script["lines"]}}
+cast = script.get("cast", {})  # speaker label -> voice in voices/ (default: the label itself)
+voice_of = lambda who: cast.get(who, who)
+prompts = {v: tts.create_voice_clone_prompt(ref_audio=str(ROOT / f"voices/{v}.wav"), ref_text=refs[v]["text"])
+           for v in {voice_of(l["who"]) for l in script["lines"]}}
 asr = WhisperModel("base.en", device="cpu", compute_type="int8")
 
 NUM = {w: str(i) for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve "
@@ -57,7 +60,7 @@ def voice(line: dict) -> np.ndarray:
     best, best_score = None, -1.0
     for attempt in range(3):
         torch.manual_seed(attempt)
-        wavs, sr = tts.generate_voice_clone(text=line.get("say", line["text"]), language="English", voice_clone_prompt=prompts[line["who"]])
+        wavs, sr = tts.generate_voice_clone(text=line.get("say", line["text"]), language="English", voice_clone_prompt=prompts[voice_of(line["who"])])
         assert sr == SR, sr
         audio = np.asarray(wavs[0], dtype=np.float32)
         got = heard(audio)

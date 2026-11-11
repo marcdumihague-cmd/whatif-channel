@@ -1,0 +1,839 @@
+{
+ "duration": 610.487,
+ "lines": [
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "At 3 a.m., you became the last liar on Earth.",
+   "start": 0,
+   "end": 4.348
+  },
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "By lunch, you've won 2,000 dollars at poker.",
+   "start": 4.698,
+   "end": 8.176
+  },
+  {
+   "scene": "open",
+   "who": "NARRATOR",
+   "text": "But nobody warns you what one lie at a party will cost.",
+   "start": 8.526,
+   "end": 13.743
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Over the next 6 weeks, you'll make a million dollars. And you'll almost lose the one person who matters.",
+   "start": 14.443,
+   "end": 22.704
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "You don't know yet. You just want coffee.",
+   "start": 23.404,
+   "end": 26.883
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Morning! Honestly, the coffee's burnt today. I burnt it.",
+   "start": 27.233,
+   "end": 31.146
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Also, I don't like your jacket.",
+   "start": 31.496,
+   "end": 34.104
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "On the TV behind her, the weatherman looks like he hasn't slept.",
+   "start": 34.454,
+   "end": 39.672
+  },
+  {
+   "scene": "cafe",
+   "who": "WEATHERMAN",
+   "text": "Will it rain tomorrow? I have no idea. Nobody does. We guess.",
+   "start": 40.022,
+   "end": 45.239
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "You laugh, and say the first dumb thing that comes to mind.",
+   "start": 45.589,
+   "end": 50.807
+  },
+  {
+   "scene": "cafe",
+   "who": "YOU",
+   "text": "I'm the manager. This one's on the house.",
+   "start": 51.157,
+   "end": 54.635
+  },
+  {
+   "scene": "cafe",
+   "who": "BARISTA",
+   "text": "Oh! Sorry! On the house.",
+   "start": 54.985,
+   "end": 57.159
+  },
+  {
+   "scene": "cafe",
+   "who": "NARRATOR",
+   "text": "She believes you. Instantly. Completely.",
+   "start": 57.509,
+   "end": 59.683
+  },
+  {
+   "scene": "coin",
+   "who": "NARRATOR",
+   "text": "Here's the thing. You were never good at spotting liars. Nobody is.",
+   "start": 60.383,
+   "end": 65.6
+  },
+  {
+   "scene": "coin",
+   "who": "NARRATOR",
+   "text": "In studies, people catch a lie about 54 percent of the time. Barely better than flipping a coin.",
+   "start": 65.95,
+   "end": 73.776
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Overnight, everyone else lost the ability to say anything they believe is false.",
+   "start": 74.476,
+   "end": 80.128
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "And because lies don't exist anymore, nobody expects one. Whatever you say, they believe.",
+   "start": 80.478,
+   "end": 86.565
+  },
+  {
+   "scene": "planet",
+   "who": "NARRATOR",
+   "text": "The average person tells one or two lies a day. Today, the entire planet's total is... you.",
+   "start": 87.265,
+   "end": 94.657
+  },
+  {
+   "scene": "theo_call",
+   "who": "THEO",
+   "text": "Dude. Everyone's being so weird. My mom said my comedy is \"not funny, but brave.\"",
+   "start": 95.357,
+   "end": 101.878
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "This is Theo. Your best friend since third grade. He's wanted to be a stand-up comedian for ten years.",
+   "start": 102.228,
+   "end": 110.489
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "He is not good.",
+   "start": 110.839,
+   "end": 112.578
+  },
+  {
+   "scene": "theo_call",
+   "who": "THEO",
+   "text": "Be honest. Am I funny?",
+   "start": 112.928,
+   "end": 115.102
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "And for the first time, you realize you're the only person on Earth who can answer that however you want.",
+   "start": 115.452,
+   "end": 124.148
+  },
+  {
+   "scene": "theo_call",
+   "who": "YOU",
+   "text": "...I gotta go.",
+   "start": 124.498,
+   "end": 125.802
+  },
+  {
+   "scene": "boss_call",
+   "who": "NARRATOR",
+   "text": "Then your boss calls.",
+   "start": 126.502,
+   "end": 128.241
+  },
+  {
+   "scene": "boss_call",
+   "who": "YOU",
+   "text": "Hi Dana. I'm sick today.",
+   "start": 128.591,
+   "end": 130.765
+  },
+  {
+   "scene": "boss_call",
+   "who": "DANA",
+   "text": "Oh no! Honestly, I was going to fire you today. Feel better!",
+   "start": 131.115,
+   "end": 136.333
+  },
+  {
+   "scene": "boss_call",
+   "who": "NARRATOR",
+   "text": "You're not sick. You are, apparently, about to be fired. You have bigger plans.",
+   "start": 136.683,
+   "end": 142.77
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "You open an online poker game.",
+   "start": 143.47,
+   "end": 146.078
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "Bluffing is just lying with chips. And nobody else can do it.",
+   "start": 146.428,
+   "end": 151.646
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "When they have a good hand, they bet. When they don't, they fold. They might as well be playing with their cards face up.",
+   "start": 151.996,
+   "end": 162.43
+  },
+  {
+   "scene": "poker",
+   "who": "NARRATOR",
+   "text": "You go all in with a seven and a two. The worst hand in poker.",
+   "start": 162.78,
+   "end": 169.302
+  },
+  {
+   "scene": "poker",
+   "who": "POKER PLAYER",
+   "text": "He must have something. I fold.",
+   "start": 169.652,
+   "end": 172.261
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "By lunch, you're up two thousand dollars. By Thursday, you're in Las Vegas.",
+   "start": 172.961,
+   "end": 178.613
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "Fun fact: counting cards isn't illegal in Las Vegas. But casinos can still ban you for being too good.",
+   "start": 178.963,
+   "end": 187.224
+  },
+  {
+   "scene": "vegas",
+   "who": "NARRATOR",
+   "text": "You last six hours.",
+   "start": 187.574,
+   "end": 189.313
+  },
+  {
+   "scene": "vegas",
+   "who": "PIT BOSS",
+   "text": "Sir. Honestly? You scare me. Please leave.",
+   "start": 189.663,
+   "end": 192.707
+  },
+  {
+   "scene": "cop",
+   "who": "NARRATOR",
+   "text": "And the small stuff works too.",
+   "start": 193.407,
+   "end": 196.015
+  },
+  {
+   "scene": "cop",
+   "who": "YOU",
+   "text": "Officer, I'm late for my own wedding.",
+   "start": 196.365,
+   "end": 199.409
+  },
+  {
+   "scene": "cop",
+   "who": "POLICE OFFICER",
+   "text": "Congratulations! Go, go!",
+   "start": 199.759,
+   "end": 201.063
+  },
+  {
+   "scene": "plane",
+   "who": "YOU",
+   "text": "It's our honeymoon.",
+   "start": 201.763,
+   "end": 203.067
+  },
+  {
+   "scene": "plane",
+   "who": "FLIGHT ATTENDANT",
+   "text": "First class. On us.",
+   "start": 203.417,
+   "end": 205.157
+  },
+  {
+   "scene": "chef",
+   "who": "YOU",
+   "text": "I'm a food critic.",
+   "start": 205.857,
+   "end": 207.596
+  },
+  {
+   "scene": "chef",
+   "who": "CHEF",
+   "text": "...Everything is free. Please be kind.",
+   "start": 207.946,
+   "end": 210.554
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Poker made you 41,000 dollars. But you're about to make 10 times that without touching a single card.",
+   "start": 211.254,
+   "end": 219.08
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Every deal has a secret number. The most the buyer will pay. The least the seller will take.",
+   "start": 219.43,
+   "end": 227.257
+  },
+  {
+   "scene": "deal",
+   "who": "NARRATOR",
+   "text": "Nobody can hide theirs anymore.",
+   "start": 227.607,
+   "end": 229.78
+  },
+  {
+   "scene": "dealer",
+   "who": "NARRATOR",
+   "text": "Your car is dying, so you visit a dealership.",
+   "start": 230.48,
+   "end": 234.393
+  },
+  {
+   "scene": "dealer",
+   "who": "CAR SALESMAN",
+   "text": "This one's twenty-four thousand. Honestly, my boss lets me go down to nineteen. And the brakes squeak.",
+   "start": 234.743,
+   "end": 242.135
+  },
+  {
+   "scene": "dealer",
+   "who": "YOU",
+   "text": "Seventeen. Final offer. Another dealer's waiting for me.",
+   "start": 242.485,
+   "end": 245.963
+  },
+  {
+   "scene": "dealer",
+   "who": "NARRATOR",
+   "text": "There is no other dealer.",
+   "start": 246.313,
+   "end": 248.487
+  },
+  {
+   "scene": "dealer",
+   "who": "CAR SALESMAN",
+   "text": "...Seventeen it is.",
+   "start": 248.837,
+   "end": 250.141
+  },
+  {
+   "scene": "anchor",
+   "who": "NARRATOR",
+   "text": "Psychologists have found that the first number on the table drags the final price toward it. They call it anchoring.",
+   "start": 250.841,
+   "end": 259.537
+  },
+  {
+   "scene": "anchor",
+   "who": "NARRATOR",
+   "text": "And you're now the only person on Earth who can drop a fake anchor.",
+   "start": 259.887,
+   "end": 265.974
+  },
+  {
+   "scene": "broker",
+   "who": "NARRATOR",
+   "text": "So you start a business. Negotiator for hire. Salaries, houses, contracts. You take ten percent.",
+   "start": 266.674,
+   "end": 273.196
+  },
+  {
+   "scene": "broker",
+   "who": "HR MANAGER",
+   "text": "The budget for this job is ninety thousand. Honestly, we'd go to a hundred and ten.",
+   "start": 273.546,
+   "end": 280.502
+  },
+  {
+   "scene": "broker",
+   "who": "YOU",
+   "text": "My client already has an offer for a hundred and twenty.",
+   "start": 280.852,
+   "end": 285.635
+  },
+  {
+   "scene": "broker",
+   "who": "NARRATOR",
+   "text": "Your client gets a hundred and fifteen. You get eleven thousand five hundred dollars. For one phone call.",
+   "start": 285.985,
+   "end": 293.811
+  },
+  {
+   "scene": "showtitle",
+   "who": "NARRATOR",
+   "text": "Then you have the idea that makes you a millionaire in 6 weeks. And it almost costs you your best friend.",
+   "start": 294.511,
+   "end": 303.641
+  },
+  {
+   "scene": "showtitle",
+   "who": "NARRATOR",
+   "text": "If nobody can lie, every famous person on Earth has a problem. Because someone can just... ask.",
+   "start": 303.991,
+   "end": 311.383
+  },
+  {
+   "scene": "studio_pop",
+   "who": "NARRATOR",
+   "text": "Episode one: a pop star.",
+   "start": 312.083,
+   "end": 314.257
+  },
+  {
+   "scene": "studio_pop",
+   "who": "YOU",
+   "text": "Did you write your own songs?",
+   "start": 314.607,
+   "end": 317.215
+  },
+  {
+   "scene": "studio_pop",
+   "who": "POP STAR",
+   "text": "...No. A man named Gary writes all of them. I've never met Gary.",
+   "start": 317.565,
+   "end": 323.217
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "NARRATOR",
+   "text": "Episode two: the boss of a snack company.",
+   "start": 323.917,
+   "end": 327.396
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "YOU",
+   "text": "Is your new chip healthy?",
+   "start": 327.746,
+   "end": 329.92
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "SNACK CEO",
+   "text": "It's mostly salt and regret.",
+   "start": 330.27,
+   "end": 332.443
+  },
+  {
+   "scene": "studio_ceo",
+   "who": "NARRATOR",
+   "text": "Technically, they're allowed to stay silent. But on live TV, silence is an answer too.",
+   "start": 332.793,
+   "end": 339.315
+  },
+  {
+   "scene": "views",
+   "who": "NARRATOR",
+   "text": "Ten million views. Then forty million. Sponsors line up, and every one of them has to tell you exactly how much they're willing to pay.",
+   "start": 340.015,
+   "end": 350.885
+  },
+  {
+   "scene": "views",
+   "who": "NARRATOR",
+   "text": "Six weeks in, you're a millionaire.",
+   "start": 351.235,
+   "end": 353.843
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "Theo comes to watch a taping.",
+   "start": 354.543,
+   "end": 357.152
+  },
+  {
+   "scene": "warmup",
+   "who": "THEO",
+   "text": "Be honest. Can I do the warm-up act?",
+   "start": 357.502,
+   "end": 360.98
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "You let him. It does not go well.",
+   "start": 361.33,
+   "end": 364.809
+  },
+  {
+   "scene": "warmup",
+   "who": "AUDIENCE MEMBER",
+   "text": "I'm not laughing because it's not funny.",
+   "start": 365.159,
+   "end": 368.202
+  },
+  {
+   "scene": "warmup",
+   "who": "NARRATOR",
+   "text": "Theo laughs it off. But you notice he stops carrying his joke notebook.",
+   "start": 368.552,
+   "end": 374.204
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "That night, you tell one lie as a joke. By 2 a.m., half the city is about to lose its money.",
+   "start": 374.904,
+   "end": 384.035
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Someone at a party asks what you think about Harbor Bank. Half the city keeps their money there.",
+   "start": 384.385,
+   "end": 392.211
+  },
+  {
+   "scene": "party",
+   "who": "YOU",
+   "text": "Harbor Bank? It's going under. Get your money out tonight.",
+   "start": 392.561,
+   "end": 396.909
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Everyone at the party believes you. Of course they do.",
+   "start": 397.259,
+   "end": 401.607
+  },
+  {
+   "scene": "party",
+   "who": "NARRATOR",
+   "text": "Then they text their friends. Who also can't imagine anyone would lie.",
+   "start": 401.957,
+   "end": 407.174
+  },
+  {
+   "scene": "svb",
+   "who": "NARRATOR",
+   "text": "And this part isn't fiction. In 2023, customers of a real bank, Silicon Valley Bank, tried to pull out 42 billion dollars in a single day. The next morning, regulators shut it down.",
+   "start": 407.874,
+   "end": 422.222
+  },
+  {
+   "scene": "svb",
+   "who": "NARRATOR",
+   "text": "A bank doesn't have to be broken to fail. It just needs enough people to believe it is.",
+   "start": 422.572,
+   "end": 430.398
+  },
+  {
+   "scene": "line_rain",
+   "who": "NARRATOR",
+   "text": "By 2 a.m., there's a line around the block. In the rain.",
+   "start": 431.098,
+   "end": 436.315
+  },
+  {
+   "scene": "live",
+   "who": "NARRATOR",
+   "text": "So you go live on your own show.",
+   "start": 437.015,
+   "end": 440.493
+  },
+  {
+   "scene": "live",
+   "who": "YOU",
+   "text": "I made it up. It was a joke. Harbor Bank is fine.",
+   "start": 440.843,
+   "end": 446.061
+  },
+  {
+   "scene": "live",
+   "who": "NARRATOR",
+   "text": "That one's true. They believe that too. The line goes home.",
+   "start": 446.411,
+   "end": 451.193
+  },
+  {
+   "scene": "argue",
+   "who": "NARRATOR",
+   "text": "But Theo was at that party. And Theo isn't stupid.",
+   "start": 451.893,
+   "end": 456.241
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "Wait. That was a lie. You can lie.",
+   "start": 456.591,
+   "end": 460.07
+  },
+  {
+   "scene": "argue",
+   "who": "YOU",
+   "text": "...Yeah.",
+   "start": 460.42,
+   "end": 460.854
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "Since when?",
+   "start": 461.204,
+   "end": 462.074
+  },
+  {
+   "scene": "argue",
+   "who": "YOU",
+   "text": "Since everyone else stopped.",
+   "start": 462.424,
+   "end": 464.163
+  },
+  {
+   "scene": "argue",
+   "who": "THEO",
+   "text": "So every time I asked if I was funny...",
+   "start": 464.513,
+   "end": 468.426
+  },
+  {
+   "scene": "argue",
+   "who": "NARRATOR",
+   "text": "You never answered. Not once. And that was its own answer.",
+   "start": 468.776,
+   "end": 473.559
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "Here's what nobody tells you about a world without lies: you'd never hear \"you look great\" again. Not once. It's lonely.",
+   "start": 474.259,
+   "end": 483.389
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "A lot of everyday lies aren't selfish at all. They're told to protect someone else. \"I love it.\" \"You look great.\" \"You were amazing up there.\"",
+   "start": 483.739,
+   "end": 495.043
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "All of that is gone. From everyone. Except you.",
+   "start": 495.393,
+   "end": 499.307
+  },
+  {
+   "scene": "theo_call2",
+   "who": "NARRATOR",
+   "text": "A week later, Theo calls.",
+   "start": 500.007,
+   "end": 502.18
+  },
+  {
+   "scene": "theo_call2",
+   "who": "THEO",
+   "text": "I'm doing one last set. Open mic, Friday. After that, I'm done. For real.",
+   "start": 502.53,
+   "end": 508.617
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "A basement comedy club. Forty people. Theo walks out.",
+   "start": 509.317,
+   "end": 513.23
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "And he's... okay. Not great. But there's one joke, about his mom calling his comedy \"brave,\" that gets a real laugh.",
+   "start": 513.58,
+   "end": 522.711
+  },
+  {
+   "scene": "club",
+   "who": "NARRATOR",
+   "text": "Forty honest people. One real laugh. That's not nothing.",
+   "start": 523.061,
+   "end": 526.974
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "After the show, he finds you by the door.",
+   "start": 527.674,
+   "end": 531.587
+  },
+  {
+   "scene": "door",
+   "who": "THEO",
+   "text": "Be honest. Was it good?",
+   "start": 531.937,
+   "end": 534.111
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "You're the only person on Earth who gets to choose the answer.",
+   "start": 534.461,
+   "end": 539.678
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "You could tell him the truth. Three out of ten. One great joke.",
+   "start": 540.028,
+   "end": 545.68
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "Or you could say the one thing nobody else is allowed to say anymore.",
+   "start": 546.03,
+   "end": 552.117
+  },
+  {
+   "scene": "door",
+   "who": "YOU",
+   "text": "It was the best set I've ever seen.",
+   "start": 552.467,
+   "end": 555.946
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "He knows you can lie. He looks at you for a long time.",
+   "start": 556.296,
+   "end": 561.948
+  },
+  {
+   "scene": "door",
+   "who": "THEO",
+   "text": "Thanks. I needed someone to say it.",
+   "start": 562.298,
+   "end": 565.341
+  },
+  {
+   "scene": "door",
+   "who": "NARRATOR",
+   "text": "And he keeps going.",
+   "start": 565.691,
+   "end": 567.43
+  },
+  {
+   "scene": "bigshow",
+   "who": "NARRATOR",
+   "text": "A year later, Theo has a real show. Two hundred seats. Most of them laugh.",
+   "start": 568.13,
+   "end": 574.652
+  },
+  {
+   "scene": "phone3am",
+   "who": "NARRATOR",
+   "text": "At 3 a.m., your phone buzzes. It's Theo.",
+   "start": 575.352,
+   "end": 578.83
+  },
+  {
+   "scene": "phone3am",
+   "who": "THEO",
+   "text": "Remember the night you said I was amazing?",
+   "start": 579.18,
+   "end": 582.659
+  },
+  {
+   "scene": "phone3am",
+   "who": "YOU",
+   "text": "Yeah.",
+   "start": 583.009,
+   "end": 583.443
+  },
+  {
+   "scene": "phone3am",
+   "who": "THEO",
+   "text": "Honestly? I was terrible.",
+   "start": 583.793,
+   "end": 585.533
+  },
+  {
+   "scene": "phone3am",
+   "who": "YOU",
+   "text": "Honestly? You were.",
+   "start": 585.883,
+   "end": 587.187
+  },
+  {
+   "scene": "phone3am",
+   "who": "NARRATOR",
+   "text": "You both laugh until four.",
+   "start": 587.537,
+   "end": 589.711
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "You still have the show. You still win poker night, every Thursday.",
+   "start": 590.411,
+   "end": 595.628
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "And you only lie when it's kind. Mostly.",
+   "start": 595.978,
+   "end": 599.457
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So, if you were the last liar on Earth, what would you do first? Tell us in the comments, and subscribe.",
+   "start": 600.157,
+   "end": 609.287
+  }
+ ],
+ "estimated": true
+}
