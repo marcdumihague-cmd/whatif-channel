@@ -1,0 +1,61 @@
+
+  298 videos across 16 channels, outliers at 2.0x or better
+
+    203.85x  5,300,000  vs    26,000 median   Awaken                 Can 2 People Really Restart Humanity?
+            The Question
+    121.21x     70,000  vs       577 median   Remember This For Me   What If You Were in a Coma but Could Hear Everything
+            The Question
+    103.90x     60,000  vs       577 median   Remember This For Me   What If You Were Declared Dead but Could Still Hear 
+            The Question
+    52.22x  4,700,000  vs    90,000 median   Ifverse                What If Your Reaction Time Was 10x Faster?
+            The Question
+    31.17x     18,000  vs       577 median   Remember This For Me   What If You Woke Up During Surgery but Could Feel Ev
+            The Question
+    28.88x    751,000  vs    26,000 median   Awaken                 What if You Were The Last Girl On Earth?
+            The Question
+    27.65x    719,000  vs    26,000 median   Awaken                 What if You’re The Last Guy on Earth?
+            The Question
+    24.66x  1,800,000  vs    73,000 median    Jeremy Bearimy        What IF You Could See Who Has a Crush on You?
+            The Question
+    22.51x     13,000  vs       577 median   Remember This For Me   What If You Cried Real Pearls?
+            The Question
+    17.53x    631,000  vs    36,000 median   IfYou Films            Zombie Outbreak: What If YOU Were Patient Zero?
+            The Question
+    15.58x    787,000  vs    50,500 median   OTHERWISE              What If You Were Reborn With All Your Memories?
+            The Question
+    15.56x  1,400,000  vs    90,000 median   Ifverse                What If You Had 500 IQ?
+            The Question
+    15.07x  1,100,000  vs    73,000 median    Jeremy Bearimy        What IF You Saved Your School From a Shooting?
+            The Question
+    15.03x    278,000  vs    18,500 median   Suddenly You           What If You Were Locked in School for 30 Days With Y
+            The Question
+    13.41x    979,000  vs    73,000 median    Jeremy Bearimy        What IF You Were the ONLY GUY at a Girls Only School
+            The Question
+    11.22x     46,000  vs     4,100 median   Canon Hole             What If You Woke Up as SPIDER MAN?
+            The Question
+    10.96x  1,200,000  vs   109,500 median   Hypo Room              What If Humans Never Invented Clothes?
+            The Question
+    10.38x    758,000  vs    73,000 median    Jeremy Bearimy        What IF You Could Control Your Luck?
+            The Question
+     9.29x     26,000  vs     2,800 median   Twilight Drama Dreams💫 [ENG SUB]✨She Hid Her Genius Behind A Simple Smile, 
+            Unclassified
+     8.74x    638,000  vs    73,000 median    Jeremy Bearimy        What IF You Could Learn Anything Instantly?
+            The Question
+     7.96x    581,000  vs    73,000 median    Jeremy Bearimy        What If You Could See Everyone's Biggest Secret?
+            The Question
+     7.71x    694,000  vs    90,000 median   Ifverse                What If One Second Felt Like Ten?
+            The Question
+     7.55x    506,000  vs    67,000 median   Questionverse          What If You Were Stuck in a Bunker With Your Crush?
+            The Question
+     7.32x     30,000  vs     4,100 median   Canon Hole             What If You Woke Up as TONY STARK
+            The Question
+     6.64x    312,000  vs    47,000 median   Stupid Dupid           What If You And Your Crush Were Alone On The Planet?
+            The Question
+
+  formulas among the outliers
+    69x  The Question
+    10x  Unclassified
+     2x  The Impossible Claim
+     1x  The List
+     1x  The Insider
+

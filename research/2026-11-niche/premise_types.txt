@@ -1,0 +1,13 @@
+premise type                 videos  median x share >=3x
+romance / crush                  36      1.28        28%
+you get a power / situation      75      1.05        29%
+world changes around you         20      0.97        35%
+other                            41      0.91        20%
+world changes (no you)           14      0.91        29%
+you, alone / trapped              5      0.44         0%
+
+number in title: median 1.00x (n=75) vs none 1.00x (n=223)
+length 3-7 min: median 2.52x (n=10)
+length 7-9 min: median 0.95x (n=45)
+length 9-11 min: median 1.02x (n=78)
+length 11-25 min: median 0.93x (n=58)

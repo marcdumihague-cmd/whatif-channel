@@ -5,7 +5,8 @@ these on top of `voice.md`.
 
 ## Data
 
-- 298 recent videos from 16 "what if" story channels (public listings, `/yt-viral` + `swipe.py`),
+- 298 recent videos from 16 "what if" story channels (public listings, `/yt-viral` + `swipe.py`;
+  data and scripts in `research/2026-11-niche/`),
   ranked by views over each channel's own median.
 - Premise type barely predicts success: every category's median is ~1x its channel, and about a
   quarter to a third of each category breaks out (3x+). Numbers in titles made no difference.
