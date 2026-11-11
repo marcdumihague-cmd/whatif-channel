@@ -1,10 +1,13 @@
-# What if everyone but you forgot how to lie?
+# What If You Were the Last Liar on Earth?
+
+Title: **What If You Were the Last Liar on Earth?** · Thumbnail text: **$1,000,000**
+(runner-up title: What If 8 Billion People Believed Every Word You Said?)
 
 Status: draft script, waiting for the user's approval. Nothing produced yet.
 
 Cast (voices to design): Narrator (existing), You (existing), Theo (best friend, wannabe
-comedian), plus small parts: Barista, Weatherman, Dana (boss), Poker player, Pit boss, Car
-salesman, HR manager, Pop star, Snack CEO, Audience member.
+comedian), plus small parts: Barista, Weatherman, Dana (boss), Poker player, Pit boss, Police
+officer, Flight attendant, Chef, Car salesman, HR manager, Pop star, Snack CEO, Audience member.
 
 Running gag: Theo, "Be honest. Am I funny?" (3 times, flipped at the end).
 Object that carries the plot: the **LIES TOLD** counter, top-left, ticking up all video.
@@ -15,8 +18,8 @@ Hidden goal: Theo is about to quit comedy, and you are the only person left who 
 
 ## 1. Cold open (0:00)
 
-**NARRATOR:** At 3 a.m., everyone but you forgot how to lie.
-**NARRATOR:** By lunch, you've won two thousand dollars at poker.
+**NARRATOR:** At 3 a.m., you became the last liar on Earth.
+**NARRATOR:** By lunch, you've won 2,000 dollars at poker.
 **NARRATOR:** But nobody warns you what one lie at a party will cost.
 
 [ON SCREEN: Night bedroom, rain on the window, clock 3:00. Camera pulls out through the window to
@@ -24,6 +27,10 @@ the whole planet at night; a soft wave of light ripples across it, skipping one 
 Counter pops in top-left: LIES TOLD: 0.]
 
 ## 2. The first lie (0:15)
+
+**NARRATOR:** Over the next 6 weeks, you'll make a million dollars. And you'll almost lose the one person who matters.
+
+[ON SCREEN: Quick flash-forward collage in thought bubbles: a pile of cash, a TV studio, a line of people in the rain, a friend walking away. Then snap back to black.]
 
 [CHIP: 7:40 A.M.]
 
@@ -113,9 +120,20 @@ counter starts spinning like a slot reel: 3... 47... 300...]
 
 [ON SCREEN: Two security guards walk you out, your arms full of chips. Money: $41,000.]
 
+**NARRATOR:** And the small stuff works too.
+**YOU:** Officer, I'm late for my own wedding.
+**POLICE OFFICER:** Congratulations! Go, go!
+**YOU:** It's our honeymoon.
+**FLIGHT ATTENDANT:** First class. On us.
+**YOU:** I'm a food critic.
+**CHEF:** ...Everything is free. Please be kind.
+
+[ON SCREEN: Fast montage, one shot per line, each ending with a counter tick and a "ding": flashing
+lights in a rearview mirror, a plane seat upgrade, a chef sweating over a plate.]
+
 ## 6. Money exploit #2: the secret number (3:25)
 
-**NARRATOR:** Poker's fun. But the real money isn't in games. It's in negotiations.
+**NARRATOR:** Poker made you 41,000 dollars. But you're about to make 10 times that without touching a single card.
 **NARRATOR:** Every deal has a secret number. The most the buyer will pay. The least the seller will take.
 **NARRATOR:** Nobody can hide theirs anymore.
 
@@ -146,7 +164,7 @@ section: three bars, "his ask / his real limit / your price".]
 
 ## 7. Money exploit #3: Just Asking (4:35)
 
-**NARRATOR:** Then you have the biggest idea of your life.
+**NARRATOR:** Then you have the idea that makes you a millionaire in 6 weeks. And it almost costs you your best friend.
 **NARRATOR:** If nobody can lie, every famous person on Earth has a problem. Because someone can just... ask.
 
 [ON SCREEN: Title card for your show, "JUST ASKING", bold letters on a dark gradient, a dotted
@@ -181,8 +199,8 @@ zoom as he pushes the notebook deep into his pocket. Music drops out.]
 
 ## 8. The setback: one lie at a party (5:55)
 
-**NARRATOR:** That night, at a party, someone asks what you think about Harbor Bank. Half the city keeps their money there.
-**NARRATOR:** And you, a little drunk on being right all the time, make a joke.
+**NARRATOR:** That night, you tell one lie as a joke. By 2 a.m., half the city is about to lose its money.
+**NARRATOR:** Someone at a party asks what you think about Harbor Bank. Half the city keeps their money there.
 **YOU:** Harbor Bank? It's going under. Get your money out tonight.
 **NARRATOR:** Everyone at the party believes you. Of course they do.
 **NARRATOR:** Then they text their friends. Who also can't imagine anyone would lie.
@@ -190,7 +208,7 @@ zoom as he pushes the notebook deep into his pocket. Music drops out.]
 [ON SCREEN: One phone lights up, then ten, then a hundred, spreading across a night city map like
 the light wave from the opening. Counter ticks.]
 
-**NARRATOR:** And this part isn't fiction. In 2023, customers of a real bank, Silicon Valley Bank, tried to pull out forty-two billion dollars in a single day. The next morning, regulators shut it down.
+**NARRATOR:** And this part isn't fiction. In 2023, customers of a real bank, Silicon Valley Bank, tried to pull out 42 billion dollars in a single day. The next morning, regulators shut it down.
 **NARRATOR:** A bank doesn't have to be broken to fail. It just needs enough people to believe it is.
 
 [ON SCREEN: Real-fact card: "Silicon Valley Bank, March 2023: $42 billion requested in one day".
@@ -217,7 +235,7 @@ Theo's eyes go from hurt to quiet. He leaves. The door clicks.]
 
 ## 9. The real cost (7:10)
 
-**NARRATOR:** Here's what nobody tells you about a world without lies. It's lonely.
+**NARRATOR:** Here's what nobody tells you about a world without lies: you'd never hear "you look great" again. Not once. It's lonely.
 **NARRATOR:** A lot of everyday lies aren't selfish at all. They're told to protect someone else. "I love it." "You look great." "You were amazing up there."
 **NARRATOR:** All of that is gone. From everyone. Except you.
 
