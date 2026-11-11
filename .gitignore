@@ -6,3 +6,5 @@ out/
 *.wav
 tts/models/
 video/out/
+.venv-*/
+tts/compare/out/

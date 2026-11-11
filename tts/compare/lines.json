@@ -1,0 +1,6 @@
+[
+  { "who": "narrator", "mood": "playful, building suspense", "text": "It's seven oh two A.M. Your alarm goes off, so you smack the snooze button. Your hand goes straight through the nightstand." },
+  { "who": "you", "mood": "stunned, quiet disbelief", "text": "Wait. What?" },
+  { "who": "roommate", "mood": "alarmed, shouting from another room", "text": "What was that?!" },
+  { "who": "you", "mood": "panicked, fake casual, lying badly", "text": "Nothing! Just stretching!" }
+]
