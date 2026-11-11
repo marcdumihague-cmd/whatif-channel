@@ -27,5 +27,13 @@
   "older": {
     "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
     "design": "An older man in his late fifties with a deep, gravelly, gruff voice. Emotion: blunt, world-weary."
+  },
+  "grandpa": {
+    "text": "Now listen, kiddo. When I was your age, we didn't have any of this, and we turned out just fine, mostly.",
+    "design": "A warm, gentle American grandfather in his late seventies, slightly raspy and soft, kind and a little playful. Emotion: tender."
+  },
+  "grandma": {
+    "text": "Oh, sweetheart, come in, come in. I just made coffee, and you look like you haven't slept a wink.",
+    "design": "A warm American grandmother in her mid seventies, soft and slightly shaky, loving, with quiet humour. Emotion: gentle, a little tired."
   }
 }

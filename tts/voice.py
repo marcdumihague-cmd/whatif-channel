@@ -6,6 +6,8 @@ Every role is cloned from its reference clip in voices/ (Qwen3-TTS 1.7B Base, Ap
 character sounds like the same person on every line. A line may carry:
   "say":  a spelling for the voice when the caption text reads badly aloud
   "take": a ready-made recording to use instead of generating one
+  "lang": the spoken language (default English; non-English lines skip the Whisper check)
+  "caption": on-screen text when it differs from the spoken text
 An optional "cast" maps speaker labels to voices, so several small parts can share one voice.
 Each generated line is transcribed with Whisper and regenerated (up to 2 more tries) when the
 words don't match the script, since nobody listens to the lines one by one.
@@ -89,9 +91,12 @@ def voice(line: dict) -> np.ndarray:
     best, best_score = None, -1.0
     for attempt in range(3):
         torch.manual_seed(attempt)
-        wavs, sr = tts.generate_voice_clone(text=line.get("say", line["text"]), language="English", voice_clone_prompt=prompts[voice_of(line["who"])])
+        lang = line.get("lang", "English")
+        wavs, sr = tts.generate_voice_clone(text=line.get("say", line["text"]), language=lang, voice_clone_prompt=prompts[voice_of(line["who"])])
         assert sr == SR, sr
         audio = np.asarray(wavs[0], dtype=np.float32)
+        if lang != "English":  # the Whisper check is English-only
+            return audio
         got = heard(audio)
         score = difflib.SequenceMatcher(None, words(line["text"]), words(got)).ratio()
         if score > best_score:

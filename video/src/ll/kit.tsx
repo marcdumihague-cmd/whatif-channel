@@ -89,7 +89,7 @@ export const Shadow: React.FC<{ cx: number; cy: number; rx: number; o?: number }
 
 // ---------- characters ----------
 export type Mood = "neutral" | "smug" | "shocked" | "happy" | "sad" | "nervous" | "deadpan" | "sleepy" | "angry";
-export type Look = { skin: string; hair: string; top: string; topDark: string; hairStyle?: "short" | "curly" | "bun" | "bald" | "long"; glasses?: boolean; tall?: number };
+export type Look = { skin: string; hair: string; top: string; topDark: string; hairStyle?: "short" | "curly" | "bun" | "bald" | "long" | "wild"; glasses?: boolean; tall?: number; mustache?: string };
 export const YOU: Look = { skin: P.skin, hair: P.hair, top: P.teal, topDark: P.tealDark, hairStyle: "short" };
 export const THEO: Look = { skin: P.skin2, hair: "#3B2B20", top: P.orange, topDark: P.orangeDark, hairStyle: "curly", glasses: true, tall: 1.06 };
 export const extra = (i: number): Look => {
@@ -133,7 +133,9 @@ const Hair: React.FC<{ style: Look["hairStyle"]; color: string }> = ({ style, co
     case "long":
       return <path d="M -74 70 Q -90 -80 0 -82 Q 90 -80 74 70 L 54 70 Q 62 -20 30 -40 Q 0 -30 -30 -40 Q -62 -20 -54 70 Z" fill={color} />;
     case "bald":
-      return null;
+      return <g fill={color}><ellipse cx={-62} cy={-18} rx={14} ry={26} /><ellipse cx={62} cy={-18} rx={14} ry={26} /></g>;
+    case "wild":
+      return <g fill={color}>{[-80, -55, -28, 0, 28, 55, 80].map((x, i) => <circle key={x} cx={x} cy={-54 + Math.abs(x) * 0.35 + (i % 2) * 10} r={30 + (i % 3) * 6} />)}<circle cx={-86} cy={0} r={24} /><circle cx={86} cy={0} r={24} /></g>;
     default:
       return <path d="M -72 -10 Q -78 -80 -10 -82 Q 70 -86 74 -12 Q 52 -44 18 -40 Q -20 -56 -40 -34 Q -58 -40 -72 -10 Z" fill={color} />;
   }
@@ -174,6 +176,7 @@ export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean;
       <ellipse cx={-44} cy={20} rx={11} ry={6} fill="#E8846F" opacity={0.35} />
       <ellipse cx={44} cy={20} rx={11} ry={6} fill="#E8846F" opacity={0.35} />
       <Mouth kind={f.mouth} talk={flap} color={P.ink} />
+      {look.mustache && <path d="M -34 28 Q -16 14 0 22 Q 16 14 34 28 Q 18 34 0 28 Q -18 34 -34 28 Z" fill={look.mustache} />}
     </g>
   );
 };

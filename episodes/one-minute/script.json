@@ -1,0 +1,457 @@
+{
+ "title": "What If You Could Call Anyone Who Died, for One Minute?",
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "GRANDPA": "grandpa",
+  "GRANDMA": "grandma",
+  "MOM": "woman2",
+  "EINSTEIN": "older",
+  "TRADER": "man",
+  "SARAH": "roommate",
+  "HAROLD": "older",
+  "EDDIE": "man"
+ },
+ "facts": [
+  {
+   "claim": "Hearing may persist near death: dying hospice patients' brains still responded to sound, even unresponsive ones",
+   "source": "Blundon, Gallagher & Ward (2020), Scientific Reports; UBC release, ScienceDaily 2020-07-08"
+  },
+  {
+   "claim": "More than 100 billion people have ever lived",
+   "source": "Population Reference Bureau, 'How Many People Have Ever Lived on Earth?' (108-117 billion)"
+  },
+  {
+   "claim": "Einstein's last words were in German to a night nurse who could not understand them",
+   "source": "Princeton Hospital, April 18, 1955 (nurse Alberta Rozsel), widely reported"
+  },
+  {
+   "claim": "In 2000 Netflix offered to sell itself to Blockbuster for $50 million; Blockbuster declined and was bankrupt by 2010",
+   "source": "Marc Randolph via Fortune (2023-04-14); Marketplace (2020-09-08)"
+  },
+  {
+   "claim": "US states hold about $70 billion in unclaimed property; about 1 in 7 Americans has some",
+   "source": "NAUPA (2020 survey), via Trust & Will and Fox local reports"
+  },
+  {
+   "claim": "Heir hunters usually charge 10-30% of the inheritance",
+   "source": "UK probate research firms; Law Gazette; STEP guidance"
+  },
+  {
+   "claim": "The US Treasury holds almost $30 billion in matured savings bonds never cashed",
+   "source": "TreasuryDirect releases 2019 ($26B+), 2021 (~$30B); 2026 reports ($29.7B)"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Your grandpa died 9 days ago."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "But at 3 a.m., he picks up the phone. And you have 60 seconds before you lose him forever."
+  },
+  {
+   "scene": "cold_open",
+   "who": "GRANDPA",
+   "text": "Kiddo? Is that you?"
+  },
+  {
+   "scene": "cold_open",
+   "who": "YOU",
+   "text": "Grandpa?!"
+  },
+  {
+   "scene": "cold_open",
+   "who": "GRANDPA",
+   "text": "Listen. I don't have long. Don't let them sell the house. The blue tin. Second drawer. Tell your grandma I..."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Click. The line goes dead. Exactly 60 seconds."
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Over the next 30 days, you'll talk to Albert Einstein, make 86,000 dollars, and find out how that sentence ends."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Here's how it works. It's Grandpa's old rotary phone. Dial anyone who has ever died, and they pick up."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "You get exactly 60 seconds. One call a day. And every person only once."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Grandpa already used his."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "More than 100 billion people have ever lived. You get to choose 30."
+  },
+  {
+   "scene": "grandma",
+   "who": "NARRATOR",
+   "text": "The next morning, you go to Grandma's."
+  },
+  {
+   "scene": "grandma",
+   "who": "GRANDMA",
+   "text": "The bank wants 86,000 dollars by the end of the month. Or the house goes."
+  },
+  {
+   "scene": "grandma",
+   "who": "NARRATOR",
+   "text": "The house. With the blue tin inside."
+  },
+  {
+   "scene": "grandma",
+   "who": "GRANDMA",
+   "text": "It's only a house, sweetheart. Fifty-one years, and he never once said he loved me."
+  },
+  {
+   "scene": "grandma",
+   "who": "NARRATOR",
+   "text": "Grandpa tapped the table three times before every dinner. Nobody ever asked him why."
+  },
+  {
+   "scene": "grandma",
+   "who": "GRANDMA",
+   "text": "I talked to him all night at the hospital. I don't know if he heard a word."
+  },
+  {
+   "scene": "grandma",
+   "who": "NARRATOR",
+   "text": "In 2020, scientists recorded the brains of dying hospice patients. Even the ones who couldn't respond still reacted to sound. Hearing may be one of the last things to go."
+  },
+  {
+   "scene": "mom",
+   "who": "MOM",
+   "text": "Phones don't call dead people. Go to bed."
+  },
+  {
+   "scene": "theo",
+   "who": "NARRATOR",
+   "text": "Your best friend Theo believes you instantly. Theo has lived alone with his mom since he was 9."
+  },
+  {
+   "scene": "theo",
+   "who": "THEO",
+   "text": "Okay. Okay. Can you call Elvis?"
+  },
+  {
+   "scene": "einstein",
+   "who": "NARRATOR",
+   "text": "Day 2. You want proof. So you call the smartest man who ever died."
+  },
+  {
+   "scene": "einstein",
+   "who": "EINSTEIN",
+   "text": "Hallo? Wer ist da?",
+   "lang": "German",
+   "caption": "Hallo? Wer ist da? (Hello? Who's there?)"
+  },
+  {
+   "scene": "einstein",
+   "who": "NARRATOR",
+   "text": "Real fact: nobody knows Albert Einstein's last words. He said them in German, to a night nurse who didn't speak German."
+  },
+  {
+   "scene": "einstein",
+   "who": "YOU",
+   "text": "Mister Einstein, what were your last words?"
+  },
+  {
+   "scene": "einstein",
+   "who": "EINSTEIN",
+   "text": "Ach. Das ist eine lange Geschichte.",
+   "lang": "German",
+   "caption": "Ach. Das ist eine lange Geschichte. (Oh. That's a long story.)"
+  },
+  {
+   "scene": "einstein",
+   "who": "NARRATOR",
+   "text": "He says it in German. You don't speak German either. Click. 28 calls left."
+  },
+  {
+   "scene": "trader",
+   "who": "NARRATOR",
+   "text": "Day 3. You need money. So you call a Wall Street trader who died in 2001."
+  },
+  {
+   "scene": "trader",
+   "who": "YOU",
+   "text": "What should I buy?"
+  },
+  {
+   "scene": "trader",
+   "who": "TRADER",
+   "text": "Easy. Blockbuster. They just laughed some tiny DVD company out of the room."
+  },
+  {
+   "scene": "trader",
+   "who": "NARRATOR",
+   "text": "True story. In 2000, Netflix offered to sell itself to Blockbuster for 50 million dollars. Blockbuster said no. Ten years later, Blockbuster was bankrupt."
+  },
+  {
+   "scene": "trader",
+   "who": "NARRATOR",
+   "text": "The dead don't know the future. Only their past."
+  },
+  {
+   "scene": "trader",
+   "who": "THEO",
+   "text": "Can you call Elvis?"
+  },
+  {
+   "scene": "trader",
+   "who": "YOU",
+   "text": "Theo. No."
+  },
+  {
+   "scene": "sarah",
+   "who": "MOM",
+   "text": "Fine. Call my best friend, Sarah. She died in college. Ask her what I did with her red sweater."
+  },
+  {
+   "scene": "sarah",
+   "who": "SARAH",
+   "text": "Tell her she can keep the sweater. And tell her it was never her fault."
+  },
+  {
+   "scene": "sarah",
+   "who": "NARRATOR",
+   "text": "Your mom drops her coffee."
+  },
+  {
+   "scene": "sarah",
+   "who": "MOM",
+   "text": "How did you know about the sweater?"
+  },
+  {
+   "scene": "unclaimed",
+   "who": "NARRATOR",
+   "text": "That's when you realize what the dead do know. Where they left things."
+  },
+  {
+   "scene": "unclaimed",
+   "who": "NARRATOR",
+   "text": "Real number: American states are holding about 70 billion dollars nobody has claimed. Forgotten bank accounts. Old paychecks. About 1 in 7 Americans has some."
+  },
+  {
+   "scene": "unclaimed",
+   "who": "NARRATOR",
+   "text": "A lot of it belongs to people who died before telling anyone."
+  },
+  {
+   "scene": "unclaimed",
+   "who": "NARRATOR",
+   "text": "There's even a job for this. Heir hunters find the families, and usually keep 10 to 30 percent."
+  },
+  {
+   "scene": "unclaimed",
+   "who": "NARRATOR",
+   "text": "You have 26 calls left. And a phone that can ask the dead directly."
+  },
+  {
+   "scene": "harold",
+   "who": "NARRATOR",
+   "text": "Day 5. Harold. Died in 1998."
+  },
+  {
+   "scene": "harold",
+   "who": "HAROLD",
+   "text": "Savings account. First Federal. 1983. My daughter never knew."
+  },
+  {
+   "scene": "harold",
+   "who": "NARRATOR",
+   "text": "Harold's daughter gets 42,000 dollars. You keep 20 percent."
+  },
+  {
+   "scene": "harold",
+   "who": "NARRATOR",
+   "text": "And Harold gets his last 10 seconds."
+  },
+  {
+   "scene": "harold",
+   "who": "HAROLD",
+   "text": "Tell her I'm proud of her."
+  },
+  {
+   "scene": "montage",
+   "who": "NARRATOR",
+   "text": "Day 6. A sailor's pension. Day 9. A safe deposit box in Ohio. Day 14. A piano teacher who buried cash in a coffee can."
+  },
+  {
+   "scene": "montage",
+   "who": "THEO",
+   "text": "Can you call Elvis?"
+  },
+  {
+   "scene": "montage",
+   "who": "YOU",
+   "text": "Elvis does not have unclaimed money, Theo."
+  },
+  {
+   "scene": "montage",
+   "who": "NARRATOR",
+   "text": "Every call ends the same way. Money for the family. And 10 seconds for the thing they never said."
+  },
+  {
+   "scene": "setback",
+   "who": "NARRATOR",
+   "text": "Day 26. You have 71,000 dollars. You need 86,000. And you have 4 calls left."
+  },
+  {
+   "scene": "setback",
+   "who": "NARRATOR",
+   "text": "Then the bank calls. The buyer wants to close early. Day 30. Midnight."
+  },
+  {
+   "scene": "setback",
+   "who": "NARRATOR",
+   "text": "And the phone company sends a letter. Grandpa's line gets cut off the same night."
+  },
+  {
+   "scene": "setback",
+   "who": "NARRATOR",
+   "text": "After midnight, no more calls. Ever."
+  },
+  {
+   "scene": "eddie",
+   "who": "NARRATOR",
+   "text": "So you stop calling strangers. You call Grandpa's best friend, Eddie. Died in 2009."
+  },
+  {
+   "scene": "eddie",
+   "who": "EDDIE",
+   "text": "Walt? Every year on your grandma's birthday, he bought a savings bond. Never cashed a single one."
+  },
+  {
+   "scene": "eddie",
+   "who": "NARRATOR",
+   "text": "That's real too. The U.S. Treasury is holding almost 30 billion dollars in savings bonds nobody ever cashed."
+  },
+  {
+   "scene": "eddie",
+   "who": "EDDIE",
+   "text": "He kept them in a tin. A blue one."
+  },
+  {
+   "scene": "house",
+   "who": "NARRATOR",
+   "text": "Day 30. The bank lets the family in for one last walk-through."
+  },
+  {
+   "scene": "house",
+   "who": "NARRATOR",
+   "text": "Second drawer. Behind the tablecloths. A blue tin."
+  },
+  {
+   "scene": "house",
+   "who": "NARRATOR",
+   "text": "Fifty-one savings bonds. Enough. The house is saved."
+  },
+  {
+   "scene": "house",
+   "who": "NARRATOR",
+   "text": "But the money was never the point. Under the bonds, there's a note. In Grandpa's handwriting."
+  },
+  {
+   "scene": "letter",
+   "who": "GRANDPA",
+   "text": "Three taps means I love you. I was always too scared to say it out loud. So I said it every night."
+  },
+  {
+   "scene": "letter",
+   "who": "NARRATOR",
+   "text": "Fifty-one years. Three taps a night. He said it more than 18,000 times."
+  },
+  {
+   "scene": "letter",
+   "who": "NARRATOR",
+   "text": "Grandma taps the table three times."
+  },
+  {
+   "scene": "letter",
+   "who": "GRANDMA",
+   "text": "Me too, Walt. Me too."
+  },
+  {
+   "scene": "lastcall",
+   "who": "NARRATOR",
+   "text": "11:58 p.m. One call left. Two minutes until the line goes dead forever."
+  },
+  {
+   "scene": "lastcall",
+   "who": "NARRATOR",
+   "text": "You could call anyone. Einstein again. Elvis."
+  },
+  {
+   "scene": "lastcall",
+   "who": "THEO",
+   "text": "Hey. Can you call..."
+  },
+  {
+   "scene": "lastcall",
+   "who": "NARRATOR",
+   "text": "For once, he doesn't say Elvis."
+  },
+  {
+   "scene": "lastcall",
+   "who": "THEO",
+   "text": "...my dad?"
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "You hand him the phone."
+  },
+  {
+   "scene": "theo_call",
+   "who": "NARRATOR",
+   "text": "You don't hear what Theo says. You just watch him talk for 60 seconds. He laughs. Then he cries. Then the line goes dead."
+  },
+  {
+   "scene": "bookend",
+   "who": "NARRATOR",
+   "text": "At 3:07 a.m., the disconnected phone rings one last time."
+  },
+  {
+   "scene": "bookend",
+   "who": "NARRATOR",
+   "text": "You pick up. There's no voice. Just three soft taps."
+  },
+  {
+   "scene": "bookend",
+   "who": "NARRATOR",
+   "text": "Then a click."
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "Grandma still lives in the house. Theo still asks about Elvis."
+  },
+  {
+   "scene": "coda",
+   "who": "THEO",
+   "text": "Okay, but what if we find another phone?"
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So, if you had one minute with someone who's gone, who would you call? Tell us in the comments."
+  }
+ ]
+}
