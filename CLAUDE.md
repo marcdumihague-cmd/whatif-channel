@@ -4,6 +4,10 @@ A YouTube channel of "What if...?" videos, made by Claude. Each video takes a ma
 ("What if you woke up 10 times stronger?"), explains it, and walks through what would most likely
 happen, scene by scene. Visual style: simple, flat, colored animations.
 
+Format: second-person story ("you" are the main character), about 8 to 10 minutes, 16:9, with a
+narrator plus short lines from a small recurring cast, and real facts woven in. Full style rules:
+`youtube/voice.md`.
+
 Read this file and `youtube/episodes.md` at the start of every session. They are the project
 memory: update `youtube/episodes.md` whenever an episode changes status, and update this file when
 a decision about the channel changes.
@@ -13,7 +17,8 @@ a decision about the channel changes.
 Nothing is built yet. Agreed direction, to be set up when the first episode is made:
 
 1. Script: `/yt-script` (hooks scored with `.claude/skills/yt-script/hookscore.py`).
-2. Voiceover: text-to-speech (default: Piper, free and local; can switch to a premium voice).
+2. Voiceover: text-to-speech with one narrator voice plus one voice per character (default:
+   Piper, free and local; can switch to a premium voice).
 3. Visuals: Remotion (React), flat-color shapes and a simple character.
 4. Captions: Whisper (open-source, e.g. faster-whisper) for word-level timing.
 5. Final render and audio mix: FFmpeg.
