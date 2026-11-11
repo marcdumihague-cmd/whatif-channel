@@ -30,7 +30,10 @@ environment, which allows the Hugging Face hosts the models download from.
    reusable character and helpers in `video/src/cartoon.tsx`. Scenes are timed from
    `timeline.json`. Render stills to check layout before a full render:
    `REMOTION_CHROME=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell npx remotion still|render src/index.ts <Composition> out/...`
-4. Packaging: `/yt-package` (title + thumbnail), `/yt-seo` (description), `/yt-chapters`, `/yt-shorts`.
+4. Sound: `.venv-qwen/bin/python tts/mix.py <name>` mixes voice + a generated music bed + generated
+   phone/knock effects into `mix.wav` (all synthesised, nothing to license; cues mirror the shots).
+5. Thumbnail: a `<Name>Thumb` still composition (1280x720), checked at feed size.
+6. Packaging: `/yt-package` (title + thumbnail), `/yt-seo` (description), `/yt-chapters`, `/yt-shorts`.
 
 ### Voices (decided)
 
@@ -46,7 +49,7 @@ Rejected: Kokoro (flat, user found it not entertaining), Chatterbox (word slips)
 (default OmniVoice weights are non-commercial, needs a desktop/GPU). ElevenLabs: the user's API key
 was rejected (401); untested. Comparison scripts: `tts/compare/`.
 
-Not decided yet: background music and sound effects (no source yet).
+Music: generated ambient pad from `tts/mix.py` (first used on episode 3; the user hasn't heard it yet).
 
 Nothing is ever uploaded by Claude. The user publishes.
 
