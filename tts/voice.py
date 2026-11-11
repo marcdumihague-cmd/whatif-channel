@@ -43,9 +43,38 @@ asr = WhisperModel("base.en", device="cpu", compute_type="int8")
 NUM = {w: str(i) for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve "
                                          "thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split())}
 NUM |= {w: str(10 * i) for i, w in enumerate("thirty forty fifty sixty seventy eighty ninety".split(), 3)}
-# Whisper writes numbers as digits or words at random; compare them as digits.
-words = lambda s: [NUM.get(w, w) for w in re.sub(r"[^a-z0-9 ]", "", s.lower().replace("-", " ")).split()]
+SCALE = {"hundred": 100, "thousand": 1000, "million": 1000000}
+
+
+def words(s: str) -> list[str]:
+    """Normalised words; number phrases ("a hundred and ten", "11,500 dollars") become digits.
+    Whisper writes numbers as digits or words at random, and "$" for "dollars"."""
+    s = s.lower().replace("-", " ").replace("$", "")
+    toks = re.sub(r"(\d),(\d)", r"\1\2", s)
+    toks = [w for w in re.sub(r"[^a-z0-9 ]", " ", toks).split() if w != "dollars"]
+    out, total, cur, inside = [], 0, 0, False
+    for i, w in enumerate(toks):
+        nxt = toks[i + 1] if i + 1 < len(toks) else ""
+        if w in NUM or w.isdigit():
+            cur += int(NUM.get(w, w)); inside = True
+        elif w in SCALE and (inside or out[-1:] == ["a"]):
+            if not inside: out.pop()
+            cur = max(cur, 1) * SCALE[w]
+            if SCALE[w] > 100: total, cur = total + cur, 0
+            inside = True
+        elif w == "and" and inside and (nxt in NUM or nxt.isdigit()):
+            continue
+        else:
+            if inside: out.append(str(total + cur)); total, cur, inside = 0, 0, False
+            out.append(w)
+    if inside: out.append(str(total + cur))
+    return out
+
+
 assert words("went up ten times") == words("went up 10 times")
+assert words("we'd go to a hundred and ten.") == words("we'd go to $110.")
+assert words("You get eleven thousand five hundred dollars.") == words("You get $11,500.")
+assert words("up two thousand dollars") == words("up $2,000")
 
 
 def heard(audio: np.ndarray) -> str:

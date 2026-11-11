@@ -24,16 +24,16 @@ on the real voice timeline once the episode is voiced: the timestamps below are 
 >
 > CHAPTERS
 > 0:00 The Last Liar on Earth
-> 0:14 Your First Lie
-> 1:00 Why Everyone Believes You
-> 1:35 The Fake Sick Day
-> 2:23 Beating Everyone at Poker
-> 3:30 The Secret Number Trick
-> 4:52 The Show Nobody Can Lie On
-> 6:12 One Lie Breaks a Bank
-> 7:50 A World Without "You Look Great"
-> 8:25 Theo's Last Show
-> 9:24 One Year Later
+> 0:10 Your First Lie
+> 0:49 Why Everyone Believes You
+> 1:40 The Fake Sick Day
+> 1:54 Beating Everyone at Poker
+> 2:49 The Secret Number Trick
+> 3:57 The Show Nobody Can Lie On
+> 4:59 One Lie Breaks a Bank
+> 6:16 A World Without "You Look Great"
+> 6:47 Theo's Last Show
+> 7:32 One Year Later
 >
 > SOURCES
 > Lie detection accuracy: Bond & DePaulo (2006), Personality and Social Psychology Review.
@@ -57,7 +57,7 @@ scenario, hypothetical.
 
 Boundaries from `chapters.py` on an estimated timeline (2.3 words/s, measured in the test scene),
 retitled; "Theo's Last Show" and "A World Without..." added by hand at section starts. Valid:
-starts at 0:00, 11 chapters, all at least 10 s. Estimated runtime: **10.1 min**.
+starts at 0:00, 11 chapters, all at least 10 s. Real runtime after voicing: **8:09**; chapter times above are from the real voice timeline.
 
 ## Shorts (`/yt-shorts`)
 
