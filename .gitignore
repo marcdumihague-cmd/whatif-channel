@@ -8,3 +8,4 @@ tts/models/
 video/out/
 .venv-*/
 tts/compare/out/
+voice-samples/
