@@ -6,7 +6,8 @@ happen, scene by scene. Visual style: simple, flat, colored animations.
 
 Format: second-person story ("you" are the main character), about 8 to 10 minutes, 16:9, with a
 narrator plus short lines from a small recurring cast, and real facts woven in. Full style rules:
-`youtube/voice.md` (writing) and `youtube/motion.md` (animation: nothing is ever still).
+`youtube/voice.md` (writing), `youtube/viral-notes.md` (what makes these videos break out: read
+before writing any script) and `youtube/motion.md` (animation: nothing is ever still).
 
 Read this file and `youtube/episodes.md` at the start of every session. They are the project
 memory: update `youtube/episodes.md` whenever an episode changes status, and update this file when
