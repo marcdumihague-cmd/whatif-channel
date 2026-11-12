@@ -26,9 +26,13 @@ environment, which allows the Hugging Face hosts the models download from.
    `voice.wav` + `timeline.json`. About 30 s per line on CPU, so run it in the background.
    It transcribes every line with Whisper and regenerates mismatches (Claude cannot listen; a
    `WARNING` line means the user should listen to that line).
+   Optional acting: mark a line `"act": "<emotion>"` and run `tts/act.py` (step 1 in `.venv-qwen`,
+   step 2 `pick` in `.venv-chatterbox`) before voice.py; a take is kept only if it still sounds like
+   the character (speaker similarity >= 0.80). Lip-sync: `.venv-qwen/bin/python tts/lipsync.py <name>`
+   writes `lips.json` (mouth opening + shape per frame); pass `lip` to the speaking `Person`.
 3. Visuals: Remotion in `video/` (React + SVG, 1920x1080, 30 fps), outlined cartoon style;
    reusable character and helpers in `video/src/cartoon.tsx`. Scenes are timed from
-   `timeline.json`. Render stills to check layout before a full render:
+   `timeline.json`. Contact sheet: `node sheet.mjs <Comp> <everySec> <outDir>` (in `video/`). Render stills to check layout before a full render:
    `REMOTION_CHROME=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell npx remotion still|render src/index.ts <Composition> out/...`
 4. Sound: `.venv-qwen/bin/python tts/mix.py <name>` mixes voice + a generated music bed + generated
    phone/knock effects into `mix.wav` (all synthesised, nothing to license; cues mirror the shots).
