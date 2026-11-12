@@ -53,6 +53,13 @@ Music: generated ambient pad from `tts/mix.py` (first used on episode 3; the use
 
 Nothing is ever uploaded by Claude. The user publishes.
 
+**Before every post (user's standing rule):** before the user posts any video anywhere (YouTube,
+TikTok, Instagram), give them the title, thumbnail, description and tags (or caption and hashtags)
+for that platform, each backed by research done for that video: keyword search volume and
+competition, what titles/thumbnails are winning in the niche right now (vidIQ), and our own channel's
+results. Say where each choice came from; no "sounds good" picks. Save it in the episode's
+`packaging.md`.
+
 ## Voice profile
 
 The yt-* skills look for `~/.claude/youtube/voice.md`. In this repo, use `youtube/voice.md`
