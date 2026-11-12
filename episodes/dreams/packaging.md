@@ -1,6 +1,6 @@
 # Packaging: What If You Could See the Dreams Your Parents Gave Up?
 
-Research done 2026-11-12 with vidIQ (40 of 85 credits), before choosing anything. Chapters come from the final timeline (7:06).
+Research done 2026-11-12 with vidIQ (40 of 85 credits), before choosing anything. Chapters come from the final timeline (7:03).
 
 ## The research
 
@@ -71,15 +71,15 @@ mostly help with misspellings, so the title and the first two lines of the descr
 > CHAPTERS
 > 0:00 The Ghost Behind Mom
 > 0:25 How the Ghosts Work
-> 1:04 Everyone Is Haunted
-> 2:02 Dad's Invisible Ghost
-> 2:39 Dream Detective
-> 3:45 You Were the Price
-> 4:29 "I'm 47"
-> 5:02 One Minute, Two Dreams
-> 5:32 Cessna 172
-> 5:55 What Dad Dreamed Of
-> 6:25 Theo's Ghost
+> 1:02 Everyone Is Haunted
+> 2:01 Dad's Invisible Ghost
+> 2:36 Dream Detective
+> 3:42 You Were the Price
+> 4:26 "I'm 47"
+> 4:59 One Minute, Two Dreams
+> 5:29 Cessna 172
+> 5:52 What Dad Dreamed Of
+> 6:22 Theo's Ghost
 >
 > REAL FACTS IN THIS VIDEO
 > 76% of people's biggest regret is not becoming their ideal self: Davidai & Gilovich (2018), Emotion (Cornell).
