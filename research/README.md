@@ -19,5 +19,7 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
   pasted Otherwise transcript and the 4 screenshots can be added.
 - **Transcripts of the 12 picked videos** (`2026-11-niche/transcript-picks.txt`): YouTube blocks
   transcript downloads from the cloud machine ("confirm you're not a bot"). Getting around that
-  check is off limits; the user can paste transcripts from "Show transcript" instead.
+  check is off limits. Instead the user runs `scripts/get_transcripts.py` on their own computer
+  (public captions, no login) and sends the folder back in the chat; it is not committed while the
+  repo is public.
 - **Audio and video files** (voice samples, renders): too large and regenerable from the repo.
