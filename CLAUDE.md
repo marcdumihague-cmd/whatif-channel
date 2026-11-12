@@ -9,9 +9,13 @@ narrator plus short lines from a small recurring cast, and real facts woven in. 
 `youtube/voice.md` (writing), `youtube/viral-notes.md` (what makes these videos break out: read
 before writing any script) and `youtube/motion.md` (animation: nothing is ever still).
 
-Read this file and `youtube/episodes.md` at the start of every session. They are the project
+Read this file, `youtube/episodes.md` and `youtube/lessons.md` at the start of every session. They are the project
 memory: update `youtube/episodes.md` whenever an episode changes status, and update this file when
 a decision about the channel changes.
+
+**Log every lesson (user's standing rule):** every do and every don't, from the user's feedback or
+from our own mistakes, however small, goes into `youtube/lessons.md` the same day, then gets committed
+and pushed.
 
 ## Production pipeline (working, proven on `episodes/test-scene`)
 
