@@ -234,9 +234,11 @@ export const Person: React.FC<{
           <rect x={8} y={-120} width={36} height={120} rx={16} />
         </g>
       )}
+      {legs && <g>{[-26, 26].map((sx) => <g key={sx}><ellipse cx={sx + 6} cy={-8} rx={30} ry={14} fill="#2B2B36" /><rect x={sx - 22} y={-6} width={56} height={6} rx={3} fill="#E4E9F0" /></g>)}</g>}
       <g transform={`translate(0 ${breathe * 0.3 + bob})`}>
         <Arm side={-1} deg={armL} />
         <rect x={-75} y={-280 + breathe * 0.2} width={150} height={175} rx={58} fill={look.top} />
+        <path d={`M -34 ${-276 + breathe * 0.2} Q 0 ${-238 + breathe * 0.2} 34 ${-276 + breathe * 0.2}`} stroke={look.topDark} strokeWidth={10} fill="none" strokeLinecap="round" />
         <rect x={20} y={-270} width={45} height={150} rx={22} fill={look.topDark} opacity={0.35} />
         {look.acc?.includes("sequins") && Array.from({ length: 18 }, (_, i) => <circle key={i} cx={-55 + (i * 37) % 110} cy={-265 + (i * 53) % 150} r={5} fill={P.white} opacity={0.5 + 0.5 * Math.sin(t * 9 + i * 1.3)} />)}
         {look.acc?.includes("bowtie") && <g fill="#1A1A22"><path d="M 0 -262 L -30 -278 L -30 -246 Z" /><path d="M 0 -262 L 30 -278 L 30 -246 Z" /><circle cy={-262} r={8} /></g>}
