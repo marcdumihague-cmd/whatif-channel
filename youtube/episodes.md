@@ -8,6 +8,7 @@ Status: idea -> scripted -> voiced -> rendered -> packaged -> published (by the 
 | 1 | What if you woke up 10 times stronger? | idea | Pilot. Title "What If You Woke Up 10x Stronger?" lints 100/100 in title.py. |
 | 2 | What If You Were the Last Liar on Earth? | rendered | `episodes/last-liar/`. 8:09, rendered to `video/out/last-liar.mp4` (not in git; re-render with `npx remotion render src/index.ts LastLiar`). Waiting for the user's feedback; no music yet. Title, description, chapters, Shorts: `packaging.md`. |
 | 3 | What If You Could Call Anyone Who Died for 60 Seconds? | published by the user | `episodes/one-minute/`. 6:26, `video/out/one-minute.mp4` + `one-minute-thumbnail.png` (not in git; re-render `OneMinute` / `OneMinuteThumb`). Generated music + sound effects. Title, description, chapters, Shorts in `packaging.md`. Vertical teaser `video/out/one-minute-teaser.mp4` (61 s, cut after the rules) made for TikTok/Reels/Shorts. |
+| 4 | What If You Could See the Dreams Your Parents Gave Up? | rendered | `episodes/dreams/`. 7:06, `video/out/dreams.mp4` + `dreams-thumb.png` (not in git; re-render `Dreams` / `DreamsThumb`). First episode with lip-sync (`tts/lipsync.py`), acted takes (`tts/act.py`, 12 of 28 kept), ghost costumes and crossfades. Research-backed title, thumbnail, description, tags, chapters, Shorts in `packaging.md`. |
 
 ## Ideas backlog
 
@@ -36,7 +37,7 @@ Second batch, checked 2026-11-12 the same way:
 17. What If Your Mom Sent You a Bill for Raising You?
 18. What If Every Hug Gave You 1 Day of Someone's Memories?
 19. What If Your Grandpa's Diary Predicted Your Whole Life?
-20. What If You Could See the Dreams Your Parents Gave Up for You?
+20. ~~What If You Could See the Dreams Your Parents Gave Up for You?~~ (made: episode 4)
 
 Already taken (found on YouTube, don't use): promises that can't be broken, borrowing time, shadow
 ahead of you, 100 words a day, undo one sentence/mistake, expiration dates, aging 10x slower, paid

@@ -796,7 +796,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
     const right: "idle" | "paid" | "gone" = pressed ? "paid" : "idle";
     const ghost = ease(t, S(a + 5) + (E(a + 5) - S(a + 5)) * 0.55, E(a + 5));
     return (
-      <Camera t={t} t0={t0} t1={t1} from={1.0} to={1.08} fx={960} fy={500} punch={[S(a + 2) + 0.2, S(a + 6) + 0.6]} shake={[S(a + 2)]}>
+      <Camera t={t} t0={t0} t1={t1} from={1.0} to={1.06} fx={960} fy={560} punch={[S(a + 2) + 0.2, S(a + 6) + 0.6]} shake={[S(a + 2)]}>
         <Room t={t} win={<Ghost x={1600} y={560} look={G_YOU} t={t} o={0.5 * ghost} s={0.6} mood="happy" />} />
         <Svg>
           <Screen x={620} y={430} t={t} title="SUMMER ANIMATION" sub="Your deposit" color={P.teal} state={left} glow={t > S(a + 3) && t < S(a + 4) ? 1 : 0} />
@@ -813,7 +813,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           </g>
           {pressed && [0, 1, 2].map((i) => { const p = ease(t, S(a + 6) + 0.6 + i * 0.15, S(a + 6) + 1.4 + i * 0.15); return <circle key={i} cx={1300} cy={480} r={40 + p * 300} fill="none" stroke={P.gold} strokeWidth={8} opacity={1 - p} />; })}
         </Svg>
-        <div style={{ position: "absolute", top: 40, width: "100%", textAlign: "center", fontFamily: font, fontWeight: 900, fontSize: 90, color: secs <= 10 ? P.red : P.white, transform: `scale(${secs <= 10 ? 1 + 0.06 * Math.abs(Math.sin(t * 8)) : 1})` }}>
+        <div style={{ position: "absolute", top: 80, width: "100%", textAlign: "center", fontFamily: font, fontWeight: 900, fontSize: 90, color: secs <= 10 ? P.red : P.white, transform: `scale(${secs <= 10 ? 1 + 0.06 * Math.abs(Math.sin(t * 8)) : 1})` }}>
           {t < S(a + 1) ? "4:59 P.M." : `0:${String(secs).padStart(2, "0")}`}
         </div>
       </Camera>
