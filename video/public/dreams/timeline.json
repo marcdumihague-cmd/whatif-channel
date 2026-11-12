@@ -1,10 +1,11 @@
 {
- "duration": 426.05,
+ "duration": 422.85,
  "lines": [
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "There's a ghost behind your mom. The pilot she never became.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/000.wav",
    "start": 0.0,
    "end": 3.44
   },
@@ -12,6 +13,7 @@
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "You have 30 days before she loses it. But nobody knows why your dad's is invisible.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/001.wav",
    "start": 3.74,
    "end": 9.58
   },
@@ -20,7 +22,7 @@
    "who": "MOM",
    "text": "Sweetie, you're staring. Is there something on my face?",
    "act": "warm, amused, a little puzzled",
-   "take": "episodes/dreams/takes/002_2.wav",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/002.wav",
    "start": 9.88,
    "end": 14.04
   },
@@ -29,6 +31,7 @@
    "who": "YOU",
    "text": "No! You look... great.",
    "act": "flustered, caught staring, overly cheerful",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/003.wav",
    "start": 14.34,
    "end": 16.9
   },
@@ -36,6 +39,7 @@
    "scene": "promise",
    "who": "NARRATOR",
    "text": "By the end of the month, you'll make 15,000 dollars, turn your whole school upside down, and find out the one dream in your house you got completely wrong.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/004.wav",
    "start": 17.45,
    "end": 24.89
   },
@@ -43,6 +47,7 @@
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Here's how it works. Behind every grown-up floats the person they almost became.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/005.wav",
    "start": 25.44,
    "end": 30.72
   },
@@ -50,6 +55,7 @@
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Bright means they're still close. Faint means they've almost given up. And when it fades out completely, it's gone. Forever.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/006.wav",
    "start": 31.02,
    "end": 38.46
   },
@@ -57,654 +63,727 @@
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Kids don't have one yet. It shows up the day you turn 18.",
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/007.wav",
    "start": 38.76,
    "end": 42.28
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
-   "text": "That's real, by the way. In a 2018 Cornell study, 76 percent of people said their biggest regret was not becoming who they wanted to be.",
+   "text": "A 2018 Cornell study found that 76 percent of people's biggest regret was not becoming who they wanted to be.",
    "start": 42.58,
-   "end": 50.66
+   "end": 49.38
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Your mom's ghost is almost see-through.",
-   "start": 50.96,
-   "end": 53.68
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/009.wav",
+   "start": 49.68,
+   "end": 52.4
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "And Mom has no idea. She's been carrying it around for 17 years.",
-   "start": 53.98,
-   "end": 58.14
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/010.wav",
+   "start": 52.7,
+   "end": 56.86
   },
   {
    "scene": "rules",
    "who": "DAD",
    "text": "Why is our kid staring at your head?",
    "act": "confused, half-joking",
-   "start": 58.44,
-   "end": 61.0
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/011.wav",
+   "start": 57.16,
+   "end": 59.72
   },
   {
    "scene": "rules",
    "who": "MOM",
    "text": "I think it's a phase.",
    "act": "amused, whispering",
-   "take": "episodes/dreams/takes/012_0.wav",
-   "start": 61.3,
-   "end": 63.7
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/012.wav",
+   "start": 60.02,
+   "end": 62.42
   },
   {
    "scene": "bus",
    "who": "NARRATOR",
    "text": "The next morning, the whole world is haunted.",
-   "start": 64.25,
-   "end": 66.89
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/013.wav",
+   "start": 62.97,
+   "end": 65.61
   },
   {
    "scene": "bus",
    "who": "BUS DRIVER",
    "text": "Sit down. Don't touch anything. Don't talk to me.",
    "act": "grumpy, gravelly, deadpan",
-   "start": 67.19,
-   "end": 71.11
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/014.wav",
+   "start": 65.91,
+   "end": 69.83
   },
   {
    "scene": "bus",
    "who": "NARRATOR",
    "text": "Behind him, a ghost in a tuxedo is singing opera.",
-   "start": 71.41,
-   "end": 74.61
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/015.wav",
+   "start": 70.13,
+   "end": 73.33
   },
   {
    "scene": "bus",
    "who": "NARRATOR",
    "text": "The businessman in row 3? His ghost is a surfer. The toddler in row 5 has no ghost. Just snacks.",
-   "start": 74.91,
-   "end": 81.39
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/016.wav",
+   "start": 73.63,
+   "end": 80.11
   },
   {
    "scene": "class",
    "who": "TEACHER",
    "text": "Phones away. Today is the most exciting day of the year. Fractions.",
    "act": "painfully flat and bored",
-   "start": 81.94,
-   "end": 86.82
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/017.wav",
+   "start": 80.66,
+   "end": 85.54
   },
   {
    "scene": "class",
    "who": "NARRATOR",
    "text": "Your math teacher's ghost is a stuntman. On fire. On a motorcycle.",
-   "start": 87.12,
-   "end": 92.32
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/018.wav",
+   "start": 85.84,
+   "end": 91.04
   },
   {
    "scene": "class",
    "who": "NARRATOR",
    "text": "The principal's ghost is a DJ. The gym coach's ghost is a ballet dancer. He's very good.",
-   "start": 92.62,
-   "end": 98.06
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/019.wav",
+   "start": 91.34,
+   "end": 96.78
   },
   {
    "scene": "class",
    "who": "COACH",
    "text": "Twenty laps! Nobody cares about your feelings!",
    "act": "shouting, gruff coach",
-   "start": 98.36,
-   "end": 101.4
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/020.wav",
+   "start": 97.08,
+   "end": 100.12
   },
   {
    "scene": "class",
    "who": "NARRATOR",
    "text": "Behind him, a perfect pirouette.",
-   "start": 101.7,
-   "end": 103.54
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/021.wav",
+   "start": 100.42,
+   "end": 102.26
   },
   {
    "scene": "lunch",
    "who": "NARRATOR",
    "text": "And the lunch lady's ghost is a fashion designer in Paris.",
-   "start": 104.09,
-   "end": 107.21
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/022.wav",
+   "start": 102.81,
+   "end": 105.93
   },
   {
    "scene": "lunch",
    "who": "NARRATOR",
-   "text": "Real fact: Vera Wang was a figure skater and a journalist. She didn't design her first dress until she was 40.",
-   "start": 107.51,
-   "end": 114.31
+   "text": "Vera Wang was a figure skater and a journalist first. She didn't design her first dress until she was 40.",
+   "start": 106.23,
+   "end": 112.87
   },
   {
    "scene": "lunch",
    "who": "THEO",
    "text": "Okay, okay. What's my ghost?",
    "act": "excited, bouncing, desperate to know",
-   "take": "episodes/dreams/takes/024_1.wav",
-   "start": 114.61,
-   "end": 116.93
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/024.wav",
+   "start": 113.17,
+   "end": 115.49
   },
   {
    "scene": "lunch",
    "who": "YOU",
    "text": "You're 17. You don't have one yet.",
-   "start": 117.23,
-   "end": 120.35
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/025.wav",
+   "start": 115.79,
+   "end": 118.91
   },
   {
    "scene": "lunch",
    "who": "THEO",
    "text": "Then make one up!",
    "act": "whiny, pleading",
-   "start": 120.65,
-   "end": 121.93
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/026.wav",
+   "start": 119.21,
+   "end": 120.49
   },
   {
    "scene": "dinner",
    "who": "NARRATOR",
    "text": "That night at dinner, a plane flies over the house.",
-   "start": 122.48,
-   "end": 125.44
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/027.wav",
+   "start": 121.04,
+   "end": 124.0
   },
   {
    "scene": "dinner",
    "who": "MOM",
    "text": "Boeing 737. Running late.",
-   "start": 125.74,
-   "end": 128.3
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/028.wav",
+   "start": 124.3,
+   "end": 126.86
   },
   {
    "scene": "dinner",
    "who": "DAD",
    "text": "She does that. Every plane, every time.",
    "act": "proud, affectionate chuckle",
-   "start": 128.6,
-   "end": 131.96
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/029.wav",
+   "start": 127.16,
+   "end": 130.52
   },
   {
    "scene": "dinner",
    "who": "NARRATOR",
    "text": "Nobody ever asked her why.",
-   "start": 132.26,
-   "end": 134.9
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/030.wav",
+   "start": 130.82,
+   "end": 133.46
   },
   {
    "scene": "dinner",
    "who": "NARRATOR",
    "text": "And your dad's ghost? You can barely see it at all. Like it's standing in exactly the same spot he is.",
-   "start": 135.2,
-   "end": 140.72
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/031.wav",
+   "start": 133.76,
+   "end": 139.28
   },
   {
    "scene": "dinner",
    "who": "NARRATOR",
    "text": "You figure his dream must be almost gone.",
-   "start": 141.02,
-   "end": 143.98
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/032.wav",
+   "start": 139.58,
+   "end": 142.54
   },
   {
    "scene": "goal",
    "who": "NARRATOR",
    "text": "You do the math. Mom's ghost loses a little light every day. 30 days.",
-   "start": 144.53,
-   "end": 150.05
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/033.wav",
+   "start": 143.09,
+   "end": 148.61
   },
   {
    "scene": "goal",
    "who": "NARRATOR",
-   "text": "Flight school costs anywhere from 6,000 to 20,000 dollars. That's real.",
-   "start": 150.35,
-   "end": 155.79
+   "text": "Flight school costs anywhere from 6,000 to 20,000 dollars.",
+   "start": 148.91,
+   "end": 152.59
   },
   {
    "scene": "goal",
    "who": "NARRATOR",
    "text": "You have 43 dollars and a library card.",
-   "start": 156.09,
-   "end": 159.29
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/035.wav",
+   "start": 152.89,
+   "end": 156.09
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "So you start a business. Dream Detective. 20 dollars, and you tell people who they almost became.",
-   "start": 159.84,
-   "end": 165.6
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/036.wav",
+   "start": 156.64,
+   "end": 162.4
   },
   {
    "scene": "detective",
    "who": "CUSTOMER",
    "text": "Seriously? A stand-up comedian? Me?",
    "act": "shocked, then delighted",
-   "take": "episodes/dreams/takes/037_0.wav",
-   "start": 165.9,
-   "end": 168.94
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/037.wav",
+   "start": 162.7,
+   "end": 165.74
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "She does an open mic that night. She kills.",
-   "start": 169.24,
-   "end": 172.92
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/038.wav",
+   "start": 166.04,
+   "end": 169.72
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "Not every ghost is a surprise, though. The mailman's ghost is... a mailman. Same bag. Same shorts.",
-   "start": 173.22,
-   "end": 181.22
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/039.wav",
+   "start": 170.02,
+   "end": 178.02
   },
   {
    "scene": "detective",
    "who": "MAILMAN",
    "text": "Huh. Guess I already got it.",
    "act": "pleased, laid-back, smiling",
-   "start": 181.52,
-   "end": 183.52
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/040.wav",
+   "start": 178.32,
+   "end": 180.32
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "Remember that guy. He matters later.",
-   "start": 183.82,
-   "end": 186.06
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/041.wav",
+   "start": 180.62,
+   "end": 182.86
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "Your math teacher jumps a motorcycle over the school fountain at the pep rally. The fire alarm is not a fan.",
-   "start": 186.36,
-   "end": 192.76
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/042.wav",
+   "start": 183.16,
+   "end": 189.56
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "And the bus driver sings opera on route 9. The video gets 6 million views.",
-   "start": 193.06,
-   "end": 198.18
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/043.wav",
+   "start": 189.86,
+   "end": 194.98
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "By day 20, there's a line around the block.",
-   "start": 198.48,
-   "end": 201.2
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/044.wav",
+   "start": 195.28,
+   "end": 198.0
   },
   {
    "scene": "detective",
    "who": "DAD",
    "text": "Our kid is running a ghost business out of the garage. Should I be worried or proud?",
    "act": "baffled, amused",
-   "start": 201.5,
-   "end": 207.1
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/045.wav",
+   "start": 198.3,
+   "end": 203.9
   },
   {
    "scene": "detective",
    "who": "MOM",
    "text": "Proud. The kid charges tax.",
    "act": "dry, proud",
-   "start": 207.4,
-   "end": 209.8
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/046.wav",
+   "start": 204.2,
+   "end": 206.6
   },
   {
    "scene": "detective",
    "who": "NARRATOR",
    "text": "Day 5, 400 dollars. Day 12, 3,000. Day 20, 9,500 dollars.",
-   "start": 210.1,
-   "end": 216.74
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/047.wav",
+   "start": 206.9,
+   "end": 213.54
   },
   {
    "scene": "detective",
    "who": "THEO",
    "text": "Okay, what's my ghost now?",
    "act": "impatient, excited",
-   "start": 217.04,
-   "end": 219.36
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/048.wav",
+   "start": 213.84,
+   "end": 216.16
   },
   {
    "scene": "detective",
    "who": "YOU",
    "text": "Still nothing, Theo.",
-   "start": 219.66,
-   "end": 221.02
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/049.wav",
+   "start": 216.46,
+   "end": 217.82
   },
   {
    "scene": "detective",
    "who": "THEO",
    "text": "Is it a Navy SEAL? It's a Navy SEAL.",
    "act": "smug, convinced",
-   "take": "episodes/dreams/takes/050_1.wav",
-   "start": 221.32,
-   "end": 224.68
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/050.wav",
+   "start": 218.12,
+   "end": 221.48
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "But there's a cost. Once you can see everyone's dream, you start to notice whose dream you are.",
-   "start": 225.23,
-   "end": 230.11
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/051.wav",
+   "start": 222.03,
+   "end": 226.91
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Mom was accepted to flight school the year you were born. She never went.",
-   "start": 230.41,
-   "end": 235.37
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/052.wav",
+   "start": 227.21,
+   "end": 232.17
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "You find the letter in the attic. Still in the envelope. Next to her old aviator jacket.",
-   "start": 235.67,
-   "end": 241.67
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/053.wav",
+   "start": 232.47,
+   "end": 238.47
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
-   "text": "Raising one kid costs about 310,000 dollars. That's real. You weren't the reason she didn't go. You were the price.",
-   "start": 241.97,
-   "end": 249.65
+   "text": "One study found raising one kid costs about 310,000 dollars. You weren't the reason she didn't go. You were the price.",
+   "start": 238.77,
+   "end": 246.45
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Oh, and parents' sleep doesn't fully recover for 6 years after their first kid. You owe her a lot of naps.",
-   "start": 249.95,
-   "end": 256.19
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/055.wav",
+   "start": 246.75,
+   "end": 252.99
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "And somewhere in all of this, you get an email of your own. The summer animation program you applied to. Accepted.",
-   "start": 256.49,
-   "end": 263.53
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/056.wav",
+   "start": 253.29,
+   "end": 260.33
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Deposit: 14,800 dollars. Due day 30. Same day as flight school.",
-   "start": 263.83,
-   "end": 269.27
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/057.wav",
+   "start": 260.63,
+   "end": 266.07
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "So you tell her. All of it.",
-   "start": 269.82,
-   "end": 271.98
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/058.wav",
+   "start": 266.62,
+   "end": 268.78
   },
   {
    "scene": "sceptic",
    "who": "MOM",
    "text": "Sweetie, I'm 47. That plane has left.",
    "act": "gentle, a little sad, trying to smile",
-   "take": "episodes/dreams/takes/059_0.wav",
-   "start": 272.28,
-   "end": 277.56
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/059.wav",
+   "start": 269.08,
+   "end": 274.36
   },
   {
    "scene": "sceptic",
    "who": "DAD",
    "text": "She's not wrong. It's a big plane.",
    "act": "trying to be funny, awkward",
-   "start": 277.86,
-   "end": 280.26
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/060.wav",
+   "start": 274.66,
+   "end": 277.06
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "But here's the thing. There's no maximum age for a private pilot license in America. None.",
-   "start": 280.56,
-   "end": 285.52
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/061.wav",
+   "start": 277.36,
+   "end": 282.32
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "Grandma Moses didn't start painting until she was 78.",
-   "start": 285.82,
-   "end": 289.1
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/062.wav",
+   "start": 282.62,
+   "end": 285.9
   },
   {
    "scene": "sceptic",
    "who": "MOM",
    "text": "78?",
    "act": "surprised, a spark of interest",
-   "start": 289.4,
-   "end": 290.52
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/063.wav",
+   "start": 286.2,
+   "end": 287.32
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "Her ghost flickers. Just a little.",
-   "start": 290.82,
-   "end": 293.54
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/064.wav",
+   "start": 287.62,
+   "end": 290.34
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "Day 28. You wake up and her ghost is gone. Completely gone.",
-   "start": 293.84,
-   "end": 297.6
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/065.wav",
+   "start": 290.64,
+   "end": 294.4
   },
   {
    "scene": "sceptic",
    "who": "NARRATOR",
    "text": "Then it flickers back. Fainter than ever. Two days left.",
-   "start": 297.9,
-   "end": 301.66
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/066.wav",
+   "start": 294.7,
+   "end": 298.46
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "Day 30. 4:59 p.m. You have 15,000 dollars.",
-   "start": 302.21,
-   "end": 305.89
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/067.wav",
+   "start": 299.01,
+   "end": 302.69
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "Two deadlines. One minute. Your deposit, or her flight school.",
-   "start": 306.19,
-   "end": 310.75
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/068.wav",
+   "start": 302.99,
+   "end": 307.55
   },
   {
    "scene": "choice",
    "who": "THEO",
    "text": "Bro! 30 seconds! Click something!",
    "act": "panicking, shouting",
-   "start": 311.05,
-   "end": 313.61
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/069.wav",
+   "start": 307.85,
+   "end": 310.41
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "Your animation program. The thing you've wanted since you were 6.",
-   "start": 313.91,
-   "end": 317.83
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/070.wav",
+   "start": 310.71,
+   "end": 314.63
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "On one screen, your future. On the other, hers. 10 seconds.",
-   "start": 318.13,
-   "end": 323.73
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/071.wav",
+   "start": 314.93,
+   "end": 320.53
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "Your finger is on the button. And behind you, in the window, something faint appears. Your own ghost.",
-   "start": 324.03,
-   "end": 330.91
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/072.wav",
+   "start": 320.83,
+   "end": 327.71
   },
   {
    "scene": "choice",
    "who": "NARRATOR",
    "text": "You press the other one.",
-   "start": 331.21,
-   "end": 332.33
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/073.wav",
+   "start": 328.01,
+   "end": 329.13
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "Three weeks later, a small plane flies over your house.",
-   "start": 332.88,
-   "end": 335.84
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/074.wav",
+   "start": 329.68,
+   "end": 332.64
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "Earlier that morning, her instructor told her most people are nervous on their first flight.",
-   "start": 336.14,
-   "end": 340.7
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/075.wav",
+   "start": 332.94,
+   "end": 337.5
   },
   {
    "scene": "flight",
    "who": "MOM",
    "text": "I've been ready for 17 years.",
    "act": "calm, confident, quietly excited",
-   "take": "episodes/dreams/takes/076_2.wav",
-   "start": 341.0,
-   "end": 343.4
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/076.wav",
+   "start": 337.8,
+   "end": 340.2
   },
   {
    "scene": "flight",
    "who": "MOM",
    "text": "Cessna 172. Mine.",
    "act": "joyful, breathless, laughing",
-   "take": "episodes/dreams/takes/077_0.wav",
-   "start": 343.7,
-   "end": 348.42
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/077.wav",
+   "start": 340.5,
+   "end": 345.22
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "And her ghost catches up with her. Then it's gone. Because it doesn't have to float behind her anymore.",
-   "start": 348.72,
-   "end": 354.72
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/078.wav",
+   "start": 345.52,
+   "end": 351.52
   },
   {
    "scene": "dad",
    "who": "NARRATOR",
    "text": "And Dad's ghost? The one you could barely see?",
-   "start": 355.27,
-   "end": 358.23
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/079.wav",
+   "start": 352.07,
+   "end": 355.03
   },
   {
    "scene": "dad",
    "who": "NARRATOR",
    "text": "It was never fading. It was standing exactly where he is. Like the mailman's. Because the life your dad dreamed about is the one he's living.",
-   "start": 358.53,
-   "end": 366.61
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/080.wav",
+   "start": 355.33,
+   "end": 363.41
   },
   {
    "scene": "dad",
    "who": "DAD",
    "text": "I always wanted to be your dad. Your mom wanted to fly. Now we both get to.",
    "act": "warm, choked up, smiling",
-   "take": "episodes/dreams/takes/081_0.wav",
-   "start": 366.91,
-   "end": 373.79
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/081.wav",
+   "start": 363.71,
+   "end": 370.59
   },
   {
    "scene": "dad",
    "who": "DAD",
    "text": "Also, I called the animation school. Your deposit's paid. I've been saving since you were 6.",
    "act": "sly, proud, holding back tears",
-   "take": "episodes/dreams/takes/082_1.wav",
-   "start": 374.09,
-   "end": 380.01
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/082.wav",
+   "start": 370.89,
+   "end": 376.81
   },
   {
    "scene": "dad",
    "who": "MOM",
    "text": "And sweetie? You were never the price. You were the point.",
    "act": "tender, tearful, smiling",
-   "take": "episodes/dreams/takes/083_1.wav",
-   "start": 380.31,
-   "end": 385.43
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/083.wav",
+   "start": 377.11,
+   "end": 382.23
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "Okay. Now you have to tell me. What's my ghost?",
    "act": "nervous, hopeful",
-   "take": "episodes/dreams/takes/084_0.wav",
-   "start": 385.98,
-   "end": 389.26
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/084.wav",
+   "start": 382.78,
+   "end": 386.06
   },
   {
    "scene": "theo",
    "who": "NARRATOR",
    "text": "Theo turned 18 last week. You look.",
-   "start": 389.56,
-   "end": 392.84
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/085.wav",
+   "start": 386.36,
+   "end": 389.64
   },
   {
    "scene": "theo",
    "who": "NARRATOR",
    "text": "It's Theo. In sequins. Dancing.",
-   "start": 393.14,
-   "end": 395.78
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/086.wav",
+   "start": 389.94,
+   "end": 392.58
   },
   {
    "scene": "theo",
    "who": "NARRATOR",
    "text": "And honestly? He's amazing.",
-   "start": 396.08,
-   "end": 398.4
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/087.wav",
+   "start": 392.88,
+   "end": 395.2
   },
   {
    "scene": "theo",
    "who": "YOU",
    "text": "It's a Navy SEAL.",
    "act": "deadpan, straight face",
-   "start": 398.7,
-   "end": 399.9
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/088.wav",
+   "start": 395.5,
+   "end": 396.7
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "I knew it!",
    "act": "triumphant, shouting",
-   "start": 400.2,
-   "end": 401.08
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/089.wav",
+   "start": 397.0,
+   "end": 397.88
   },
   {
    "scene": "coda",
    "who": "NARRATOR",
    "text": "Mom flies every Sunday now. She still names every plane she passes. Out loud. On the radio.",
-   "start": 401.63,
-   "end": 408.27
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/090.wav",
+   "start": 398.43,
+   "end": 405.07
   },
   {
    "scene": "coda",
    "who": "NARRATOR",
    "text": "Air traffic control has asked her to stop.",
-   "start": 408.57,
-   "end": 411.13
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/091.wav",
+   "start": 405.37,
+   "end": 407.93
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "That night, you look in the mirror. The faint shape from the window is back. Bright. Brand new.",
-   "start": 411.68,
-   "end": 417.76
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/092.wav",
+   "start": 408.48,
+   "end": 414.56
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "And it winks.",
-   "start": 418.06,
-   "end": 419.02
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/093.wav",
+   "start": 414.86,
+   "end": 415.82
   },
   {
    "scene": "endcard",
    "who": "NARRATOR",
    "text": "So if you could see the dream your parents gave up for you, would you want to know? Tell us in the comments.",
-   "start": 419.57,
-   "end": 424.85
+   "take": "/tmp/claude-0/-home-user-whatif-channel/21e8e67b-ab8d-5d22-9c9e-b4f2b5480de0/scratchpad/dreams/keep/094.wav",
+   "start": 416.37,
+   "end": 421.65
   }
  ]
 }
