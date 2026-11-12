@@ -106,7 +106,7 @@ const Jet: React.FC<{ x: number; y: number; s?: number }> = ({ x, y, s = 1 }) =>
   </g>
 );
 
-const Cessna: React.FC<{ x: number; y: number; s?: number; t: number; pilot?: React.ReactNode; flip?: boolean }> = ({ x, y, s = 1, t, pilot, flip = false }) => (
+export const Cessna: React.FC<{ x: number; y: number; s?: number; t: number; pilot?: React.ReactNode; flip?: boolean }> = ({ x, y, s = 1, t, pilot, flip = false }) => (
   <g transform={`translate(${x} ${y + Math.sin(t * 2) * 6}) scale(${flip ? -s : s} ${s}) rotate(${Math.sin(t * 1.3) * 2})`}>
     <rect x={-200} y={-74} width={330} height={20} rx={10} fill="#F4F6FA" />
     <path d="M -170 -10 Q -170 -50 -120 -54 L 80 -54 Q 140 -50 160 -10 Q 150 26 90 30 L -120 30 Q -160 26 -170 -10 Z" fill={P.white} />
@@ -155,7 +155,7 @@ const Screen: React.FC<{ x: number; y: number; t: number; title: string; sub: st
   </g>
 );
 
-const Label: React.FC<{ t: number; at: number; x: number; y: number; text: string; color?: string; bg?: string; size?: number; until?: number; rot?: number }> =
+export const Label: React.FC<{ t: number; at: number; x: number; y: number; text: string; color?: string; bg?: string; size?: number; until?: number; rot?: number }> =
   ({ t, at: a, x, y, text, color = P.ink, bg = P.cream, size = 40, until = 1e9, rot = 0 }) => {
     const p = pop(t, a) * (1 - ease(t, until, until + 0.3));
     if (p <= 0.001) return null;

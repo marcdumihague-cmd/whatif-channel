@@ -6,6 +6,8 @@ import { Thumb as OneMinuteThumb } from "./om/Thumb";
 import { Teaser as OneMinuteTeaser, TEASER_DURATION } from "./om/Teaser";
 import { Episode as Dreams, DURATION as DR_DURATION } from "./dr/Episode";
 import { Thumb as DreamsThumb } from "./dr/Thumb";
+import { Episode as Watched, DURATION as WT_DURATION } from "./wt/Episode";
+import { Thumb as WatchedThumb } from "./wt/Thumb";
 import timeline from "../public/test-scene/timeline.json";
 
 export const FPS = 30;
@@ -19,5 +21,7 @@ export const Root = () => (
     <Composition id="LastLiar" component={Episode} durationInFrames={Math.ceil(DURATION * FPS)} fps={FPS} width={1920} height={1080} />
     <Composition id="Dreams" component={Dreams} durationInFrames={Math.ceil(DR_DURATION * FPS)} fps={FPS} width={1920} height={1080} />
     <Composition id="DreamsThumb" component={DreamsThumb} durationInFrames={1} fps={FPS} width={1280} height={720} />
+    <Composition id="Watched" component={Watched} durationInFrames={Math.ceil(WT_DURATION * FPS)} fps={FPS} width={1920} height={1080} />
+    <Composition id="WatchedThumb" component={WatchedThumb} durationInFrames={1} fps={FPS} width={1280} height={720} />
   </>
 );

@@ -1,6 +1,6 @@
 """Mix an episode: voice + a generated ambient music bed + generated phone/knock sounds.
 
-    .venv-qwen/bin/python tts/mix.py one-minute|dreams
+    .venv-qwen/bin/python tts/mix.py one-minute|dreams|watched
 
 Reads video/public/<name>/voice.wav and timeline.json, writes video/public/<name>/mix.wav.
 Every sound is synthesised here (no third-party audio, nothing to license). Cue times mirror the
@@ -76,6 +76,11 @@ def whoosh(d=1.4):  # soft air: low-passed noise that swells and fades
 def thump():  # a low, soft heartbeat-like knock
     t = sec(0.25)
     return env(np.sin(2 * np.pi * 70 * t) + 0.3 * np.sin(2 * np.pi * 110 * t), 0.004, 0.07)
+
+def hum(d):  # a low engine drone: two sines with a slow wobble
+    t = sec(d)
+    x = np.sin(2 * np.pi * 82 * t + 0.4 * np.sin(2 * np.pi * 0.5 * t)) + 0.5 * np.sin(2 * np.pi * 164 * t)
+    return x * np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.0)
 
 def flyby(d):  # a plane passing: low-passed noise that swells and fades
     return whoosh(d)
@@ -154,6 +159,30 @@ elif name == "dreams":  # cues mirror video/src/dr/Episode.tsx
     place(sfx, whoosh(2.0), S(at("tease")) + (E(at("tease")) - S(at("tease"))) * 0.5, 0.18)
     sc = at("sceptic")
     quiets = [(S(sc + 7) - 0.3, E(sc + 8) + 0.5), (S(c + 5), S(c + 6) + 1.0)]
+elif name == "watched":  # cues mirror video/src/wt/Episode.tsx; soft and low only
+    at = lambda scene, k=0: first(scene) + k
+    D = lambda i: E(i) - S(i)
+    for i in range(5):
+        place(sfx, thump(), S(1) + 1.25 + i * 0.07, 0.35)  # the knives drop into the counter
+    h = first("half")
+    place(sfx, whoosh(1.0), S(h + 1) + 0.2, 0.2)
+    place(sfx, thump(), S(h + 1) + 1.4, 0.6)  # the landing that isn't
+    c = first("chess")
+    for x in np.arange(S(c + 4), E(c + 7), 0.67):
+        place(sfx, thump() * 0.5, x, 0.12)  # chess clock taps
+    co = first("cost")
+    burst = S(co + 1) + D(co + 1) * 0.75
+    place(sfx, whoosh(4.0), burst, 0.3)  # the pipe lets go
+    f = first("flight")
+    land = S(f + 13) + D(f + 13) * 0.55
+    place(sfx, hum(land - S(f) + 1.0), S(f), 0.1)  # the engine, low and steady
+    place(sfx, thump(), S(f + 2), 0.35)  # Ray slumps
+    place(sfx, thump(), land, 0.6)
+    place(sfx, whoosh(2.0), land, 0.25)
+    k = at("tease", 2)
+    for i in range(3):
+        place(sfx, knock(), S(k) + 0.3 + i * 0.35, 0.45)
+    quiets = [(S(f + 10), land + 0.5)]
 from scipy.signal import butter, sosfilt
 sfx = sosfilt(butter(4, 2000, fs=SR, output="sos"), sfx).astype(np.float32)  # cut everything above ~2 kHz
 music = pad(n)

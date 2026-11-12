@@ -14,6 +14,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DO pick a premise about people close to you** (a parent, a crush, your own body). Same template,
   money/odds premises flopped at 0.1x. The premise decides; structure is table stakes. (us, transcript study)
 - **DO check the premise isn't already made**: saturated premises flop. (us, transcript study)
+- **Search the premise's closest *wording family* too, not just its exact title**: the title search
+  for "do everything you watched on YouTube" found nothing, but vidIQ outliers found Jeremy Bearimy's
+  "Learn Anything Instantly" (672K views, 1 week old). Differentiate clearly or pick another idea. (us, 2026-11-12)
 - **DO keep it 7-10 minutes.** Flops ran 13-19 min. (us, transcript study)
 - **DO plant a detail early and pay it off late, and end on a selfless choice under a timer.** (us, transcript study)
 - **DON'T gender "you".** "He's charging tax" about the viewer was rewritten to "The kid charges tax". (us, 2026-11-12)
@@ -62,6 +65,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **Watch zooms**: a punch-in or push-in pushes top-edge text off screen. (us)
 - **DO lay out the animation on an estimated timeline** (words / 2.6 per second) while the voice is
   still generating, then re-check stills on the real one. (us)
+- **No emoji in SVG text**: the render browser has no emoji font, so they'd show as boxes. Draw
+  icons with shapes. (us, 2026-11-12)
+- **Seated characters need a seat drawn**: pose "sit" has no legs and floats otherwise. (us, 2026-11-12)
 - **Characters with arms up ("cheer") hide their arms behind the head** in this kit; don't rely on
   that pose to read in a thumbnail. (us)
 - **Thumbnail with pose "phone" or hand props**: check for a second right arm. (us, episode 3)
