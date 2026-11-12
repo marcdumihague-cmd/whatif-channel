@@ -6,11 +6,15 @@ import episodeTimeline from "../../public/one-minute/timeline.json";
 import ctaTimeline from "../../public/one-minute-teaser/timeline.json";
 import { Episode } from "./Episode";
 import { P, pop, ease, Glow, Head, Bokeh, Look } from "../ll/kit";
+import { interpolate } from "remotion";
 
 const FPS = 30;
 const font = "'Inter Display', Inter, sans-serif";
 const L = episodeTimeline.lines;
-const CLIP = L[5].end + 0.8; // through "Click. The line goes dead. Exactly 60 seconds."
+// Through the rules: "More than 100 billion people have ever lived. You get to choose 30." Cut just
+// before the episode switches to the next shot (the midpoint of the pause after that line).
+const LAST = L.findIndex((l) => l.text.startsWith("More than 100 billion"));
+const CLIP = (L[LAST].end + L[LAST + 1].start) / 2 - 0.05;
 const CTA = ctaTimeline.duration + 1.2;
 export const TEASER_DURATION = CLIP + CTA;
 const GRANDPA: Look = { skin: P.skin, hair: "#E8E4DC", top: "#8A6A4F", topDark: "#6F543E", hairStyle: "bald", glasses: true, mustache: "#E8E4DC" };
@@ -40,12 +44,14 @@ const BigCaption: React.FC<{ t: number }> = ({ t }) => {
 const Clip: React.FC = () => {
   const frame = useCurrentFrame();
   const t = frame / FPS;
+  // tight crop on the caller and Grandpa for the cold open, full width for the promise and rules shots
+  const wide = interpolate(t, [L[5].end + 0.2, L[6].start], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 50%, #2C3852 0%, #10141F 75%)" }}>
       <Header t={t} />
       {/* the episode, cropped to the caller, the phone and Grandpa's bubble */}
       <div style={{ position: "absolute", top: 560, left: 0, width: 1080, height: 855, overflow: "hidden", borderRadius: 36, background: "#18202F" }}>
-        <div style={{ position: "absolute", left: -285, top: 45, width: 1920, height: 1080, transform: "scale(0.75)", transformOrigin: "0 0" }}>
+        <div style={{ position: "absolute", left: -285 * (1 - wide), top: 45 + 79 * wide, width: 1920, height: 1080, transform: `scale(${0.75 - 0.1875 * wide})`, transformOrigin: "0 0" }}>
           <Episode captions={false} />
         </div>
       </div>

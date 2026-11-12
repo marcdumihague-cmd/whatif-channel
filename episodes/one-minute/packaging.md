@@ -68,8 +68,9 @@ the middle third, so a 9:16 crop keeps the faces; the call timer sits top-center
 
 ## Teaser (vertical, for TikTok / Instagram Reels / YouTube Shorts)
 
-`video/out/one-minute-teaser.mp4`: 1080x1920, 33 s. The cold open (Grandpa's call, cut off at "Tell
-your grandma I..."), then the narrator: "Want to know how Grandpa's sentence ends? Watch the full
+`video/out/one-minute-teaser.mp4`: 1080x1920, 61 s. The cold open (Grandpa's call, cut off at "Tell
+your grandma I..."), the promise and the rules, cut after "More than 100 billion people have ever
+lived. You get to choose 30." (the user's chosen cut point), then the narrator: "Want to know how Grandpa's sentence ends? Watch the full
 video on my YouTube channel. The link is below." End card: WHAT WAS HE GOING TO SAY? / FULL VIDEO ON
 MY YOUTUBE CHANNEL / LINK BELOW. Re-render: `npx remotion render src/index.ts OneMinuteTeaser out/one-minute-teaser.mp4`.
 
