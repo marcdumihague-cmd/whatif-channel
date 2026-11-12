@@ -5,6 +5,7 @@ Generated from `script.json` (the source of truth). Lines marked *(acted)* were 
 How it applies the rules: a visual cold open with a deadline and an open loop (Dad's invisible ghost, paid at ~85%); a goal + 30-day clock (Mom's ghost fading); money only as a means; real checkable facts (Cornell regret study, Vera Wang, AOPA flight costs, Brookings, sleep study, no pilot age limit, Grandma Moses); a planted detail (the mailman whose ghost is a mailman) that explains Dad; a sceptic who converts (Mom: "I'm 47" -> "78?"); a running gag that flips (Theo's "What's my ghost?" -> sequins -> "It's a Navy SEAL"); a selfless choice under a timer; a sequel tease; one question to the viewer.
 
 
+
 ## cold_open
 
 **NARRATOR:** There's a ghost behind your mom. The pilot she never became.
@@ -21,7 +22,7 @@ How it applies the rules: a visual cold open with a deadline and an open loop (D
 **NARRATOR:** Here's how it works. Behind every grown-up floats the person they almost became.
 **NARRATOR:** Bright means they're still close. Faint means they've almost given up. And when it fades out completely, it's gone. Forever.
 **NARRATOR:** Kids don't have one yet. It shows up the day you turn 18.
-**NARRATOR:** That's real, by the way. In a 2018 Cornell study, 76 percent of people said their biggest regret was not becoming who they wanted to be.
+**NARRATOR:** A 2018 Cornell study found that 76 percent of people's biggest regret was not becoming who they wanted to be.
 **NARRATOR:** Your mom's ghost is almost see-through.
 **NARRATOR:** And Mom has no idea. She's been carrying it around for 17 years.
 **DAD:** Why is our kid staring at your head? *(acted: confused, half-joking)*
@@ -45,7 +46,7 @@ How it applies the rules: a visual cold open with a deadline and an open loop (D
 ## lunch
 
 **NARRATOR:** And the lunch lady's ghost is a fashion designer in Paris.
-**NARRATOR:** Real fact: Vera Wang was a figure skater and a journalist. She didn't design her first dress until she was 40.
+**NARRATOR:** Vera Wang was a figure skater and a journalist first. She didn't design her first dress until she was 40.
 **THEO:** Okay, okay. What's my ghost? *(acted: excited, bouncing, desperate to know)*
 **YOU:** You're 17. You don't have one yet.
 **THEO:** Then make one up! *(acted: whiny, pleading)*
@@ -62,7 +63,7 @@ How it applies the rules: a visual cold open with a deadline and an open loop (D
 ## goal
 
 **NARRATOR:** You do the math. Mom's ghost loses a little light every day. 30 days.
-**NARRATOR:** Flight school costs anywhere from 6,000 to 20,000 dollars. That's real.
+**NARRATOR:** Flight school costs anywhere from 6,000 to 20,000 dollars.
 **NARRATOR:** You have 43 dollars and a library card.
 
 ## detective
@@ -88,7 +89,7 @@ How it applies the rules: a visual cold open with a deadline and an open loop (D
 **NARRATOR:** But there's a cost. Once you can see everyone's dream, you start to notice whose dream you are.
 **NARRATOR:** Mom was accepted to flight school the year you were born. She never went.
 **NARRATOR:** You find the letter in the attic. Still in the envelope. Next to her old aviator jacket.
-**NARRATOR:** Raising one kid costs about 310,000 dollars. That's real. You weren't the reason she didn't go. You were the price.
+**NARRATOR:** One study found raising one kid costs about 310,000 dollars. You weren't the reason she didn't go. You were the price.
 **NARRATOR:** Oh, and parents' sleep doesn't fully recover for 6 years after their first kid. You owe her a lot of naps.
 **NARRATOR:** And somewhere in all of this, you get an email of your own. The summer animation program you applied to. Accepted.
 **NARRATOR:** Deposit: 14,800 dollars. Due day 30. Same day as flight school.

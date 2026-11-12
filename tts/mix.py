@@ -68,33 +68,17 @@ def smash():
     t = sec(0.6)
     return env(rng.normal(0, 1, len(t)) * (0.6 + 0.4 * np.sin(2 * np.pi * 3100 * t)), 0.002, 0.12)
 
-def shimmer(d=1.6):  # a ghost appearing: rising glassy chord
+def whoosh(d=1.4):  # soft air: low-passed noise that swells and fades
     t = sec(d)
-    x = sum(np.sin(2 * np.pi * f * (1 + 0.04 * t) * t) for f in (880, 1320, 1760, 2640))
-    return x * np.minimum(1, t / (d * 0.6)) * np.minimum(1, (d - t) / 0.3)
+    x = np.cumsum(rng.normal(0, 1, len(t))); x -= np.convolve(x, np.ones(400) / 400, mode="same")
+    return x * np.sin(np.pi * t / d) ** 2
 
-def sparkle():
-    out = np.zeros(int(0.5 * SR))
-    for k, f in enumerate((2093, 2637, 3136, 4186)):
-        c = env(np.sin(2 * np.pi * f * sec(0.25)), 0.002, 0.08); i = int(k * 0.06 * SR); out[i:i + len(c)] += c
-    return out
+def thump():  # a low, soft heartbeat-like knock
+    t = sec(0.25)
+    return env(np.sin(2 * np.pi * 70 * t) + 0.3 * np.sin(2 * np.pi * 110 * t), 0.004, 0.07)
 
-def flyby(d):  # jet overhead: noise that swells and drops in pitch
-    t = sec(d)
-    x = np.cumsum(rng.normal(0, 1, len(t))); x -= np.convolve(x, np.ones(200) / 200, mode="same")
-    return x * np.sin(np.pi * t / d) ** 2 * (1 + 0.3 * np.sin(2 * np.pi * (300 - 120 * t / d) * t))
-
-def engine(d, f=55):  # motorbike / propeller: buzzy low tone with throttle wobble
-    t = sec(d)
-    ph = 2 * np.pi * f * t * (1 + 0.15 * np.sin(2 * np.pi * 0.7 * t))
-    return np.sign(np.sin(ph)) * 0.5 + np.sin(2 * ph) * np.minimum(1, t / 0.3) * np.minimum(1, (d - t) / 0.4)
-
-def alarm(d):
-    t = sec(d)
-    return np.sign(np.sin(2 * np.pi * 3 * t)) * 0.5 * np.sin(2 * np.pi * 950 * t) + 0.5 * np.sin(2 * np.pi * 950 * t)
-
-def kaching():
-    return np.concatenate([click(), np.zeros(int(0.05 * SR)), env(np.sin(2 * np.pi * 2350 * sec(0.6)) + 0.6 * np.sin(2 * np.pi * 3520 * sec(0.6)), 0.002, 0.25)])
+def flyby(d):  # a plane passing: low-passed noise that swells and fades
+    return whoosh(d)
 
 # ---------- music bed: slow warm chords (Am F C G), sine pads with a gentle swell ----------
 def pad(total):
@@ -155,24 +139,23 @@ if name == "one-minute":
     quiets = [(S(bk) - 0.5, E(bk + 2) + 1.0), (S(lt) - 0.2, E(lt + 1))]
 elif name == "dreams":  # cues mirror video/src/dr/Episode.tsx
     at = lambda scene, k=0: first(scene) + k
-    place(sfx, shimmer(), S(0) + 1.4, 0.16)  # Mom's ghost fades in
-    place(sfx, flyby(4.0), S(at("dinner")), 0.35)
-    place(sfx, engine(2.4), S(at("detective", 6)) + 0.4, 0.3)
-    place(sfx, alarm(2.5), S(at("detective", 6)) + 2.6, 0.12)
-    for k, d in [(11, 0.05), (11, 0.38), (11, 0.71)]:
-        place(sfx, kaching(), S(at("detective", k)) + (E(at("detective", k)) - S(at("detective", k))) * d, 0.3)
+    # soft, low sounds only (user rule: nothing high-pitched; see youtube/motion.md)
+    place(sfx, whoosh(1.6), S(0) + 1.4, 0.2)  # Mom's ghost fades in
+    place(sfx, flyby(4.0), S(at("dinner")), 0.3)
+    place(sfx, whoosh(2.0), S(at("detective", 6)) + 0.6, 0.25)  # the motorbike jump
     c = at("choice")
     for x in np.arange(S(c + 1), S(c + 6) + 0.6, 1.0):
-        place(sfx, click() * 0.6, x, 0.25)  # the countdown ticks
-    place(sfx, knock(), S(c + 6) + 0.6, 0.6)  # the button
-    place(sfx, shimmer(), S(c + 5) + (E(c + 5) - S(c + 5)) * 0.55, 0.14)
-    place(sfx, engine(6.0, 90), S(at("flight")), 0.12)
-    place(sfx, shimmer(2.5), S(at("flight", 4)) + 2.0, 0.2)  # the ghost merges
-    place(sfx, shimmer(), S(at("theo", 2)) - 0.2, 0.16)
-    place(sfx, shimmer(2.0), S(at("tease")) + (E(at("tease")) - S(at("tease"))) * 0.5, 0.16)
-    place(sfx, sparkle(), S(at("tease", 1)) + 0.3, 0.25)  # the wink
+        place(sfx, thump(), x, 0.12)  # the countdown, a soft heartbeat
+    place(sfx, thump(), S(c + 6) + 0.6, 0.4)  # the button
+    place(sfx, whoosh(), S(c + 5) + (E(c + 5) - S(c + 5)) * 0.55, 0.16)
+    place(sfx, flyby(6.0), S(at("flight")), 0.15)  # the small plane, distant
+    place(sfx, whoosh(2.5), S(at("flight", 4)) + 2.0, 0.22)  # the ghost merges
+    place(sfx, whoosh(), S(at("theo", 2)) - 0.2, 0.18)
+    place(sfx, whoosh(2.0), S(at("tease")) + (E(at("tease")) - S(at("tease"))) * 0.5, 0.18)
     sc = at("sceptic")
     quiets = [(S(sc + 7) - 0.3, E(sc + 8) + 0.5), (S(c + 5), S(c + 6) + 1.0)]
+from scipy.signal import butter, sosfilt
+sfx = sosfilt(butter(4, 2000, fs=SR, output="sos"), sfx).astype(np.float32)  # cut everything above ~2 kHz
 music = pad(n)
 # duck the music under speech, and drop it out for the quiet climax moments
 speech = np.zeros(n, dtype=np.float32)

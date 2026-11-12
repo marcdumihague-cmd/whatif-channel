@@ -40,3 +40,10 @@ line (it can pulse with the narrator's voice).
 Art style: the test scene uses "cartoon with outlines" (the user's earlier pick). The references
 use a softer flat look (muted palette, no outlines, glows, bokeh). Ask the user before the first
 episode which to keep; the motion rules above apply to both.
+
+## Sound effects (the user's rule, 2026-11-12)
+
+No high-pitched, piercing or buzzy sounds: no alarms or sirens, no square-wave engines, no glassy
+high chimes or sparkles, no beeps or "ka-ching" bells. The user found them disturbing. Keep effects
+soft and low: filtered whooshes, low thumps, gentle low hums, low-passed noise for planes and wind.
+Everything above ~2 kHz in an effect is cut (`tts/mix.py` low-passes every effect).

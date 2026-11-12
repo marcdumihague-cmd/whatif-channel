@@ -53,6 +53,9 @@ video happens to "you".
 - **Callbacks:** a line from the first third comes back in the last third meaning something new.
 - **A real fact every 45 to 90 seconds**, stated flat, then tied straight back to "you". Facts are
   the "most likely what would happen" part of the channel.
+- **Never tag a fact with "That's real", "Real fact:" or "by the way, that's true"** (the user's
+  rule, 2026-11-12). Name the source in the sentence instead: "A 2018 Cornell study found...",
+  "Studies show...", "Researchers found...". The on-screen fact card carries the source.
 - **An object that carries the plot:** a list, a note, a number the viewer keeps watching.
 - **Music cues** at emotional turns. Silence right before the biggest moment.
 

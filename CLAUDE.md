@@ -53,6 +53,8 @@ Rejected: Kokoro (flat, user found it not entertaining), Chatterbox (word slips)
 (default OmniVoice weights are non-commercial, needs a desktop/GPU). ElevenLabs: the user's API key
 was rejected (401); untested. Comparison scripts: `tts/compare/`.
 
+Sound effects: soft and low only, never high-pitched (user rule, see `youtube/motion.md`). Facts: never say "That's real"; name the study instead (see `youtube/voice.md`).
+
 Music: generated ambient pad from `tts/mix.py` (first used on episode 3; the user hasn't heard it yet).
 
 Nothing is ever uploaded by Claude. The user publishes.
