@@ -15,14 +15,14 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
 | `packaging-2026-11-12.md` | Title/thumbnail/tag research for the dreams episode: keyword volumes, "what if you could see" outliers, winning thumbnail patterns, title scores, our channel's stats |
 | `voice-takes-dreams.md` | Acted-take results: speaker similarity and word match for every take, which were kept |
 
-| `transcripts/` | The 12 study transcripts (vidIQ) and the user's pasted Otherwise transcript, indexed |
-| `screenshots/` | The 4 reference screenshots the user sent (Otherwise's style: memory bubbles, date chip, inset frame) |
 
-## Private repo only
+## Public repo: what is not stored here
 
-The repo is private (checked 2026-11-12), so other creators' transcripts and the reference
-screenshots are now stored for study. **If the repo is ever made public, delete `transcripts/` and
-`screenshots/` first** (and purge them from git history): they are the creators' copyrighted work.
+The repo went public again on 2026-11-12. The 12 study transcripts, the user's pasted Otherwise
+transcript and the 4 reference screenshots were removed from the files and from git history, because
+they are other creators' copyrighted work. Only our own analysis of them stays
+(`transcript-study-2026-11.md`, `reference-otherwise-reborn.md`). To study them again, re-fetch
+transcripts with vidIQ (5 credits each) and keep them out of git.
 
 ## Not stored here, on purpose
 
