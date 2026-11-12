@@ -39,12 +39,21 @@ Second batch, checked 2026-11-12 the same way:
 19. What If Your Grandpa's Diary Predicted Your Whole Life?
 20. ~~What If You Could See the Dreams Your Parents Gave Up for You?~~ (made: episode 4)
 
+Third batch, 2026-11-12 (the user asked for realistic, not sentimental; checks in
+`research/idea-checks-2026-11-12b.md`):
+
+21. What If You Could See the Day Everything You Own Will Break?
+22. What If You Could Do Everything You've Ever Watched on YouTube?
+23. What If You Had to Say Everything You Type Out Loud?
+24. What If Autocorrect Worked on Your Voice?
+25. What If Your Phone Charged You $1 for Every Minute You Scroll?
+
 Already taken (found on YouTube, don't use): promises that can't be broken, borrowing time, shadow
 ahead of you, 100 words a day, undo one sentence/mistake, expiration dates, aging 10x slower, paid
 when someone thinks of you, trading memories, lucky while others get unlucky, a 500 IQ sister, last
 person who can dream, only one who can read, music disappearing, replaying memories, hearing inner
 voices, trading years of life, nobody can say no, compliments come true, dog lives as long as you,
 $100 per good deed, seeing everyone's future, feeling what others feel, parents' lies coming true,
-only one who sees colour, grandma is a spy, buying back time, seeing who comes to your funeral, $1 when
+only one who sees colour, paid per step, everyone's search history / salary / bank balance / screen time, real price of everything, rating everyone, texts from tomorrow, a body battery percentage, excuses coming true, grandma is a spy, buying back time, seeing who comes to your funeral, $1 when
 someone says your name, your dog texting you, best friend is a time traveller, meeting your parents as
 kids, a house that talks, waking up in the future, a parent aging backwards or getting younger daily.

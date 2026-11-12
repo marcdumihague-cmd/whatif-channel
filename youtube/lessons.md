@@ -19,6 +19,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DON'T gender "you".** "He's charging tax" about the viewer was rewritten to "The kid charges tax". (us, 2026-11-12)
 - **DO check continuity rules you set**: "kids have no ghost until 18" clashed with "for the first
   time someone is standing behind you"; fixed so the window ghost comes back in the mirror. (us, 2026-11-12)
+- **The user wants realistic, everyday, not sentimental ideas** (2026-11-12): things an average
+  person actually wonders about (phones, money, stuff breaking, embarrassment), not dead relatives
+  and lost dreams. (user)
 - **DO write numbers as digits** in scripts; the voice reads them fine and Whisper checks them. (us)
 
 ## Voice
