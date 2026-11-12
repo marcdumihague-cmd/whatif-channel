@@ -7,6 +7,7 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
 |---|---|
 | `2026-11-niche/` | First niche scan: 298 videos from 16 "what if" channels, outlier ranking, premise types, the competitor searches for our premise, transcript picks |
 | `2026-11-niche-v2/` | Bigger test: 2,505 videos from 90 channels, the 11 raw searches, and the within-channel permutation tests of the rules |
+| `transcript-study-2026-11.md` | 7 hits vs 5 flops, transcripts via vidIQ: beat timings, structure, what separates them |
 | `reference-otherwise-reborn.md` | Beat-by-beat breakdown of a 15.6x hit (Otherwise, "Reborn") and notes on the user's style screenshots |
 | `hook-and-title-tests.md` | Every hook, Short first line and title scored for the last-liar episode |
 | `voice-tests.md` | Voice engine comparison, the 5 opening takes, speaker-similarity numbers, pronunciation lessons |

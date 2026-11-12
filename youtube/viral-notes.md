@@ -37,16 +37,34 @@ Among the 1,126 "what if" titles (65 channels):
 | A time limit ("for 30 days") | 0.78x | 0.33 | **Against putting deadlines in titles** (0.70x, p=0.03 on all videos) |
 
 18 tests were run, so a single p near 0.03 could be luck; only the extreme-framing result is
-solid at any threshold. Titles are a proxy: the structural rules (1, 2, 5, 6, 7, 8, 10) can only be
-tested on transcripts, and still rest on one hit.
+solid at any threshold. Titles are a proxy: the structural rules were then tested on transcripts.
+
+## Tested on 12 transcripts (7 hits, 5 flops)
+
+`research/transcript-study-2026-11.md`. The headline: **the same script template produced 25x and 0.1x
+on the same channel** (Jeremy Bearimy's Crush vs Odds; Otherwise's Reborn vs Predict the Market, even
+with the same side characters). Structure is table stakes; **the premise's pull on a person decides**.
+Abstract or money premises flopped with a perfect template; a saturated premise flopped too.
 
 ## The rules
+
+**Choosing the idea (this decides more than the script):**
+
+A. **The premise must pull on a person**: a crush, a parent, a grandparent, a best friend, your own
+   body. Not odds, markets, or a world of strangers. (Transcripts: same template, 25x vs 0.1x.)
+B. **Never a saturated premise.** Search it first; if a big version exists, skip it ("everyone
+   disappeared" already has 4.2M; the late copy did 0.13x).
+
+**Writing it (table stakes: every hit has these, and so do the best flops):**
 
 0. **Frame the premise as extreme or unique**: 10x, 500 IQ, the only one, the last one. (Tested,
    strongest effect in the data.)
 
-1. **Open on an emotional moment with a mystery, not a plot summary.** "You're 82... You missed a lot
-   of calls. One call in particular." Feeling plus a question in the first 15 seconds.
+1. **Something happens in the first 5 seconds**, never a summary or "imagine...": a demonstration of
+   the power (catch a fly), an in-medias-res moment (dangled over a stairwell), or an emotional moment
+   with a mystery ("one call in particular"). The premise is clear by ~0:45. Keep "you" unnamed.
+1b. **A flash-forward promise in the first minute**: "By the end of the year... and one day you'll
+   have to choose." (2 of the 3 most recent hits.)
 2. **One big open loop that stays open until the climax.** A secret ("line three") the viewer is
    reminded of every couple of minutes and only gets at ~80% of the runtime.
 3. **A goal and a deadline from minute one.** "You" want something specific, and there's a date and
@@ -62,9 +80,14 @@ tested on transcripts, and still rest on one hit.
    buying?") give the comedy a spine.
 8. **A beat every 10-20 seconds**, fast time jumps marked by dates or ages, and a real fact roughly
    every minute, said flat and tied straight back to "you".
-9. **The climax uses the premise at its most meaningful** (memory saves Dad's life), with real stakes. (Titles about a person did 1.55x.)
-   It's about a person, not about winning.
-10. **End on callbacks and a playful glimpse of the future**, then one question to the viewer.
+8b. **Show the cost of the power at ~60-70%** (headaches, losing yourself, nobody knowing you).
+9. **The climax is a selfless choice under a timer**: the power used for someone else, at a cost to
+   you (5 of 7 hits: the World Cup, the girl you like, your secret). It's about a person, not winning.
+   (Titles about a person did 1.55x.)
+10. **End on callbacks and a sequel tease** (a black car, a thread to the stars), then one question
+   to the viewer.
+11. **7 to 10 minutes.** Hits ran 7-10 min; flops include 13 and 19 min, one with a hit's structure at
+   2.3x the length.
 
 ## How "What If You Were the Last Liar on Earth?" (v1) scores against these
 
