@@ -11,3 +11,17 @@ Checked 2026-11-11 before voicing.
 | The first number on the table drags the final price toward it | ✓ (standard result, not re-checked online) | Galinsky & Mussweiler (2001), *Journal of Personality and Social Psychology* |
 | SVB customers tried to pull out $42 billion in one day; regulators shut it the next morning | ✓ ($42B requested March 9, 2023, ~25% of deposits; DFPI took possession March 10) | [Fortune](https://fortune.com/2023/03/11/silicon-valley-bank-run-42-billion-attempted-withdrawals-in-one-day/), [California DFPI order](https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/DFPI-Orders-Silicon-Valley-Bank-03102023.pdf) |
 | Many everyday lies are told to protect someone else | ✓ (kept without a number on purpose) | DePaulo et al. (1996), *Journal of Personality and Social Psychology* |
+
+## Dreams episode (2026-11-12)
+
+Each fact in `episodes/dreams/script.json`, checked before writing:
+
+| Line in the script | Verdict | Source |
+|---|---|---|
+| 76% said their biggest regret was not becoming who they wanted to be | True (the "ideal self" regrets) | Davidai & Gilovich (2018), *Emotion*; [Cornell Chronicle](https://news.cornell.edu/node/300686) |
+| Vera Wang was a figure skater and journalist; first dress at 40 | True | [Time](https://time.com/3958885/highly-successful-people-after-age-40) |
+| Flight school costs 6,000 to 20,000 dollars | True for a private pilot licence; can run higher | [AOPA](https://aopa.org/training-and-safety/students/pilot-license-cost) |
+| Raising one kid costs about 310,000 dollars | True: $310,605 to age 17, middle-income, Brookings 2022 | [Fox 9 on the Brookings estimate](https://www.fox9.com/news/cost-raising-child-jumps) |
+| Parents' sleep doesn't fully recover for 6 years | True (up to 4-6 years after the first child) | Richter et al. (2019), *Sleep*; [EurekAlert](https://www.eurekalert.org/news-releases/652162) |
+| No maximum age for a private pilot licence in America | True (minimum 17, medical required) | [Flying Magazine](https://www.flyingmag.com/when-it-comes-to-flying-youre-never-too-old-to-learn/) |
+| Grandma Moses started painting at 78 | True | [Time](https://time.com/3958885/highly-successful-people-after-age-40) |
