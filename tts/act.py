@@ -80,7 +80,7 @@ else:  # ---------- step 2: voice match (needs the Chatterbox venv for its speak
                 best = (name, sim)
         l.pop("take", None)
         if best:
-            l["take"] = str((take_dir / best[0]).relative_to(ROOT))
+            l["take"] = str((take_dir / best[0]).resolve().relative_to(ROOT))
             kept += 1
         sims = " ".join(f"{report[f'{i:03d}_{k}.wav']['sim']:.2f}/{report[f'{i:03d}_{k}.wav']['words']:.2f}" for k in range(TAKES))
         print(f"{i:3d} {l['who']:<8} sim/words {sims} -> {best[0] if best else 'clone'}")
