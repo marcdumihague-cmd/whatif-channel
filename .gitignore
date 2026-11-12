@@ -11,3 +11,4 @@ tts/compare/out/
 voice-samples/
 !voices/*.wav
 episodes/*/takes/
+episodes/*/lines/

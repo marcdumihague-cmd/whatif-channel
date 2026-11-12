@@ -14,7 +14,7 @@ words don't match the script, since nobody listens to the lines one by one.
 
 Writes video/public/<name>/voice.wav and video/public/<name>/timeline.json.
 """
-import difflib, json, re, sys
+import difflib, hashlib, json, re, sys
 from pathlib import Path
 
 import librosa
@@ -86,6 +86,20 @@ def heard(audio: np.ndarray) -> str:
     return " ".join(s.text for s in segs)
 
 
+cache = script_path.parent / "lines"  # each finished line, so a restart resumes instead of starting over
+cache.mkdir(exist_ok=True)
+
+
+def cached(line: dict) -> np.ndarray:
+    key = hashlib.sha1(json.dumps([voice_of(line["who"]), line.get("say", line["text"]), line.get("lang"), line.get("take")]).encode()).hexdigest()[:12]
+    path = cache / f"{key}.wav"
+    if path.exists():
+        return sf.read(path, dtype="float32")[0]
+    audio = voice(line)
+    sf.write(path, audio, SR)
+    return audio
+
+
 def voice(line: dict) -> np.ndarray:
     if "take" in line:
         audio, sr = sf.read(ROOT / line["take"], dtype="float32")
@@ -117,7 +131,7 @@ for i, line in enumerate(script["lines"]):
         gap = SCENE_GAP if line["scene"] != script["lines"][i - 1]["scene"] else GAP
         chunks.append(np.zeros(int(gap * SR), dtype=np.float32))
         t += gap
-    audio = voice(line)
+    audio = cached(line)
     chunks.append(audio)
     timeline.append({**line, "start": round(t, 3), "end": round(t + len(audio) / SR, 3)})
     t += len(audio) / SR

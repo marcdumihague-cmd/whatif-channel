@@ -84,6 +84,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 
 ## Tools and environment
 
+- **`voice.py` saves every finished line** (`episodes/<name>/lines/`, keyed by voice + text), so a
+  container restart resumes instead of losing an hour (a restart killed it at line 68 of 81). Make
+  any long job resumable the same way. (us, 2026-11-12)
 - **Long jobs die when the session restarts.** After a restart, check background jobs really
   finished (file timestamp and duration), don't trust "exit 0" from a waiting loop. (us, 2026-11-12)
 - **`pgrep -f <name>` matches its own shell**: a wait loop waited on itself forever. Wait on a log

@@ -64,7 +64,8 @@
    "scene": "cold_open",
    "who": "YOU",
    "text": "I stopped the video at 38 seconds!",
-   "act": "shocked, out of breath"
+   "act": "shocked, out of breath",
+   "take": "episodes/watched/takes/003_2.wav"
   },
   {
    "scene": "cold_open",
@@ -110,7 +111,8 @@
    "scene": "rules",
    "who": "THEO",
    "text": "You fell asleep again. The end was the best part.",
-   "act": "teasing, sleepy"
+   "act": "teasing, sleepy",
+   "take": "episodes/watched/takes/012_1.wav"
   },
   {
    "scene": "rules",
@@ -178,13 +180,15 @@
    "scene": "flip",
    "who": "THEO",
    "text": "Do the thing from the video!",
-   "act": "excited, pointing, hyped"
+   "act": "excited, pointing, hyped",
+   "take": "episodes/watched/takes/025_0.wav"
   },
   {
    "scene": "flip",
    "who": "YOU",
    "text": "There is no more video, Theo!",
-   "act": "exasperated"
+   "act": "exasperated",
+   "take": "episodes/watched/takes/026_2.wav"
   },
   {
    "scene": "flip",
@@ -302,7 +306,8 @@
    "scene": "uncle",
    "who": "THEO",
    "text": "Wait. My uncle Ray just opened an office. He needs chairs. Like, 11 chairs.",
-   "act": "excited realization"
+   "act": "excited realization",
+   "take": "episodes/watched/takes/048_2.wav"
   },
   {
    "scene": "uncle",
@@ -356,7 +361,8 @@
    "scene": "flight",
    "who": "YOU",
    "text": "Mayday, mayday. The pilot is unconscious. I'm a passenger.",
-   "act": "scared but steady"
+   "act": "scared but steady",
+   "take": "episodes/watched/takes/058_2.wav"
   },
   {
    "scene": "flight",
@@ -395,7 +401,8 @@
    "scene": "flight",
    "who": "THEO",
    "text": "Power to idle! Pull back slowly! Nose up! Let it float! I watched the end! You were snoring!",
-   "act": "shouting fast, urgent"
+   "act": "shouting fast, urgent",
+   "take": "episodes/watched/takes/065_2.wav"
   },
   {
    "scene": "flight",
@@ -439,7 +446,8 @@
    "scene": "theo",
    "who": "THEO",
    "text": "Okay. Now do the thing from my history.",
-   "act": "excited, hopeful"
+   "act": "excited, hopeful",
+   "take": "episodes/watched/takes/073_1.wav"
   },
   {
    "scene": "theo",
