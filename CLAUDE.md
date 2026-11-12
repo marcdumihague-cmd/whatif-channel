@@ -66,6 +66,10 @@ what separates hits from flops). Only re-run what goes stale or is new: a new vi
 and title scores, and the "what's breaking out" outlier scan when the last one is over ~4 weeks old.
 Save every new result in `research/` the same day.
 
+**The repo is private** (since 2026-11-12), so other creators' transcripts and screenshots are kept in
+`research/transcripts/` and `research/screenshots/` for study. If the user ever wants it public,
+remove those two folders from the repo and its history first, and tell the user.
+
 ## Voice profile
 
 The yt-* skills look for `~/.claude/youtube/voice.md`. In this repo, use `youtube/voice.md`
