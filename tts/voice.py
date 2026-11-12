@@ -31,6 +31,8 @@ MATCH = 0.85  # minimum word similarity between script and transcript
 
 script_path = Path(sys.argv[1])
 script = json.loads(script_path.read_text())
+GAP = script.get("pace", {}).get("gap", GAP)  # an episode can tighten the pauses
+SCENE_GAP = script.get("pace", {}).get("scene_gap", SCENE_GAP)
 out = ROOT / "video" / "public" / script_path.parent.name
 out.mkdir(parents=True, exist_ok=True)
 

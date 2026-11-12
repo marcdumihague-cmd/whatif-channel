@@ -89,7 +89,9 @@ export const Shadow: React.FC<{ cx: number; cy: number; rx: number; o?: number }
 
 // ---------- characters ----------
 export type Mood = "neutral" | "smug" | "shocked" | "happy" | "sad" | "nervous" | "deadpan" | "sleepy" | "angry";
-export type Look = { skin: string; hair: string; top: string; topDark: string; hairStyle?: "short" | "curly" | "bun" | "bald" | "long" | "wild"; glasses?: boolean; tall?: number; mustache?: string };
+export type Look = { skin: string; hair: string; top: string; topDark: string; hairStyle?: "short" | "curly" | "bun" | "bald" | "long" | "wild"; glasses?: boolean; tall?: number; mustache?: string;
+  acc?: Acc[] };
+export type Acc = "pilot" | "helmet" | "headphones" | "beret" | "mailcap" | "hairnet" | "bowtie" | "tutu" | "sequins" | "partyhat";
 export const YOU: Look = { skin: P.skin, hair: P.hair, top: P.teal, topDark: P.tealDark, hairStyle: "short" };
 export const THEO: Look = { skin: P.skin2, hair: "#3B2B20", top: P.orange, topDark: P.orangeDark, hairStyle: "curly", glasses: true, tall: 1.06 };
 export const extra = (i: number): Look => {
@@ -112,8 +114,23 @@ const FACE: Record<Mood, { lid: number; brow: number; tilt: number; eye: number;
   angry: { lid: 0.3, brow: 6, tilt: 18, eye: 1, mouth: "frown" },
 };
 
-const Mouth: React.FC<{ kind: string; talk: number; color: string }> = ({ kind, talk, color }) => {
-  if (talk > 0.05) return <ellipse cx={0} cy={34} rx={13} ry={4 + talk * 11} fill={color} />;
+export type Lip = { o: number; v: string }; // o: 0..1 open, v: X M F O E A (see tts/lipsync.py)
+
+// A mouth shape for the sound being spoken; the opening follows the voice's loudness.
+const Viseme: React.FC<{ lip: Lip; color: string }> = ({ lip, color }) => {
+  const o = lip.o;
+  switch (lip.v) {
+    case "M": return <path d="M -15 35 Q 0 39 15 35" stroke={color} strokeWidth={7} fill="none" strokeLinecap="round" />;
+    case "F": return <g><ellipse cx={0} cy={36} rx={13} ry={3 + o * 6} fill={color} /><rect x={-11} y={30} width={22} height={6} rx={2} fill={P.white} /></g>;
+    case "O": return <g><ellipse cx={0} cy={36} rx={8 + o * 3} ry={6 + o * 9} fill={color} /><ellipse cx={0} cy={36 + (6 + o * 9) * 0.45} rx={5} ry={2.5 + o * 2} fill="#C2555E" /></g>;
+    case "E": return <g><ellipse cx={0} cy={35} rx={18} ry={2.5 + o * 8} fill={color} />{o > 0.3 && <rect x={-13} y={33 - (2.5 + o * 8)} width={26} height={4} rx={2} fill={P.white} />}</g>;
+    default: return <g><ellipse cx={0} cy={36} rx={14} ry={3 + o * 13} fill={color} />{o > 0.35 && <rect x={-10} y={36 - (3 + o * 13)} width={20} height={4.5} rx={2} fill={P.white} />}<ellipse cx={0} cy={36 + (3 + o * 13) * 0.55} rx={7} ry={2 + o * 3} fill="#C2555E" /></g>;
+  }
+};
+
+const Mouth: React.FC<{ kind: string; talk: number; color: string; lip?: Lip }> = ({ kind, talk, color, lip }) => {
+  if (lip && lip.v !== "X") return <Viseme lip={lip} color={color} />;
+  if (!lip && talk > 0.05) return <ellipse cx={0} cy={34} rx={13} ry={4 + talk * 11} fill={color} />;
   switch (kind) {
     case "smile": return <path d="M -18 30 Q 0 46 18 30" stroke={color} strokeWidth={6} fill="none" strokeLinecap="round" />;
     case "smirk": return <path d="M -14 36 Q 6 40 18 28" stroke={color} strokeWidth={6} fill="none" strokeLinecap="round" />;
@@ -141,7 +158,7 @@ const Hair: React.FC<{ style: Look["hairStyle"]; color: string }> = ({ style, co
   }
 };
 
-export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean; lookX?: number }> = ({ look, mood, t, talk = false, lookX = 0 }) => {
+export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean; lookX?: number; lip?: Lip; wink?: boolean }> = ({ look, mood, t, talk = false, lookX = 0, lip, wink = false }) => {
   const f = FACE[mood];
   const blink = mood !== "sleepy" && (t % 3.1 < 0.11 || (t + 1.3) % 7.3 < 0.1);
   const lid = blink ? 1 : f.lid;
@@ -153,7 +170,7 @@ export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean;
       <circle cx={lookX * 5} cy={2} r={eyeR * 0.62} fill={P.ink} />
       <circle cx={lookX * 5 - 3} cy={-2} r={2.5} fill={P.white} />
       {/* eyelid: skin rectangle sliding down, tilted with the mood */}
-      <rect x={-eyeR - 3} y={-eyeR * 1.25 - 4} width={eyeR * 2 + 6} height={(eyeR * 2.5 + 8) * lid} fill={look.skin}
+      <rect x={-eyeR - 3} y={-eyeR * 1.25 - 4} width={eyeR * 2 + 6} height={(eyeR * 2.5 + 8) * (wink && side === 1 ? 1 : lid)} fill={look.skin}
         transform={`rotate(${f.tilt * side})`} />
       <rect x={-16} y={-eyeR * 1.25 - 18 + f.brow} width={32} height={7} rx={3.5} fill={look.hair === "#6B6B6B" ? "#555" : look.hair}
         transform={`rotate(${f.tilt * side} 0 ${-eyeR * 1.25 - 14})`} />
@@ -166,6 +183,13 @@ export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean;
       <circle r={72} fill={look.skin} />
       <path d="M 30 -60 A 72 72 0 0 1 30 62 A 80 80 0 0 0 30 -60 Z" fill="#000" opacity={0.06} />
       <Hair style={look.hairStyle} color={look.hair} />
+      {look.acc?.includes("hairnet") && <path d="M -74 -14 Q -76 -84 0 -86 Q 76 -84 74 -14 Z" fill="#FFFFFF" opacity={0.35} stroke="#FFFFFF" strokeWidth={2} strokeDasharray="4 6" />}
+      {look.acc?.includes("pilot") && <g><path d="M -78 -40 Q -70 -98 0 -102 Q 70 -98 78 -40 Z" fill="#1F2A4A" /><rect x={-86} y={-46} width={172} height={16} rx={8} fill="#141B33" /><path d="M -22 -74 l 22 -10 l 22 10 l -22 8 Z" fill={P.gold} /></g>}
+      {look.acc?.includes("mailcap") && <g><path d="M -74 -38 Q -68 -96 0 -98 Q 68 -96 74 -38 Z" fill="#3B5BA9" /><path d="M -10 -40 Q 60 -44 100 -30 Q 60 -26 -10 -30 Z" fill="#2E4785" /></g>}
+      {look.acc?.includes("beret") && <g transform="rotate(-14)"><ellipse cx={-6} cy={-70} rx={78} ry={26} fill="#C2384A" /><circle cx={-6} cy={-96} r={8} fill="#C2384A" /></g>}
+      {look.acc?.includes("partyhat") && <g><path d="M -10 -70 L 22 -170 L 54 -70 Z" fill="#5BD3D0" /><circle cx={22} cy={-172} r={10} fill={P.gold} /></g>}
+      {look.acc?.includes("headphones") && <g fill="none" stroke="#2B2B36" strokeWidth={12}><path d="M -76 0 Q -80 -96 0 -98 Q 80 -96 76 0" /></g>}
+      {look.acc?.includes("headphones") && <g fill="#2B2B36"><rect x={-96} y={-18} width={30} height={46} rx={12} /><rect x={66} y={-18} width={30} height={46} rx={12} /></g>}
       <Eye x={-26} side={-1} />
       <Eye x={26} side={1} />
       {look.glasses && (
@@ -175,8 +199,9 @@ export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean;
       )}
       <ellipse cx={-44} cy={20} rx={11} ry={6} fill="#E8846F" opacity={0.35} />
       <ellipse cx={44} cy={20} rx={11} ry={6} fill="#E8846F" opacity={0.35} />
-      <Mouth kind={f.mouth} talk={flap} color={P.ink} />
+      <Mouth kind={f.mouth} talk={flap} color={P.ink} lip={lip} />
       {look.mustache && <path d="M -34 28 Q -16 14 0 22 Q 16 14 34 28 Q 18 34 0 28 Q -18 34 -34 28 Z" fill={look.mustache} />}
+      {look.acc?.includes("helmet") && <g><path d="M -86 20 Q -92 -96 0 -98 Q 92 -96 86 20 L 60 20 Q 60 -30 0 -32 Q -60 -30 -60 20 Z" fill="#E2463E" /><path d="M -60 -30 Q 0 -44 60 -30" stroke={P.white} strokeWidth={8} fill="none" /></g>}
     </g>
   );
 };
@@ -186,13 +211,14 @@ export type Pose = "stand" | "wave" | "phone" | "point" | "shrug" | "cheer" | "h
 export const Person: React.FC<{
   x: number; y: number; look: Look; mood: Mood; t: number; s?: number; talk?: boolean; pose?: Pose;
   flip?: boolean; lookX?: number; holding?: React.ReactNode; sweat?: boolean;
-}> = ({ x, y, look, mood, t, s = 1, talk = false, pose = "stand", flip = false, lookX = 0, holding, sweat = false }) => {
+  lip?: Lip; wink?: boolean; noLegs?: boolean;
+}> = ({ x, y, look, mood, t, s = 1, talk = false, pose = "stand", flip = false, lookX = 0, holding, sweat = false, lip, wink, noLegs = false }) => {
   const tall = look.tall ?? 1;
   const breathe = Math.sin(t * 2.4 + x) * 3;
   const bob = talk ? Math.sin(t * 9) * 2 : 0;
   const armL = { stand: -6, wave: -150, phone: -6, point: -6, shrug: -60, cheer: -160, hold: -6, sit: -20 }[pose];
   const armR = { stand: 6, wave: 6, phone: 200 + Math.sin(t * 3) * 2, point: 85, shrug: 60, cheer: 160, hold: 40, sit: 20 }[pose];
-  const legs = pose !== "sit";
+  const legs = pose !== "sit" && !noLegs;
   const Arm = ({ side, deg }: { side: number; deg: number }) => (
     <g transform={`translate(${side * 62} -250) rotate(${deg})`}>
       <rect x={-17} y={0} width={34} height={150} rx={17} fill={look.topDark} />
@@ -212,9 +238,12 @@ export const Person: React.FC<{
         <Arm side={-1} deg={armL} />
         <rect x={-75} y={-280 + breathe * 0.2} width={150} height={175} rx={58} fill={look.top} />
         <rect x={20} y={-270} width={45} height={150} rx={22} fill={look.topDark} opacity={0.35} />
+        {look.acc?.includes("sequins") && Array.from({ length: 18 }, (_, i) => <circle key={i} cx={-55 + (i * 37) % 110} cy={-265 + (i * 53) % 150} r={5} fill={P.white} opacity={0.5 + 0.5 * Math.sin(t * 9 + i * 1.3)} />)}
+        {look.acc?.includes("bowtie") && <g fill="#1A1A22"><path d="M 0 -262 L -30 -278 L -30 -246 Z" /><path d="M 0 -262 L 30 -278 L 30 -246 Z" /><circle cy={-262} r={8} /></g>}
+        {look.acc?.includes("tutu") && <path d="M -110 -120 Q 0 -150 110 -120 Q 90 -80 60 -95 Q 30 -70 0 -92 Q -30 -70 -60 -95 Q -90 -80 -110 -120 Z" fill="#F4A6C8" />}
         <Arm side={1} deg={armR} />
         <g transform={`translate(0 ${-355 + breathe * 0.5}) scale(${flip ? -1 : 1} 1)`}>
-          <Head look={look} mood={mood} t={t} talk={talk} lookX={flip ? -lookX : lookX} />
+          <Head look={look} mood={mood} t={t} talk={talk} lookX={flip ? -lookX : lookX} lip={lip} wink={wink} />
           {sweat && <path d="M 84 -40 q 12 22 0 32 q -12 -10 0 -32 Z" fill="#8FD3FF" opacity={0.6 + Math.sin(t * 4) * 0.3} />}
         </g>
         {holding && <g transform={`translate(${62 + Math.sin((armR * Math.PI) / 180) * -150} ${-250 + Math.cos((armR * Math.PI) / 180) * 150})`}>{holding}</g>}

@@ -35,5 +35,13 @@
   "grandma": {
     "text": "Oh, sweetheart, come in, come in. I just made coffee, and you look like you haven't slept a wink.",
     "design": "A warm American grandmother in her mid seventies, soft and slightly shaky, loving, with quiet humour. Emotion: gentle, a little tired."
+  },
+  "mom": {
+    "text": "Oh, come on, you two. Dinner's getting cold, and I am not reheating it again. I mean it this time.",
+    "design": "A warm, witty American mom in her late forties with a bright, expressive voice, quick dry humour and a lot of love in it. Emotion: playful, affectionate."
+  },
+  "dad": {
+    "text": "Alright, alright, I'm coming. Has anyone seen my keys? They were right here, I swear, two seconds ago.",
+    "design": "A goofy, warm American dad in his late forties with a friendly, slightly husky voice, always half-joking. Emotion: cheerful, easygoing."
   }
 }

@@ -1,0 +1,554 @@
+{
+ "title": "What If You Could See the Dreams Your Parents Gave Up for You?",
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "MOM": "mom",
+  "DAD": "dad",
+  "BUS DRIVER": "older",
+  "TEACHER": "man",
+  "CUSTOMER": "roommate",
+  "COACH": "older",
+  "MAILMAN": "man"
+ },
+ "facts": [
+  {
+   "claim": "76% of people said their single biggest regret was failing to become their ideal self",
+   "source": "Davidai & Gilovich (2018), 'The ideal road not taken', Emotion; Cornell Chronicle"
+  },
+  {
+   "claim": "Vera Wang was a figure skater and journalist and entered fashion design at 40",
+   "source": "Time / Business Insider late-bloomer lists"
+  },
+  {
+   "claim": "Private pilot training costs about $6,000 to $20,000+",
+   "source": "AOPA, 'How much does a pilot's license cost?'"
+  },
+  {
+   "claim": "Raising a child to 17 costs about $310,605 (middle-income family, born 2015)",
+   "source": "Brookings Institution for the Wall Street Journal (2022)"
+  },
+  {
+   "claim": "Parents' sleep does not fully recover for up to 6 years after their first child",
+   "source": "Richter et al. (2019), Sleep, doi:10.1093/sleep/zsz015"
+  },
+  {
+   "claim": "There is no maximum age for a US private pilot certificate",
+   "source": "FAA rules as summarised by AOPA and flight schools (minimum 17, medical required)"
+  },
+  {
+   "claim": "Grandma Moses began painting at 78",
+   "source": "Time / Business Insider late-bloomer lists"
+  }
+ ],
+ "pace": {
+  "gap": 0.3,
+  "scene_gap": 0.55
+ },
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "There's a ghost behind your mom. The pilot she never became."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "You have 30 days before she loses it. But nobody knows why your dad's is invisible."
+  },
+  {
+   "scene": "cold_open",
+   "who": "MOM",
+   "text": "Sweetie, you're staring. Is there something on my face?",
+   "act": "warm, amused, a little puzzled"
+  },
+  {
+   "scene": "cold_open",
+   "who": "YOU",
+   "text": "No! You look... great.",
+   "act": "flustered, caught staring, overly cheerful"
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "By the end of the month, you'll make 15,000 dollars, turn your whole school upside down, and find out the one dream in your house you got completely wrong."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Here's how it works. Behind every grown-up floats the person they almost became."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Bright means they're still close. Faint means they've almost given up. And when it fades out completely, it's gone. Forever."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Kids don't have one yet. It shows up the day you turn 18."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "That's real, by the way. In a 2018 Cornell study, 76 percent of people said their biggest regret was not becoming who they wanted to be."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Your mom's ghost is almost see-through."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "And Mom has no idea. She's been carrying it around for 17 years."
+  },
+  {
+   "scene": "rules",
+   "who": "DAD",
+   "text": "Why is our kid staring at your head?",
+   "act": "confused, half-joking"
+  },
+  {
+   "scene": "rules",
+   "who": "MOM",
+   "text": "I think it's a phase.",
+   "act": "amused, whispering"
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "The next morning, the whole world is haunted."
+  },
+  {
+   "scene": "bus",
+   "who": "BUS DRIVER",
+   "text": "Sit down. Don't touch anything. Don't talk to me.",
+   "act": "grumpy, gravelly, deadpan"
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "Behind him, a ghost in a tuxedo is singing opera."
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "The businessman in row 3? His ghost is a surfer. The toddler in row 5 has no ghost. Just snacks."
+  },
+  {
+   "scene": "class",
+   "who": "TEACHER",
+   "text": "Phones away. Today is the most exciting day of the year. Fractions.",
+   "act": "painfully flat and bored"
+  },
+  {
+   "scene": "class",
+   "who": "NARRATOR",
+   "text": "Your math teacher's ghost is a stuntman. On fire. On a motorcycle."
+  },
+  {
+   "scene": "class",
+   "who": "NARRATOR",
+   "text": "The principal's ghost is a DJ. The gym coach's ghost is a ballet dancer. He's very good."
+  },
+  {
+   "scene": "class",
+   "who": "COACH",
+   "text": "Twenty laps! Nobody cares about your feelings!",
+   "act": "shouting, gruff coach"
+  },
+  {
+   "scene": "class",
+   "who": "NARRATOR",
+   "text": "Behind him, a perfect pirouette."
+  },
+  {
+   "scene": "lunch",
+   "who": "NARRATOR",
+   "text": "And the lunch lady's ghost is a fashion designer in Paris."
+  },
+  {
+   "scene": "lunch",
+   "who": "NARRATOR",
+   "text": "Real fact: Vera Wang was a figure skater and a journalist. She didn't design her first dress until she was 40."
+  },
+  {
+   "scene": "lunch",
+   "who": "THEO",
+   "text": "Okay, okay. What's my ghost?",
+   "act": "excited, bouncing, desperate to know"
+  },
+  {
+   "scene": "lunch",
+   "who": "YOU",
+   "text": "You're 17. You don't have one yet."
+  },
+  {
+   "scene": "lunch",
+   "who": "THEO",
+   "text": "Then make one up!",
+   "act": "whiny, pleading"
+  },
+  {
+   "scene": "dinner",
+   "who": "NARRATOR",
+   "text": "That night at dinner, a plane flies over the house."
+  },
+  {
+   "scene": "dinner",
+   "who": "MOM",
+   "text": "Boeing 737. Running late."
+  },
+  {
+   "scene": "dinner",
+   "who": "DAD",
+   "text": "She does that. Every plane, every time.",
+   "act": "proud, affectionate chuckle"
+  },
+  {
+   "scene": "dinner",
+   "who": "NARRATOR",
+   "text": "Nobody ever asked her why."
+  },
+  {
+   "scene": "dinner",
+   "who": "NARRATOR",
+   "text": "And your dad's ghost? You can barely see it at all. Like it's standing in exactly the same spot he is."
+  },
+  {
+   "scene": "dinner",
+   "who": "NARRATOR",
+   "text": "You figure his dream must be almost gone."
+  },
+  {
+   "scene": "goal",
+   "who": "NARRATOR",
+   "text": "You do the math. Mom's ghost loses a little light every day. 30 days."
+  },
+  {
+   "scene": "goal",
+   "who": "NARRATOR",
+   "text": "Flight school costs anywhere from 6,000 to 20,000 dollars. That's real."
+  },
+  {
+   "scene": "goal",
+   "who": "NARRATOR",
+   "text": "You have 43 dollars and a library card."
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "So you start a business. Dream Detective. 20 dollars, and you tell people who they almost became."
+  },
+  {
+   "scene": "detective",
+   "who": "CUSTOMER",
+   "text": "Seriously? A stand-up comedian? Me?",
+   "act": "shocked, then delighted"
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "She does an open mic that night. She kills."
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "Not every ghost is a surprise, though. The mailman's ghost is... a mailman. Same bag. Same shorts."
+  },
+  {
+   "scene": "detective",
+   "who": "MAILMAN",
+   "text": "Huh. Guess I already got it.",
+   "act": "pleased, laid-back, smiling"
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "Remember that guy. He matters later."
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "Your math teacher jumps a motorcycle over the school fountain at the pep rally. The fire alarm is not a fan."
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "And the bus driver sings opera on route 9. The video gets 6 million views."
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "By day 20, there's a line around the block."
+  },
+  {
+   "scene": "detective",
+   "who": "DAD",
+   "text": "Our kid is running a ghost business out of the garage. Should I be worried or proud?",
+   "act": "baffled, amused"
+  },
+  {
+   "scene": "detective",
+   "who": "MOM",
+   "text": "Proud. The kid charges tax.",
+   "act": "dry, proud"
+  },
+  {
+   "scene": "detective",
+   "who": "NARRATOR",
+   "text": "Day 5, 400 dollars. Day 12, 3,000. Day 20, 9,500 dollars."
+  },
+  {
+   "scene": "detective",
+   "who": "THEO",
+   "text": "Okay, what's my ghost now?",
+   "act": "impatient, excited"
+  },
+  {
+   "scene": "detective",
+   "who": "YOU",
+   "text": "Still nothing, Theo."
+  },
+  {
+   "scene": "detective",
+   "who": "THEO",
+   "text": "Is it a Navy SEAL? It's a Navy SEAL.",
+   "act": "smug, convinced"
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "But there's a cost. Once you can see everyone's dream, you start to notice whose dream you are."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Mom was accepted to flight school the year you were born. She never went."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "You find the letter in the attic. Still in the envelope. Next to her old aviator jacket."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Raising one kid costs about 310,000 dollars. That's real. You weren't the reason she didn't go. You were the price."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Oh, and parents' sleep doesn't fully recover for 6 years after their first kid. You owe her a lot of naps."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "And somewhere in all of this, you get an email of your own. The summer animation program you applied to. Accepted."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Deposit: 14,800 dollars. Due day 30. Same day as flight school."
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "So you tell her. All of it."
+  },
+  {
+   "scene": "sceptic",
+   "who": "MOM",
+   "text": "Sweetie, I'm 47. That plane has left.",
+   "act": "gentle, a little sad, trying to smile"
+  },
+  {
+   "scene": "sceptic",
+   "who": "DAD",
+   "text": "She's not wrong. It's a big plane.",
+   "act": "trying to be funny, awkward"
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "But here's the thing. There's no maximum age for a private pilot license in America. None."
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "Grandma Moses didn't start painting until she was 78."
+  },
+  {
+   "scene": "sceptic",
+   "who": "MOM",
+   "text": "78?",
+   "act": "surprised, a spark of interest"
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "Her ghost flickers. Just a little."
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "Day 28. You wake up and her ghost is gone. Completely gone."
+  },
+  {
+   "scene": "sceptic",
+   "who": "NARRATOR",
+   "text": "Then it flickers back. Fainter than ever. Two days left."
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "Day 30. 4:59 p.m. You have 15,000 dollars."
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "Two deadlines. One minute. Your deposit, or her flight school."
+  },
+  {
+   "scene": "choice",
+   "who": "THEO",
+   "text": "Bro! 30 seconds! Click something!",
+   "act": "panicking, shouting"
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "Your animation program. The thing you've wanted since you were 6."
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "On one screen, your future. On the other, hers. 10 seconds."
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "Your finger is on the button. And behind you, in the window, something faint appears. Your own ghost."
+  },
+  {
+   "scene": "choice",
+   "who": "NARRATOR",
+   "text": "You press the other one."
+  },
+  {
+   "scene": "flight",
+   "who": "NARRATOR",
+   "text": "Three weeks later, a small plane flies over your house."
+  },
+  {
+   "scene": "flight",
+   "who": "NARRATOR",
+   "text": "Earlier that morning, her instructor told her most people are nervous on their first flight."
+  },
+  {
+   "scene": "flight",
+   "who": "MOM",
+   "text": "I've been ready for 17 years.",
+   "act": "calm, confident, quietly excited"
+  },
+  {
+   "scene": "flight",
+   "who": "MOM",
+   "text": "Cessna 172. Mine.",
+   "act": "joyful, breathless, laughing"
+  },
+  {
+   "scene": "flight",
+   "who": "NARRATOR",
+   "text": "And her ghost catches up with her. Then it's gone. Because it doesn't have to float behind her anymore."
+  },
+  {
+   "scene": "dad",
+   "who": "NARRATOR",
+   "text": "And Dad's ghost? The one you could barely see?"
+  },
+  {
+   "scene": "dad",
+   "who": "NARRATOR",
+   "text": "It was never fading. It was standing exactly where he is. Like the mailman's. Because the life your dad dreamed about is the one he's living."
+  },
+  {
+   "scene": "dad",
+   "who": "DAD",
+   "text": "I always wanted to be your dad. Your mom wanted to fly. Now we both get to.",
+   "act": "warm, choked up, smiling"
+  },
+  {
+   "scene": "dad",
+   "who": "DAD",
+   "text": "Also, I called the animation school. Your deposit's paid. I've been saving since you were 6.",
+   "act": "sly, proud, holding back tears"
+  },
+  {
+   "scene": "dad",
+   "who": "MOM",
+   "text": "And sweetie? You were never the price. You were the point.",
+   "act": "tender, tearful, smiling"
+  },
+  {
+   "scene": "theo",
+   "who": "THEO",
+   "text": "Okay. Now you have to tell me. What's my ghost?",
+   "act": "nervous, hopeful"
+  },
+  {
+   "scene": "theo",
+   "who": "NARRATOR",
+   "text": "Theo turned 18 last week. You look."
+  },
+  {
+   "scene": "theo",
+   "who": "NARRATOR",
+   "text": "It's Theo. In sequins. Dancing."
+  },
+  {
+   "scene": "theo",
+   "who": "NARRATOR",
+   "text": "And honestly? He's amazing."
+  },
+  {
+   "scene": "theo",
+   "who": "YOU",
+   "text": "It's a Navy SEAL.",
+   "act": "deadpan, straight face"
+  },
+  {
+   "scene": "theo",
+   "who": "THEO",
+   "text": "I knew it!",
+   "act": "triumphant, shouting"
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "Mom flies every Sunday now. She still names every plane she passes. Out loud. On the radio."
+  },
+  {
+   "scene": "coda",
+   "who": "NARRATOR",
+   "text": "Air traffic control has asked her to stop."
+  },
+  {
+   "scene": "tease",
+   "who": "NARRATOR",
+   "text": "That night, you look in the mirror. The faint shape from the window is back. Bright. Brand new."
+  },
+  {
+   "scene": "tease",
+   "who": "NARRATOR",
+   "text": "And it winks."
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So if you could see the dream your parents gave up for you, would you want to know? Tell us in the comments."
+  }
+ ]
+}

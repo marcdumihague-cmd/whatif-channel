@@ -10,3 +10,4 @@ video/out/
 tts/compare/out/
 voice-samples/
 !voices/*.wav
+episodes/*/takes/
