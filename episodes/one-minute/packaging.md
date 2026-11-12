@@ -65,3 +65,16 @@ from heaven, grandpa, unclaimed money, animated story, what if scenario.
 
 Short #2 spoils the ending; post it a week after the main video. Every shot keeps the speaker in
 the middle third, so a 9:16 crop keeps the faces; the call timer sits top-center and survives too.
+
+## Teaser (vertical, for TikTok / Instagram Reels / YouTube Shorts)
+
+`video/out/one-minute-teaser.mp4`: 1080x1920, 33 s. The cold open (Grandpa's call, cut off at "Tell
+your grandma I..."), then the narrator: "Want to know how Grandpa's sentence ends? Watch the full
+video on my YouTube channel. The link is below." End card: WHAT WAS HE GOING TO SAY? / FULL VIDEO ON
+MY YOUTUBE CHANNEL / LINK BELOW. Re-render: `npx remotion render src/index.ts OneMinuteTeaser out/one-minute-teaser.mp4`.
+
+Post caption ideas (add your link):
+- He had 60 seconds. He used 59 of them. Full video on my YouTube channel 👇
+- What would you say if your grandpa picked up the phone? Full story on YouTube, link below.
+
+Hashtags: #whatif #animation #storytime #grandpa #shorts

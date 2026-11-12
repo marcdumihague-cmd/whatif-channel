@@ -621,7 +621,7 @@ const Captions: React.FC<{ t: number }> = ({ t }) => {
   );
 };
 
-export const Episode: React.FC = () => {
+export const Episode: React.FC<{ captions?: boolean }> = ({ captions = true }) => {
   const { t } = useT();
   let k = 0;
   while (k + 1 < SHOTS.length && t >= shotStart(k + 1)) k++;
@@ -635,7 +635,7 @@ export const Episode: React.FC = () => {
         {Shot ? <Shot t={t} t0={t0} t1={t1} /> : <AbsoluteFill style={{ background: "#f0f" }} />}
       </AbsoluteFill>
       <HUD t={t} shot={shot.name} />
-      <Captions t={t} />
+      {captions && <Captions t={t} />}
       {!("estimated" in timeline) && <Audio src={staticFile("one-minute/mix.wav")} />}
     </AbsoluteFill>
   );

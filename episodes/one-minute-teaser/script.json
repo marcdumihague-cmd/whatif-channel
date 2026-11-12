@@ -1,0 +1,7 @@
+{
+ "title": "Teaser: What If You Could Call Anyone Who Died for 60 Seconds?",
+ "note": "Call to action spoken after the episode's cold open (video/src/om/Teaser.tsx).",
+ "lines": [
+  {"scene": "cta", "who": "narrator", "text": "Want to know how Grandpa's sentence ends? Watch the full video on my YouTube channel. The link is below."}
+ ]
+}
