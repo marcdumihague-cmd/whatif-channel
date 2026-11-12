@@ -36,7 +36,7 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DO re-voice only the lines that changed**: pass the unchanged lines as `take` slices cut from the
   existing `voice.wav` (temporary script copy in a folder named after the episode). 4 lines took
   minutes instead of 1.5 hours. (us, 2026-11-12)
-- **The user can't hear the problems we can't measure**: we can't listen. Always ask the user to
+- **We can't listen to audio**: Always ask the user to
   listen to the mix and any WARNING line. (us)
 
 ## Sound
