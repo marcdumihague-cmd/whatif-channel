@@ -60,6 +60,12 @@ competition, what titles/thumbnails are winning in the niche right now (vidIQ), 
 results. Say where each choice came from; no "sounds good" picks. Save it in the episode's
 `packaging.md`.
 
+**Reuse research, don't redo it.** All research is in `research/` (index: `research/README.md`).
+Read it before researching anything. Reuse the lasting findings (format rules, thumbnail patterns,
+what separates hits from flops). Only re-run what goes stale or is new: a new video's own keywords
+and title scores, and the "what's breaking out" outlier scan when the last one is over ~4 weeks old.
+Save every new result in `research/` the same day.
+
 ## Voice profile
 
 The yt-* skills look for `~/.claude/youtube/voice.md`. In this repo, use `youtube/voice.md`
