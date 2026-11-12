@@ -61,7 +61,8 @@
    "scene": "cold_open",
    "who": "MOM",
    "text": "Sweetie, you're staring. Is there something on my face?",
-   "act": "warm, amused, a little puzzled"
+   "act": "warm, amused, a little puzzled",
+   "take": "episodes/dreams/takes/002_2.wav"
   },
   {
    "scene": "cold_open",
@@ -114,7 +115,8 @@
    "scene": "rules",
    "who": "MOM",
    "text": "I think it's a phase.",
-   "act": "amused, whispering"
+   "act": "amused, whispering",
+   "take": "episodes/dreams/takes/012_0.wav"
   },
   {
    "scene": "bus",
@@ -178,7 +180,8 @@
    "scene": "lunch",
    "who": "THEO",
    "text": "Okay, okay. What's my ghost?",
-   "act": "excited, bouncing, desperate to know"
+   "act": "excited, bouncing, desperate to know",
+   "take": "episodes/dreams/takes/024_1.wav"
   },
   {
    "scene": "lunch",
@@ -246,7 +249,8 @@
    "scene": "detective",
    "who": "CUSTOMER",
    "text": "Seriously? A stand-up comedian? Me?",
-   "act": "shocked, then delighted"
+   "act": "shocked, then delighted",
+   "take": "episodes/dreams/takes/037_0.wav"
   },
   {
    "scene": "detective",
@@ -316,7 +320,8 @@
    "scene": "detective",
    "who": "THEO",
    "text": "Is it a Navy SEAL? It's a Navy SEAL.",
-   "act": "smug, convinced"
+   "act": "smug, convinced",
+   "take": "episodes/dreams/takes/050_1.wav"
   },
   {
    "scene": "cost",
@@ -362,7 +367,8 @@
    "scene": "sceptic",
    "who": "MOM",
    "text": "Sweetie, I'm 47. That plane has left.",
-   "act": "gentle, a little sad, trying to smile"
+   "act": "gentle, a little sad, trying to smile",
+   "take": "episodes/dreams/takes/059_0.wav"
   },
   {
    "scene": "sceptic",
@@ -451,13 +457,15 @@
    "scene": "flight",
    "who": "MOM",
    "text": "I've been ready for 17 years.",
-   "act": "calm, confident, quietly excited"
+   "act": "calm, confident, quietly excited",
+   "take": "episodes/dreams/takes/076_2.wav"
   },
   {
    "scene": "flight",
    "who": "MOM",
    "text": "Cessna 172. Mine.",
-   "act": "joyful, breathless, laughing"
+   "act": "joyful, breathless, laughing",
+   "take": "episodes/dreams/takes/077_0.wav"
   },
   {
    "scene": "flight",
@@ -478,25 +486,29 @@
    "scene": "dad",
    "who": "DAD",
    "text": "I always wanted to be your dad. Your mom wanted to fly. Now we both get to.",
-   "act": "warm, choked up, smiling"
+   "act": "warm, choked up, smiling",
+   "take": "episodes/dreams/takes/081_0.wav"
   },
   {
    "scene": "dad",
    "who": "DAD",
    "text": "Also, I called the animation school. Your deposit's paid. I've been saving since you were 6.",
-   "act": "sly, proud, holding back tears"
+   "act": "sly, proud, holding back tears",
+   "take": "episodes/dreams/takes/082_1.wav"
   },
   {
    "scene": "dad",
    "who": "MOM",
    "text": "And sweetie? You were never the price. You were the point.",
-   "act": "tender, tearful, smiling"
+   "act": "tender, tearful, smiling",
+   "take": "episodes/dreams/takes/083_1.wav"
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "Okay. Now you have to tell me. What's my ghost?",
-   "act": "nervous, hopeful"
+   "act": "nervous, hopeful",
+   "take": "episodes/dreams/takes/084_0.wav"
   },
   {
    "scene": "theo",
