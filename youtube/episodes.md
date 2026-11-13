@@ -11,6 +11,7 @@ Status: idea -> scripted -> voiced -> rendered -> packaged -> published (by the 
 | 4 | What If You Could See the Dreams Your Parents Gave Up? | rendered | `episodes/dreams/`. 7:03, `video/out/dreams.mp4` + `dreams-thumb.png` (not in git; re-render `Dreams` / `DreamsThumb`). First episode with lip-sync (`tts/lipsync.py`), acted takes (`tts/act.py`, 12 of 28 kept), ghost costumes and crossfades. Research-backed title, thumbnail, description, tags, chapters, Shorts in `packaging.md`. |
 
 | 5 | What If You Could Do Anything You've Watched on YouTube? | rendered | `episodes/watched/`. 6:50, `video/out/watched.mp4` + `watched-thumb.png` (not in git; re-render `Watched` / `WatchedThumb`). Idea #22. Chess hustlers + Magnus Carlsen, furniture flipping, a plane landing; a red progress bar over your head is the visual motif. Research-backed packaging in `packaging.md`. |
+| 6 | What If Everyone Got a Superpower Except You? | rendered | `episodes/except/`. 6:37, `video/out/except.mp4` + `except-thumb.png` (not in git; re-render `Except` / `ExceptThumb`). First episode made under the clarity rule: defining objects per place, labelled powers, purple-eyed mind control, floating that reads as floating. Packaging in `packaging.md`. |
 ## Ideas backlog
 
 Checked 2026-11-11: no existing "what if" video found in YouTube's top results for 2-3 wordings of
@@ -51,7 +52,7 @@ Third batch, 2026-11-12 (the user asked for realistic, not sentimental; checks i
 
 Viral-first batch, 2026-11-13 (`research/idea-checks-2026-11-13-viral.md`):
 
-26. What If Everyone Got a Superpower Except You? (episode 6, in production)
+26. ~~What If Everyone Got a Superpower Except You?~~ (made: episode 6)
 27. **What If You Could See Who Secretly Hates You? (the user chose this one for NEXT time)**
 28. What If You Could Stop Time for 10 Seconds a Day?
 29. What If Everyone Could See Your Search History?

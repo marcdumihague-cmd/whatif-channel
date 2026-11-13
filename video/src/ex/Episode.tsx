@@ -707,13 +707,13 @@ const shots: Record<string, React.FC<ShotProps>> = {
             <rect x={1720} y={400} width={170} height={360} rx={8} fill="#5E3A2A" /><rect x={1700} y={330} width={210} height={60} rx={8} fill={P.cream} /><text x={1805} y={372} textAnchor="middle" fontFamily={font} fontWeight={900} fontSize={30} fill={P.ink}>RADIO ROOM</text>
             {/* 1. teleporter blinks in front of you: nothing happens */}
             <Controlled x={560} y={1000} t={t} s={0.85} /><Person x={560} y={1000} look={extra(3)} mood="controlled" t={0.5} pose="point" s={0.85} flip /><Sparkle t={t} x={560} y={720} at={s1 + 0.1} />
-            <Label t={t} at={s1 + 0.2} until={s1 + d * 0.33} x={560} y={430} text="1. TELEPORT: NOTHING" size={32} bg="#9FE3FF" />
+            <Label t={t} at={s1 + 0.2} until={s1 + d * 0.33} x={560} y={250} text="1. TELEPORT: NOTHING" size={32} bg="#9FE3FF" />
             {/* 2. force field: you walk straight through */}
             <path d="M 760 1000 A 240 240 0 0 1 1240 1000" fill="#5BD3D0" opacity={0.35} stroke="#9FF0EC" strokeWidth={12} />
-            <Label t={t} at={s1 + d * 0.35} until={s1 + d * 0.66} x={1000} y={700} text="2. FORCE FIELD: WALKS RIGHT THROUGH" size={32} bg="#5BD3D0" />
+            <Label t={t} at={s1 + d * 0.35} until={s1 + d * 0.66} x={1000} y={250} text="2. FORCE FIELD: WALKS RIGHT THROUGH" size={32} bg="#5BD3D0" />
             {/* 3. the freezer freezes himself */}
             {t > s1 + d * 0.7 && <Ice x={1440} y={1000} w={200} h={440} />}<Controlled x={1440} y={1000} t={t} s={0.85} /><Person x={1440} y={1000} look={extra(5)} mood="controlled" t={0.5} pose="point" s={0.85} flip />
-            <Label t={t} at={s1 + d * 0.7} x={1440} y={430} text="3. FREEZER: FROZE HIMSELF" size={32} bg="#BFEFFF" />
+            <Label t={t} at={s1 + d * 0.7} x={1440} y={250} text="3. FREEZER: FROZE HIMSELF" size={32} bg="#BFEFFF" />
             <Person x={walk} y={1000} look={YOU} mood="angry" t={t} />
           </Svg>
           <Chip t={t} at={t0 + 0.2} text="3:31 P.M." />

@@ -23,7 +23,17 @@ tag over the hero, a red arrow, 1-2 huge words, a big face. Checked at feed size
 > Then you find out why: powers don't work on you. And in 27 days, that's the only thing standing between one kid and every mind in the city.
 >
 > CHAPTERS
-> (filled in from the final timeline)
+> 0:00 9:41 A.M.
+> 0:43 Everyone Gets One Power
+> 1:28 School Becomes a Disaster
+> 1:59 Powers Don't Work on You
+> 2:33 12 Million Views
+> 3:18 Kicked Out of a Casino
+> 3:38 The Only Normal Person
+> 4:14 Max's Power
+> 5:05 The Radio Room
+> 5:45 40 Minutes Holding Hands
+> 6:20 Your Power Is Ready
 >
 > REAL FACTS IN THIS VIDEO
 > Mind reading and time travel tied as Americans' top superpower picks (28% each); flying got 16%: Marist Poll (2011).
