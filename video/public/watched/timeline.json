@@ -1,602 +1,609 @@
 {
- "estimated": true,
- "duration": 440.065,
+ "duration": 409.81,
  "lines": [
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "You're juggling 5 kitchen knives, and you have never juggled before. In 3 seconds, you'll find out why that's a problem.",
-   "start": 0,
-   "end": 8.077
+   "start": 0.0,
+   "end": 7.44
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "At exactly 38 seconds, your hands just stop.",
-   "start": 8.377,
-   "end": 11.454
+   "start": 7.74,
+   "end": 11.18
   },
   {
    "scene": "cold_open",
    "who": "THEO",
    "text": "Bro! You almost lost a finger!",
    "act": "panicked, half laughing",
-   "start": 11.754,
-   "end": 14.062
+   "start": 11.48,
+   "end": 13.8
   },
   {
    "scene": "cold_open",
    "who": "YOU",
    "text": "I stopped the video at 38 seconds!",
    "act": "shocked, out of breath",
-   "start": 14.362,
-   "end": 17.054
+   "take": "episodes/watched/takes/003_2.wav",
+   "start": 14.1,
+   "end": 16.58
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Because this morning, you woke up able to do everything you have ever watched on YouTube. Up to the exact second you stopped watching.",
-   "start": 17.354,
-   "end": 26.585
+   "start": 16.88,
+   "end": 23.52
   },
   {
    "scene": "promise",
    "who": "NARRATOR",
    "text": "In the next 30 days, you'll beat a chess hustler with moves from the best player alive, fill your garage with 11 chairs nobody wants, flood your kitchen, and land a plane. Almost.",
-   "start": 27.135,
-   "end": 39.827
+   "start": 24.07,
+   "end": 34.31
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Here's how it works. Every video in your watch history, you can now do. Cooking. Card tricks. Guitar. Backflips.",
-   "start": 40.377,
-   "end": 47.685
+   "start": 34.86,
+   "end": 43.34
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "But only up to the second you clicked away. And your history froze this morning. Anything you watch from now on doesn't count.",
-   "start": 47.985,
-   "end": 56.831
+   "start": 43.64,
+   "end": 50.44
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "YouTube says people watch over 1 billion hours of video every day. And one study of more than 10,000 videos found that viewers watch, on average, less than a quarter of each one.",
-   "start": 57.131,
-   "end": 69.823
+   "start": 50.74,
+   "end": 61.3
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Which means you have a lot of half skills.",
-   "start": 70.123,
-   "end": 73.585
+   "start": 61.6,
+   "end": 63.52
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Guitar? The first 40 seconds of one song. Backflips? You know the jump. Not the landing.",
-   "start": 73.885,
-   "end": 80.038
+   "start": 63.82,
+   "end": 70.46
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "And one video from 3 a.m. last March. How to land a plane in an emergency. 71 percent watched.",
-   "start": 80.338,
-   "end": 87.646
+   "start": 70.76,
+   "end": 77.4
   },
   {
    "scene": "rules",
    "who": "THEO",
    "text": "You fell asleep again. The end was the best part.",
    "act": "teasing, sleepy",
-   "start": 87.946,
-   "end": 91.792
+   "take": "episodes/watched/takes/012_1.wav",
+   "start": 77.7,
+   "end": 82.34
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Remember that.",
-   "start": 92.092,
-   "end": 93.092
+   "start": 82.64,
+   "end": 83.52
   },
   {
    "scene": "goal",
    "who": "NARRATOR",
    "text": "There's just one problem. You got fired on Monday. Rent is 1,400 dollars, due on the 1st. You have 210 dollars.",
-   "start": 93.642,
-   "end": 101.719
+   "start": 84.07,
+   "end": 92.79
   },
   {
    "scene": "goal",
    "who": "LANDLORD",
    "text": "The 1st. Not the 2nd. Not I'm almost there. The 1st.",
    "act": "stern, unimpressed, tapping her foot",
-   "start": 102.019,
-   "end": 106.25
+   "start": 93.09,
+   "end": 97.09
   },
   {
    "scene": "goal",
    "who": "NARRATOR",
    "text": "30 days. Time to make money with your half skills.",
-   "start": 106.55,
-   "end": 110.396
+   "start": 97.39,
+   "end": 100.35
   },
   {
    "scene": "half",
    "who": "NARRATOR",
    "text": "Day 2. Theo films you trying a backflip in the backyard.",
-   "start": 110.946,
-   "end": 115.177
+   "start": 100.9,
+   "end": 104.74
   },
   {
    "scene": "half",
    "who": "NARRATOR",
    "text": "You nail the jump. You do not nail the landing.",
-   "start": 115.477,
-   "end": 119.323
+   "start": 105.04,
+   "end": 108.0
   },
   {
    "scene": "half",
    "who": "THEO",
    "text": "2 million views, bro! We're rich!",
    "act": "ecstatic, jumping",
-   "start": 119.623,
-   "end": 121.931
+   "start": 108.3,
+   "end": 111.02
   },
   {
    "scene": "half",
    "who": "NARRATOR",
    "text": "You are not rich. You watched 9 percent of How to make money on YouTube. You never turned on ads.",
-   "start": 122.231,
-   "end": 129.923
+   "start": 111.32,
+   "end": 118.28
   },
   {
    "scene": "flip",
    "who": "NARRATOR",
    "text": "Plan A. Everybody has seen this video. How I make 5,000 dollars a month flipping furniture. You watched 62 percent of it.",
-   "start": 130.473,
-   "end": 138.935
+   "start": 118.83,
+   "end": 127.31
   },
   {
    "scene": "flip",
    "who": "NARRATOR",
    "text": "So you can find the chair. Haggle the price. Sand it, stain it, polish it. It looks better than new.",
-   "start": 139.235,
-   "end": 146.927
+   "start": 127.61,
+   "end": 133.37
   },
   {
    "scene": "flip",
    "who": "NARRATOR",
    "text": "The part about how to sell it was in the other 38 percent.",
-   "start": 147.227,
-   "end": 152.227
+   "start": 133.67,
+   "end": 136.47
   },
   {
    "scene": "flip",
    "who": "NARRATOR",
    "text": "By day 6, there are 11 beautiful chairs in your garage. Nobody has bought one.",
-   "start": 152.527,
-   "end": 158.296
+   "start": 136.77,
+   "end": 141.41
   },
   {
    "scene": "flip",
    "who": "THEO",
    "text": "Do the thing from the video!",
    "act": "excited, pointing, hyped",
-   "start": 158.596,
-   "end": 160.904
+   "take": "episodes/watched/takes/025_0.wav",
+   "start": 141.71,
+   "end": 144.35
   },
   {
    "scene": "flip",
    "who": "YOU",
    "text": "There is no more video, Theo!",
    "act": "exasperated",
-   "start": 161.204,
-   "end": 163.512
+   "take": "episodes/watched/takes/026_2.wav",
+   "start": 144.65,
+   "end": 146.65
   },
   {
    "scene": "flip",
    "who": "NARRATOR",
    "text": "You spent 170 dollars on chairs. You've sold zero. You have 40 dollars left.",
-   "start": 163.812,
-   "end": 169.196
+   "start": 146.95,
+   "end": 153.59
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "Plan B. You scroll through your history again. And there it is. 400 hours of Magnus Carlsen.",
-   "start": 169.746,
-   "end": 176.285
+   "start": 154.14,
+   "end": 160.38
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "He's been the world number 1 since 2011. His peak rating, 2882, is the highest in chess history.",
-   "start": 176.585,
-   "end": 183.508
+   "start": 160.68,
+   "end": 168.36
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "And you watched every single game to the end. Over breakfast. For 3 years.",
-   "start": 183.808,
-   "end": 189.192
+   "start": 168.66,
+   "end": 173.86
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "Day 8. The park. The chess hustlers here play for 5 to 20 dollars a game.",
-   "start": 189.492,
-   "end": 195.646
+   "start": 174.16,
+   "end": 178.72
   },
   {
    "scene": "chess",
    "who": "HUSTLER",
    "text": "Five bucks. Three minutes. Sit down, kid.",
    "act": "gruff, smug, bored",
-   "start": 195.946,
-   "end": 198.638
+   "start": 179.02,
+   "end": 182.46
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "41 seconds later, he is staring at the board like it insulted his mother.",
-   "start": 198.938,
-   "end": 204.323
+   "start": 182.76,
+   "end": 186.68
   },
   {
    "scene": "chess",
    "who": "HUSTLER",
    "text": "Again. Double or nothing.",
    "act": "annoyed, competitive",
-   "start": 204.623,
-   "end": 206.162
+   "start": 186.98,
+   "end": 188.82
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "You win 9 in a row. He has never lost 9 in a row. To anyone.",
-   "start": 206.462,
-   "end": 212.615
+   "start": 189.12,
+   "end": 194.32
   },
   {
    "scene": "chess",
    "who": "HUSTLER",
    "text": "Who taught you to play like that?",
    "act": "suspicious, impressed",
-   "start": 212.915,
-   "end": 215.608
+   "start": 194.62,
+   "end": 196.22
   },
   {
    "scene": "chess",
    "who": "YOU",
    "text": "Magnus. Sort of.",
    "act": "casual, trying not to smile",
-   "start": 215.908,
-   "end": 217.062
+   "start": 196.52,
+   "end": 198.84
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "In 2016, Magnus Carlsen really did sit down with the chess hustlers in Washington Square Park in New York. They lost too.",
-   "start": 217.362,
-   "end": 225.823
+   "start": 199.14,
+   "end": 206.82
   },
   {
    "scene": "chess",
    "who": "NARRATOR",
    "text": "By day 15, you have a regular table, 900 dollars, and a manager.",
-   "start": 226.123,
-   "end": 231.123
+   "start": 207.12,
+   "end": 211.44
   },
   {
    "scene": "chess",
    "who": "HUSTLER",
    "text": "Twenty-five percent. And I bring the coffee.",
    "act": "gruff, proud, dealmaking",
-   "start": 231.423,
-   "end": 234.115
+   "start": 211.74,
+   "end": 214.62
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "But half skills are dangerous.",
-   "start": 234.665,
-   "end": 236.588
+   "start": 215.17,
+   "end": 216.93
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Day 17. The kitchen sink is leaking. You watched a plumbing video once. You stopped right before he said, first, turn off the water.",
-   "start": 236.888,
-   "end": 246.119
+   "start": 217.23,
+   "end": 225.55
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "The Insurance Information Institute says the average water damage claim is about 15,000 dollars.",
-   "start": 246.419,
-   "end": 251.804
+   "start": 225.85,
+   "end": 231.29
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Yours is only 860. Which is all of your money.",
-   "start": 252.104,
-   "end": 255.95
+   "start": 231.59,
+   "end": 235.35
   },
   {
    "scene": "cost",
    "who": "THEO",
    "text": "Do you want me to watch the rest of it?",
    "act": "helpful, sheepish",
-   "start": 256.25,
-   "end": 260.096
+   "start": 235.65,
+   "end": 237.17
   },
   {
    "scene": "cost",
    "who": "YOU",
    "text": "It doesn't count anymore!",
    "act": "exasperated, wet",
-   "start": 260.396,
-   "end": 261.935
+   "start": 237.47,
+   "end": 238.99
   },
   {
    "scene": "cost",
    "who": "NARRATOR",
    "text": "Day 20. 40 dollars. 11 days left. And 11 chairs.",
-   "start": 262.235,
-   "end": 266.081
+   "start": 239.29,
+   "end": 244.49
   },
   {
    "scene": "uncle",
    "who": "THEO",
    "text": "Wait. My uncle Ray just opened an office. He needs chairs. Like, 11 chairs.",
    "act": "excited realization",
-   "start": 266.631,
-   "end": 272.015
+   "take": "episodes/watched/takes/048_2.wav",
+   "start": 245.04,
+   "end": 251.68
   },
   {
    "scene": "uncle",
    "who": "NARRATOR",
    "text": "Uncle Ray flies tourists around in a small plane. He'll buy all 11. But first, he wants to meet you. At the airfield.",
-   "start": 272.315,
-   "end": 281.162
+   "start": 251.98,
+   "end": 260.22
   },
   {
    "scene": "uncle",
    "who": "UNCLE RAY",
    "text": "Nice chairs. Want a ride before I pay you?",
    "act": "friendly, easygoing",
-   "start": 281.462,
-   "end": 284.923
+   "start": 260.52,
+   "end": 263.72
   },
   {
    "scene": "uncle",
    "who": "NARRATOR",
    "text": "You check your history. How to land a plane in an emergency. 71 percent.",
-   "start": 285.223,
-   "end": 290.608
+   "start": 264.02,
+   "end": 269.46
   },
   {
    "scene": "uncle",
    "who": "NARRATOR",
    "text": "What could go wrong?",
-   "start": 290.908,
-   "end": 292.446
+   "start": 269.76,
+   "end": 270.96
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "Day 29. 3,000 feet up. The view is incredible. Then Uncle Ray goes very quiet.",
-   "start": 292.996,
-   "end": 298.765
+   "start": 271.51,
+   "end": 277.67
   },
   {
    "scene": "flight",
    "who": "UNCLE RAY",
    "text": "I don't feel so... great.",
    "act": "weak, dizzy, fading",
-   "start": 299.065,
-   "end": 300.988
+   "start": 277.97,
+   "end": 280.85
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "And he slumps over the controls.",
-   "start": 301.288,
-   "end": 303.596
+   "start": 281.15,
+   "end": 283.23
   },
   {
    "scene": "flight",
    "who": "THEO",
    "text": "Do the thing from the video! Do the thing!",
    "act": "screaming, panicking",
-   "start": 303.896,
-   "end": 307.358
+   "start": 283.53,
+   "end": 286.57
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "And for the first time, the thing from the video is exactly what you need. You know the radio. You know the words.",
-   "start": 307.658,
-   "end": 316.504
+   "start": 286.87,
+   "end": 293.83
   },
   {
    "scene": "flight",
    "who": "YOU",
    "text": "Mayday, mayday. The pilot is unconscious. I'm a passenger.",
    "act": "scared but steady",
-   "start": 316.804,
-   "end": 320.265
+   "take": "episodes/watched/takes/058_2.wav",
+   "start": 294.13,
+   "end": 298.61
   },
   {
    "scene": "flight",
    "who": "TOWER",
    "text": "Copy that. Stay calm, you're doing great. Do you have any flying experience?",
    "act": "calm, professional, reassuring",
-   "start": 320.565,
-   "end": 325.565
+   "start": 298.91,
+   "end": 303.15
   },
   {
    "scene": "flight",
    "who": "YOU",
    "text": "About 6 minutes of a YouTube video.",
    "act": "nervous, deadpan",
-   "start": 325.865,
-   "end": 328.558
+   "start": 303.45,
+   "end": 305.85
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "It has happened for real. In 2022, a passenger with no flying experience landed a plane in Florida after the pilot passed out. An air traffic controller, who was also a flight instructor, talked him down.",
-   "start": 328.858,
-   "end": 342.704
+   "start": 306.15,
+   "end": 317.75
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "You line up with the runway. Speed, perfect. Flaps, perfect. 500 feet. 300. 100.",
-   "start": 343.004,
-   "end": 348.388
+   "start": 318.05,
+   "end": 325.25
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "And then your hands stop. 71 percent. This is where you fell asleep.",
-   "start": 348.688,
-   "end": 353.688
+   "start": 325.55,
+   "end": 330.51
   },
   {
    "scene": "flight",
    "who": "YOU",
    "text": "Theo! How does it end?!",
    "act": "panicking, shouting",
-   "start": 353.988,
-   "end": 355.912
+   "start": 330.81,
+   "end": 332.41
   },
   {
    "scene": "flight",
    "who": "THEO",
    "text": "Power to idle! Pull back slowly! Nose up! Let it float! I watched the end! You were snoring!",
    "act": "shouting fast, urgent",
-   "start": 356.212,
-   "end": 363.135
+   "take": "episodes/watched/takes/065_2.wav",
+   "start": 332.71,
+   "end": 338.63
   },
   {
    "scene": "flight",
    "who": "NARRATOR",
    "text": "You pull back. The nose comes up. The wheels touch. One little bounce. Then just the sound of the runway.",
-   "start": 363.435,
-   "end": 371.127
+   "start": 338.93,
+   "end": 346.37
   },
   {
    "scene": "flight",
    "who": "TOWER",
    "text": "Welcome back to the ground. Nice landing.",
    "act": "relieved, warm",
-   "start": 371.427,
-   "end": 374.119
+   "start": 346.67,
+   "end": 349.39
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "Uncle Ray is fine. Low blood sugar. He pays for all 11 chairs, plus a bonus for not dying.",
-   "start": 374.669,
-   "end": 381.977
+   "start": 349.94,
+   "end": 356.9
   },
   {
    "scene": "payoff",
    "who": "UNCLE RAY",
    "text": "1,500 dollars. And you're never flying with me again.",
    "act": "dry, grateful, joking",
-   "start": 382.277,
-   "end": 385.738
+   "start": 357.2,
+   "end": 361.76
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "Day 30. The rent is paid. On the 1st. With 140 dollars to spare.",
-   "start": 386.038,
-   "end": 391.423
+   "start": 362.06,
+   "end": 368.06
   },
   {
    "scene": "payoff",
    "who": "LANDLORD",
    "text": "Huh. The 1st.",
    "act": "surprised, grudging",
-   "start": 391.723,
-   "end": 392.877
+   "start": 368.36,
+   "end": 369.48
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "Turns out every video you fell asleep to, Theo watched the ending. You had the hands. He had the ending.",
-   "start": 393.177,
-   "end": 400.869
+   "start": 369.78,
+   "end": 376.26
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "Okay. Now do the thing from my history.",
    "act": "excited, hopeful",
-   "start": 401.419,
-   "end": 404.496
+   "take": "episodes/watched/takes/073_1.wav",
+   "start": 376.81,
+   "end": 379.45
   },
   {
    "scene": "theo",
    "who": "NARRATOR",
    "text": "Theo's history is 1,200 hours of people cutting soap. And one video. How to tell your best friend you scratched his car.",
-   "start": 404.796,
-   "end": 413.258
+   "start": 379.75,
+   "end": 387.59
   },
   {
    "scene": "theo",
    "who": "YOU",
    "text": "Theo?",
    "act": "suspicious, slow",
-   "start": 413.558,
-   "end": 414.558
+   "start": 387.89,
+   "end": 388.45
   },
   {
    "scene": "theo",
    "who": "THEO",
    "text": "Do you want me to watch the end?",
    "act": "nervous, guilty",
-   "start": 414.858,
-   "end": 417.935
+   "start": 388.75,
+   "end": 390.27
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "That night, your phone buzzes. There's a new video in your history. You never clicked it.",
-   "start": 418.485,
-   "end": 424.638
+   "start": 390.82,
+   "end": 396.1
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "How to perform surgery. 4 percent watched.",
-   "start": 424.938,
-   "end": 427.631
+   "start": 396.4,
+   "end": 400.16
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "And somebody is knocking on your door.",
-   "start": 427.931,
-   "end": 430.623
+   "start": 400.46,
+   "end": 402.46
   },
   {
    "scene": "endcard",
    "who": "NARRATOR",
    "text": "So if you could do everything you've ever watched, which video would you finish first? Tell us in the comments.",
-   "start": 431.173,
-   "end": 438.865
+   "start": 403.01,
+   "end": 408.61
   }
  ]
 }
