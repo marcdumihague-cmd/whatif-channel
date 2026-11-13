@@ -63,6 +63,9 @@ video happens to "you".
 - **Money, girls, views, survival.** Every video touches at least one of these, and ideally the
   premise is about one of them. ("Girls" in practice: a crush, a date, someone you want to impress,
   written so any viewer can project onto it.)
+- **Money almost every time** (user, 2026-11-13): the premise doesn't have to be about money, but
+  most videos should show "you" cleverly using the situation to make a large amount of money, with
+  the amount on screen climbing.
 
 ## Devices to reuse (as techniques, with new content every time)
 

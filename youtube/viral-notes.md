@@ -55,7 +55,8 @@ A. **The premise must pull on a person**: a crush, a parent, a grandparent, a be
 A2. **The user's rule (2026-11-13): money, girls, views or survival** in every video, ideally as
    the premise. Our title data leaned against money *as the whole point* (0.62x, not proven); the
    answer is money as a fantasy the viewer wants (getting rich, spending it) tied to a person, not
-   markets or odds.
+   markets or odds. The user clarified: not a money-only premise, but most videos should have "you"
+   exploiting the situation to make large amounts of money.
 B. **Never a saturated premise.** Search it first; if a big version exists, skip it ("everyone
    disappeared" already has 4.2M; the late copy did 0.13x).
 
