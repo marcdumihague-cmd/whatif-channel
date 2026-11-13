@@ -70,3 +70,47 @@ Tags matter much less than the title and the first two lines of the description.
 | 4 | The landing (spoils the climax: post a week later) | The pilot just passed out, and the only training you have is 71 percent of a YouTube video. | 41 |
 
 Give each Short its own title, not the long video's (they compete in search otherwise).
+
+## Teaser (vertical, 1080x1920)
+
+Two versions (same video, different last line, because TikTok and Instagram don't allow links in captions):
+
+| File | For | Ends with |
+|---|---|---|
+| `video/out/watched-teaser.mp4` (56 s) | YouTube Shorts | "...The link is below." / LINK BELOW |
+| `video/out/watched-teaser-tiktok-instagram.mp4` (57 s) | TikTok, Instagram Reels | "...The link is in my bio." / LINK IN MY BIO |
+| `video/out/watched-teaser-cover.png` | the cover on all three | the title question over the knife-juggling shot |
+
+Content: the cold open (the knives) and the promise, then a jump to the plane setup ("How to land a plane in an
+emergency. 71 percent watched." / "You fell asleep again. The end was the best part." / "Remember that."), then the
+call to action: WHAT HAPPENS AT 71%? with the progress bar stuck at 71%. Re-render:
+`npx remotion render src/index.ts WatchedTeaser out/watched-teaser.mp4` and `WatchedTeaserBio`.
+
+Research (vidIQ, 10 credits; `research/packaging-2026-11-12-watched.md`): breakout what-if Reels and TikToks right now
+(24x to 776x their creators' median) all put the "What if..." question on screen in the first second, use a
+one-line hook caption plus 3-6 hashtags (#whatif #superpowers #animation #storytime come up most), and end by
+asking viewers to comment or vote. The YouTube Shorts search returned nothing comparable (mostly gacha and music
+clips), so the Shorts title follows our own lint: a concrete number, different from the long video's title.
+
+### YouTube Shorts
+
+- **Title:** You Only Watched 71% of How to Land a Plane 😳  (title.py 94; doesn't repeat the long title, so the two don't compete in search)
+- **Description:**
+  > The pilot just passed out. Your only training: 71% of a YouTube video. Full video: [link to the long video]
+  > #shorts #whatif #animation
+- **Related video:** in the YouTube app or Studio, set this Short's *Related video* to the long video. It puts a tappable link on the Short, which works better than a link in the description.
+- **Cover:** the first frame (the title question). Choose it in the app when uploading.
+
+### TikTok
+
+- **Caption:**
+  > You've never juggled before. In 3 seconds you'll find out why that's a problem 🔪 What if you could do anything you've ever watched on YouTube... but only up to the second you stopped? Full video on my YouTube, link in bio. Which video would YOU finish first? #whatif #superpowers #animation #storytime #youtube
+- **Cover:** pick the first frame (the title question) in TikTok's cover picker.
+- **Bio:** put the long video's YouTube link in your bio before posting.
+
+### Instagram Reels
+
+- **Caption:**
+  > What if you could do anything you've ever watched on YouTube... but only up to the second you stopped watching? ✈️ 71% of a "how to land a plane" video is about to be a problem. Full video on my YouTube, link in bio. Which video would you finish first? 👇 #whatif #animation #superpowers #whatwouldyoudo #storytime
+- **Cover:** upload `video/out/watched-teaser-cover.png` as the Reel cover.
+- **Bio:** the long video's YouTube link.

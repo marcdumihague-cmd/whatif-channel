@@ -85,6 +85,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   as a glowing label over someone, one big emotional face. (us, `research/packaging-2026-11-12.md`)
 - **Thumbnail text never repeats the title's words.** (yt-package rule)
 - **DON'T give a Short almost the same title as its long video**: they compete in search. (us, 2026-11-12)
+- **TikTok and Instagram don't allow links in captions**: make a "link in my bio" version of every
+  teaser alongside the YouTube one ("link below"), and tell the user to put the link in their bio. (us, 2026-11-13)
 - **Remind the user to add tags**: both first uploads went up without any. (us, 2026-11-12)
 
 ## Tools and environment
