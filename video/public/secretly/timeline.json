@@ -1,433 +1,438 @@
 {
- "estimated": true,
- "duration": 339.05,
+ "duration": 305.15,
  "lines": [
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Monday, 7:52 a.m. There's a number floating over every head at your school. And it tells you exactly how much that person secretly hates you.",
-   "start": 0,
-   "end": 9.915
+   "start": 0.0,
+   "end": 7.68
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "The kid who says hi to you every single morning: 91 percent.",
-   "start": 10.215,
-   "end": 15.131
+   "start": 7.98,
+   "end": 11.82
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "The quiet kid you've never talked to: 0.",
-   "start": 15.431,
-   "end": 18.808
+   "start": 12.12,
+   "end": 15.08
   },
   {
    "scene": "cold_open",
    "who": "THEO",
    "text": "Bro, why are you staring at everyone's foreheads?",
-   "start": 19.108,
-   "end": 22.485
+   "start": 15.38,
+   "end": 17.94
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Theo. Your best friend since kindergarten. 87 percent.",
-   "start": 22.785,
-   "end": 26.162
+   "start": 18.24,
+   "end": 22.08
   },
   {
    "scene": "cold_open",
    "who": "YOU",
    "text": "Are we... good?",
-   "start": 26.462,
-   "end": 27.915
+   "act": "nervous, careful",
+   "start": 22.38,
+   "end": 23.58
   },
   {
    "scene": "cold_open",
    "who": "THEO",
    "text": "What? Yeah. Obviously. Why?",
-   "start": 28.215,
-   "end": 30.054
+   "start": 23.88,
+   "end": 27.08
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "88.",
-   "start": 30.354,
-   "end": 31.354
+   "start": 27.38,
+   "end": 28.26
   },
   {
    "scene": "promise",
    "who": "NARRATOR",
    "text": "In the next 7 days, you'll make more money than your parents make in a month, find out what Theo has been hiding for 6 years, and finally read the one number you've been too scared to look at.",
-   "start": 31.904,
-   "end": 47.204
+   "start": 28.81,
+   "end": 38.97
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "The rules are simple. 0 means they like you. 100 means they'd push you into a pool in December. And it updates live.",
-   "start": 47.754,
-   "end": 56.9
+   "start": 39.52,
+   "end": 46.96
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "You can't see your own. Mirrors, cameras and FaceTime don't work. You tried all 3.",
-   "start": 57.2,
-   "end": 63.269
+   "start": 47.26,
+   "end": 53.02
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Breakfast. Your mom: 12 percent.",
-   "start": 63.569,
-   "end": 65.792
+   "start": 53.32,
+   "end": 55.72
   },
   {
    "scene": "rules",
    "who": "MOM",
    "text": "Did you eat my yogurt again?",
-   "start": 66.092,
-   "end": 68.7
+   "start": 56.02,
+   "end": 57.62
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "13.",
-   "start": 69.0,
-   "end": 70.0
+   "start": 57.92,
+   "end": 58.72
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "A 2016 study from MIT and Tel Aviv University asked students about their friendships. 95 percent thought their friends felt the same way about them. Only about half actually did.",
-   "start": 70.3,
-   "end": 82.138
+   "start": 59.02,
+   "end": 69.9
   },
   {
    "scene": "school",
    "who": "NARRATOR",
    "text": "So you spend the day reading the room. Literally.",
-   "start": 82.688,
-   "end": 86.45
+   "start": 70.45,
+   "end": 73.73
   },
   {
    "scene": "school",
    "who": "NARRATOR",
    "text": "Your math teacher, who gave you a C minus: 2 percent. She doesn't hate you. She hates grading.",
-   "start": 86.75,
-   "end": 93.973
+   "start": 74.03,
+   "end": 80.43
   },
   {
    "scene": "school",
    "who": "NARRATOR",
    "text": "The guy who copies your homework every day: 74.",
-   "start": 94.273,
-   "end": 98.035
+   "start": 80.73,
+   "end": 83.69
   },
   {
    "scene": "school",
    "who": "NARRATOR",
    "text": "A 2006 review of 206 studies found that people catch a lie only about 54 percent of the time. Basically a coin flip. You're now at 100.",
-   "start": 98.335,
-   "end": 109.019
+   "start": 83.99,
+   "end": 93.35
   },
   {
    "scene": "school",
    "who": "NARRATOR",
    "text": "But there's one number you won't look at. Maya. Third row, by the window. Every time she walks past, you suddenly find your shoes very interesting.",
-   "start": 109.319,
-   "end": 119.619
+   "start": 93.65,
+   "end": 101.97
   },
   {
    "scene": "money",
    "who": "NARRATOR",
    "text": "That night, YouTube recommends you a video. I made 10,000 dollars reselling sneakers at 16.",
-   "start": 120.169,
-   "end": 126.238
+   "start": 102.52,
+   "end": 108.28
   },
   {
    "scene": "money",
    "who": "NARRATOR",
    "text": "The whole trick is buying low. And the guy says the hard part is knowing how far you can push a seller before they walk away.",
-   "start": 126.538,
-   "end": 136.838
+   "start": 108.58,
+   "end": 114.98
   },
   {
    "scene": "money",
    "who": "NARRATOR",
    "text": "You look at the screen. Then at the ceiling. Then you text Theo.",
-   "start": 137.138,
-   "end": 142.438
+   "start": 115.28,
+   "end": 119.76
   },
   {
    "scene": "money",
    "who": "YOU",
    "text": "How much do you know about sneakers?",
-   "start": 142.738,
-   "end": 145.731
+   "start": 120.06,
+   "end": 122.14
   },
   {
    "scene": "money",
    "who": "THEO",
    "text": "Bro. Everything.",
-   "start": 146.031,
-   "end": 147.1
+   "act": "excited, proud",
+   "start": 122.44,
+   "end": 124.12
   },
   {
    "scene": "market",
    "who": "NARRATOR",
    "text": "Saturday. A sneaker meetup in a parking garage. Theo spots the real ones. You read the sellers.",
-   "start": 147.65,
-   "end": 154.488
+   "start": 124.67,
+   "end": 131.47
   },
   {
    "scene": "market",
    "who": "SELLER",
    "text": "Jordan 4s. Never worn. 400.",
-   "start": 154.788,
-   "end": 157.012
+   "start": 131.77,
+   "end": 134.73
   },
   {
    "scene": "market",
    "who": "YOU",
    "text": "200.",
-   "start": 157.312,
-   "end": 158.312
+   "start": 135.03,
+   "end": 135.75
   },
   {
    "scene": "market",
    "who": "NARRATOR",
    "text": "70. Annoyed, but still listening.",
-   "start": 158.612,
-   "end": 160.835
+   "start": 136.05,
+   "end": 138.13
   },
   {
    "scene": "market",
    "who": "YOU",
    "text": "150?",
-   "start": 161.135,
-   "end": 162.135
+   "start": 138.43,
+   "end": 139.87
   },
   {
    "scene": "market",
    "who": "NARRATOR",
    "text": "95. Too far. One more dollar and he walks.",
-   "start": 162.435,
-   "end": 166.196
+   "start": 140.17,
+   "end": 144.57
   },
   {
    "scene": "market",
    "who": "YOU",
    "text": "160. Cash. Right now.",
-   "start": 166.496,
-   "end": 168.335
+   "start": 144.87,
+   "end": 147.51
   },
   {
    "scene": "market",
    "who": "NARRATOR",
    "text": "98. Deal.",
-   "start": 168.635,
-   "end": 169.704
+   "start": 147.81,
+   "end": 149.73
   },
   {
    "scene": "market",
    "who": "SELLER",
    "text": "Kid, you're a nightmare.",
-   "start": 170.004,
-   "end": 171.842
+   "act": "grumpy, half impressed",
+   "start": 150.03,
+   "end": 151.87
   },
   {
    "scene": "market",
    "who": "NARRATOR",
    "text": "That night, you list them for 650.",
-   "start": 172.142,
-   "end": 175.135
+   "start": 152.17,
+   "end": 154.97
   },
   {
    "scene": "hustle",
    "who": "NARRATOR",
    "text": "In 2022, the investment bank Cowen said the sneaker resale market could hit 30 billion dollars by 2030. You want your piece.",
-   "start": 175.685,
-   "end": 184.446
+   "start": 155.52,
+   "end": 163.52
   },
   {
    "scene": "hustle",
    "who": "NARRATOR",
    "text": "Every meetup, every app, every garage sale. You find every seller's limit, to the dollar.",
-   "start": 184.746,
-   "end": 190.815
+   "start": 163.82,
+   "end": 169.34
   },
   {
    "scene": "hustle",
    "who": "NARRATOR",
    "text": "By Friday, you and Theo have made 8,400 dollars. You pay for groceries, and your mom's number drops to 4.",
-   "start": 191.115,
-   "end": 199.108
+   "start": 169.64,
+   "end": 175.96
   },
   {
    "scene": "hustle",
    "who": "NARRATOR",
    "text": "But Theo's doesn't move. Counting cash with you. Laughing. 87.",
-   "start": 199.408,
-   "end": 203.554
+   "start": 176.26,
+   "end": 181.06
   },
   {
    "scene": "secret",
    "who": "NARRATOR",
    "text": "Then, in your room, he sees it. On your shelf. The trophy from 4th grade.",
-   "start": 204.104,
-   "end": 210.173
+   "start": 181.61,
+   "end": 187.21
   },
   {
    "scene": "secret",
    "who": "THEO",
    "text": "You still have that?",
-   "start": 210.473,
-   "end": 212.312
+   "start": 187.51,
+   "end": 188.71
   },
   {
    "scene": "secret",
    "who": "NARRATOR",
    "text": "First place, science fair. A volcano that shot foam 10 feet in the air. You remember presenting it. You never think about whose idea it was.",
-   "start": 212.612,
-   "end": 222.912
+   "start": 189.01,
+   "end": 197.89
   },
   {
    "scene": "secret",
    "who": "NARRATOR",
    "text": "93.",
-   "start": 223.212,
-   "end": 224.212
+   "start": 198.19,
+   "end": 199.15
   },
   {
    "scene": "secret",
    "who": "YOU",
    "text": "It was yours. Wasn't it.",
-   "start": 224.512,
-   "end": 226.735
+   "start": 199.45,
+   "end": 200.97
   },
   {
    "scene": "secret",
    "who": "THEO",
    "text": "I was sick that day. You said you'd tell them. You never did.",
-   "start": 227.035,
-   "end": 232.335
+   "act": "hurt, quiet",
+   "start": 201.27,
+   "end": 205.83
   },
   {
    "scene": "pitch",
    "who": "NARRATOR",
    "text": "Monday. The city's teen business contest. First prize: 50,000 dollars. You enter the sneaker business. Theo almost doesn't come.",
-   "start": 232.885,
-   "end": 240.492
+   "start": 206.38,
+   "end": 216.3
   },
   {
    "scene": "pitch",
    "who": "NARRATOR",
    "text": "3 judges. All 3 start at 60. They've seen 40 pitches today.",
-   "start": 240.792,
-   "end": 245.708
+   "start": 216.6,
+   "end": 221.48
   },
   {
    "scene": "pitch",
    "who": "NARRATOR",
    "text": "So you pitch while reading them live. A joke: 55. The profit chart: 41. The part where you buy every pair 40 percent under market: 12.",
-   "start": 246.008,
-   "end": 256.308
+   "start": 221.78,
+   "end": 231.46
   },
   {
    "scene": "pitch",
    "who": "JUDGE",
    "text": "Impressive. Last question. Whose idea was this?",
-   "start": 256.608,
-   "end": 259.6
+   "start": 231.76,
+   "end": 235.04
   },
   {
    "scene": "pitch",
    "who": "NARRATOR",
    "text": "Judges love a solo founder. You can see it. Every time you said I, their numbers dropped. And Theo is in the back row. 93.",
-   "start": 259.9,
-   "end": 269.815
+   "start": 235.34,
+   "end": 243.66
   },
   {
    "scene": "pitch",
    "who": "YOU",
    "text": "Honestly? His. Theo picks every pair. I just do the talking. Like I did in 4th grade.",
-   "start": 270.115,
-   "end": 276.954
+   "start": 243.96,
+   "end": 249.32
   },
   {
    "scene": "pitch",
    "who": "NARRATOR",
    "text": "Theo's number starts falling. 70. 40. 9.",
-   "start": 277.254,
-   "end": 280.246
+   "start": 249.62,
+   "end": 254.18
   },
   {
    "scene": "win",
    "who": "NARRATOR",
    "text": "And the judges call you both up. First place. A giant cardboard check for 50,000 dollars, with 2 names on it.",
-   "start": 280.796,
-   "end": 289.173
+   "start": 254.73,
+   "end": 261.61
   },
   {
    "scene": "win",
    "who": "THEO",
    "text": "The 9 is for when you spoiled the finale of my show.",
-   "start": 289.473,
-   "end": 294.388
+   "start": 261.91,
+   "end": 265.03
   },
   {
    "scene": "crush",
    "who": "NARRATOR",
    "text": "Outside, someone is waiting by the doors. Maya. She saw the whole thing.",
-   "start": 294.938,
-   "end": 300.238
+   "start": 265.58,
+   "end": 271.42
   },
   {
    "scene": "crush",
    "who": "MAYA",
    "text": "That was really cool. What you did for him.",
-   "start": 300.538,
-   "end": 304.3
+   "start": 271.72,
+   "end": 274.28
   },
   {
    "scene": "crush",
    "who": "NARRATOR",
    "text": "And for the first time all week, you look up.",
-   "start": 304.6,
-   "end": 308.746
+   "start": 274.58,
+   "end": 276.74
   },
   {
    "scene": "crush",
    "who": "NARRATOR",
    "text": "0. Not low. Zero. You've read 1,400 numbers this week. That's the 3rd zero you've ever seen. Your mom isn't one of them.",
-   "start": 309.046,
-   "end": 318.192
+   "start": 277.04,
+   "end": 288.16
   },
   {
    "scene": "crush",
    "who": "MAYA",
    "text": "So... are you going to ask me out, or do I have to?",
-   "start": 318.492,
-   "end": 323.792
+   "act": "playful, a little shy",
+   "take": "episodes/secretly/takes/058_1.wav",
+   "start": 288.46,
+   "end": 292.22
   },
   {
    "scene": "crush",
    "who": "YOU",
    "text": "Yes. I mean, I am. The first one.",
-   "start": 324.092,
-   "end": 327.469
+   "start": 292.52,
+   "end": 295.48
   },
   {
    "scene": "endcard",
    "who": "NARRATOR",
    "text": "So. If you could see who secretly hates you, would you look? And whose number would you check first? Tell me in the comments.",
-   "start": 328.019,
-   "end": 337.55
+   "start": 296.03,
+   "end": 303.95
   }
  ]
 }

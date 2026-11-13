@@ -266,7 +266,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
         <Backdrop base="#C9D6E6" light="#F2F6FA" cx={50} cy={30}><rect y={860} width={1920} height={220} fill="#A9B5C6" /></Backdrop>
         <Svg>
           {[["MIRROR", 380], ["CAMERA", 960], ["FACETIME", 1540]].map(([w, x], i) => {
-            const at = S(a + 1) + D(a + 1) * (0.25 + i * 0.15);
+            const at = S(a + 1) + D(a + 1) * (0.05 + i * 0.12);
             return <g key={i} transform={`translate(${x} 470)`} opacity={ease(t, at - 0.3, at)}>
               {i === 0 && <g><ellipse rx={150} ry={210} fill="#8E6646" /><ellipse rx={130} ry={190} fill="#BFE3F6" /><circle cy={-30} r={70} fill={P.skin} opacity={0.8} /><rect x={-80} y={50} width={160} height={110} rx={50} fill={P.teal} opacity={0.8} /></g>}
               {i === 1 && <g transform="scale(0.55)"><Phone x={0} y={0} t={t}><rect x={-154} y={-300} width={308} height={600} fill="#BFE3F6" /><circle cy={-40} r={90} fill={P.skin} /><rect x={-110} y={60} width={220} height={240} rx={80} fill={P.teal} /></Phone></g>}
@@ -466,8 +466,8 @@ const shots: Record<string, React.FC<ShotProps>> = {
             <Person x={600} y={1000} look={YOU} mood={deal ? "happy" : "smug"} t={t} {...say(t, "YOU")} lookX={1} pose={deal ? "point" : "stand"} />
             {b <= 1 && <Offer t={t} at={S(a + 1) + 0.4} x={1300} y={300} text="NEVER WORN · $400" color="#FFC844" />}
             {offer && <Offer t={t} at={S(a + (b >= 6 ? 6 : b >= 4 ? 4 : 2))} x={600} y={330} text={offer} />}
-            {b === 5 && <Label t={t} at={S(a + 5) + 0.6} x={900} y={410} text="ONE MORE DOLLAR AND HE WALKS" size={34} bg="#FF4B4B" color={P.white} />}
-            {deal && <Label t={t} at={S(a + 7) + 0.3} x={900} y={410} text="DEAL · $240 UNDER ASKING" size={40} bg="#4DE08A" />}
+            {b === 5 && <Label t={t} at={S(a + 5) + 0.6} x={560} y={420} text="ONE MORE DOLLAR AND HE WALKS" size={34} bg="#FF4B4B" color={P.white} />}
+            {deal && <Label t={t} at={S(a + 7) + 0.3} x={560} y={420} text="DEAL · $240 UNDER ASKING" size={40} bg="#4DE08A" />}
             {deal && <Cash x={950} y={720} n={4} s={0.8} />}
           </Svg>
         </Camera>
@@ -719,7 +719,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           <Person x={1180} y={1000} look={MAYA} mood={b >= 4 ? "happy" : "smug"} t={t} {...say(t, "MAYA")} flip lookX={-1} wink={b === 4 && t > S(a + 4) + D(a + 4) * 0.7} />
           {b >= 1 && <Tag t={t} x={1180} y={tagY(1000)} v={0} hidden={!look} at={S(a + 1)} s={reveal ? 1.45 : 1} id="maya0" />}
           {reveal && <Glow cx={1180} cy={tagY(1000)} r={360} color="#4DE08A" opacity={0.35 + 0.1 * Math.sin(t * 3)} id="zero" />}
-          {b === 0 && <Label t={t} at={S(a) + D(a) * 0.5} x={1180} y={300} text="MAYA" size={36} bg="#8E7BB8" color={P.white} />}
+          {b === 0 && <Label t={t} at={S(a) + D(a) * 0.5} x={1180} y={400} text="MAYA" size={36} bg="#8E7BB8" color={P.white} />}
           {b === 3 && t > S(a + 3) + D(a + 3) * 0.75 && <g transform="translate(320 330)"><rect x={-160} y={-120} width={320} height={260} rx={24} fill="rgba(14,19,32,0.85)" /><g transform="translate(0 220) scale(0.5)"><Person x={0} y={0} look={MOM} mood="smug" t={t} noLegs /></g><g transform="translate(0 -60) scale(0.6)"><Tag t={t} x={0} y={0} v={4} id="momi" /></g><text y={110} textAnchor="middle" fontFamily={font} fontWeight={900} fontSize={26} fill={P.white}>YOUR MOM</text></g>}
           {b === 3 && <Label t={t} at={S(a + 3) + D(a + 3) * 0.35} x={1180} y={130} text="THE 3RD ZERO EVER" size={40} bg="#4DE08A" />}
         </Svg>
