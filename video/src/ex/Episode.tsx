@@ -272,7 +272,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           {t > S(a + 2) && t < S(a + 3) && <Waves t={t} x={1480} y={640} tx={1160} ty={560} />}
           {t > S(a + 2) && <Label t={t} at={S(a + 2) + D(a + 2) * 0.3} x={1560} y={420} text="READS MINDS" size={30} bg={PURPLE} color={P.white} />}
           {/* front row: Theo floating, you waiting */}
-          <Floating x={420} lift={lift * 230} tape={lift > 0.6}><Person x={420} y={1000} look={THEO} mood={lift > 0.5 ? "happy" : "shocked"} t={t} {...say(t, "THEO")} pose={lift > 0.5 ? "cheer" : "sit"} /></Floating>
+          <Floating x={420} lift={lift * 230} tape={lift > 0.6}><Person floating={lift > 0.05} x={420} y={1000} look={THEO} mood={lift > 0.5 ? "happy" : "shocked"} t={t} {...say(t, "THEO")} pose={lift > 0.5 ? "cheer" : "sit"} /></Floating>
           {lift < 0.5 && <Desk x={420} />}
           {lift > 0.5 && <Label t={t} at={S(a) + 1.8} x={420} y={330} text="FLYING" size={32} bg="#F2B640" />}
           <Person x={780} y={1000} look={YOU} mood={t > S(a + 5) ? "sad" : nothing ? "nervous" : "shocked"} t={t} {...say(t, "YOU")} pose="sit" lookX={-1} />
@@ -329,7 +329,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
       <Camera t={t} t0={S(a + 2) - 0.3} t1={S(a + 4)} from={1.0} to={1.1} fx={960} punch={[S(a + 3) + 0.2]}>
         <Backdrop base="#BFE3F6" light="#F2FAFE" cx={50} cy={20}><rect y={940} width={1920} height={140} fill="#7BBF7A" />{Array.from({ length: 60 }, (_, i) => <path key={i} d={`M ${(i * 33) % 1920} ${950 + (i * 17) % 100} l 4 -16 l 4 16`} stroke="#5FA862" strokeWidth={3} fill="none" />)}</Backdrop>
         <Svg>
-          <Floating x={960} ground={1000} lift={200 + Math.sin(t * 2) * 8}><Person x={960} y={1000} look={THEO} mood={t > S(a + 3) ? "angry" : "happy"} t={t} {...say(t, "THEO")} pose="cheer" /></Floating>
+          <Floating x={960} ground={1000} lift={200 + Math.sin(t * 2) * 8}><Person floating x={960} y={1000} look={THEO} mood={t > S(a + 3) ? "angry" : "happy"} t={t} {...say(t, "THEO")} pose="cheer" /></Floating>
           <Label t={t} at={S(a + 2) + 0.4} x={960} y={330} text="FLYING · MAX HEIGHT 2 FT" size={38} bg="#F2B640" />
         </Svg>
       </Camera>
@@ -442,7 +442,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           <Cafeteria t={t} />
           <Svg>
             <Person x={760} y={1000} look={YOU} mood={drop ? "shocked" : "happy"} t={t} lookX={1} pose={t > hi5 - 0.6 && t < hi5 + 0.4 ? "point" : "stand"} />
-            <Floating x={1160} lift={drop ? 0 : 200} tape={!drop}><Person x={1160} y={1000} look={THEO} mood={drop || t > S(a + 3) ? "shocked" : "happy"} t={t} {...say(t, "THEO")} flip lookX={-1} pose={t > hi5 - 0.6 && t < hi5 + 0.4 ? "point" : "stand"} /></Floating>
+            <Floating x={1160} lift={drop ? 0 : 200} tape={!drop}><Person floating={!drop} x={1160} y={1000} look={THEO} mood={drop || t > S(a + 3) ? "shocked" : "happy"} t={t} {...say(t, "THEO")} flip lookX={-1} pose={t > hi5 - 0.6 && t < hi5 + 0.4 ? "point" : "stand"} /></Floating>
             {t > hi5 - 0.1 && t < hi5 + 0.5 && <g transform={`translate(960 600) scale(${pop(t, hi5 - 0.1)})`}><path d="M 0 -60 L 14 -14 L 60 -14 L 22 12 L 36 56 L 0 30 L -36 56 L -22 12 L -60 -14 L -14 -14 Z" fill={P.gold} /><text y={110} textAnchor="middle" fontFamily={font} fontWeight={900} fontSize={40} fill={P.ink}>HIGH FIVE</text></g>}
             {drop && <Label t={t} at={hi5 + 0.1} x={1160} y={380} text="POWER OFF" size={34} bg={P.red} color={P.white} />}
           </Svg>
@@ -595,7 +595,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
       <Camera t={t} t0={S(a + 2) - 0.3} t1={S(a + 4)} from={1.0} to={1.08} punch={[S(a + 3) + D(a + 3) * 0.6]}>
         <Gym t={t} />
         <Svg>
-          {[0, 1, 2, 3].map((i) => <Floating key={i} x={400 + i * 300} lift={190 + Math.sin(t * 2 + i) * 8} tape={i === 0}><Person x={400 + i * 300} y={1000} look={i === 1 ? THEO : extra(i + 1)} mood="happy" t={t + i} {...(i === 1 ? say(t, "THEO") : {})} pose="cheer" s={0.85} /></Floating>)}
+          {[0, 1, 2, 3].map((i) => <Floating key={i} x={400 + i * 300} lift={190 + Math.sin(t * 2 + i) * 8} tape={i === 0}><Person floating x={400 + i * 300} y={1000} look={i === 1 ? THEO : extra(i + 1)} mood="happy" t={t + i} {...(i === 1 ? say(t, "THEO") : {})} pose="cheer" s={0.85} /></Floating>)}
           <ellipse cx={1650} cy={1000} rx={110} ry={30} fill={P.ink} opacity={0.9} /><Person x={1650} y={1095} look={YOU} mood="sad" t={t} pose="sit" s={0.9} flip lookX={-1} />
           <Label t={t} at={S(a + 2) + D(a + 2) * 0.6} x={1650} y={520} text="ON THE FLOOR" size={30} bg="#3A4256" color={P.white} />
         </Svg>
@@ -807,7 +807,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           {/* stairs */}
           {Array.from({ length: 6 }, (_, i) => <rect key={i} x={300 + i * 100} y={1000 - (6 - i) * 60} width={100} height={(6 - i) * 60} fill="#AEB6CC" stroke="#8A93A5" strokeWidth={3} />)}
           {t < trip ? <Person x={interpolate(t, [S(a + 4), trip], [450, 760], clamp)} y={700} look={THEO} mood="happy" t={t} {...say(t, "THEO")} />
-            : <Floating x={1100} lift={interpolate(fall, [0, 1], [500, 200])} tape={fall > 0.9}><g transform={`rotate(${-80 * Math.min(1, fall * 1.5)} 1100 820)`}><Person x={1100} y={1000} look={THEO} mood={fall > 0.9 ? "happy" : "shocked"} t={t} {...say(t, "THEO")} pose={fall > 0.9 ? "cheer" : "stand"} /></g></Floating>}
+            : <Floating x={1100} lift={interpolate(fall, [0, 1], [500, 200])} tape={fall > 0.9}><g transform={`rotate(${-80 * Math.min(1, fall * 1.5)} 1100 820)`}><Person floating x={1100} y={1000} look={THEO} mood={fall > 0.9 ? "happy" : "shocked"} t={t} {...say(t, "THEO")} pose={fall > 0.9 ? "cheer" : "stand"} /></g></Floating>}
           <Label t={t} at={trip + 0.6} x={900} y={420} text="2 FT. EXACTLY ENOUGH." size={36} bg="#F2B640" />
         </Svg>
       </Camera>

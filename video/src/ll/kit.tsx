@@ -213,8 +213,8 @@ export type Pose = "stand" | "wave" | "phone" | "point" | "shrug" | "cheer" | "h
 export const Person: React.FC<{
   x: number; y: number; look: Look; mood: Mood; t: number; s?: number; talk?: boolean; pose?: Pose;
   flip?: boolean; lookX?: number; holding?: React.ReactNode; sweat?: boolean;
-  lip?: Lip; wink?: boolean; noLegs?: boolean;
-}> = ({ x, y, look, mood, t, s = 1, talk = false, pose = "stand", flip = false, lookX = 0, holding, sweat = false, lip, wink, noLegs = false }) => {
+  lip?: Lip; wink?: boolean; noLegs?: boolean; floating?: boolean; // floating: no shadow at the feet
+}> = ({ x, y, look, mood, t, s = 1, talk = false, pose = "stand", flip = false, lookX = 0, holding, sweat = false, lip, wink, noLegs = false, floating = false }) => {
   const tall = look.tall ?? 1;
   const breathe = Math.sin(t * 2.4 + x) * 3;
   const bob = talk ? Math.sin(t * 9) * 2 : 0;
@@ -229,7 +229,7 @@ export const Person: React.FC<{
   );
   return (
     <g transform={`translate(${x} ${y}) scale(${(flip ? -1 : 1) * s} ${s * tall})`}>
-      <Shadow cx={0} cy={0} rx={95} />
+      {!floating && <Shadow cx={0} cy={0} rx={95} />}
       {legs && (
         <g fill={P.ink} opacity={0.9}>
           <rect x={-44} y={-120} width={36} height={120} rx={16} />

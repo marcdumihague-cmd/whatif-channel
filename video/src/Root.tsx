@@ -10,6 +10,7 @@ import { Episode as Watched, DURATION as WT_DURATION } from "./wt/Episode";
 import { Thumb as WatchedThumb } from "./wt/Thumb";
 import { Teaser as WatchedTeaser, TEASER_DURATION as WT_TEASER, TEASER_BIO_DURATION as WT_TEASER_BIO } from "./wt/Teaser";
 import { Episode as Except, DURATION as EX_DURATION } from "./ex/Episode";
+import { Thumb as ExceptThumb } from "./ex/Thumb";
 import timeline from "../public/test-scene/timeline.json";
 
 export const FPS = 30;
@@ -28,5 +29,6 @@ export const Root = () => (
     <Composition id="WatchedTeaser" component={WatchedTeaser} durationInFrames={Math.ceil(WT_TEASER * FPS)} fps={FPS} width={1080} height={1920} />
     <Composition id="WatchedTeaserBio" component={WatchedTeaser} defaultProps={{ bio: true }} durationInFrames={Math.ceil(WT_TEASER_BIO * FPS)} fps={FPS} width={1080} height={1920} />
     <Composition id="Except" component={Except} durationInFrames={Math.ceil(EX_DURATION * FPS)} fps={FPS} width={1920} height={1080} />
+    <Composition id="ExceptThumb" component={ExceptThumb} durationInFrames={1} fps={FPS} width={1280} height={720} />
   </>
 );
