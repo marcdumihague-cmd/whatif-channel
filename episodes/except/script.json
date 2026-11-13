@@ -208,7 +208,8 @@
    "scene": "viral",
    "who": "MOM",
    "text": "Why isn't it working? Sweetie, hold still!",
-   "act": "worried, frustrated"
+   "act": "worried, frustrated",
+   "take": "episodes/except/takes/033_2.wav"
   },
   {
    "scene": "viral",
@@ -261,7 +262,8 @@
    "scene": "lonely",
    "who": "THEO",
    "text": "You can hold my ankle. Wait, no, then I fall.",
-   "act": "sheepish, apologetic"
+   "act": "sheepish, apologetic",
+   "take": "episodes/except/takes/043_1.wav"
   },
   {
    "scene": "lonely",
@@ -367,7 +369,8 @@
    "scene": "climax",
    "who": "MAX",
    "text": "I just wanted everybody to stop talking about their powers.",
-   "act": "embarrassed, deflated, mumbling"
+   "act": "embarrassed, deflated, mumbling",
+   "take": "episodes/except/takes/063_0.wav"
   },
   {
    "scene": "climax",

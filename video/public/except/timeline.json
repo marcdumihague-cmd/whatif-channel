@@ -1,546 +1,548 @@
 {
- "estimated": true,
- "duration": 400.373,
+ "duration": 396.82,
  "lines": [
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "At 9:41 a.m., your best friend starts floating in math class.",
-   "start": 0,
-   "end": 4.0
+   "start": 0.0,
+   "end": 4.32
   },
   {
    "scene": "cold_open",
    "who": "THEO",
    "text": "Bro! Bro! I'm flying!",
    "act": "ecstatic, shouting, laughing",
-   "start": 4.3,
-   "end": 5.755
+   "start": 4.62,
+   "end": 6.46
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "Two feet off the ground. And around the room, everyone is lighting up. Your teacher reads minds. The girl behind you turns invisible. Then visible. Then invisible again.",
-   "start": 6.055,
-   "end": 16.236
+   "start": 6.76,
+   "end": 17.32
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "You wait. And wait. Nothing happens.",
-   "start": 16.536,
-   "end": 18.718
+   "start": 17.62,
+   "end": 20.9
   },
   {
    "scene": "cold_open",
    "who": "YOU",
    "text": "Is it... loading?",
    "act": "hopeful, awkward",
-   "start": 19.018,
-   "end": 20.109
+   "start": 21.2,
+   "end": 22.8
   },
   {
    "scene": "cold_open",
    "who": "NARRATOR",
    "text": "8 billion people just got a superpower. Except you. And in 27 days, you'll be the only thing standing between one kid and every mind in the city.",
-   "start": 20.409,
-   "end": 30.591
+   "start": 23.1,
+   "end": 32.54
   },
   {
    "scene": "promise",
    "who": "NARRATOR",
    "text": "In the next 30 days, you'll get kicked out of a casino, go viral with 12 million views, and stop a kid who can control every mind in the city. Every mind except one.",
-   "start": 31.141,
-   "end": 43.505
+   "start": 33.09,
+   "end": 43.33
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Here's how it works. Everyone got exactly one power. Random. You can't choose it. You can't trade it.",
-   "start": 44.055,
-   "end": 50.6
+   "start": 43.88,
+   "end": 50.68
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "A 2011 Marist poll asked Americans which power they'd pick. Mind reading and time travel tied at 28 percent. Flying got 16.",
-   "start": 50.9,
-   "end": 58.9
+   "start": 50.98,
+   "end": 60.26
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Theo got flying. Two feet. Maximum.",
-   "start": 59.2,
-   "end": 61.382
+   "start": 60.56,
+   "end": 63.68
   },
   {
    "scene": "rules",
    "who": "THEO",
    "text": "It's still flying!",
    "act": "defensive, proud",
-   "start": 61.682,
-   "end": 62.773
+   "start": 63.98,
+   "end": 65.58
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "Your mom can heal any cut in 3 seconds. Your dad can talk to pigeons. The pigeons are not nice.",
-   "start": 63.073,
-   "end": 70.345
+   "start": 65.88,
+   "end": 72.6
   },
   {
    "scene": "rules",
    "who": "DAD",
    "text": "Honey, they called me bald.",
    "act": "hurt, whining, comic",
-   "start": 70.645,
-   "end": 72.464
+   "start": 72.9,
+   "end": 75.14
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "And one kid in your class, Max, never told anyone what power he got. Remember Max.",
-   "start": 72.764,
-   "end": 78.582
+   "start": 75.44,
+   "end": 80.72
   },
   {
    "scene": "rules",
    "who": "NARRATOR",
    "text": "The government sets up a hotline. Some powers arrive late, it says. Up to 30 days. So you start counting.",
-   "start": 78.882,
-   "end": 86.155
+   "start": 81.02,
+   "end": 87.82
   },
   {
    "scene": "chaos",
    "who": "NARRATOR",
    "text": "School becomes a disaster. The quarterback runs 90 miles an hour. Gym class is no longer fair.",
-   "start": 86.705,
-   "end": 92.886
+   "start": 88.37,
+   "end": 94.77
   },
   {
    "scene": "chaos",
    "who": "NARRATOR",
    "text": "The average person reacts in about a quarter of a second, according to millions of tests on Human Benchmark. The kid with super speed reacts before you finish blinking.",
-   "start": 93.186,
-   "end": 103.732
+   "start": 95.07,
+   "end": 103.55
   },
   {
    "scene": "chaos",
    "who": "NARRATOR",
    "text": "A boy in the hallway can talk to plants. He won't stop. The plants want him to stop.",
-   "start": 104.032,
-   "end": 110.577
+   "start": 103.85,
+   "end": 108.89
   },
   {
    "scene": "chaos",
    "who": "NARRATOR",
    "text": "And every single person asks you the same question.",
-   "start": 110.877,
-   "end": 114.15
+   "start": 109.19,
+   "end": 112.07
   },
   {
    "scene": "chaos",
    "who": "THEO",
    "text": "So what's your power?",
    "act": "curious, excited",
-   "start": 114.45,
-   "end": 115.905
+   "start": 112.37,
+   "end": 114.13
   },
   {
    "scene": "chaos",
    "who": "GIRL",
    "text": "So what's your power?",
    "act": "bored, chewing gum",
-   "start": 116.205,
-   "end": 117.659
+   "start": 114.43,
+   "end": 115.95
   },
   {
    "scene": "chaos",
    "who": "TEACHER",
    "text": "Nobody gets nothing. You're hiding something.",
    "act": "suspicious, pointing, stern",
-   "start": 117.959,
-   "end": 120.141
+   "start": 116.25,
+   "end": 119.37
   },
   {
    "scene": "immune",
    "who": "NARRATOR",
    "text": "Day 3. Your teacher tries to read your mind before a pop quiz.",
-   "start": 120.691,
-   "end": 125.418
+   "start": 119.92,
+   "end": 124.0
   },
   {
    "scene": "immune",
    "who": "TEACHER",
    "text": "Huh. Nothing. Is anyone in there?",
    "act": "confused, squinting",
-   "start": 125.718,
-   "end": 127.9
+   "start": 124.3,
+   "end": 127.02
   },
   {
    "scene": "immune",
    "who": "NARRATOR",
    "text": "At lunch, Theo high-fives you. And for one second, he drops out of the air like a rock.",
-   "start": 128.2,
-   "end": 134.745
+   "start": 127.32,
+   "end": 133.32
   },
   {
    "scene": "immune",
    "who": "THEO",
    "text": "Bro, what was that?",
    "act": "startled",
-   "start": 135.045,
-   "end": 136.5
+   "start": 133.62,
+   "end": 134.98
   },
   {
    "scene": "immune",
    "who": "NARRATOR",
    "text": "That's when you get it. You didn't get a power. You're the only person on Earth that powers don't work on. Good ones, bad ones, all of them. And if you touch someone, theirs switches off.",
-   "start": 136.8,
-   "end": 149.891
+   "start": 135.28,
+   "end": 145.04
   },
   {
    "scene": "immune",
    "who": "NARRATOR",
    "text": "That's not as made up as it sounds. Stanford psychiatrist David Spiegel estimates about 1 in 4 of his patients can't be hypnotized at all.",
-   "start": 150.191,
-   "end": 159.282
+   "start": 145.34,
+   "end": 153.42
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "Day 6. Every YouTuber on Earth uploads the same video. I tried every superpower for 24 hours.",
-   "start": 159.832,
-   "end": 166.014
+   "start": 153.97,
+   "end": 160.61
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "Theo uploads Flying for 24 hours, 2 feet. It gets 40 views. 39 are his mom.",
-   "start": 166.314,
-   "end": 172.132
+   "start": 160.91,
+   "end": 167.55
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "Then you upload yours. Testing every superpower on the one person it doesn't work on.",
-   "start": 172.432,
-   "end": 177.886
+   "start": 167.85,
+   "end": 172.65
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "A mind reader reads nothing. A lie detector beeps at everything. A guy who freezes people freezes himself by accident.",
-   "start": 178.186,
-   "end": 185.459
+   "start": 172.95,
+   "end": 179.91
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "12 million views in 3 days. Your mom heals your paper cut from opening the fan mail. Or tries to.",
-   "start": 185.759,
-   "end": 193.032
+   "start": 180.21,
+   "end": 186.61
   },
   {
    "scene": "viral",
    "who": "MOM",
    "text": "Why isn't it working? Sweetie, hold still!",
    "act": "worried, frustrated",
-   "start": 193.332,
-   "end": 195.877
+   "take": "episodes/except/takes/033_2.wav",
+   "start": 186.91,
+   "end": 190.59
   },
   {
    "scene": "viral",
    "who": "NARRATOR",
    "text": "Even your dad starts a channel. Pigeon Translations. It gets more views than Theo's.",
-   "start": 196.177,
-   "end": 201.268
+   "start": 190.89,
+   "end": 196.49
   },
   {
    "scene": "viral",
    "who": "THEO",
    "text": "How?!",
    "act": "outraged, high pitched",
-   "start": 201.568,
-   "end": 202.568
+   "start": 196.79,
+   "end": 197.91
   },
   {
    "scene": "casino",
    "who": "NARRATOR",
    "text": "Day 9. Casinos hire mind readers to catch cheaters at the poker table. They can read every player's cards. Except yours.",
-   "start": 203.118,
-   "end": 210.755
+   "start": 198.46,
+   "end": 206.22
   },
   {
    "scene": "casino",
    "who": "NARRATOR",
    "text": "You win 14 hands in a row.",
-   "start": 211.055,
-   "end": 213.6
+   "start": 206.52,
+   "end": 208.68
   },
   {
    "scene": "casino",
    "who": "GUARD",
    "text": "You. Need to leave. Now.",
    "act": "stern, deep, threatening",
-   "start": 213.9,
-   "end": 215.718
+   "start": 208.98,
+   "end": 211.06
   },
   {
    "scene": "casino",
    "who": "NARRATOR",
    "text": "You get walked out by a guard who can walk through walls. He uses the door. Out of respect.",
-   "start": 216.018,
-   "end": 222.927
+   "start": 211.36,
+   "end": 218.0
   },
   {
    "scene": "lonely",
    "who": "NARRATOR",
    "text": "But being the only normal person gets weird.",
-   "start": 223.477,
-   "end": 226.386
+   "start": 218.55,
+   "end": 221.03
   },
   {
    "scene": "lonely",
    "who": "NARRATOR",
    "text": "The school trip to Paris takes 4 seconds. A teleporter takes the whole class. Except you, because teleporting doesn't work on you. You take the bus. It's a 9 hour bus ride to the airport.",
-   "start": 226.686,
-   "end": 239.414
+   "start": 221.33,
+   "end": 231.97
   },
   {
    "scene": "lonely",
    "who": "NARRATOR",
    "text": "Theo's flying club meets 2 feet off the ground. You sit on the floor.",
-   "start": 239.714,
-   "end": 244.805
+   "start": 232.27,
+   "end": 236.51
   },
   {
    "scene": "lonely",
    "who": "THEO",
    "text": "You can hold my ankle. Wait, no, then I fall.",
    "act": "sheepish, apologetic",
-   "start": 245.105,
-   "end": 248.741
+   "take": "episodes/except/takes/043_1.wav",
+   "start": 236.81,
+   "end": 240.65
   },
   {
    "scene": "lonely",
    "who": "NARRATOR",
    "text": "The only other person who never uses a power is Max. He sits alone at lunch. You never ask why. Nobody does.",
-   "start": 249.041,
-   "end": 257.041
+   "start": 240.95,
+   "end": 247.43
   },
   {
    "scene": "lonely",
    "who": "NARRATOR",
    "text": "Day 26. The hotline stops answering. 30 days is almost up. Still nothing.",
-   "start": 257.341,
-   "end": 262.068
+   "start": 247.73,
+   "end": 253.57
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "Day 27. 3:15 p.m. The school speakers crackle. And Max finally uses his power.",
-   "start": 262.618,
-   "end": 267.709
+   "start": 254.12,
+   "end": 260.44
   },
   {
    "scene": "max",
    "who": "MAX",
    "text": "Everyone. Stop.",
    "act": "calm, cold, quiet",
-   "start": 268.009,
-   "end": 269.009
+   "start": 260.74,
+   "end": 263.06
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "And everyone stops. Mid step. Mid sentence. Mind control. Every person who can hear his voice does exactly what he says.",
-   "start": 269.309,
-   "end": 276.945
+   "start": 263.36,
+   "end": 271.2
   },
   {
    "scene": "max",
    "who": "MAX",
    "text": "Now give me your phones.",
    "act": "bored, cold",
-   "start": 277.245,
-   "end": 279.064
+   "start": 271.5,
+   "end": 273.58
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "1,200 students hand over their phones. Except you.",
-   "start": 279.364,
-   "end": 282.273
+   "start": 273.88,
+   "end": 278.12
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "And it's spreading. His voice is on the city's emergency radio now. By midnight, every speaker in the state.",
-   "start": 282.573,
-   "end": 289.482
+   "start": 278.42,
+   "end": 284.74
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "You call home. Your mom picks up. In the middle of a sentence, her voice goes flat.",
-   "start": 289.782,
-   "end": 295.964
+   "start": 285.04,
+   "end": 290.8
   },
   {
    "scene": "max",
    "who": "MOM",
    "text": "Give him your phone, sweetie.",
    "act": "flat, monotone, hypnotized",
-   "start": 296.264,
-   "end": 298.082
+   "start": 291.1,
+   "end": 292.54
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "The clock says 3:22 p.m. 8 hours and 38 minutes until the whole state can hear him.",
-   "start": 298.382,
-   "end": 304.564
+   "start": 292.84,
+   "end": 298.04
   },
   {
    "scene": "max",
    "who": "THEO",
    "text": "Give him your phone, bro.",
    "act": "flat, monotone, hypnotized",
-   "start": 304.864,
-   "end": 306.682
+   "start": 298.34,
+   "end": 299.7
   },
   {
    "scene": "max",
    "who": "NARRATOR",
    "text": "Theo floats toward you. Two feet off the ground. Eyes completely blank.",
-   "start": 306.982,
-   "end": 311.345
+   "start": 300.0,
+   "end": 305.36
   },
   {
    "scene": "climax",
    "who": "NARRATOR",
    "text": "You run for the radio room. Max tells the hallway to stop you.",
-   "start": 311.895,
-   "end": 316.623
+   "start": 305.91,
+   "end": 309.99
   },
   {
    "scene": "climax",
    "who": "NARRATOR",
    "text": "The teleporter blinks in front of you. Nothing happens to you. A force field goes up. You walk straight through it. The freezer kid freezes. Himself. Again.",
-   "start": 316.923,
-   "end": 326.741
+   "start": 310.29,
+   "end": 319.57
   },
   {
    "scene": "climax",
    "who": "MAX",
    "text": "Stop. Stop! I said stop!",
    "act": "panicking, losing control, yelling",
-   "start": 327.041,
-   "end": 328.859
+   "start": 319.87,
+   "end": 322.99
   },
   {
    "scene": "climax",
    "who": "NARRATOR",
    "text": "It doesn't work. It never did.",
-   "start": 329.159,
-   "end": 331.341
+   "start": 323.29,
+   "end": 325.77
   },
   {
    "scene": "climax",
    "who": "NARRATOR",
    "text": "You don't fight him. You just grab his hand. And his power switches off. For everyone. All at once.",
-   "start": 331.641,
-   "end": 338.55
+   "start": 326.07,
+   "end": 332.95
   },
   {
    "scene": "climax",
    "who": "NARRATOR",
    "text": "Across the city, 2 million people blink and wonder why they're holding someone else's phone.",
-   "start": 338.85,
-   "end": 344.305
+   "start": 333.25,
+   "end": 337.89
   },
   {
    "scene": "climax",
    "who": "MAX",
    "text": "I just wanted everybody to stop talking about their powers.",
    "act": "embarrassed, deflated, mumbling",
-   "start": 344.605,
-   "end": 348.241
+   "take": "episodes/except/takes/063_0.wav",
+   "start": 338.19,
+   "end": 342.19
   },
   {
    "scene": "climax",
    "who": "YOU",
    "text": "Yeah. Honestly? Same.",
    "act": "tired, deadpan, sympathetic",
-   "start": 348.541,
-   "end": 349.632
+   "start": 342.49,
+   "end": 344.73
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "The police arrive 40 minutes later. Which means you hold hands with a supervillain for 40 minutes.",
-   "start": 350.182,
-   "end": 356.364
+   "start": 345.28,
+   "end": 350.32
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "Max gets the only sentence that makes sense. He has to sit next to you. Every day. Until graduation.",
-   "start": 356.664,
-   "end": 363.573
+   "start": 350.62,
+   "end": 358.14
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "Your dad's pigeons explain to him exactly what happened. In detail. They are still not nice.",
-   "start": 363.873,
-   "end": 369.691
+   "start": 358.44,
+   "end": 364.92
   },
   {
    "scene": "payoff",
    "who": "TEACHER",
    "text": "Okay. You weren't hiding anything. And it was the best power in the building.",
    "act": "grudging, impressed, warm",
-   "start": 369.991,
-   "end": 375.082
+   "start": 365.22,
+   "end": 370.5
   },
   {
    "scene": "payoff",
    "who": "NARRATOR",
    "text": "And Theo? He trips on the stairs. And floats. Two feet. Exactly enough not to hit the floor.",
-   "start": 375.382,
-   "end": 381.927
+   "start": 370.8,
+   "end": 378.88
   },
   {
    "scene": "payoff",
    "who": "THEO",
    "text": "Still flying!",
    "act": "triumphant, laughing",
-   "start": 382.227,
-   "end": 383.227
+   "start": 379.18,
+   "end": 380.3
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "That night, at exactly 9:41, your phone buzzes. A message from an unknown number.",
-   "start": 383.777,
-   "end": 388.868
+   "start": 380.85,
+   "end": 386.45
   },
   {
    "scene": "tease",
    "who": "NARRATOR",
    "text": "Your power is ready. Are you?",
-   "start": 389.168,
-   "end": 391.35
+   "start": 386.75,
+   "end": 389.31
   },
   {
    "scene": "endcard",
    "who": "NARRATOR",
    "text": "So if everyone got a superpower except you, what would you want yours to be? Tell us in the comments.",
-   "start": 391.9,
-   "end": 399.173
+   "start": 389.86,
+   "end": 395.62
   }
  ]
 }

@@ -39,6 +39,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **Acted takes (`tts/act.py`) only work for some voices**: Mom, Theo and the customer matched their
   reference voices; Dad, the coach, the bus driver and the teacher drifted (0.58-0.78) and stayed
   cloned. Expect about 40% of acted lines to be kept. (us, 2026-11-12)
+- **Acted takes kept only 3 of 22 on episode 6** (8 of 29 on episode 5, 12 of 28 on episode 4): the
+  2-3 hour cost buys little. Mark only the 5-8 lines where emotion matters most. (us, 2026-11-13)
 - **Whisper false alarms**: "4:59" is written "4.59"; "sequins" is heard as "sequence"; numbers come
   as digits or words at random (the normaliser handles those). Check a WARNING line by transcribing
   it before re-voicing. (us)
