@@ -14,6 +14,7 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
 | `fact-checks.md` | Each fact in the last-liar and dreams scripts with its verdict and sources |
 | `packaging-2026-11-12.md` | Title/thumbnail/tag research for the dreams episode: keyword volumes, "what if you could see" outliers, winning thumbnail patterns, title scores, our channel's stats |
 | `idea-checks-2026-11-12b.md` | Originality checks for 27 realistic, non-sentimental ideas (7 open, 20 taken) |
+| `idea-checks-2026-11-13-viral.md` | Viral-first shortlist: demand vs. how big the existing videos already are |
 | `voice-takes-dreams.md` | Acted-take results: speaker similarity and word match for every take, which were kept |
 
 
