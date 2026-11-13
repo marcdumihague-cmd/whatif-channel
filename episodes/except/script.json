@@ -1,0 +1,426 @@
+{
+ "title": "What If Everyone Got a Superpower Except You?",
+ "pace": {
+  "gap": 0.3,
+  "scene_gap": 0.55
+ },
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "MOM": "mom",
+  "DAD": "dad",
+  "TEACHER": "man",
+  "MAX": "max",
+  "GUARD": "older",
+  "GIRL": "roommate"
+ },
+ "facts": [
+  {
+   "claim": "In a 2011 Marist poll, mind reading and time travel tied as Americans' top superpower picks at 28% each; flying got 16%",
+   "source": "Marist Poll, Feb 2011 ('Holy Super Powers, Batman!'); reported by Time NewsFeed and The Daily Beast"
+  },
+  {
+   "claim": "Stanford psychiatrist David Spiegel estimates about one quarter of his patients cannot be hypnotized",
+   "source": "Stanford Medicine news, Oct 2012, 'Not getting sleepy?'; about 15% are highly hypnotizable"
+  },
+  {
+   "claim": "Average human visual reaction time is about a quarter of a second (median ~273 ms over millions of tests)",
+   "source": "Human Benchmark reaction time test statistics (humanbenchmark.com)"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "At 9:41 a.m., your best friend starts floating in math class."
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "Bro! Bro! I'm flying!",
+   "act": "ecstatic, shouting, laughing"
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Two feet off the ground. And around the room, everyone is lighting up. Your teacher reads minds. The girl behind you turns invisible. Then visible. Then invisible again."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "You wait. And wait. Nothing happens."
+  },
+  {
+   "scene": "cold_open",
+   "who": "YOU",
+   "text": "Is it... loading?",
+   "act": "hopeful, awkward"
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "8 billion people just got a superpower. Except you. And in 27 days, you'll be the only thing standing between one kid and every mind in the city."
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "In the next 30 days, you'll get kicked out of a casino, go viral with 12 million views, and stop a kid who can control every mind in the city. Every mind except one."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Here's how it works. Everyone got exactly one power. Random. You can't choose it. You can't trade it."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "A 2011 Marist poll asked Americans which power they'd pick. Mind reading and time travel tied at 28 percent. Flying got 16."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Theo got flying. Two feet. Maximum."
+  },
+  {
+   "scene": "rules",
+   "who": "THEO",
+   "text": "It's still flying!",
+   "act": "defensive, proud"
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Your mom can heal any cut in 3 seconds. Your dad can talk to pigeons. The pigeons are not nice."
+  },
+  {
+   "scene": "rules",
+   "who": "DAD",
+   "text": "Honey, they called me bald.",
+   "act": "hurt, whining, comic"
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "And one kid in your class, Max, never told anyone what power he got. Remember Max."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "The government sets up a hotline. Some powers arrive late, it says. Up to 30 days. So you start counting."
+  },
+  {
+   "scene": "chaos",
+   "who": "NARRATOR",
+   "text": "School becomes a disaster. The quarterback runs 90 miles an hour. Gym class is no longer fair."
+  },
+  {
+   "scene": "chaos",
+   "who": "NARRATOR",
+   "text": "The average person reacts in about a quarter of a second, according to millions of tests on Human Benchmark. The kid with super speed reacts before you finish blinking."
+  },
+  {
+   "scene": "chaos",
+   "who": "NARRATOR",
+   "text": "A boy in the hallway can talk to plants. He won't stop. The plants want him to stop."
+  },
+  {
+   "scene": "chaos",
+   "who": "NARRATOR",
+   "text": "And every single person asks you the same question."
+  },
+  {
+   "scene": "chaos",
+   "who": "THEO",
+   "text": "So what's your power?",
+   "act": "curious, excited"
+  },
+  {
+   "scene": "chaos",
+   "who": "GIRL",
+   "text": "So what's your power?",
+   "act": "bored, chewing gum"
+  },
+  {
+   "scene": "chaos",
+   "who": "TEACHER",
+   "text": "Nobody gets nothing. You're hiding something.",
+   "act": "suspicious, pointing, stern"
+  },
+  {
+   "scene": "immune",
+   "who": "NARRATOR",
+   "text": "Day 3. Your teacher tries to read your mind before a pop quiz."
+  },
+  {
+   "scene": "immune",
+   "who": "TEACHER",
+   "text": "Huh. Nothing. Is anyone in there?",
+   "act": "confused, squinting"
+  },
+  {
+   "scene": "immune",
+   "who": "NARRATOR",
+   "text": "At lunch, Theo high-fives you. And for one second, he drops out of the air like a rock."
+  },
+  {
+   "scene": "immune",
+   "who": "THEO",
+   "text": "Bro, what was that?",
+   "act": "startled"
+  },
+  {
+   "scene": "immune",
+   "who": "NARRATOR",
+   "text": "That's when you get it. You didn't get a power. You're the only person on Earth that powers don't work on. Good ones, bad ones, all of them. And if you touch someone, theirs switches off."
+  },
+  {
+   "scene": "immune",
+   "who": "NARRATOR",
+   "text": "That's not as made up as it sounds. Stanford psychiatrist David Spiegel estimates about 1 in 4 of his patients can't be hypnotized at all."
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Day 6. Every YouTuber on Earth uploads the same video. I tried every superpower for 24 hours."
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Theo uploads Flying for 24 hours, 2 feet. It gets 40 views. 39 are his mom."
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Then you upload yours. Testing every superpower on the one person it doesn't work on."
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "A mind reader reads nothing. A lie detector beeps at everything. A guy who freezes people freezes himself by accident."
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "12 million views in 3 days. Your mom heals your paper cut from opening the fan mail. Or tries to."
+  },
+  {
+   "scene": "viral",
+   "who": "MOM",
+   "text": "Why isn't it working? Sweetie, hold still!",
+   "act": "worried, frustrated"
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Even your dad starts a channel. Pigeon Translations. It gets more views than Theo's."
+  },
+  {
+   "scene": "viral",
+   "who": "THEO",
+   "text": "How?!",
+   "act": "outraged, high pitched"
+  },
+  {
+   "scene": "casino",
+   "who": "NARRATOR",
+   "text": "Day 9. Casinos hire mind readers to catch cheaters at the poker table. They can read every player's cards. Except yours."
+  },
+  {
+   "scene": "casino",
+   "who": "NARRATOR",
+   "text": "You win 14 hands in a row."
+  },
+  {
+   "scene": "casino",
+   "who": "GUARD",
+   "text": "You. Need to leave. Now.",
+   "act": "stern, deep, threatening"
+  },
+  {
+   "scene": "casino",
+   "who": "NARRATOR",
+   "text": "You get walked out by a guard who can walk through walls. He uses the door. Out of respect."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "But being the only normal person gets weird."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "The school trip to Paris takes 4 seconds. A teleporter takes the whole class. Except you, because teleporting doesn't work on you. You take the bus. It's a 9 hour bus ride to the airport."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "Theo's flying club meets 2 feet off the ground. You sit on the floor."
+  },
+  {
+   "scene": "lonely",
+   "who": "THEO",
+   "text": "You can hold my ankle. Wait, no, then I fall.",
+   "act": "sheepish, apologetic"
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "The only other person who never uses a power is Max. He sits alone at lunch. You never ask why. Nobody does."
+  },
+  {
+   "scene": "lonely",
+   "who": "NARRATOR",
+   "text": "Day 26. The hotline stops answering. 30 days is almost up. Still nothing."
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "Day 27. 3:15 p.m. The school speakers crackle. And Max finally uses his power."
+  },
+  {
+   "scene": "max",
+   "who": "MAX",
+   "text": "Everyone. Stop.",
+   "act": "calm, cold, quiet"
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "And everyone stops. Mid step. Mid sentence. Mind control. Every person who can hear his voice does exactly what he says."
+  },
+  {
+   "scene": "max",
+   "who": "MAX",
+   "text": "Now give me your phones.",
+   "act": "bored, cold"
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "1,200 students hand over their phones. Except you."
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "And it's spreading. His voice is on the city's emergency radio now. By midnight, every speaker in the state."
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "You call home. Your mom picks up. In the middle of a sentence, her voice goes flat."
+  },
+  {
+   "scene": "max",
+   "who": "MOM",
+   "text": "Give him your phone, sweetie.",
+   "act": "flat, monotone, hypnotized"
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "The clock says 3:22 p.m. 8 hours and 38 minutes until the whole state can hear him."
+  },
+  {
+   "scene": "max",
+   "who": "THEO",
+   "text": "Give him your phone, bro.",
+   "act": "flat, monotone, hypnotized"
+  },
+  {
+   "scene": "max",
+   "who": "NARRATOR",
+   "text": "Theo floats toward you. Two feet off the ground. Eyes completely blank."
+  },
+  {
+   "scene": "climax",
+   "who": "NARRATOR",
+   "text": "You run for the radio room. Max tells the hallway to stop you."
+  },
+  {
+   "scene": "climax",
+   "who": "NARRATOR",
+   "text": "The teleporter blinks in front of you. Nothing happens to you. A force field goes up. You walk straight through it. The freezer kid freezes. Himself. Again."
+  },
+  {
+   "scene": "climax",
+   "who": "MAX",
+   "text": "Stop. Stop! I said stop!",
+   "act": "panicking, losing control, yelling"
+  },
+  {
+   "scene": "climax",
+   "who": "NARRATOR",
+   "text": "It doesn't work. It never did."
+  },
+  {
+   "scene": "climax",
+   "who": "NARRATOR",
+   "text": "You don't fight him. You just grab his hand. And his power switches off. For everyone. All at once."
+  },
+  {
+   "scene": "climax",
+   "who": "NARRATOR",
+   "text": "Across the city, 2 million people blink and wonder why they're holding someone else's phone."
+  },
+  {
+   "scene": "climax",
+   "who": "MAX",
+   "text": "I just wanted everybody to stop talking about their powers.",
+   "act": "embarrassed, deflated, mumbling"
+  },
+  {
+   "scene": "climax",
+   "who": "YOU",
+   "text": "Yeah. Honestly? Same.",
+   "act": "tired, deadpan, sympathetic"
+  },
+  {
+   "scene": "payoff",
+   "who": "NARRATOR",
+   "text": "The police arrive 40 minutes later. Which means you hold hands with a supervillain for 40 minutes."
+  },
+  {
+   "scene": "payoff",
+   "who": "NARRATOR",
+   "text": "Max gets the only sentence that makes sense. He has to sit next to you. Every day. Until graduation."
+  },
+  {
+   "scene": "payoff",
+   "who": "NARRATOR",
+   "text": "Your dad's pigeons explain to him exactly what happened. In detail. They are still not nice."
+  },
+  {
+   "scene": "payoff",
+   "who": "TEACHER",
+   "text": "Okay. You weren't hiding anything. And it was the best power in the building.",
+   "act": "grudging, impressed, warm"
+  },
+  {
+   "scene": "payoff",
+   "who": "NARRATOR",
+   "text": "And Theo? He trips on the stairs. And floats. Two feet. Exactly enough not to hit the floor."
+  },
+  {
+   "scene": "payoff",
+   "who": "THEO",
+   "text": "Still flying!",
+   "act": "triumphant, laughing"
+  },
+  {
+   "scene": "tease",
+   "who": "NARRATOR",
+   "text": "That night, at exactly 9:41, your phone buzzes. A message from an unknown number."
+  },
+  {
+   "scene": "tease",
+   "who": "NARRATOR",
+   "text": "Your power is ready. Are you?"
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So if everyone got a superpower except you, what would you want yours to be? Tell us in the comments."
+  }
+ ]
+}

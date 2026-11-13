@@ -40,9 +40,11 @@ if len(sys.argv) < 3:  # ---------- step 1 ----------
     import difflib
     design = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign", device_map="cpu", dtype=torch.float32)
     asr = WhisperModel("base.en", device="cpu", compute_type="int8")
-    report = {}
+    report = json.loads(report_path.read_text()) if report_path.exists() else {}  # resume after a restart
     for i, l in acted:
         for k in range(TAKES):
+            if f"{i:03d}_{k}.wav" in report and report[f"{i:03d}_{k}.wav"].get("text") == l["text"]:
+                continue
             torch.manual_seed(100 + k)
             wavs, sr = design.generate_voice_design(text=l.get("say", l["text"]), language="English",
                                                     instruct=f"{design_of(l['who'])} Emotion: {l['act']}.")
@@ -51,7 +53,8 @@ if len(sys.argv) < 3:  # ---------- step 1 ----------
             sf.write(path, a, sr)
             heard = " ".join(s.text for s in asr.transcribe(librosa.resample(a, orig_sr=sr, target_sr=16000))[0])
             score = difflib.SequenceMatcher(None, words(l["text"]), words(heard)).ratio()
-            report[path.name] = {"line": i, "words": round(score, 3), "heard": heard.strip()}
+            report[path.name] = {"line": i, "words": round(score, 3), "heard": heard.strip(), "text": l["text"]}
+            report_path.write_text(json.dumps(report, indent=1))
             print(f"{i:3d}.{k} words {score:.2f} | {l['who']}: {l['text'][:50]} | heard: {heard.strip()[:50]}")
     report_path.write_text(json.dumps(report, indent=1))
 else:  # ---------- step 2: voice match (needs the Chatterbox venv for its speaker encoder) ----------

@@ -1,47 +1,51 @@
 {
-  "narrator": {
-    "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
-    "design": "A warm, confident male storyteller in his thirties with a slightly mischievous, playful tone, like a YouTube story narrator. Emotion: playful and knowing, a little smile in the voice, as if you know something is about to go wrong.",
-    "note": "Take 4, chosen by the user."
-  },
-  "you": {
-    "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
-    "design": "A young man in his early twenties with a light, expressive voice. Emotion: animated, storytelling to a friend."
-  },
-  "roommate": {
-    "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
-    "design": "A young woman in her twenties with a bright, energetic voice. Emotion: animated, storytelling to a friend."
-  },
-  "theo": {
-    "text": "Okay, okay, hear me out, this next bit is actually funny, I tested it on my mom and she almost smiled.",
-    "design": "A young man in his mid twenties, the narrator's best friend: warm, slightly nasal, eager and a bit nervous, an aspiring stand-up comedian. Emotion: hopeful, animated."
-  },
-  "man": {
-    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
-    "design": "A man in his thirties with a plain, friendly, everyday American voice. Emotion: casual, slightly confused."
-  },
-  "woman2": {
-    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
-    "design": "A woman in her forties with a crisp, professional, slightly tired voice, like an office manager. Emotion: matter-of-fact."
-  },
-  "older": {
-    "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
-    "design": "An older man in his late fifties with a deep, gravelly, gruff voice. Emotion: blunt, world-weary."
-  },
-  "grandpa": {
-    "text": "Now listen, kiddo. When I was your age, we didn't have any of this, and we turned out just fine, mostly.",
-    "design": "A warm, gentle American grandfather in his late seventies, slightly raspy and soft, kind and a little playful. Emotion: tender."
-  },
-  "grandma": {
-    "text": "Oh, sweetheart, come in, come in. I just made coffee, and you look like you haven't slept a wink.",
-    "design": "A warm American grandmother in her mid seventies, soft and slightly shaky, loving, with quiet humour. Emotion: gentle, a little tired."
-  },
-  "mom": {
-    "text": "Oh, come on, you two. Dinner's getting cold, and I am not reheating it again. I mean it this time.",
-    "design": "A warm, witty American mom in her late forties with a bright, expressive voice, quick dry humour and a lot of love in it. Emotion: playful, affectionate."
-  },
-  "dad": {
-    "text": "Alright, alright, I'm coming. Has anyone seen my keys? They were right here, I swear, two seconds ago.",
-    "design": "A goofy, warm American dad in his late forties with a friendly, slightly husky voice, always half-joking. Emotion: cheerful, easygoing."
-  }
+ "narrator": {
+  "text": "It's 7:02 a.m. Your alarm goes off, so you smack the snooze button.",
+  "design": "A warm, confident male storyteller in his thirties with a slightly mischievous, playful tone, like a YouTube story narrator. Emotion: playful and knowing, a little smile in the voice, as if you know something is about to go wrong.",
+  "note": "Take 4, chosen by the user."
+ },
+ "you": {
+  "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
+  "design": "A young man in his early twenties with a light, expressive voice. Emotion: animated, storytelling to a friend."
+ },
+ "roommate": {
+  "text": "Okay, so this is going to sound completely ridiculous, but I promise you every single word of it is true.",
+  "design": "A young woman in her twenties with a bright, energetic voice. Emotion: animated, storytelling to a friend."
+ },
+ "theo": {
+  "text": "Okay, okay, hear me out, this next bit is actually funny, I tested it on my mom and she almost smiled.",
+  "design": "A young man in his mid twenties, the narrator's best friend: warm, slightly nasal, eager and a bit nervous, an aspiring stand-up comedian. Emotion: hopeful, animated."
+ },
+ "man": {
+  "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+  "design": "A man in his thirties with a plain, friendly, everyday American voice. Emotion: casual, slightly confused."
+ },
+ "woman2": {
+  "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+  "design": "A woman in her forties with a crisp, professional, slightly tired voice, like an office manager. Emotion: matter-of-fact."
+ },
+ "older": {
+  "text": "Honestly, I have no idea what's going on today, but everyone I talk to is acting completely different.",
+  "design": "An older man in his late fifties with a deep, gravelly, gruff voice. Emotion: blunt, world-weary."
+ },
+ "grandpa": {
+  "text": "Now listen, kiddo. When I was your age, we didn't have any of this, and we turned out just fine, mostly.",
+  "design": "A warm, gentle American grandfather in his late seventies, slightly raspy and soft, kind and a little playful. Emotion: tender."
+ },
+ "grandma": {
+  "text": "Oh, sweetheart, come in, come in. I just made coffee, and you look like you haven't slept a wink.",
+  "design": "A warm American grandmother in her mid seventies, soft and slightly shaky, loving, with quiet humour. Emotion: gentle, a little tired."
+ },
+ "mom": {
+  "text": "Oh, come on, you two. Dinner's getting cold, and I am not reheating it again. I mean it this time.",
+  "design": "A warm, witty American mom in her late forties with a bright, expressive voice, quick dry humour and a lot of love in it. Emotion: playful, affectionate."
+ },
+ "dad": {
+  "text": "Alright, alright, I'm coming. Has anyone seen my keys? They were right here, I swear, two seconds ago.",
+  "design": "A goofy, warm American dad in his late forties with a friendly, slightly husky voice, always half-joking. Emotion: cheerful, easygoing."
+ },
+ "max": {
+  "text": "Nobody ever asks what my power is. That's fine. I don't need anyone to ask. I just need everyone to listen.",
+  "design": "A seventeen year old boy with a quiet, flat, slightly nasal voice, calm and a little unsettling, speaking slowly and clearly. Emotion: calm, detached."
+ }
 }
