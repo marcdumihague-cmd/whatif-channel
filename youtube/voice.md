@@ -53,6 +53,14 @@ video happens to "you".
 - **Callbacks:** a line from the first third comes back in the last third meaning something new.
 - **A real fact every 45 to 90 seconds**, stated flat, then tied straight back to "you". Facts are
   the "most likely what would happen" part of the channel.
+- **Weave in things the average viewer has actually seen on YouTube** (the user's rule, 2026-11-13):
+  a money-making video everyone recognises ("How I make $5,000 a month flipping furniture",
+  dropshipping, vending machines), the famous creators and people they watch (watching Magnus
+  Carlsen's chess games), common internet moments (a video going viral and earning $0). Real public
+  figures appear only as references to their public work and real facts about them, never as
+  characters who speak or act in the story.
+- **Keep it engaging**: a laugh or a turn every 10-20 seconds, running gags that pay off, and a
+  concrete number on screen the viewer can track (money, days, a percentage).
 - **Never tag a fact with "That's real", "Real fact:" or "by the way, that's true"** (the user's
   rule, 2026-11-12). Name the source in the sentence instead: "A 2018 Cornell study found...",
   "Studies show...", "Researchers found...". The on-screen fact card carries the source.

@@ -47,3 +47,16 @@ No high-pitched, piercing or buzzy sounds: no alarms or sirens, no square-wave e
 high chimes or sparkles, no beeps or "ka-ching" bells. The user found them disturbing. Keep effects
 soft and low: filtered whooshes, low thumps, gentle low hums, low-passed noise for planes and wind.
 Everything above ~2 kHz in an effect is cut (`tts/mix.py` low-passes every effect).
+
+## Detail level (the user's rule, 2026-11-13)
+
+Graphics should be "a little more detailed" than the first episodes, and every episode from now on
+keeps that level:
+
+- **Textured sets with real props**: tiles, cabinets with handles, a fridge with magnets, a pegboard
+  with tools, shelves of paint cans, a clock that ticks, plants, a windsock that moves. Never a flat
+  wall with one window.
+- **Character details**: shoes and collars (in the kit), props in hand, and a seat drawn under anyone sitting.
+- **One recurring visual motif tied to the premise**, readable at a glance (episode 5: a red progress
+  bar over your head that stops where you stopped watching). Use it in the thumbnail too.
+- **Generic UI only**: watch-history lists, phones and screens are drawn without real logos.

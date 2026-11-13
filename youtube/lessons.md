@@ -25,6 +25,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **The user wants realistic, everyday, not sentimental ideas** (2026-11-12): things an average
   person actually wonders about (phones, money, stuff breaking, embarrassment), not dead relatives
   and lost dreams. (user)
+- **DO weave in what the average viewer has seen on YouTube** (money-making videos, famous creators
+  like Magnus Carlsen's chess, viral-but-$0 moments); real people only as references, never as
+  speaking characters. (user, 2026-11-13; rule in `voice.md`)
 - **DO write numbers as digits** in scripts; the voice reads them fine and Whisper checks them. (us)
 
 ## Voice
@@ -55,6 +58,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 
 ## Animation
 
+- **DO keep the detailed look from episode 5**: textured sets with real props, shoes and collars, one
+  visual motif tied to the premise. (user, 2026-11-13; rule in `motion.md`)
 - **Nothing is ever still**: ambient loop + camera move in every shot. (user, from reference screenshots)
 - **DO crossfade between shots** instead of hard cuts. (user asked for spotless, clean animation)
 - **DO give the speaking character real mouth shapes** from `lips.json` (user asked for lip-sync).
