@@ -39,6 +39,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   beats so the story doesn't become only about them. (user, 2026-11-13)
 - **DO show "you" exploiting the situation to make big money in most videos**, even when the premise
   isn't about money. Not a money-only premise. (user, 2026-11-13)
+- **DO search the exact title before writing, not only at packaging**: "What If You Could See Who
+  Secretly Hates You?" already has one 238K hit and 6+ copies with the same title under 400 views.
+  Keep the searched phrase and add our own hook ("I Made $50,000"). (us, 2026-11-13)
 - **DO write numbers as digits** in scripts; the voice reads them fine and Whisper checks them. (us)
 
 ## Voice
@@ -92,6 +95,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **Seated characters need a seat drawn**: pose "sit" has no legs and floats otherwise. (us, 2026-11-12)
 - **Characters with arms up ("cheer") hide their arms behind the head** in this kit; don't rely on
   that pose to read in a thumbnail. (us)
+- **A number over someone's head needs a scale the first time**: the tag reads as a score until a
+  0-100 bar with "LIKES YOU" / "PUSH YOU IN A POOL" defines it; your own head has no tag. (us, 2026-11-13)
 - **Thumbnail with pose "phone" or hand props**: check for a second right arm. (us, episode 3)
 
 ## Packaging
@@ -125,5 +130,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   first and only re-run what's stale. (us)
 - **The repo is public**: never commit other creators' transcripts, screenshots or thumbnails, or
   the user's personal details. (user, 2026-11-12)
+- **Remotion leaves a ~200 MB bundle in `/tmp` per `sheet.mjs` / `still` run**: they filled the disk
+  mid-episode. Delete `/tmp/remotion-webpack-bundle-*` after contact sheets; `uv cache clean` freed 11.7 GB. (us, 2026-11-13)
+- **Don't render stills while the voice is generating**: both share the CPU and voice.py slowed from
+  ~30 s to ~2 min a line. (us, 2026-11-13)
 - **Whisper needs a 16 kHz numpy array**, not a file (PyAV metadata error). (us)
 - **Don't `rm` relative globs after `cd`**: blocked as unsafe; use absolute paths. (us)

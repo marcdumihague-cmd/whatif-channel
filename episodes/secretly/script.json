@@ -1,0 +1,343 @@
+{
+ "title": "What If You Could See Who Secretly Hates You?",
+ "pace": {
+  "gap": 0.3,
+  "scene_gap": 0.55
+ },
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "MOM": "mom",
+  "SELLER": "older",
+  "JUDGE": "woman2",
+  "MAYA": "roommate"
+ },
+ "facts": [
+  {
+   "claim": "In a 2016 study, 95% of students assumed their friendships were mutual; only about half were",
+   "source": "Almaatouq, Radaelli, Pentland & Shmueli, 'Are You Your Friends' Friend?', PLoS ONE 2016 (MIT / Tel Aviv University); 'about half' from the TAU press release"
+  },
+  {
+   "claim": "Across 206 studies, people detected lies about 54% of the time",
+   "source": "Bond & DePaulo, 'Accuracy of Deception Judgments', Personality and Social Psychology Review, 2006 (53.46% weighted)"
+  },
+  {
+   "claim": "The sneaker resale market could reach $30 billion globally by 2030",
+   "source": "Cowen equity research note, June 2022 (reported by Yahoo Finance / Footwear News)"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Monday, 7:52 a.m. There's a number floating over every head at your school. And it tells you exactly how much that person secretly hates you."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "The kid who says hi to you every single morning: 91 percent."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "The quiet kid you've never talked to: 0."
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "Bro, why are you staring at everyone's foreheads?"
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Theo. Your best friend since kindergarten. 87 percent."
+  },
+  {
+   "scene": "cold_open",
+   "who": "YOU",
+   "text": "Are we... good?",
+   "act": "nervous, careful"
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "What? Yeah. Obviously. Why?"
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "88."
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "In the next 7 days, you'll make more money than your parents make in a month, find out what Theo has been hiding for 6 years, and finally read the one number you've been too scared to look at."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "The rules are simple. 0 means they like you. 100 means they'd push you into a pool in December. And it updates live."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "You can't see your own. Mirrors, cameras and FaceTime don't work. You tried all 3."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Breakfast. Your mom: 12 percent."
+  },
+  {
+   "scene": "rules",
+   "who": "MOM",
+   "text": "Did you eat my yogurt again?"
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "13."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "A 2016 study from MIT and Tel Aviv University asked students about their friendships. 95 percent thought their friends felt the same way about them. Only about half actually did."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "So you spend the day reading the room. Literally."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Your math teacher, who gave you a C minus: 2 percent. She doesn't hate you. She hates grading."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "The guy who copies your homework every day: 74."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "A 2006 review of 206 studies found that people catch a lie only about 54 percent of the time. Basically a coin flip. You're now at 100."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "But there's one number you won't look at. Maya. Third row, by the window. Every time she walks past, you suddenly find your shoes very interesting."
+  },
+  {
+   "scene": "money",
+   "who": "NARRATOR",
+   "text": "That night, YouTube recommends you a video. I made 10,000 dollars reselling sneakers at 16."
+  },
+  {
+   "scene": "money",
+   "who": "NARRATOR",
+   "text": "The whole trick is buying low. And the guy says the hard part is knowing how far you can push a seller before they walk away."
+  },
+  {
+   "scene": "money",
+   "who": "NARRATOR",
+   "text": "You look at the screen. Then at the ceiling. Then you text Theo."
+  },
+  {
+   "scene": "money",
+   "who": "YOU",
+   "text": "How much do you know about sneakers?"
+  },
+  {
+   "scene": "money",
+   "who": "THEO",
+   "text": "Bro. Everything.",
+   "act": "excited, proud"
+  },
+  {
+   "scene": "market",
+   "who": "NARRATOR",
+   "text": "Saturday. A sneaker meetup in a parking garage. Theo spots the real ones. You read the sellers."
+  },
+  {
+   "scene": "market",
+   "who": "SELLER",
+   "text": "Jordan 4s. Never worn. 400."
+  },
+  {
+   "scene": "market",
+   "who": "YOU",
+   "text": "200."
+  },
+  {
+   "scene": "market",
+   "who": "NARRATOR",
+   "text": "70. Annoyed, but still listening."
+  },
+  {
+   "scene": "market",
+   "who": "YOU",
+   "text": "150?"
+  },
+  {
+   "scene": "market",
+   "who": "NARRATOR",
+   "text": "95. Too far. One more dollar and he walks."
+  },
+  {
+   "scene": "market",
+   "who": "YOU",
+   "text": "160. Cash. Right now."
+  },
+  {
+   "scene": "market",
+   "who": "NARRATOR",
+   "text": "98. Deal."
+  },
+  {
+   "scene": "market",
+   "who": "SELLER",
+   "text": "Kid, you're a nightmare.",
+   "act": "grumpy, half impressed"
+  },
+  {
+   "scene": "market",
+   "who": "NARRATOR",
+   "text": "That night, you list them for 650."
+  },
+  {
+   "scene": "hustle",
+   "who": "NARRATOR",
+   "text": "In 2022, the investment bank Cowen said the sneaker resale market could hit 30 billion dollars by 2030. You want your piece."
+  },
+  {
+   "scene": "hustle",
+   "who": "NARRATOR",
+   "text": "Every meetup, every app, every garage sale. You find every seller's limit, to the dollar."
+  },
+  {
+   "scene": "hustle",
+   "who": "NARRATOR",
+   "text": "By Friday, you and Theo have made 8,400 dollars. You pay for groceries, and your mom's number drops to 4."
+  },
+  {
+   "scene": "hustle",
+   "who": "NARRATOR",
+   "text": "But Theo's doesn't move. Counting cash with you. Laughing. 87."
+  },
+  {
+   "scene": "secret",
+   "who": "NARRATOR",
+   "text": "Then, in your room, he sees it. On your shelf. The trophy from 4th grade."
+  },
+  {
+   "scene": "secret",
+   "who": "THEO",
+   "text": "You still have that?"
+  },
+  {
+   "scene": "secret",
+   "who": "NARRATOR",
+   "text": "First place, science fair. A volcano that shot foam 10 feet in the air. You remember presenting it. You never think about whose idea it was."
+  },
+  {
+   "scene": "secret",
+   "who": "NARRATOR",
+   "text": "93."
+  },
+  {
+   "scene": "secret",
+   "who": "YOU",
+   "text": "It was yours. Wasn't it."
+  },
+  {
+   "scene": "secret",
+   "who": "THEO",
+   "text": "I was sick that day. You said you'd tell them. You never did.",
+   "act": "hurt, quiet"
+  },
+  {
+   "scene": "pitch",
+   "who": "NARRATOR",
+   "text": "Monday. The city's teen business contest. First prize: 50,000 dollars. You enter the sneaker business. Theo almost doesn't come."
+  },
+  {
+   "scene": "pitch",
+   "who": "NARRATOR",
+   "text": "3 judges. All 3 start at 60. They've seen 40 pitches today."
+  },
+  {
+   "scene": "pitch",
+   "who": "NARRATOR",
+   "text": "So you pitch while reading them live. A joke: 55. The profit chart: 41. The part where you buy every pair 40 percent under market: 12."
+  },
+  {
+   "scene": "pitch",
+   "who": "JUDGE",
+   "text": "Impressive. Last question. Whose idea was this?"
+  },
+  {
+   "scene": "pitch",
+   "who": "NARRATOR",
+   "text": "Judges love a solo founder. You can see it. Every time you said I, their numbers dropped. And Theo is in the back row. 93."
+  },
+  {
+   "scene": "pitch",
+   "who": "YOU",
+   "text": "Honestly? His. Theo picks every pair. I just do the talking. Like I did in 4th grade."
+  },
+  {
+   "scene": "pitch",
+   "who": "NARRATOR",
+   "text": "Theo's number starts falling. 70. 40. 9."
+  },
+  {
+   "scene": "win",
+   "who": "NARRATOR",
+   "text": "And the judges call you both up. First place. A giant cardboard check for 50,000 dollars, with 2 names on it."
+  },
+  {
+   "scene": "win",
+   "who": "THEO",
+   "text": "The 9 is for when you spoiled the finale of my show."
+  },
+  {
+   "scene": "crush",
+   "who": "NARRATOR",
+   "text": "Outside, someone is waiting by the doors. Maya. She saw the whole thing."
+  },
+  {
+   "scene": "crush",
+   "who": "MAYA",
+   "text": "That was really cool. What you did for him."
+  },
+  {
+   "scene": "crush",
+   "who": "NARRATOR",
+   "text": "And for the first time all week, you look up."
+  },
+  {
+   "scene": "crush",
+   "who": "NARRATOR",
+   "text": "0. Not low. Zero. You've read 1,400 numbers this week. That's the 3rd zero you've ever seen. Your mom isn't one of them."
+  },
+  {
+   "scene": "crush",
+   "who": "MAYA",
+   "text": "So... are you going to ask me out, or do I have to?",
+   "act": "playful, a little shy",
+   "take": "episodes/secretly/takes/058_1.wav"
+  },
+  {
+   "scene": "crush",
+   "who": "YOU",
+   "text": "Yes. I mean, I am. The first one."
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So. If you could see who secretly hates you, would you look? And whose number would you check first? Tell me in the comments."
+  }
+ ]
+}

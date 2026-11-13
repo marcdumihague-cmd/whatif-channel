@@ -25,3 +25,11 @@ Each fact in `episodes/dreams/script.json`, checked before writing:
 | Parents' sleep doesn't fully recover for 6 years | True (up to 4-6 years after the first child) | Richter et al. (2019), *Sleep*; [EurekAlert](https://www.eurekalert.org/news-releases/652162) |
 | No maximum age for a private pilot licence in America | True (minimum 17, medical required) | [Flying Magazine](https://www.flyingmag.com/when-it-comes-to-flying-youre-never-too-old-to-learn/) |
 | Grandma Moses started painting at 78 | True | [Time](https://time.com/3958885/highly-successful-people-after-age-40) |
+
+## Episode 7: What If You Could See Who Secretly Hates You? (2026-11-13)
+
+| Claim in the script | Verdict | Source |
+|---|---|---|
+| A 2016 study (MIT + Tel Aviv University): 95% of students thought their friends felt the same; only about half did | OK as worded ("about half" is the press-release figure; small student sample) | Almaatouq, Radaelli, Pentland & Shmueli, *PLoS ONE* 2016 (PMC4803335); TAU and ScienceDaily releases |
+| A 2006 review of 206 studies: people catch a lie about 54% of the time | OK (53.46% weighted, rounded) | Bond & DePaulo, *Personality and Social Psychology Review* 2006 |
+| In 2022 Cowen said the sneaker resale market could hit $30B by 2030 | OK (a projection, not a measurement) | Cowen note, June 2022, via Yahoo Finance / Cowen Insight |

@@ -1,6 +1,6 @@
 """Mix an episode: voice + a generated ambient music bed + generated phone/knock sounds.
 
-    .venv-qwen/bin/python tts/mix.py one-minute|dreams|watched|except
+    .venv-qwen/bin/python tts/mix.py one-minute|dreams|watched|except|secretly
 
 Reads video/public/<name>/voice.wav and timeline.json, writes video/public/<name>/mix.wav.
 Every sound is synthesised here (no third-party audio, nothing to license). Cue times mirror the
@@ -204,6 +204,24 @@ elif name == "except":  # cues mirror video/src/ex/Episode.tsx; soft and low onl
     tz = first("tease")
     place(sfx, thump() * 0.6, S(tz) + 0.4, 0.3)  # the phone buzzes
     quiets = [(S(cl + 4), grab + 1.0)]
+elif name == "secretly":  # cues mirror video/src/sh/Episode.tsx; soft and low only
+    at = lambda scene, k=0: first(scene) + k
+    D = lambda i: E(i) - S(i)
+    for i in range(5):
+        place(sfx, thump() * 0.5, S(0) + 0.8 + i * 0.35, 0.18)  # the tags pop in
+    place(sfx, thump(), S(at("cold_open", 7)), 0.3)  # 87 -> 88
+    m = first("market")
+    for k in (3, 5, 7):
+        place(sfx, thump(), S(m + k), 0.25)  # the seller's number jumps
+    place(sfx, whoosh(1.0), S(at("secret", 2)), 0.18)  # into the flashback
+    p = first("pitch")
+    for x in np.arange(S(p + 4) + D(p + 4) * 0.6, E(p + 5), 0.9):
+        place(sfx, thump() * 0.6, x, 0.12)  # heartbeat before the answer
+    place(sfx, whoosh(2.0), S(p + 6), 0.2)  # Theo's number falls
+    place(sfx, whoosh(1.5), S(first("win")) + D(first("win")) * 0.4, 0.22)  # the check
+    c = first("crush")
+    place(sfx, whoosh(2.0), S(c + 3), 0.22)  # the zero
+    quiets = [(S(p + 4) + D(p + 4) * 0.6, E(p + 5)), (S(c + 2), E(c + 3))]
 from scipy.signal import butter, sosfilt
 sfx = sosfilt(butter(4, 2000, fs=SR, output="sos"), sfx).astype(np.float32)  # cut everything above ~2 kHz
 music = pad(n)

@@ -92,7 +92,7 @@ const Floating: React.FC<{ x: number; ground?: number; lift?: number; children: 
   </g>
 );
 // a bench seen from the front; seated people sit on it
-const Bench: React.FC<{ x: number; w: number; y?: number }> = ({ x, w, y = 1000 }) => (
+export const Bench: React.FC<{ x: number; w: number; y?: number }> = ({ x, w, y = 1000 }) => (
   <g><rect x={x - w / 2} y={y - 120} width={w} height={26} rx={8} fill="#8E6646" /><rect x={x - w / 2} y={y - 190} width={w} height={20} rx={8} fill="#7A563A" /><rect x={x - w / 2 + 20} y={y - 94} width={16} height={94} fill="#6A4A30" /><rect x={x + w / 2 - 36} y={y - 94} width={16} height={94} fill="#6A4A30" /></g>
 );
 // purple glow around a controlled person's head
@@ -102,14 +102,14 @@ const Controlled: React.FC<{ x: number; y: number; t: number; s?: number }> = ({
 
 // ---------- sets ----------
 // a student desk seen from the front; drawn after the seated person so it hides the legs
-const Desk: React.FC<{ x: number; y?: number; s?: number; book?: boolean }> = ({ x, y = 1000, s = 1, book = true }) => (
+export const Desk: React.FC<{ x: number; y?: number; s?: number; book?: boolean }> = ({ x, y = 1000, s = 1, book = true }) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <rect x={-150} y={-250} width={300} height={24} rx={6} fill="#C99D74" /><rect x={-140} y={-226} width={280} height={110} rx={6} fill="#B5875E" />
     <rect x={-130} y={-116} width={14} height={116} fill="#6F7480" /><rect x={116} y={-116} width={14} height={116} fill="#6F7480" />
     {book && <g><rect x={-70} y={-268} width={90} height={18} rx={3} fill="#5E7A9A" /><rect x={40} y={-262} width={60} height={10} rx={3} fill={P.white} /></g>}
   </g>
 );
-const SchoolOutside: React.FC<{ t: number; police?: boolean }> = ({ t, police = false }) => (
+export const SchoolOutside: React.FC<{ t: number; police?: boolean }> = ({ t, police = false }) => (
   <Backdrop base="#8FC3E6" light="#E3F3FB" cx={60} cy={15}>
     {[0, 1].map((i) => <ellipse key={i} cx={((t * 14 + i * 900) % 2200) - 140} cy={110 + i * 50} rx={130} ry={32} fill={P.white} opacity={0.9} />)}
     <rect x={360} y={300} width={1200} height={500} fill="#C9775A" />{Array.from({ length: 12 }, (_, i) => <rect key={i} x={360} y={300 + i * 42} width={1200} height={4} fill="#B5664B" />)}
@@ -127,7 +127,7 @@ const SchoolOutside: React.FC<{ t: number; police?: boolean }> = ({ t, police = 
       {[-120, 120].map((x) => <circle key={x} cx={x} cy={0} r={40} fill="#2B2B36" />)}</g>}
   </Backdrop>
 );
-const Classroom: React.FC<{ t: number; math?: string }> = ({ t, math = "2x + 7 = 19" }) => (
+export const Classroom: React.FC<{ t: number; math?: string }> = ({ t, math = "2x + 7 = 19" }) => (
   <Backdrop base="#C9D9C4" light="#F0F6EA" cx={45} cy={25}>
     {/* windows with daylight */}
     {[0, 1].map((i) => <g key={i}><rect x={80 + i * 290} y={120} width={250} height={330} rx={8} fill="#BFE3F6" /><rect x={80 + i * 290} y={120} width={250} height={330} rx={8} fill="none" stroke={P.cream} strokeWidth={14} /><line x1={205 + i * 290} y1={120} x2={205 + i * 290} y2={450} stroke={P.cream} strokeWidth={8} /></g>)}
@@ -147,7 +147,7 @@ const Classroom: React.FC<{ t: number; math?: string }> = ({ t, math = "2x + 7 =
     <Bokeh t={t} n={8} opacity={0.12} />
   </Backdrop>
 );
-const SchoolHall: React.FC<{ t: number; speaker?: boolean }> = ({ t, speaker = false }) => (
+export const SchoolHall: React.FC<{ t: number; speaker?: boolean }> = ({ t, speaker = false }) => (
   <Backdrop base="#D9D2C4" light="#F6F1E6" cx={50} cy={20}>
     {/* lockers */}
     {Array.from({ length: 16 }, (_, i) => <g key={i}><rect x={20 + i * 118} y={300} width={110} height={460} rx={6} fill={i % 2 ? "#3F7FA8" : "#4A8BB4"} />
@@ -163,7 +163,7 @@ const SchoolHall: React.FC<{ t: number; speaker?: boolean }> = ({ t, speaker = f
     <Bokeh t={t} n={8} opacity={0.12} />
   </Backdrop>
 );
-const Cafeteria: React.FC<{ t: number }> = ({ t }) => (
+export const Cafeteria: React.FC<{ t: number }> = ({ t }) => (
   <Backdrop base="#E6D8B8" light="#FFF6E2" cx={50} cy={20}>
     <rect x={460} y={110} width={1000} height={110} rx={14} fill="#2F5545" /><text x={960} y={186} textAnchor="middle" fontFamily={font} fontWeight={900} fontSize={70} fill={P.cream}>CAFETERIA</text>
     <rect x={200} y={300} width={1520} height={230} rx={10} fill="#AEB6CC" /><rect x={180} y={280} width={1560} height={30} rx={8} fill="#C9D2DE" />
