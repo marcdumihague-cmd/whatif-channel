@@ -1,7 +1,7 @@
 # Packaging: What If You Could Do Anything You've Watched on YouTube?
 
 Research: `research/packaging-2026-11-12-watched.md` (this video) and `research/packaging-2026-11-12.md`
-(the format and thumbnail patterns, reused). Chapters come from the final timeline.
+(the format and thumbnail patterns, reused). Chapters come from the final timeline (6:50).
 
 ## Title
 
@@ -26,7 +26,17 @@ book and a fight). Checked at feed size (320 px).
 > You have 30 days to pay rent with half skills. And one video from 3 a.m.: How to land a plane in an emergency. 71% watched.
 >
 > CHAPTERS
-> (filled in from the final timeline)
+> 0:00 The Knives
+> 0:34 How It Works
+> 1:24 Rent Is Due
+> 1:40 2 Million Views, $0
+> 1:58 11 Chairs Nobody Wants
+> 2:34 Beating the Chess Hustlers
+> 3:35 Half Skills Are Dangerous
+> 4:05 Uncle Ray's Plane
+> 4:31 Mayday
+> 5:49 The 1st
+> 6:16 Theo's History
 >
 > REAL FACTS IN THIS VIDEO
 > People watch over 1 billion hours of YouTube a day: YouTube (2017).

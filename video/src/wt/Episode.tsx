@@ -548,9 +548,9 @@ const shots: Record<string, React.FC<ShotProps>> = {
           <Person x={620} y={1000} look={YOU} mood={t > burst ? "shocked" : "happy"} t={t} {...say(t, "YOU")} lookX={-1} pose={t > burst ? "shrug" : "hold"} holding={t > burst ? undefined : <rect x={-8} y={-50} width={16} height={90} rx={6} fill="#AEB6CC" transform="rotate(30)" />} sweat={t > burst} />
           <SkillBar t={t} a={S(a + 1) + 0.3} x={620} y={230} label="Fix a leaking sink · 12%" stop={0.12} dur={D(a + 1) * 0.6} w={460} />
           {t > S(a + 4) - 0.3 && <Person x={1300} y={1000} look={THEO} mood="nervous" t={t} {...say(t, "THEO")} flip lookX={-1} pose="phone" holding={<rect x={-26} y={-44} width={52} height={88} rx={8} fill="#141A28" />} />}
-          <Label t={t} at={S(a + 3) + 0.3} until={S(a + 4)} x={1300} y={300} text="PLUMBER: $860" size={44} bg={P.red} color={P.white} />
+          <Label t={t} at={S(a + 3) + 0.3} until={S(a + 4)} x={1150} y={430} text="PLUMBER: $860" size={44} bg={P.red} color={P.white} />
         </Svg>
-        {t > S(a + 2) - 0.15 && t < S(a + 3) && card(t, S(a + 2) + 0.2, E(a + 2) + 0.2, "INSURANCE INFORMATION INSTITUTE", "$15,400", "the average water damage claim", "#3F87C4", 1060, 120, 760)}
+        {t > S(a + 2) - 0.15 && t < S(a + 3) && card(t, S(a + 2) + 0.2, E(a + 2) + 0.2, "INSURANCE INFORMATION INSTITUTE", "$15,400", "the average water damage claim", "#3F87C4", 960, 360, 760)}
         <Chip t={t} at={S(a + 1) + 0.2} text={t > S(a + 6) ? "DAY 20" : "DAY 17"} />
       </Camera>
     );

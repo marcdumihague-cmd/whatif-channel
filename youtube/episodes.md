@@ -10,6 +10,7 @@ Status: idea -> scripted -> voiced -> rendered -> packaged -> published (by the 
 | 3 | What If You Could Call Anyone Who Died for 60 Seconds? | published by the user | `episodes/one-minute/`. 6:26, `video/out/one-minute.mp4` + `one-minute-thumbnail.png` (not in git; re-render `OneMinute` / `OneMinuteThumb`). Generated music + sound effects. Title, description, chapters, Shorts in `packaging.md`. Vertical teaser `video/out/one-minute-teaser.mp4` (61 s, cut after the rules) made for TikTok/Reels/Shorts. |
 | 4 | What If You Could See the Dreams Your Parents Gave Up? | rendered | `episodes/dreams/`. 7:03, `video/out/dreams.mp4` + `dreams-thumb.png` (not in git; re-render `Dreams` / `DreamsThumb`). First episode with lip-sync (`tts/lipsync.py`), acted takes (`tts/act.py`, 12 of 28 kept), ghost costumes and crossfades. Research-backed title, thumbnail, description, tags, chapters, Shorts in `packaging.md`. |
 
+| 5 | What If You Could Do Anything You've Watched on YouTube? | rendered | `episodes/watched/`. 6:50, `video/out/watched.mp4` + `watched-thumb.png` (not in git; re-render `Watched` / `WatchedThumb`). Idea #22. Chess hustlers + Magnus Carlsen, furniture flipping, a plane landing; a red progress bar over your head is the visual motif. Research-backed packaging in `packaging.md`. |
 ## Ideas backlog
 
 Checked 2026-11-11: no existing "what if" video found in YouTube's top results for 2-3 wordings of
@@ -43,7 +44,7 @@ Third batch, 2026-11-12 (the user asked for realistic, not sentimental; checks i
 `research/idea-checks-2026-11-12b.md`):
 
 21. What If You Could See the Day Everything You Own Will Break?
-22. What If You Could Do Everything You've Ever Watched on YouTube?
+22. ~~What If You Could Do Everything You've Ever Watched on YouTube?~~ (made: episode 5)
 23. What If You Had to Say Everything You Type Out Loud?
 24. What If Autocorrect Worked on Your Voice?
 25. What If Your Phone Charged You $1 for Every Minute You Scroll?
