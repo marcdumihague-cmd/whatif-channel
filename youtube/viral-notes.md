@@ -52,6 +52,10 @@ Abstract or money premises flopped with a perfect template; a saturated premise 
 
 A. **The premise must pull on a person**: a crush, a parent, a grandparent, a best friend, your own
    body. Not odds, markets, or a world of strangers. (Transcripts: same template, 25x vs 0.1x.)
+A2. **The user's rule (2026-11-13): money, girls, views or survival** in every video, ideally as
+   the premise. Our title data leaned against money *as the whole point* (0.62x, not proven); the
+   answer is money as a fantasy the viewer wants (getting rich, spending it) tied to a person, not
+   markets or odds.
 B. **Never a saturated premise.** Search it first; if a big version exists, skip it ("everyone
    disappeared" already has 4.2M; the late copy did 0.13x).
 

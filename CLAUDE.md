@@ -4,7 +4,7 @@ A YouTube channel of "What if...?" videos, made by Claude. Each video takes a ma
 ("What if you woke up 10 times stronger?"), explains it, and walks through what would most likely
 happen, scene by scene. Visual style: simple, flat, colored animations.
 
-Format: second-person story ("you" are the main character), about 8 to 10 minutes, 16:9, with a
+Format: second-person story ("you" are the main character), roughly 7 to 10 minutes (never boring matters more than length), 16:9, with a
 narrator plus short lines from a small recurring cast, and real facts woven in. Full style rules:
 `youtube/voice.md` (writing), `youtube/viral-notes.md` (what makes these videos break out: read
 before writing any script) and `youtube/motion.md` (animation: nothing is ever still).
@@ -57,7 +57,7 @@ Rejected: Kokoro (flat, user found it not entertaining), Chatterbox (word slips)
 (default OmniVoice weights are non-commercial, needs a desktop/GPU). ElevenLabs: the user's API key
 was rejected (401); untested. Comparison scripts: `tts/compare/`.
 
-Scripts weave in things the average viewer has seen on YouTube (money-making videos, famous creators); graphics keep episode 5's detail level with one premise motif (user rules, see `youtube/voice.md` and `youtube/motion.md`). Every shot must be impossible to misunderstand (defining objects, establishing views, labels; see `youtube/motion.md`). Sound effects: soft and low only, never high-pitched (user rule, see `youtube/motion.md`). Facts: never say "That's real"; name the study instead (see `youtube/voice.md`).
+Every video: ends on a "what would you do?" question; the promise teases without spoiling (what, not how); no gag repeated more than 2-3 times; less explaining, more action; wish-fulfilment situations; money, girls, views or survival in it, ideally as the premise (user rules, `youtube/voice.md`). Scripts weave in things the average viewer has seen on YouTube (money-making videos, famous creators); graphics keep episode 5's detail level with one premise motif (user rules, see `youtube/voice.md` and `youtube/motion.md`). Every shot must be impossible to misunderstand (defining objects, establishing views, labels; see `youtube/motion.md`). Sound effects: soft and low only, never high-pitched (user rule, see `youtube/motion.md`). Facts: never say "That's real"; name the study instead (see `youtube/voice.md`).
 
 Music: generated ambient pad from `tts/mix.py` (first used on episode 3; the user hasn't heard it yet).
 

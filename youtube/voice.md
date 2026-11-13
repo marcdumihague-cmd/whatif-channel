@@ -46,6 +46,24 @@ video happens to "you".
 8. **Playful coda, then one question.** A quick light beat, then ask the viewer what they would do
    in this scenario, and to subscribe. One sentence.
 
+## The user's rules (2026-11-13), on top of the structure above
+
+- **End every video with a "what would you do?" question**, worded so the viewer pictures
+  themselves in it ("If you woke up with this, what would you do first?").
+- **The promise teases, it never spoils.** Say *what* will happen, never *how*: "you'll save a whole
+  city", not "you'll stop a kid who controls every mind except yours". No mechanism, no twist, no
+  villain's power in the first minute.
+- **No repeating the same thing.** A running gag appears at most 2-3 times, and each time it must
+  change (bigger, flipped, or paid off). Episode 6 said "Theo floats 2 feet" far too often.
+- **Less explaining, more action.** Length matters less than never being boring. Rules get one or
+  two lines, then we show them working. If a line only explains, cut it or turn it into a scene.
+- **Wish fulfilment most of the time.** Put "you" in situations viewers would love to be in and
+  fantasise about (getting rich, the crush noticing you, going viral, being the one who survives).
+  Relatable or intriguing moments beat clever ones.
+- **Money, girls, views, survival.** Every video touches at least one of these, and ideally the
+  premise is about one of them. ("Girls" in practice: a crush, a date, someone you want to impress,
+  written so any viewer can project onto it.)
+
 ## Devices to reuse (as techniques, with new content every time)
 
 - **Running gags:** a catchphrase from a side character, repeated 3 to 5 times, with the last one

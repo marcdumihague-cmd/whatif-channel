@@ -28,6 +28,13 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DO weave in what the average viewer has seen on YouTube** (money-making videos, famous creators
   like Magnus Carlsen's chess, viral-but-$0 moments); real people only as references, never as
   speaking characters. (user, 2026-11-13; rule in `voice.md`)
+- **DO end every video on "what would you do?"**, and **DON'T spoil in the promise**: say what will
+  happen, not how ("you'll save a whole city"). (user, 2026-11-13; rules in `voice.md`)
+- **DON'T repeat the same gag or fact**: 2-3 times at most, changed each time. Episode 6 said "Theo
+  floats 2 feet" countless times. (user, 2026-11-13)
+- **DO less explaining, more action; length matters less than boredom.** Make situations viewers
+  would love to be in, most of the time. (user, 2026-11-13)
+- **DO put money, girls, views or survival in every video**, ideally as the premise. (user, 2026-11-13)
 - **DO write numbers as digits** in scripts; the voice reads them fine and Whisper checks them. (us)
 
 ## Voice
