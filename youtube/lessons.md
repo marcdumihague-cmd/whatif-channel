@@ -54,7 +54,7 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   reference voices; Dad, the coach, the bus driver and the teacher drifted (0.58-0.78) and stayed
   cloned. Expect about 40% of acted lines to be kept. (us, 2026-11-12)
 - **Acted takes kept only 3 of 22 on episode 6** (8 of 29 on episode 5, 12 of 28 on episode 4): the
-  2-3 hour cost buys little. Mark only the 5-8 lines where emotion matters most. (us, 2026-11-13)
+  2-3 hour cost buys little. Mark only the 5-8 lines where emotion matters most. (us, 2026-11-13) Episode 7 kept 1 of 5. (us, 2026-11-13)
 - **Whisper false alarms**: "4:59" is written "4.59"; "sequins" is heard as "sequence"; numbers come
   as digits or words at random (the normaliser handles those). Check a WARNING line by transcribing
   it before re-voicing. (us)
@@ -86,6 +86,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DO check a contact sheet (a still every ~4 s) before every full render.** It caught: labels
   hidden behind captions, a sign overlapping a label, a ghost plane clipped by the camera, the
   countdown clock cut off by a zoom, a "PAY" button on an acceptance email. (us)
+- **Episode 7's contact sheet caught**: a label on top of a chalkboard, a label behind a hate tag, a
+  meter label cut off by a punch-in, a giant check covering both faces, a sign behind the crush's tag,
+  the end title on top of the silhouettes. Check every label against what's *behind* it too. (us, 2026-11-13)
 - **DON'T place text near the bottom 150 px**: captions sit there. (us)
 - **Watch zooms**: a punch-in or push-in pushes top-edge text off screen. (us)
 - **DO lay out the animation on an estimated timeline** (words / 2.6 per second) while the voice is
@@ -120,6 +123,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   finished (file timestamp and duration), don't trust "exit 0" from a waiting loop. (us, 2026-11-12)
 - **`pgrep -f <name>` matches its own shell**: a wait loop waited on itself forever. Wait on a log
   line or a PID instead. (us, 2026-11-12)
+- **The PID printed by `$!` after `nohup ... &` can be a wrapper shell, not the job**: a wait loop
+  watched the wrong process. Check the real PID with `ps aux | grep <script>` before waiting on it. (us, 2026-11-13)
 - **`Path.relative_to(ROOT)` needs an absolute path**: call `.resolve()` first. (us, `act.py` crash)
 - **Rewriting git history drops commit signatures**: after `filter-branch`, re-sign with
   `git rebase --root --exec "git commit --amend --no-edit"`. A force push needs the user's OK. (us)
