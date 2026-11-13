@@ -54,6 +54,8 @@ Viral-first batch, 2026-11-13 (`research/idea-checks-2026-11-13-viral.md`):
 
 26. ~~What If Everyone Got a Superpower Except You?~~ (made: episode 6)
 27. **What If You Could See Who Secretly Hates You? (the user chose this one for NEXT time)**
+    User's notes: the crush comes in when you realise she *doesn't* hate you (her number is 0).
+    Money and the crush are ingredients, not the whole video: plenty of other beats too.
 28. What If You Could Stop Time for 10 Seconds a Day?
 29. What If Everyone Could See Your Search History?
 

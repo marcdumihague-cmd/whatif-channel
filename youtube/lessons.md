@@ -35,6 +35,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **DO less explaining, more action; length matters less than boredom.** Make situations viewers
   would love to be in, most of the time. (user, 2026-11-13)
 - **DO put money, girls, views or survival in every video**, ideally as the premise. (user, 2026-11-13)
+- **Money, girls, views and survival are ingredients, not the whole video**: mix them with other
+  beats so the story doesn't become only about them. (user, 2026-11-13)
 - **DO show "you" exploiting the situation to make big money in most videos**, even when the premise
   isn't about money. Not a money-only premise. (user, 2026-11-13)
 - **DO write numbers as digits** in scripts; the voice reads them fine and Whisper checks them. (us)
