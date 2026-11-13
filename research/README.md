@@ -17,6 +17,7 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
 | `idea-checks-2026-11-13-viral.md` | Viral-first shortlist: demand vs. how big the existing videos already are |
 | `packaging-2026-11-13-except.md` | Keywords and title score for episode 6 |
 | `packaging-2026-11-13-secretly.md` | Title tests and fresh saturation search for episode 7 (no vidIQ credits) |
+| `upload-timing-2026-11-13.md` | When to upload: 2026 timing studies and our default schedule |
 | `voice-takes-dreams.md` | Acted-take results: speaker similarity and word match for every take, which were kept |
 
 
