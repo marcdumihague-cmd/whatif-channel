@@ -60,6 +60,10 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 
 - **DO keep the detailed look from episode 5**: textured sets with real props, shoes and collars, one
   visual motif tied to the premise. (user, 2026-11-13; rule in `motion.md`)
+- **DO make every shot impossible to misunderstand**: defining objects for each place (a plane needs
+  seats and a control panel), an establishing view, the action shown not implied, new things
+  labelled, and a "where / who / what" line written for every contact-sheet still. (user, 2026-11-13;
+  rule in `motion.md`)
 - **Nothing is ever still**: ambient loop + camera move in every shot. (user, from reference screenshots)
 - **DO crossfade between shots** instead of hard cuts. (user asked for spotless, clean animation)
 - **DO give the speaking character real mouth shapes** from `lips.json` (user asked for lip-sync).

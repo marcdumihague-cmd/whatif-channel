@@ -60,3 +60,20 @@ keeps that level:
 - **One recurring visual motif tied to the premise**, readable at a glance (episode 5: a red progress
   bar over your head that stops where you stopped watching). Use it in the thumbnail too.
 - **Generic UI only**: watch-history lists, phones and screens are drawn without real logos.
+
+## Clarity: impossible to misunderstand (the user's rule, 2026-11-13)
+
+"Mostly understandable" is not enough: a viewer with the sound off must be able to tell where we
+are, who is there and what is happening in every shot. Episode 5's plane had no seats and no
+control panel; that is the kind of gap to close.
+
+- **Every location gets its defining objects**, drawn properly: a plane has seats, a control panel
+  with a yoke, windows; a classroom has desks, a board and a teacher's desk; a hospital has a bed and
+  a monitor. If one object makes the place obvious, draw it big and early.
+- **Open each new location with an establishing view** (the building, the sign, the room) before
+  the close-up.
+- **Show the action itself, not just the result**: the hand reaching, the object moving, a clear
+  before and after. Exaggerate the poses.
+- **Label anything new the first time it appears** (a power, a rule, a number): a short tag.
+- **Clarity check before every render**: for each still on the contact sheet, write one line
+  "where / who / what is happening". If a line is hard to write, the shot gets fixed.

@@ -49,6 +49,13 @@ Third batch, 2026-11-12 (the user asked for realistic, not sentimental; checks i
 24. What If Autocorrect Worked on Your Voice?
 25. What If Your Phone Charged You $1 for Every Minute You Scroll?
 
+Viral-first batch, 2026-11-13 (`research/idea-checks-2026-11-13-viral.md`):
+
+26. What If Everyone Got a Superpower Except You? (episode 6, in production)
+27. **What If You Could See Who Secretly Hates You? (the user chose this one for NEXT time)**
+28. What If You Could Stop Time for 10 Seconds a Day?
+29. What If Everyone Could See Your Search History?
+
 Already taken (found on YouTube, don't use): promises that can't be broken, borrowing time, shadow
 ahead of you, 100 words a day, undo one sentence/mistake, expiration dates, aging 10x slower, paid
 when someone thinks of you, trading memories, lucky while others get unlucky, a 500 IQ sister, last
