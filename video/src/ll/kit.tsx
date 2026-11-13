@@ -88,7 +88,7 @@ export const Shadow: React.FC<{ cx: number; cy: number; rx: number; o?: number }
 );
 
 // ---------- characters ----------
-export type Mood = "neutral" | "smug" | "shocked" | "happy" | "sad" | "nervous" | "deadpan" | "sleepy" | "angry";
+export type Mood = "neutral" | "smug" | "shocked" | "happy" | "sad" | "nervous" | "deadpan" | "sleepy" | "angry" | "controlled";
 export type Look = { skin: string; hair: string; top: string; topDark: string; hairStyle?: "short" | "curly" | "bun" | "bald" | "long" | "wild"; glasses?: boolean; tall?: number; mustache?: string;
   acc?: Acc[] };
 export type Acc = "pilot" | "helmet" | "headphones" | "beret" | "mailcap" | "hairnet" | "bowtie" | "tutu" | "sequins" | "partyhat";
@@ -111,6 +111,7 @@ const FACE: Record<Mood, { lid: number; brow: number; tilt: number; eye: number;
   nervous: { lid: 0.1, brow: -8, tilt: -10, eye: 1.1, mouth: "wobble" },
   deadpan: { lid: 0.6, brow: 2, tilt: 0, eye: 1, mouth: "flat" },
   sleepy: { lid: 1, brow: 3, tilt: 0, eye: 1, mouth: "flat" },
+  controlled: { lid: 0.15, brow: 0, tilt: 0, eye: 1.15, mouth: "flat" }, // mind-controlled: glowing purple eyes, no pupils
   angry: { lid: 0.3, brow: 6, tilt: 18, eye: 1, mouth: "frown" },
 };
 
@@ -167,8 +168,9 @@ export const Head: React.FC<{ look: Look; mood: Mood; t: number; talk?: boolean;
   const Eye = ({ x, side }: { x: number; side: number }) => (
     <g transform={`translate(${x} -6)`}>
       <ellipse rx={eyeR} ry={eyeR * 1.25} fill={P.white} />
-      <circle cx={lookX * 5} cy={2} r={eyeR * 0.62} fill={P.ink} />
-      <circle cx={lookX * 5 - 3} cy={-2} r={2.5} fill={P.white} />
+      {mood === "controlled" ? <g><ellipse rx={eyeR} ry={eyeR * 1.25} fill="#B47CFF" /><ellipse rx={eyeR * 0.5} ry={eyeR * 0.6} fill="#F0E2FF" /></g>
+        : <><circle cx={lookX * 5} cy={2} r={eyeR * 0.62} fill={P.ink} />
+      <circle cx={lookX * 5 - 3} cy={-2} r={2.5} fill={P.white} /></>}
       {/* eyelid: skin rectangle sliding down, tilted with the mood */}
       <rect x={-eyeR - 3} y={-eyeR * 1.25 - 4} width={eyeR * 2 + 6} height={(eyeR * 2.5 + 8) * (wink && side === 1 ? 1 : lid)} fill={look.skin}
         transform={`rotate(${f.tilt * side})`} />

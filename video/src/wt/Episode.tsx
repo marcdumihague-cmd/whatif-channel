@@ -118,7 +118,7 @@ const History: React.FC<{ t: number; a: number; x: number; y: number; hi?: numbe
 };
 
 // ---------- detailed sets ----------
-const Kitchen: React.FC<{ t: number; water?: number }> = ({ t, water = 0 }) => (
+export const Kitchen: React.FC<{ t: number; water?: number }> = ({ t, water = 0 }) => (
   <Backdrop base="#E8D9C4" light="#FFF4E2" cx={45} cy={30}>
     {/* backsplash tiles */}
     {Array.from({ length: 13 }, (_, c) => Array.from({ length: 4 }, (_, r) => <rect key={`${c}-${r}`} x={c * 150 + (r % 2) * 75 - 75} y={430 + r * 60} width={146} height={56} rx={4} fill={(c + r) % 3 ? "#F3ECE2" : "#E9E0D3"} />))}
@@ -317,7 +317,7 @@ const Hallway: React.FC<{ t: number }> = ({ t }) => (
   </Backdrop>
 );
 
-const Bedroom: React.FC<{ t: number; night?: boolean }> = ({ t, night = true }) => (
+export const Bedroom: React.FC<{ t: number; night?: boolean }> = ({ t, night = true }) => (
   <Backdrop base={night ? "#1E2638" : "#C9D6E6"} light={night ? "#3A4766" : "#F2F6FA"} cx={40} cy={30}>
     <rect x={1300} y={150} width={420} height={360} rx={10} fill={night ? "#141A28" : "#BFE3F6"} />
     {night && Array.from({ length: 14 }, (_, i) => <circle key={i} cx={1320 + (i * 71) % 380} cy={170 + (i * 97) % 320} r={2.5} fill={P.white} opacity={0.3 + 0.6 * Math.abs(Math.sin(t + i))} />)}
@@ -333,7 +333,7 @@ const Bedroom: React.FC<{ t: number; night?: boolean }> = ({ t, night = true }) 
 );
 
 // a phone in a hand-held frame
-const Phone: React.FC<{ x: number; y: number; s?: number; children?: React.ReactNode; rec?: boolean; t: number }> = ({ x, y, s = 1, children, rec, t }) => (
+export const Phone: React.FC<{ x: number; y: number; s?: number; children?: React.ReactNode; rec?: boolean; t: number }> = ({ x, y, s = 1, children, rec, t }) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <rect x={-170} y={-320} width={340} height={640} rx={44} fill="#141A28" /><rect x={-154} y={-300} width={308} height={600} rx={30} fill="#2C3852" />
     <clipPath id={`ph${x}`}><rect x={-154} y={-300} width={308} height={600} rx={30} /></clipPath>
