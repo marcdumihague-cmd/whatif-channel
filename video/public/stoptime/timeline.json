@@ -1,0 +1,405 @@
+{
+ "estimated": true,
+ "duration": 341.408,
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Gym class, 10:14 a.m. A dodgeball is 4 inches from your face. And it's not moving.",
+   "start": 0,
+   "end": 6.454
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Neither is anyone else. Not the teacher. Not the kid who threw it. Not the fly above his head.",
+   "start": 6.754,
+   "end": 14.362
+  },
+  {
+   "scene": "cold_open",
+   "who": "YOU",
+   "text": "Okay. Okay okay okay.",
+   "start": 14.662,
+   "end": 16.5
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "In the corner of your eye, a clock you've never seen before is counting down. 7.2 seconds.",
+   "start": 16.8,
+   "end": 23.638
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "So you step to the side. You turn the ball around. And you aim it back at the kid who threw it.",
+   "start": 23.938,
+   "end": 32.7
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Time starts again.",
+   "start": 33.0,
+   "end": 34.454
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "Bro. What did I just watch?",
+   "start": 34.754,
+   "end": 37.362
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Starting today, you get 10 seconds a day where the whole world stops. In the next month, you'll go viral, get offered 1 million dollars, and find out what 10 seconds are really worth.",
+   "start": 37.912,
+   "end": 51.288
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "The rules. 10 seconds a day, total. You can use them all at once, or in tiny pieces. At midnight, the clock refills.",
+   "start": 51.838,
+   "end": 60.985
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Anything you touch can move. Anything you don't stays frozen.",
+   "start": 61.285,
+   "end": 65.431
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "10 seconds doesn't sound like much. But in 2009, Usain Bolt ran 100 meters in 9.58. In 10 seconds, light travels about 3 million kilometers.",
+   "start": 65.731,
+   "end": 75.646
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "You? You use your first full second to take the last slice of pizza out of your dad's hand.",
+   "start": 75.946,
+   "end": 83.554
+  },
+  {
+   "scene": "rules",
+   "who": "MOM",
+   "text": "Where did the pizza go?",
+   "start": 83.854,
+   "end": 86.077
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "By Wednesday you're getting good at it.",
+   "start": 86.627,
+   "end": 89.619
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Half a second to catch your phone before it hits the floor. 2 seconds to finish the last question before the bell. 1 second to be first in the lunch line, every single day.",
+   "start": 89.919,
+   "end": 103.296
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Then, on the stairs, Ava drops her phone. 3 floors down.",
+   "start": 103.596,
+   "end": 108.127
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "0.8 seconds later, it's back in her hand.",
+   "start": 108.427,
+   "end": 111.804
+  },
+  {
+   "scene": "school",
+   "who": "AVA",
+   "text": "Wait. How did you...?",
+   "start": 112.104,
+   "end": 113.942
+  },
+  {
+   "scene": "school",
+   "who": "YOU",
+   "text": "Reflexes.",
+   "start": 114.242,
+   "end": 115.242
+  },
+  {
+   "scene": "idea",
+   "who": "NARRATOR",
+   "text": "That night, YouTube shows you a Zach King video. A guy who makes magic look real, with editing.",
+   "start": 115.792,
+   "end": 123.015
+  },
+  {
+   "scene": "idea",
+   "who": "NARRATOR",
+   "text": "Millions of people watch him and ask the same thing. How did he do that?",
+   "start": 123.315,
+   "end": 129.385
+  },
+  {
+   "scene": "idea",
+   "who": "NARRATOR",
+   "text": "Your tricks don't need editing.",
+   "start": 129.685,
+   "end": 131.908
+  },
+  {
+   "scene": "idea",
+   "who": "THEO",
+   "text": "So I film, you do the magic, we split everything. 50 50.",
+   "start": 132.208,
+   "end": 137.123
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Video 1. You ask a stranger to sign a card. 1.4 seconds later, the card is inside a sealed water bottle in her own bag.",
+   "start": 137.673,
+   "end": 147.588
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "24 hours later: 3 million views. The top comment says fake. The second says edited.",
+   "start": 147.888,
+   "end": 153.958
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "So you go live. No cuts. 200,000 people watching. You make every coin in a fountain jump into one stranger's hat.",
+   "start": 154.258,
+   "end": 162.635
+  },
+  {
+   "scene": "viral",
+   "who": "THEO",
+   "text": "We're trending. We are actually trending.",
+   "start": 162.935,
+   "end": 165.542
+  },
+  {
+   "scene": "viral",
+   "who": "NARRATOR",
+   "text": "Brand deals start showing up. 5,000 dollars a video. Then 20,000. Your mom asks if you're selling something illegal.",
+   "start": 165.842,
+   "end": 173.45
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "Then the email that changes everything.",
+   "start": 174.0,
+   "end": 176.608
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "The biggest live New Year's show in the country. One impossible trick, live, at 11:59 p.m. If the whole stadium can't explain it, you win 1 million dollars.",
+   "start": 176.908,
+   "end": 187.977
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "You plan the trick. 60,000 phones. Every single one ends up in one giant pile on stage. It takes exactly 9 seconds.",
+   "start": 188.277,
+   "end": 197.038
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "So on December 31st, you don't use a single second. Not for pizza. Not for the bus. 10.0, all day.",
+   "start": 197.338,
+   "end": 205.331
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "7:40 p.m. On the way to the stadium, a little kid chases his ball into the street.",
+   "start": 205.881,
+   "end": 212.719
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "And a bus is coming. Too fast to stop.",
+   "start": 213.019,
+   "end": 216.781
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "You know what happens if you use your seconds. No 9 seconds, no trick. No trick, no million.",
+   "start": 217.081,
+   "end": 224.304
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "You stop time anyway.",
+   "start": 224.604,
+   "end": 226.442
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "You walk into the street, lift the kid, carry him to the sidewalk, and put the ball back in his hands. 6.6 seconds.",
+   "start": 226.742,
+   "end": 235.888
+  },
+  {
+   "scene": "bus",
+   "who": "NARRATOR",
+   "text": "Time starts again. The bus roars past an empty street. 3.4 seconds left.",
+   "start": 236.188,
+   "end": 241.488
+  },
+  {
+   "scene": "stage",
+   "who": "NARRATOR",
+   "text": "11:58 p.m. 60,000 people. Cameras everywhere. You walk on stage with 3.4 seconds.",
+   "start": 242.038,
+   "end": 247.338
+  },
+  {
+   "scene": "stage",
+   "who": "HOST",
+   "text": "Ladies and gentlemen, the kid everyone says is impossible!",
+   "start": 247.638,
+   "end": 251.4
+  },
+  {
+   "scene": "stage",
+   "who": "THEO",
+   "text": "Bro, what are you doing? We need 9 seconds!",
+   "start": 251.7,
+   "end": 255.462
+  },
+  {
+   "scene": "stage",
+   "who": "NARRATOR",
+   "text": "You look at the giant clock above the stadium. 11:59 and 50 seconds.",
+   "start": 255.762,
+   "end": 261.062
+  },
+  {
+   "scene": "stage",
+   "who": "NARRATOR",
+   "text": "And you remember the rule. At midnight, the clock refills.",
+   "start": 261.362,
+   "end": 265.508
+  },
+  {
+   "scene": "stage",
+   "who": "YOU",
+   "text": "Can everyone help me count down?",
+   "start": 265.808,
+   "end": 268.415
+  },
+  {
+   "scene": "stage",
+   "who": "HOST",
+   "text": "3! 2! 1! Happy New Year!",
+   "start": 268.715,
+   "end": 271.323
+  },
+  {
+   "scene": "stage",
+   "who": "NARRATOR",
+   "text": "10.0. You stop time.",
+   "start": 271.623,
+   "end": 273.462
+  },
+  {
+   "scene": "trick",
+   "who": "NARRATOR",
+   "text": "You run row by row. Phone, phone, phone. 60,000 of them. 9 seconds.",
+   "start": 274.012,
+   "end": 279.312
+  },
+  {
+   "scene": "trick",
+   "who": "NARRATOR",
+   "text": "Time starts again. 60,000 people reach for their phones to film the fireworks. And every single phone is on the stage, in one giant pile, under your feet.",
+   "start": 279.612,
+   "end": 290.681
+  },
+  {
+   "scene": "trick",
+   "who": "NARRATOR",
+   "text": "The stadium goes silent. Then it explodes.",
+   "start": 290.981,
+   "end": 293.973
+  },
+  {
+   "scene": "win",
+   "who": "NARRATOR",
+   "text": "1 million dollars. Half for Theo.",
+   "start": 294.523,
+   "end": 297.131
+  },
+  {
+   "scene": "win",
+   "who": "NARRATOR",
+   "text": "But the video that breaks the internet isn't the trick. It's a dashcam from the bus. A kid in the street, and then, one frame later, on the sidewalk. 90 million views.",
+   "start": 297.431,
+   "end": 310.038
+  },
+  {
+   "scene": "win",
+   "who": "THEO",
+   "text": "You teleported a kid and didn't tell me?",
+   "start": 310.338,
+   "end": 313.715
+  },
+  {
+   "scene": "ending",
+   "who": "NARRATOR",
+   "text": "Outside the stadium, Ava is waiting.",
+   "start": 314.265,
+   "end": 316.873
+  },
+  {
+   "scene": "ending",
+   "who": "AVA",
+   "text": "Okay. You owe me the truth. How do you really do it?",
+   "start": 317.173,
+   "end": 322.088
+  },
+  {
+   "scene": "ending",
+   "who": "YOU",
+   "text": "Give me 10 seconds.",
+   "start": 322.388,
+   "end": 324.227
+  },
+  {
+   "scene": "ending",
+   "who": "NARRATOR",
+   "text": "You stop time. And you spend all 10 seconds deciding what to say.",
+   "start": 324.527,
+   "end": 329.827
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "So, if you got 10 seconds a day where the whole world stops, what would you use them for? Tell me in the comments.",
+   "start": 330.377,
+   "end": 339.908
+  }
+ ]
+}

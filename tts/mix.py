@@ -1,6 +1,6 @@
 """Mix an episode: voice + a generated ambient music bed + generated phone/knock sounds.
 
-    .venv-qwen/bin/python tts/mix.py one-minute|dreams|watched|except|secretly
+    .venv-qwen/bin/python tts/mix.py one-minute|dreams|watched|except|secretly|stoptime
 
 Reads video/public/<name>/voice.wav and timeline.json, writes video/public/<name>/mix.wav.
 Every sound is synthesised here (no third-party audio, nothing to license). Cue times mirror the
@@ -222,6 +222,25 @@ elif name == "secretly":  # cues mirror video/src/sh/Episode.tsx; soft and low o
     c = first("crush")
     place(sfx, whoosh(2.0), S(c + 3), 0.22)  # the zero
     quiets = [(S(p + 4) + D(p + 4) * 0.6, E(p + 5)), (S(c + 2), E(c + 3))]
+elif name == "stoptime":  # cues mirror video/src/st/Episode.tsx; soft and low only
+    at = lambda scene, k=0: first(scene) + k
+    D = lambda i: E(i) - S(i)
+    stops = [S(0) + 0.05, S(at("rules", 3)) + 0.2, S(at("school", 2)) + D(at("school", 2)) * 0.6,
+             S(at("viral")) + D(at("viral")) * 0.45, S(at("viral", 2)) + D(at("viral", 2)) * 0.6,
+             S(at("bus", 3)) + 0.2, S(at("stage", 7)) + D(at("stage", 7)) * 0.5, S(at("ending", 3)) + 0.2]
+    for x in stops:
+        place(sfx, whoosh(1.2), x, 0.22)  # time stops: a soft rush
+        place(sfx, thump() * 0.6, x + 0.05, 0.25)
+    for x in (S(at("cold_open", 5)), S(at("bus", 5)) + 0.2, S(at("trick", 1)) + 0.2):
+        place(sfx, whoosh(0.8), x, 0.2)  # time starts again
+    place(sfx, thump(), S(at("cold_open", 5)) + 0.6, 0.5)  # the ball hits
+    b = first("bus")
+    place(sfx, hum(D(b) + D(b + 1) + 1.0), S(b), 0.08)  # the bus engine, low
+    st = first("stage")
+    for i in range(3):
+        place(sfx, thump(), S(st + 6) + D(st + 6) * 0.25 * i, 0.35)  # 3, 2, 1
+    place(sfx, whoosh(3.0), S(at("trick", 2)) + D(at("trick", 2)) * 0.5, 0.25)  # the crowd explodes
+    quiets = [(S(b + 2), S(b + 5)), (S(st + 5), S(st + 7))]
 from scipy.signal import butter, sosfilt
 sfx = sosfilt(butter(4, 2000, fs=SR, output="sos"), sfx).astype(np.float32)  # cut everything above ~2 kHz
 music = pad(n)

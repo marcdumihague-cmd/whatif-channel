@@ -14,6 +14,8 @@ import { Thumb as ExceptThumb } from "./ex/Thumb";
 import { Episode as Secretly, DURATION as SH_DURATION } from "./sh/Episode";
 import { Thumb as SecretlyThumb } from "./sh/Thumb";
 import { Teaser as SecretlyTeaser, TEASER_DURATION as SH_TEASER, TEASER_BIO_DURATION as SH_TEASER_BIO } from "./sh/Teaser";
+import { Episode as StopTime, DURATION as ST_DURATION } from "./st/Episode";
+import { Thumb as StopTimeThumb } from "./st/Thumb";
 import timeline from "../public/test-scene/timeline.json";
 
 export const FPS = 30;
@@ -37,5 +39,7 @@ export const Root = () => (
     <Composition id="SecretlyThumb" component={SecretlyThumb} durationInFrames={1} fps={FPS} width={1280} height={720} />
     <Composition id="SecretlyTeaser" component={SecretlyTeaser} durationInFrames={Math.ceil(SH_TEASER * FPS)} fps={FPS} width={1080} height={1920} />
     <Composition id="SecretlyTeaserBio" component={SecretlyTeaser} defaultProps={{ bio: true }} durationInFrames={Math.ceil(SH_TEASER_BIO * FPS)} fps={FPS} width={1080} height={1920} />
+    <Composition id="StopTime" component={StopTime} durationInFrames={Math.ceil(ST_DURATION * FPS)} fps={FPS} width={1920} height={1080} />
+    <Composition id="StopTimeThumb" component={StopTimeThumb} durationInFrames={1} fps={FPS} width={1280} height={720} />
   </>
 );

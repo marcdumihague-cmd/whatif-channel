@@ -33,3 +33,11 @@ Each fact in `episodes/dreams/script.json`, checked before writing:
 | A 2016 study (MIT + Tel Aviv University): 95% of students thought their friends felt the same; only about half did | OK as worded ("about half" is the press-release figure; small student sample) | Almaatouq, Radaelli, Pentland & Shmueli, *PLoS ONE* 2016 (PMC4803335); TAU and ScienceDaily releases |
 | A 2006 review of 206 studies: people catch a lie about 54% of the time | OK (53.46% weighted, rounded) | Bond & DePaulo, *Personality and Social Psychology Review* 2006 |
 | In 2022 Cowen said the sneaker resale market could hit $30B by 2030 | OK (a projection, not a measurement) | Cowen note, June 2022, via Yahoo Finance / Cowen Insight |
+
+## Episode 8: What If You Could Stop Time for 10 Seconds a Day? (2026-11-14)
+
+| Claim in the script | Verdict | Source |
+|---|---|---|
+| In 2009, Usain Bolt ran 100 meters in 9.58 | OK (16 Aug 2009, World Championships, Berlin) | Guinness World Records; World Athletics |
+| In 10 seconds, light travels about 3 million kilometers | OK (299,792.458 km/s x 10 = 2,997,925 km) | SI definition of the metre (BIPM) |
+| On screen: "about 75 times around the Earth" | OK (2,997,925 / 40,075 km = 74.8) | Earth's equatorial circumference |

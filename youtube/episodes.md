@@ -13,6 +13,7 @@ Status: idea -> scripted -> voiced -> rendered -> packaged -> published (by the 
 | 5 | What If You Could Do Anything You've Watched on YouTube? | rendered | `episodes/watched/`. 6:50, `video/out/watched.mp4` + `watched-thumb.png` (not in git; re-render `Watched` / `WatchedThumb`). Idea #22. Chess hustlers + Magnus Carlsen, furniture flipping, a plane landing; a red progress bar over your head is the visual motif. Research-backed packaging in `packaging.md`. |
 | 6 | What If Everyone Got a Superpower Except You? | rendered | `episodes/except/`. 6:37, `video/out/except.mp4` + `except-thumb.png` (not in git; re-render `Except` / `ExceptThumb`). First episode made under the clarity rule: defining objects per place, labelled powers, purple-eyed mind control, floating that reads as floating. Packaging in `packaging.md`. |
 | 7 | What If You Could See Who Secretly Hates You? | rendered | `episodes/secretly/`. 5:05, `video/out/secretly.mp4` + `secretly-thumb.png` (not in git; re-render `Secretly` / `SecretlyThumb`). Idea #27. A glowing hate-% tag over every head is the motif; sneaker reselling (haggling every seller to 98%), a $50,000 teen pitch contest, Theo's 6-year grudge (the science-fair volcano), Maya's 0. Packaging in `packaging.md`. |
+| 8 | What If You Could Stop Time for 10 Seconds a Day? | in production | `episodes/stoptime/`. Idea #28. Frozen world turns blue-grey while you stay in colour, a stopwatch counts today's seconds. Dodgeball cold open, viral "real magic" videos with Theo, a $1,000,000 New Year's trick, saving a kid from a bus costs the seconds, the midnight refill saves the trick, Ava. |
 ## Ideas backlog
 
 Checked 2026-11-11: no existing "what if" video found in YouTube's top results for 2-3 wordings of
@@ -57,7 +58,7 @@ Viral-first batch, 2026-11-13 (`research/idea-checks-2026-11-13-viral.md`):
 27. **What If You Could See Who Secretly Hates You?** (made: episode 7)
     User's notes: the crush comes in when you realise she *doesn't* hate you (her number is 0).
     Money and the crush are ingredients, not the whole video: plenty of other beats too.
-28. What If You Could Stop Time for 10 Seconds a Day?
+28. ~~What If You Could Stop Time for 10 Seconds a Day?~~ (made: episode 8)
 29. What If Everyone Could See Your Search History?
 
 Already taken (found on YouTube, don't use): promises that can't be broken, borrowing time, shadow
