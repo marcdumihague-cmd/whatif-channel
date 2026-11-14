@@ -54,3 +54,24 @@ what if you could see who secretly hates you, what if you could see who hates yo
 The first three are the searched phrase family (42K a month for the main one); "signs someone secretly
 hates you" is the advice-video search that gets millions (Psych2Go 5.9M). Tags matter much less than the
 title and the first two lines of the description.
+
+## Teaser (Shorts / TikTok / Reels)
+
+Files (not in git; re-render `SecretlyTeaser` / `SecretlyTeaserBio`): `video/out/secretly-teaser.mp4`
+(YouTube Shorts, "link below"), `video/out/secretly-teaser-tiktok-instagram.mp4` ("link in my bio", because
+TikTok and Instagram don't allow links in captions) and `video/out/secretly-teaser-cover.png`. 1080x1920, 64 s.
+Cut: the cold open (91%, 0%, Theo at 87% -> 88), the haggling scene (200 -> 70%, 150 -> 95%, 160 cash -> 98%,
+"Kid, you're a nightmare"), then "Why does your best friend secretly hate you?" over Theo's 87% tag. Teases
+the secret without saying it.
+
+Patterns used (`research/packaging-2026-11-12-watched.md`, teaser research): the question as on-screen text
+in the first 3 seconds; voice + music + effects; a caption that is one hook line plus 3-6 hashtags; end on a
+question to drive comments.
+
+**YouTube Shorts title:** My Best Friend Secretly Hates Me (87%) #shorts
+(title.py 94, 38 characters so it fits the mobile feed; deliberately different from the long title so the two
+don't compete in search.) Description: link to the full video, then the caption below.
+
+**TikTok caption:** My best friend has been secretly hating me for 6 years. Full video: link in bio. Whose number would you check first? #whatif #animation #storytime #superpower #bestfriend
+
+**Instagram caption:** Your best friend: 87%. Why? Full video on my YouTube, link in bio. Whose number would you check first? #whatif #animation #storytime #superpower #bestfriend #reels

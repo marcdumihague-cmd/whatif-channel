@@ -113,6 +113,7 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **TikTok and Instagram don't allow links in captions**: make a "link in my bio" version of every
   teaser alongside the YouTube one ("link below"), and tell the user to put the link in their bio. (us, 2026-11-13)
 - **Chunked render of a 5-minute episode took about 10 minutes** when nothing else was running (stills or voice in parallel slow it a lot). (us, 2026-11-13)
+- **A teaser cropped tight (0.75) cuts off people at the edges of a wide shot**: the 0% kid vanished. Use the full width (0.5625) for crowd shots. (us, 2026-11-14)
 - **Remind the user to add tags**: both first uploads went up without any. (us, 2026-11-12)
 
 ## Tools and environment
