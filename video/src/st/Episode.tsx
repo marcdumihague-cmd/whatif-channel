@@ -66,7 +66,7 @@ const Ripple: React.FC<{ t: number; at: number; x?: number; y?: number }> = ({ t
 // how frozen the world is: 0 -> 1 at `a`, back to 0 at `b`
 const frz = (t: number, a: number, b: number) => Math.min(ease(t, a, a + 0.3), 1 - ease(t, b, b + 0.3));
 // the stopwatch in the corner: today's seconds left
-const Watch: React.FC<{ v: number; on?: boolean; x?: number; y?: number; s?: number }> = ({ v, on = false, x = 1440, y = 30, s = 1 }) => (
+export const Watch: React.FC<{ v: number; on?: boolean; x?: number; y?: number; s?: number }> = ({ v, on = false, x = 1440, y = 30, s = 1 }) => (
   <div style={{ position: "absolute", left: x, top: y, transform: `scale(${s})`, transformOrigin: "left top", display: "flex", alignItems: "center", gap: 16,
     background: "rgba(14,19,32,0.88)", borderRadius: 26, padding: "12px 24px 12px 14px", border: `4px solid ${on ? ICE : "#3A4256"}` }}>
     <svg width={76} height={76} viewBox="-40 -44 80 84">

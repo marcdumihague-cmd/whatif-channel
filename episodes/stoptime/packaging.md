@@ -60,3 +60,24 @@ common synonym viewers type. Tags matter much less than the title and the first 
 
 `research/upload-timing-2026-11-13.md`: Thursday or Sunday, around 12-2 PM ET, a few days after the
 previous upload.
+
+## Teaser (YouTube Shorts)
+
+Files (not in git; re-render `StopTimeTeaser`): `video/out/stoptime-teaser.mp4` (1080x1920, 55 s) and
+`video/out/stoptime-teaser-cover.png` (the end card). Cut: the whole cold open (frozen dodgeball, turned
+back on the thrower, "Bro. What did I just watch?"), then the bus: a kid runs into the street, and using the
+seconds means no $1,000,000 trick. It ends on "Would you save him, and lose 1 million dollars?" over a full
+10.0 s stopwatch, without saying what you choose (tease, don't spoil). Same structure as episode 7's teaser
+and the patterns in `research/packaging-2026-11-12-watched.md`: the question on screen in the first 3
+seconds, voice + music + effects, end on a question to drive comments.
+
+**Shorts title:** Save the Kid or Win $1,000,000? #shorts
+title.py 94, 39 characters (fits the mobile feed); the choice the teaser ends on. Deliberately different
+from the long title so the two don't compete in search. Scored alternatives: "I Can Stop Time for 10 Seconds
+a Day #shorts" 98 (but it duplicates the long title's search), "$1,000,000 or Save the Kid? (10 Seconds)" 80,
+"I Stopped Time to Save a Kid... and Lost $1M?" 84 (also gives away the choice).
+
+**Shorts description:** Full video: link above (set "Related video" to the long video in the upload screen).
+You get 10 seconds a day where the whole world stops. The $1,000,000 trick needs 9 of them. Then a kid runs in front of a bus. Would you save him? #whatif #animation #storytime #superpower #stoptime
+
+**Shorts tags:** stop time, what if you could stop time, what if, animation, storytime
