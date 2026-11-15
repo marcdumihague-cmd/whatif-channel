@@ -656,7 +656,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           {t < go && [0, 1, 2].map((g) => <g key={g} opacity={1 - g * 0.3} transform={`translate(${200 + ((zip - g * 0.04 + 1) % 1) * 1500} ${-200 + Math.floor(t * 3) % 4 * 60}) scale(0.6)`}><Person x={0} y={900} look={YOU} mood="happy" t={t} noLegs /></g>)}
           {t > go && <Person x={960} y={1000} look={YOU} mood="smug" t={t} pose="cheer" />}
           {b === 0 && <Label t={t} at={t0 + 0.4} x={960} y={300} text="ROW BY ROW" size={44} bg={ICE} />}
-          {b >= 1 && <Label t={t} at={go + 0.3} x={960} y={300} text="60,000 PHONES · 1 PILE" size={48} bg="#FFC844" />}
+          {b >= 1 && <Label t={t} at={go + 0.3} x={960} y={335} text="60,000 PHONES · 1 PILE" size={48} bg="#FFC844" />}
         </Svg>
         <Watch v={keys(t, [[t0, 10], [go, 1.0]])} on={f > 0.5} />
       </Camera>
@@ -690,7 +690,7 @@ const shots: Record<string, React.FC<ShotProps>> = {
           {Array.from({ length: 40 }, (_, i) => <rect key={i} x={(i * 97 + Math.sin(t + i) * 30) % 1920} y={((t - S(a)) * 220 + i * 71) % 1080 - 40} width={16} height={26} rx={3} fill={["#FFC844", "#4DE08A", "#E25C5C", "#9FE3FF"][i % 4]} opacity={0.9} />)}
           <Person x={520} y={1000} look={YOU} mood="happy" t={t} pose="cheer" />
           <Person x={1400} y={1000} look={THEO} mood={b === 2 ? "shocked" : "happy"} t={t} {...say(t, "THEO")} flip lookX={-1} pose={b === 2 ? "point" : "cheer"} />
-          <g transform={`translate(960 880) scale(${0.72 * pop(t, S(a) + 0.3)}) rotate(-3)`}>
+          <g transform={`translate(960 620) scale(${0.72 * pop(t, S(a) + 0.3)}) rotate(-3)`}>
             <rect x={-420} y={-170} width={840} height={300} rx={14} fill={P.cream} stroke="#2E8B57" strokeWidth={10} />
             <text x={-380} y={-110} fontFamily={font} fontWeight={800} fontSize={30} fill="#7C8296">PAY TO</text>
             <text x={-380} y={-56} fontFamily={font} fontWeight={900} fontSize={46} fill={P.ink}>YOU & THEO</text>

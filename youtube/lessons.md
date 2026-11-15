@@ -143,3 +143,10 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   ~30 s to ~2 min a line. (us, 2026-11-13)
 - **Whisper needs a 16 kHz numpy array**, not a file (PyAV metadata error). (us)
 - **Don't `rm` relative globs after `cd`**: blocked as unsafe; use absolute paths. (us)
+- **`sheet.mjs` and `remotion still` need `REMOTION_CHROME` set** every time; without it Remotion tries
+  to download Chrome and fails (no network to remotion.media). `sheet.mjs` takes a step in seconds, not a
+  frame list: for single frames use `remotion still --frame=N`. (us, 2026-11-15)
+- **Episode 8's contact sheet caught props over captions**: a check/sign placed low (y 880) sat under the
+  caption box. Keep big props above y ~780 when captions are on. (us, 2026-11-15)
+- **A background wait can hit its time limit** before a ~1 h voice run ends: give it the max timeout
+  (3,600,000 ms) or re-arm it, and don't assume it finished. (us, 2026-11-15)
