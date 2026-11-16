@@ -20,6 +20,7 @@ Everything gathered for the channel. Conclusions live in `youtube/viral-notes.md
 | `upload-timing-2026-11-13.md` | When to upload: 2026 timing studies and our default schedule |
 | `packaging-2026-11-14-stoptime.md` | Title tests and saturation search for episode 8 (no vidIQ credits) |
 | `retention-hook-2026-11-16.md` | Why viewers leave near the payoff, the 2-second hook, rules from episode 9 on, and the episode 9 idea check |
+| `packaging-2026-11-16-twice.md` | Title tests and saturation notes for episode 9 |
 | `voice-takes-dreams.md` | Acted-take results: speaker similarity and word match for every take, which were kept |
 
 

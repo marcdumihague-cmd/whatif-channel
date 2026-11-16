@@ -41,3 +41,13 @@ Each fact in `episodes/dreams/script.json`, checked before writing:
 | In 2009, Usain Bolt ran 100 meters in 9.58 | OK (16 Aug 2009, World Championships, Berlin) | Guinness World Records; World Athletics |
 | In 10 seconds, light travels about 3 million kilometers | OK (299,792.458 km/s x 10 = 2,997,925 km) | SI definition of the metre (BIPM) |
 | On screen: "about 75 times around the Earth" | OK (2,997,925 / 40,075 km = 74.8) | Earth's equatorial circumference |
+
+## Episode 9: What If You Lived Every Day Twice? (2026-11-16)
+
+| Claim in the script | Verdict | Source |
+|---|---|---|
+| Logan Paul's Pikachu Illustrator card sold for 16.5 million dollars in February 2026 | True: $16,492,000 at Goldin, closed 16 Feb 2026, a record for any trading card at auction (he paid $5,275,000 in 2021). One AP headline said $27.3M: an error, Guinness's figure is $16.49M | Guinness World Records; AP via WTOP, ABC7 |
+| In 1961 Edward Lorenz rounded 0.506127 to 0.506 in a weather simulation and the forecast changed completely | True (winter 1961, MIT, LGP-30 computer; the printout showed 3 decimals, the machine held 6) | APS News, Jan 2003; MIT Technology Review, 2011 |
+| Octopus blood is blue, copper instead of iron; 3 hearts | True (hemocyanin; 2 branchial hearts + 1 systemic) | Scientific American (Octopus Chronicles); Live Science |
+| Venus has the longest day of any planet | True (one rotation is about 243 Earth days) | NASA |
+| "Lottery balls never bounce the same way twice" | Our reasoning from chaos, said as the story's rule, not as a study | - |
