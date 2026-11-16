@@ -103,6 +103,11 @@ instead (it is the channel's voice). It is a draft until the user approves it.
   headroomlabs-ai/headroom. To wrap Claude Code itself on a local machine, see
   `scripts/install-headroom.sh`.
 
+- `graphify`: turns a folder (code, docs, papers, images) into a knowledge graph Claude can query
+  (`/graphify .`, `/graphify query "..."`). From safishamsi/graphify. It installs its Python tool on
+  first use and writes to `graphify-out/` (gitignored). Building a graph of documents costs tokens: only
+  when the user asks for it.
+
 Sources, versions and licences: `third_party/README.md`.
 
 ## Coding rules

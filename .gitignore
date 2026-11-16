@@ -12,3 +12,4 @@ voice-samples/
 !voices/*.wav
 episodes/*/takes/
 episodes/*/lines/
+graphify-out/
