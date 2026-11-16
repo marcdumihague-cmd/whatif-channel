@@ -6,17 +6,16 @@ import { Cafeteria, Flowers, T } from "./sets";
 
 const Half: React.FC<{ take: 1 | 2 }> = ({ take }) => (
   <AbsoluteFill style={{ filter: take === 1 ? "saturate(0.35) contrast(0.95) brightness(1.0)" : "saturate(1.25) contrast(1.05)" }}>
-    <World cam={take === 1 ? { x: 1130, y: 500, z: 1.75 } : { x: 760, y: 500, z: 1.75 }}>
+    <World cam={take === 1 ? { x: 1100, y: 600, z: 1.3 } : { x: 800, y: 600, z: 1.3 }}>
       <Cafeteria t={2} crowd={false}>
         {take === 1 ? <>
-          <Person x={900} y={1010} look={YOU} mood="shocked" t={2.5} s={1.25} p={pose("holdUp", { turn: 0.5, aR: 120 })} lookX={0.7} hold={<Flowers s={1.1} />} sweat blink={false} seed={1} />
-          <Person x={1420} y={1010} look={AVA} mood="deadpan" t={2.5} s={1.1} p={pose("hips", { turn: -0.5 })} flip lookX={0.8} blink={false} seed={3} />
-          <g transform="translate(1260 250) rotate(-4)"><path d="M -150 -90 h 300 a 26 26 0 0 1 26 26 v 120 a 26 26 0 0 1 -26 26 h -60 l 30 60 l -90 -60 h -180 a 26 26 0 0 1 -26 -26 v -120 a 26 26 0 0 1 26 -26 Z" fill="#FFFFFF" stroke="#0B0E1A" strokeWidth={10} /><T x={0} y={42} s={150} w={900} c="#E0353F">NO.</T></g>
+          <Person x={700} y={1010} look={YOU} mood="shocked" t={2.5} s={1.15} p={pose("holdUp", { turn: 0.5, aR: 120 })} lookX={0.7} hold={<Flowers s={1.1} />} sweat blink={false} seed={1} />
+          <g transform="translate(960 470) rotate(-4) scale(0.72)"><path d="M -150 -90 h 300 a 26 26 0 0 1 26 26 v 120 a 26 26 0 0 1 -26 26 h -60 l 30 60 l -90 -60 h -180 a 26 26 0 0 1 -26 -26 v -120 a 26 26 0 0 1 26 -26 Z" fill="#FFFFFF" stroke="#0B0E1A" strokeWidth={10} /><T x={0} y={42} s={150} w={900} c="#E0353F">NO.</T></g>
         </> : <>
-          <Bloom x={900} y={500} r={700} color="#FFD98A" o={0.5} />
-          <Person x={860} y={1010} look={YOU} mood="smug" t={2.5} s={1.25} p={pose("holdUp", { turn: -0.4, aR: 118 })} lookX={-0.6} blink={false} seed={1}
+          <Bloom x={1150} y={500} r={700} color="#FFD98A" o={0.5} />
+          <Person x={1090} y={1010} look={YOU} mood="smug" t={2.5} s={1.15} p={pose("holdUp", { turn: -0.4, aR: 118 })} lookX={-0.6} blink={false} seed={1}
             hold={<g transform="rotate(-10)">{[0, 1, 2, 3, 4].map((k) => <rect key={k} x={-70} y={-40 - k * 16} width={140} height={60} rx={8} fill={k % 2 ? "#5FBF7A" : "#7BD992"} stroke="#1F5A34" strokeWidth={5} />)}<T x={0} y={-62} s={44} w={900} c="#1F5A34">$1M</T></g>} />
-          <Person x={420} y={1010} look={AVA} mood="love" t={2.5} s={1.1} p={pose("holdBoth", { turn: 0.5 })} lookX={0.8} blink={false} seed={3} />
+          <Person x={1400} y={1010} look={AVA} mood="love" t={2.5} s={1.02} p={pose("holdBoth", { turn: -0.5 })} flip lookX={0.8} blink={false} seed={3} />
         </>}
       </Cafeteria>
     </World>
@@ -25,7 +24,7 @@ const Half: React.FC<{ take: 1 | 2 }> = ({ take }) => (
   </AbsoluteFill>
 );
 const Big: React.FC<{ text: string; c: string; left?: number; right?: number }> = ({ text, c, left, right }) => (
-  <div style={{ position: "absolute", top: 18, left, right, fontFamily: font, fontWeight: 900, fontSize: 250, letterSpacing: -8, lineHeight: 1, color: c, WebkitTextStroke: "34px #0B0E1A", paintOrder: "stroke fill", textShadow: "0 16px 0 #0B0E1A" }}>{text}</div>
+  <div style={{ position: "absolute", top: 18, left, right, fontFamily: font, fontWeight: 900, fontSize: 200, letterSpacing: -6, lineHeight: 1, color: c, WebkitTextStroke: "30px #0B0E1A", paintOrder: "stroke fill", textShadow: "0 16px 0 #0B0E1A" }}>{text}</div>
 );
 export const Thumb: React.FC = () => (
   <AbsoluteFill style={{ background: "#000" }}>

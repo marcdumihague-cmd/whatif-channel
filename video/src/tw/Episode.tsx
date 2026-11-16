@@ -281,7 +281,7 @@ const School: React.FC<ShotProps> = ({ t, t1 }) => {
             <Person x={740} y={1094} look={YOU} mood={two ? "smug" : t > st ? "happy" : "nervous"} t={t} p={pose("write", { turn: 0.3 })} shadow={false} seed={1} sweat={!two && t < st} />
             <Desk x={760} y={990}><g transform="translate(40 0)"><TestPaper grade={two ? "100" : "F"} good={two} t={t} at={st} /></g></Desk>
             {[320, 1500].map((x, i) => <g key={x}><Person x={x} y={1094} look={extra(i + 2)} mood="nervous" t={t} p={pose("write")} shadow={false} seed={i + 5} /><Desk x={x + 20} y={990}><g transform="translate(30 0)"><TestPaper grade="" good t={0} at={9} /></g></Desk></g>)}
-            {!two && <Tag t={t} at={F(a, 0.7)} x={1130} y={620} text="MEMORIZE EVERY QUESTION" bg="#DCE6FF" size={38} />}
+            {!two && <Tag t={t} at={F(a, 0.7)} x={760} y={480} text="MEMORIZE EVERY QUESTION" bg="#DCE6FF" size={30} />}
             {two && <Tag t={t} at={F(a + 1, 0.42)} until={F(a + 1, 0.55)} x={1080} y={660} text="100%" bg="#3BE07A" size={70} />}
             {two && <Tag t={t} at={F(a + 1, 0.72)} x={1010} y={420} text="CHECKING YOUR SLEEVES" bg="#FF5C5C" fg="#FFFFFF" size={36} />}
           </Classroom>
@@ -516,7 +516,7 @@ const StorageScene: React.FC<ShotProps> = ({ t, t1 }) => {
           <Person x={900} y={985} look={YOU} mood={sold ? "happy" : two ? "smug" : "determined"} t={t} p={pose(sold ? "cheer" : two && t > S(a + 3) - 0.1 ? "shrug" : "hips", { turn: two ? -0.4 : 0.6 })} lookX={two ? -0.6 : 0.7} {...say(t, "YOU")} seed={1} />
           {two && <Person x={1420} y={985} look={{ ...extra(4), tall: 1.12, outfit: "jacket" }} mood="neutral" t={t} p={pose("holdUp", { turn: -0.4 })} flip seed={11} hold={<g><rect x={-6} y={-90} width={12} height={90} fill="#8A6A4C" /><circle cx={0} cy={-120} r={48} fill="#FFFFFF" stroke="#0B0E1A" strokeWidth={5} /><T x={0} y={-102} s={52} w={900} c="#E0353F">7</T></g>} />}
           {two && !sold && <Tag t={t} at={F(a + 1, 0.8)} x={1420} y={330} text="THEO'S BROTHER BIDS" bg="#161A28" fg="#FFFFFF" size={34} />}
-          {t < S(a + 1) - 0.1 && <Tag t={t} at={F(a, 0.5)} x={960} y={560} text="$300 · CONTENTS UNKNOWN" size={56} />}
+          {t < S(a + 1) - 0.1 && <Tag t={t} at={F(a, 0.5)} x={960} y={330} text="$300 · CONTENTS UNKNOWN" size={56} />}
           {!two && t > F(a + 1, 0.5) && <Tag t={t} at={F(a + 1, 0.5)} x={1105} y={330} text="UNIT 7 · 1980s ARCADE" bg="#FFE14A" size={38} />}
           {sold && <Tag t={t} at={S(a + 4) + 0.9} until={post} x={1105} y={330} text="SOLD · $9,000" bg="#3BE07A" size={60} />}
         </Storage>
@@ -622,7 +622,7 @@ const Offer: React.FC<ShotProps> = ({ t, t1 }) => {
             <Bloom x={690} y={760} r={260} color="#9FC8FF" o={0.5} />
           </Bedroom>
         </Frame>
-        <Slam t={t} at={S(a + 1)} until={S(a + 2) - 0.12} text="SEALED." color="#6BFFA6" size={170} y={60} x={520} />
+        <Slam t={t} at={S(a + 1)} until={S(a + 2) - 0.12} text="SEALED." color="#6BFFA6" size={150} y={40} x={0} />
         <TakeHud t={t} take={2} from={0} />
       </AbsoluteFill>
     );
@@ -698,8 +698,9 @@ const Final1: React.FC<ShotProps> = ({ t, t1 }) => {
       <Frame t={t} cam={cam} take={1}>
         <Studio t={t} screen={screen}>
           <Person x={640} y={985} look={HOST} mood={t >= ans ? "sad" : "happy"} t={t} p={pose(t < S(a + 1) ? "holdUp" : t >= ans ? "shrug" : "hold", { turn: 0.5 })} lookX={0.7} {...say(t, "HOST")} seed={5} hold={<g transform="translate(0 -30) rotate(-10) scale(0.6)"><Envelope open={ease(t, F(a, 0.6), F(a, 0.9))} label="" /></g>} lightDir={1} />
-          <Podium x={1260} y={990} />
-          <Person x={wx} y={985} look={YOU} mood={t >= off ? (t > ring ? "shocked" : "smug") : t >= ans ? "smug" : "nervous"} t={t} p={t >= ring ? pose("phone", { turn: 0.3 }) : t >= off ? pose(walk(t), { turn: 0.6 }) : pose(t >= S(a + 2) ? "shrug" : "stand", { turn: -0.5 })} flip={t < off} lookX={0.7} {...say(t, "YOU")} seed={1} cut={t < off ? -200 : undefined} hold={t >= ring ? <g transform="rotate(-10)"><PhoneUp /></g> : undefined} />
+          {t >= off && <Podium x={1260} y={990} />}
+          <Person x={wx} y={985} look={YOU} mood={t >= off ? (t > ring ? "shocked" : "smug") : t >= ans ? "smug" : "nervous"} t={t} p={t >= ring ? pose("phone", { turn: 0.3 }) : t >= off ? pose(walk(t), { turn: 0.6 }) : pose(t >= S(a + 2) ? "shrug" : "stand", { turn: -0.5 })} flip={t < off} lookX={0.7} {...say(t, "YOU")} seed={1} hold={t >= ring ? <g transform="rotate(-10)"><PhoneUp /></g> : undefined} />
+          {t < off && <Podium x={1260} y={990} />}
           {t >= ring && <Tag t={t} at={ring} x={1640} y={300} text="COUNTY HOSPITAL CALLING" bg="#FF3B3B" fg="#FFFFFF" size={34} />}
         </Studio>
       </Frame>
@@ -730,7 +731,7 @@ const Final2: React.FC<ShotProps> = ({ t, t1 }) => {
     const right = (
       <Frame t={t} cam={cuts(t, [[0, C(900, 540, 1.3), C(940, 520, 1.6)]], L3)} take={2}>
         <Kitchen t={t}><Person x={1240} y={985} look={MOM} mood={t >= S(a + 2) - 0.1 ? "happy" : "neutral"} t={t} p={pose("phone", { turn: -0.3 })} flip lookX={0.2} {...say(t, "MOM")} seed={4} hold={<g transform="rotate(-10)"><PhoneUp c="#D8607A" /></g>} holdL={<g transform="translate(0 20)"><circle r={14} fill="none" stroke="#C9CED8" strokeWidth={5} /><rect x={-4} y={12} width={8} height={36} rx={3} fill="#C9CED8" /></g>} />
-          <Tag t={t} at={S(a + 1) + 0.5} x={1080} y={330} text="CAR KEYS IN HAND" bg="#D8607A" fg="#FFFFFF" size={34} /></Kitchen>
+          <Tag t={t} at={S(a + 1) + 0.5} x={1300} y={330} text="CAR KEYS IN HAND" bg="#D8607A" fg="#FFFFFF" size={34} /></Kitchen>
       </Frame>);
     return (
       <AbsoluteFill>
@@ -765,7 +766,7 @@ const Final2: React.FC<ShotProps> = ({ t, t1 }) => {
     const mt = F(aq + 1, 0.3) + (t - L8) * 0.6;
     return (
       <AbsoluteFill>
-        <AquariumShot t={mt} a={aq} cam={cuts(t, [[0, C(1130, 440, 1.5), C(1150, 400, 2.0)]], L9)} />
+        <AquariumShot t={mt} a={aq} cam={cuts(t, [[0, C(1000, 420, 1.25), C(1040, 400, 1.5)]], L9)} />
         <AbsoluteFill style={{ boxShadow: "inset 0 0 260px 120px #FFFFFF", opacity: 0.55 }} />
         <TakeHud t={t} take={1} from={0} />
         <Flash t={t} at={L8 - 0.1} d={0.5} />
@@ -782,23 +783,23 @@ const Final2: React.FC<ShotProps> = ({ t, t1 }) => {
             : newEnv ? <g><T x={420} y={220} s={84} w={900} c="#FFE14A">NEW ENVELOPE</T></g>
               : <Q q={["WHICH PLANET HAS", "THE LONGEST DAY?"]} sub="VENUS ✓" subC="#6BFFA6" />;
   const run = ease(t, L4, F(a + 4, 0.4));
-  const cam = cuts(t, [[0, C(1300, 560, 1.3), C(1100, 540, 1.2)], [F(a + 4, 0.45), C(1000, 420, 1.7), C(1200, 480, 2.0)], [L5 - 0.1, C(640, 540, 2.2)], [L6 - 0.1, C(1560, 520, 2.4), C(1560, 500, 3.0)], [L7 - 0.1, C(640, 520, 2.3)], [F(a + 7, 0.4), C(960, 370, 1.6)], [L9 - 0.1, C(1560, 510, 2.8), C(1560, 500, 3.3)], [L10 - 0.1, C(640, 520, 2.2)], [F(a + 10, 0.5), C(960, 500, 1.15)], [L11 - 0.1, C(960, 370, 1.6)], [F(a + 11, 0.3), C(300, 600, 2.3)], [F(a + 11, 0.55), C(1700, 600, 2.4), C(1700, 590, 2.8)]], t1);
+  const cam = cuts(t, [[0, C(1300, 560, 1.3), C(1100, 540, 1.2)], [F(a + 4, 0.45), C(1000, 420, 1.7), C(1200, 480, 2.0)], [L5 - 0.1, C(640, 540, 2.2)], [L6 - 0.1, C(1560, 520, 2.4), C(1560, 500, 3.0)], [L7 - 0.1, C(640, 520, 2.3)], [F(a + 7, 0.4), C(960, 370, 1.6)], [L9 - 0.1, C(1560, 510, 2.8), C(1560, 500, 3.3)], [L10 - 0.1, C(640, 520, 2.2)], [F(a + 10, 0.5), C(960, 500, 1.15)], [L11 - 0.1, C(960, 370, 1.6)], [F(a + 11, 0.3), C(420, 600, 2.1)], [F(a + 11, 0.55), C(640, 580, 2.5), C(640, 570, 2.9)]], t1);
   return (
     <AbsoluteFill>
       <Frame t={t} cam={cam} take={2} shake={right && t < L10 + 0.5 ? 0.5 : 0}>
         <Studio t={t} screen={screen} cheer={right} dim={asked && !right ? 0.5 : 0}>
-          <Person x={640} y={985} look={HOST} mood={right ? "laugh" : newEnv ? "happy" : "neutral"} t={t} p={pose(right ? "cheer" : newEnv ? "holdUp" : "hold", { turn: 0.5 })} lookX={0.7} {...say(t, "HOST")} seed={5} hold={<g transform="translate(0 -30) rotate(-10) scale(0.6)"><Envelope open={asked ? 1 : 0} label={newEnv ? "NEW" : ""} /></g>} lightDir={1} />
+          {t < F(a + 11, 0.3) && <Person x={640} y={985} look={HOST} mood={right ? "laugh" : newEnv ? "happy" : "neutral"} t={t} p={pose(right ? "cheer" : newEnv ? "holdUp" : "hold", { turn: 0.5 })} lookX={0.7} {...say(t, "HOST")} seed={5} hold={<g transform="translate(0 -30) rotate(-10) scale(0.6)"><Envelope open={asked ? 1 : 0} label={newEnv ? "NEW" : ""} /></g>} lightDir={1} />}
+          {late && <Person x={1260} y={985} look={{ ...extra(5), top: "#5FA86A" }} mood="happy" t={t} p={pose("cheer", { turn: -0.4 })} flip seed={12} hold={<g transform="translate(0 -20) scale(0.5)"><Envelope open={1} label="YOURS" /></g>} />}
           <Podium x={1260} y={990} />
-          {late && <Person x={1260} y={985} look={{ ...extra(5), top: "#5FA86A" }} mood="happy" t={t} p={pose("cheer", { turn: -0.4 })} flip seed={12} cut={-200} hold={<g transform="translate(0 -20) scale(0.5)"><Envelope open={1} label="YOURS" /></g>} />}
-          {late && <Tag t={t} at={F(a + 4, 0.6)} x={1260} y={250} text="BACKUP CONTESTANT · YOUR ENVELOPE" bg="#FF5C5C" fg="#FFFFFF" size={34} />}
+          {late && <Tag t={t} at={F(a + 4, 0.6)} x={1260} y={330} text="BACKUP CONTESTANT" bg="#FF5C5C" fg="#FFFFFF" size={38} />}
           <Person x={late ? lerp(2100, 1620, run) : 1560} y={985} look={YOU} mood={won ? "happy" : right ? "shocked" : answered ? "determined" : asked ? "worried" : t >= L6 - 0.1 ? "shocked" : "nervous"} t={t} flip
             p={late && run < 1 ? pose(walk(t, 1.4), { turn: 0.6 }) : right ? pose("cheer") : answered ? pose("point", { turn: 0.4, aR: 120, eR: 20 }) : pose({ turn: 0.5 })} lookX={0.7} {...say(t, "YOU")} seed={1} sweat={!right && !answered} />
           {won && <g>{Array.from({ length: 70 }, (_, k) => <rect key={k} x={(rnd(k) * 2100) - 90} y={((t - L10) * (260 + rnd(k + 5) * 300) + rnd(k + 9) * 1100) % 1150 - 60} width={18} height={30} rx={4} fill={["#FFE14A", "#FF5CA8", "#5BE0FF", "#6BFFA6"][k % 4]} transform={`rotate(${t * 200 + k * 31} ${(rnd(k) * 2100) - 90} ${500})`} />)}</g>}
           {right && !won && <g>{Array.from({ length: 50 }, (_, k) => <rect key={k} x={(rnd(k) * 2100) - 90} y={((t - L10) * (300 + rnd(k + 5) * 300) + rnd(k + 9) * 1100) % 1150 - 60} width={18} height={30} rx={4} fill={["#FFE14A", "#FF5CA8", "#5BE0FF", "#6BFFA6"][k % 4]} />)}</g>}
-          {won && <Person x={300} y={1010} look={THEO} mood="laugh" t={t} p={pose("cheer", { y: -30 - Math.abs(Math.sin(t * 9)) * 40 })} seed={2} talk />}
-          {won && <Person x={1700} y={1010} look={MOM} mood="cry" t={t} p={pose("holdBoth", { turn: -0.3 })} flip seed={4} tear />}
-          {won && <Tag t={t} at={F(a + 11, 0.3)} until={F(a + 11, 0.55)} x={300} y={330} text="THEO" bg="#F08A3C" size={44} />}
-          {won && <Tag t={t} at={F(a + 11, 0.55)} x={1700} y={330} text="MOM · ROW 3" bg="#D8607A" fg="#FFFFFF" size={44} />}
+          {won && <Person x={260} y={1010} look={THEO} mood="laugh" t={t} p={pose("cheer", { y: -30 - Math.abs(Math.sin(t * 9)) * 40 })} seed={2} talk />}
+          {won && <Person x={640} y={1010} look={MOM} mood="cry" t={t} p={pose("holdBoth", { turn: 0.3 })} seed={4} tear />}
+          {won && <Tag t={t} at={F(a + 11, 0.3)} until={F(a + 11, 0.55)} x={260} y={420} text="THEO" bg="#F08A3C" size={44} />}
+          {won && <Tag t={t} at={F(a + 11, 0.55)} x={640} y={410} text="MOM · ROW 3" bg="#D8607A" fg="#FFFFFF" size={44} />}
         </Studio>
       </Frame>
       <TakeHud t={t} take={2} from={0} />
@@ -835,8 +836,7 @@ const Twist: React.FC<ShotProps> = ({ t, t1 }) => {
         </Backstage>
       </Frame>
       <TakeHud t={t} take={2} from={0} />
-      <Slam t={t} at={L4 + 0.2} until={L5 - 0.1} text="SHE LIVES EVERY DAY TWICE TOO" color="#B79CFF" size={84} y={40} x={-160} />
-      <Slam t={t} at={F(a + 6, 0.3)} until={t1} text="ASK ME ON A DAY THAT COUNTS" color="#FFE14A" size={78} y={50} x={-240} />
+      <Slam t={t} at={L4 + 0.2} until={L5 - 0.1} text="SHE LIVES TWICE TOO" color="#B79CFF" size={100} y={36} x={0} />
     </AbsoluteFill>
   );
 };
@@ -846,7 +846,7 @@ const EndCard: React.FC<ShotProps> = ({ t, t0 }) => {
     <Dark t={t} c="#2A1E5E">
       <g transform={`translate(520 300) scale(${pop(t, t0 + 0.2) * 1.1}) rotate(-5)`}><Clapper take={1} t={t} at={t0 + 0.6} /></g>
       <g transform={`translate(1400 300) scale(${pop(t, t0 + 0.5) * 1.1}) rotate(5)`}><Clapper take={2} t={t} at={t0 + 0.9} /></g>
-      {[words.slice(0, 5), words.slice(5)].map((row, r) => { let x = 0; const ws = row.map((w) => { const o = x; x += w.length * 74 + 60; return [w, o] as [string, number]; }); return ws.map(([w, o], k) => <g key={w + r} transform={`translate(${960 - x / 2 + o + (w.length * 74) / 2} ${700 + r * 130}) scale(${pop(t, t0 + 1.2 + (r * 5 + k) * 0.12)})`}><T x={0} y={0} s={108} w={900} c={["DOESN'T", "COUNT?"].includes(w) ? "#FFE14A" : "#FFFFFF"}>{w}</T></g>); })}
+      {[words.slice(0, 5), words.slice(5)].map((row, r) => { let x = 0; const ws = row.map((w) => { const o = x; x += w.length * 66 + 46; return [w, o] as [string, number]; }); return ws.map(([w, o], k) => <g key={w + r} transform={`translate(${960 - x / 2 + o + (w.length * 66) / 2} ${700 + r * 130}) scale(${pop(t, t0 + 1.2 + (r * 5 + k) * 0.12)})`}><T x={0} y={0} s={96} w={900} c={["DOESN'T", "COUNT?"].includes(w) ? "#FFE14A" : "#FFFFFF"}>{w}</T></g>); })}
       {Array.from({ length: 40 }, (_, k) => <circle key={k} cx={200 + k * 39} cy={980 + Math.sin(t * 5 + k * 0.6) * 10 * (speaking(t, "NARRATOR") ? 1 : 0.2)} r={5} fill="#7FE3DD" opacity={0.7} />)}
     </Dark>
   );

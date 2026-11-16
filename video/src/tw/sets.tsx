@@ -60,12 +60,12 @@ export { Crowd };
 export const Cafeteria: React.FC<SetProps & { crowd?: boolean }> = ({ t, children, far, fg, crowd = true }) => (
   <>
     <Layer d={0.55} blur={2.2}>
-      <Grad id="cafW" x={-200} y={0} w={2320} h={760} from="#F3E3C6" to="#E8C99C" />
-      <rect x={-200} y={610} width={2320} height={150} fill="#5FA7A0" /><rect x={-200} y={600} width={2320} height={14} fill="#F7F3EA" />
+      <Grad id="cafW" x={-200} y={0} w={2320} h={1000} from="#F3E3C6" to="#E8C99C" />
+      <rect x={-200} y={610} width={2320} height={400} fill="#5FA7A0" /><rect x={-200} y={600} width={2320} height={14} fill="#F7F3EA" />
       {[120, 560, 1000, 1440].map((x) => <Window key={x} x={x} y={130} w={330} h={360} />)}
       <g transform="translate(960 70)"><rect x={-330} y={-34} width={660} height={74} rx={14} fill="#D9434F" /><T x={0} y={18} s={44} w={900}>LUNCH · NORTHVIEW HIGH</T></g>
       {/* serving counter */}
-      <rect x={1500} y={520} width={520} height={240} fill="#C9CED8" /><rect x={1500} y={500} width={520} height={30} rx={8} fill="#E9ECF2" />
+      <rect x={1500} y={520} width={520} height={420} fill="#C9CED8" /><rect x={1500} y={500} width={520} height={30} rx={8} fill="#E9ECF2" />
       {[1540, 1660, 1780, 1900].map((x, i) => <g key={x}><rect x={x} y={470} width={90} height={34} rx={8} fill={["#E0A53C", "#D9607A", "#5FA86A", "#C96A4A"][i]} /><path d={`M ${x + 20} 462 q 6 -${14 + Math.sin(t * 2 + i) * 4} 0 -26 M ${x + 60} 462 q 6 -${12 + Math.cos(t * 2 + i) * 4} 0 -22`} stroke="#FFFFFF" strokeWidth={4} fill="none" opacity={0.5} strokeLinecap="round" /></g>)}
       <Shafts x={120} y={130} w={1650} h={700} t={t} n={8} o={0.2} />
       {far}
@@ -101,7 +101,7 @@ export const LunchTable: React.FC<{ x: number; y: number }> = ({ x, y }) => (
 export const Bedroom: React.FC<SetProps & { clock: string; day: string; night?: boolean }> = ({ t, children, fg, clock, day, night }) => (
   <>
     <Layer d={0.6} blur={2}>
-      <Grad id="bedW" x={-200} y={0} w={2320} h={780} from={night ? "#232A4E" : "#CFE0F2"} to={night ? "#343C66" : "#B7CDE6"} />
+      <Grad id="bedW" x={-200} y={0} w={2320} h={1000} from={night ? "#232A4E" : "#CFE0F2"} to={night ? "#343C66" : "#B7CDE6"} />
       <Window x={1180} y={130} w={420} h={400} night={night} sky="#FFD9A8" />
       {!night && <Shafts x={1180} y={130} w={420} h={760} skew={-420} t={t} o={0.3} color="#FFE2B0" />}
       <g transform="translate(300 150)"><rect width={300} height={380} rx={10} fill="#2E3550" /><rect x={18} y={18} width={264} height={344} fill="#F08A3C" /><circle cx={150} cy={150} r={70} fill="#FFE14A" /><T x={150} y={310} s={40} w={900} c="#2E3550">ARCADE</T></g>
@@ -131,13 +131,13 @@ export const Bedroom: React.FC<SetProps & { clock: string; day: string; night?: 
 export const Hallway: React.FC<SetProps> = ({ t, children, far, fg }) => (
   <>
     <Layer d={0.6} blur={2}>
-      <Grad id="hallW" x={-200} y={0} w={2320} h={770} from="#E9E2D0" to="#D8CDB4" />
+      <Grad id="hallW" x={-200} y={0} w={2320} h={1000} from="#E9E2D0" to="#D8CDB4" />
       <rect x={-200} y={0} width={2320} height={90} fill="#C9BEA4" />
       {[200, 760, 1320, 1880].map((x) => <g key={x}><rect x={x - 90} y={60} width={180} height={26} rx={8} fill="#FFFDF2" /><Bloom x={x} y={90} r={260} color="#FFF6D8" o={0.35} /></g>)}
       {/* lockers */}
       {Array.from({ length: 17 }, (_, i) => {
         const x = -150 + i * 130, c = i % 2 ? "#3F7FB8" : "#4A8BC6";
-        return <g key={i}><rect x={x} y={250} width={122} height={520} rx={6} fill={c} /><rect x={x + 10} y={262} width={102} height={40} rx={4} fill={shade(c, -0.14)} />{[0, 1, 2].map((k) => <line key={k} x1={x + 22} y1={274 + k * 9} x2={x + 100} y2={274 + k * 9} stroke="#1B1E2B" strokeWidth={3} opacity={0.35} />)}<rect x={x + 94} y={500} width={12} height={36} rx={5} fill="#E9ECF2" /><T x={x + 61} y={350} s={24} c="#FFFFFF" o={0.75}>{String(101 + i)}</T></g>;
+        return <g key={i}><rect x={x} y={250} width={122} height={640} rx={6} fill={c} /><rect x={x + 10} y={262} width={102} height={40} rx={4} fill={shade(c, -0.14)} />{[0, 1, 2].map((k) => <line key={k} x1={x + 22} y1={274 + k * 9} x2={x + 100} y2={274 + k * 9} stroke="#1B1E2B" strokeWidth={3} opacity={0.35} />)}<rect x={x + 94} y={500} width={12} height={36} rx={5} fill="#E9ECF2" /><T x={x + 61} y={350} s={24} c="#FFFFFF" o={0.75}>{String(101 + i)}</T></g>;
       })}
       <g transform="translate(1010 150)"><rect x={-190} y={-44} width={380} height={86} rx={10} fill="#F7F3EA" stroke="#C9BEA4" strokeWidth={6} /><T x={0} y={-6} s={30} w={900} c="#D9434F">GO WOLVES!</T><T x={0} y={26} s={20} c="#5B6274">Northview High School</T></g>
       {far}
@@ -157,7 +157,7 @@ export const Hallway: React.FC<SetProps> = ({ t, children, far, fg }) => (
 export const Classroom: React.FC<SetProps> = ({ t, children, fg }) => (
   <>
     <Layer d={0.6} blur={2}>
-      <Grad id="clsW" x={-200} y={0} w={2320} h={780} from="#EFE6CF" to="#E0D2B0" />
+      <Grad id="clsW" x={-200} y={0} w={2320} h={1000} from="#EFE6CF" to="#E0D2B0" />
       <rect x={380} y={150} width={980} height={420} rx={12} fill="#8A6A4C" /><rect x={400} y={170} width={940} height={380} rx={6} fill="#2F5D50" />
       <T x={870} y={260} s={56} w={900} c="#F2F4F0" o={0.9}>MATH · SURPRISE TEST</T>
       <T x={870} y={350} s={44} c="#F2F4F0" o={0.7}>x² − 5x + 6 = 0</T><T x={870} y={430} s={40} c="#F2F4F0" o={0.6}>20 questions · 30 minutes</T>
@@ -211,7 +211,7 @@ export const RareCard: React.FC<{ s?: number; t: number }> = ({ s = 1, t }) => (
 export const CardShop: React.FC<SetProps & { rack?: React.ReactNode }> = ({ t, children, fg, rack }) => (
   <>
     <Layer d={0.6} blur={2}>
-      <Grad id="shopW" x={-200} y={0} w={2320} h={780} from="#3A2F56" to="#57407A" />
+      <Grad id="shopW" x={-200} y={0} w={2320} h={1000} from="#3A2F56" to="#57407A" />
       <g transform="translate(960 96)"><rect x={-360} y={-56} width={720} height={112} rx={20} fill="#161A28" stroke="#FF5CA8" strokeWidth={8} /><T x={0} y={18} s={62} w={900} c="#FFE14A">CARD KINGDOM</T><Bloom x={0} y={0} r={420} color="#FF5CA8" o={0.25 + 0.05 * Math.sin(t * 5)} /></g>
       {/* shelves of boxes and framed cards */}
       {[0, 1, 2].map((r) => <g key={r}><rect x={-100} y={300 + r * 150} width={720} height={18} rx={6} fill="#2A2140" />{Array.from({ length: 9 }, (_, i) => <rect key={i} x={-80 + i * 76} y={210 + r * 150 + (i % 2) * 14} width={62} height={90 - (i % 2) * 14} rx={6} fill={["#D9607A", "#5E78C9", "#E0A53C", "#5FA86A", "#9A76CC", "#4BA7B8"][(i + r) % 6]} />)}</g>)}
@@ -238,7 +238,7 @@ export const Counter: React.FC<{ x: number; y: number; w?: number; children?: Re
 export const LivingRoom: React.FC<SetProps & { tv: React.ReactNode }> = ({ t, children, fg, tv }) => (
   <>
     <Layer d={0.6} blur={1.6}>
-      <Grad id="livW" x={-200} y={0} w={2320} h={780} from="#3B3558" to="#544A78" />
+      <Grad id="livW" x={-200} y={0} w={2320} h={1000} from="#3B3558" to="#544A78" />
       <rect x={1040} y={210} width={700} height={410} rx={16} fill="#11131E" /><g transform="translate(1060 228)"><clipPath id="tvclip"><rect width={660} height={374} rx={8} /></clipPath><g clipPath="url(#tvclip)">{tv}</g></g>
       <rect x={1340} y={620} width={100} height={60} fill="#11131E" /><rect x={1140} y={676} width={500} height={110} rx={10} fill="#6A4A3A" />
       <Bloom x={1390} y={410} r={620} color="#9FC8FF" o={0.28 + 0.04 * Math.sin(t * 9)} />
@@ -263,11 +263,11 @@ export const Couch: React.FC<{ x: number; y: number }> = ({ x, y }) => (
 export const Kitchen: React.FC<SetProps & { night?: boolean }> = ({ t, children, fg }) => (
   <>
     <Layer d={0.6} blur={1.8}>
-      <Grad id="kitW" x={-200} y={0} w={2320} h={780} from="#FBE9C8" to="#F3D29C" />
+      <Grad id="kitW" x={-200} y={0} w={2320} h={1000} from="#FBE9C8" to="#F3D29C" />
       {Array.from({ length: 30 }, (_, i) => <rect key={i} x={-190 + (i % 15) * 150} y={470 + Math.floor(i / 15) * 76} width={144} height={70} rx={6} fill="#FFFFFF" opacity={0.5} />)}
       <Window x={240} y={130} w={420} h={300} sky="#FFD9A8" /><Shafts x={240} y={130} w={420} h={700} t={t} o={0.3} color="#FFE2B0" />
       {[820, 1050, 1280, 1510].map((x, i) => <g key={x}><rect x={x} y={110} width={214} height={300} rx={10} fill={i % 2 ? "#6FB3A6" : "#7CC0B2"} /><rect x={x + 16} y={126} width={182} height={268} rx={6} fill="#000" opacity={0.06} /><rect x={x + (i % 2 ? 22 : 176)} y={320} width={12} height={50} rx={6} fill="#F7F3EA" /></g>)}
-      <rect x={-200} y={620} width={2320} height={34} rx={8} fill="#F7F3EA" /><rect x={-200} y={654} width={2320} height={130} fill="#B98A5E" />
+      <rect x={-200} y={620} width={2320} height={34} rx={8} fill="#F7F3EA" /><rect x={-200} y={654} width={2320} height={330} fill="#B98A5E" />
       {[0, 1, 2, 3, 4, 5, 6].map((i) => <g key={i}><rect x={-160 + i * 320} y={670} width={290} height={100} rx={8} fill="#C99A6C" /><rect x={-50 + i * 320} y={692} width={70} height={10} rx={5} fill="#F7F3EA" /></g>)}
       {/* stove */}
       <rect x={1240} y={590} width={300} height={36} rx={8} fill="#2A2D3C" /><ellipse cx={1390} cy={592} rx={100} ry={14} fill="#11131E" />
@@ -411,10 +411,10 @@ export const Envelope: React.FC<{ s?: number; open?: number; label?: string }> =
 export const Hospital: React.FC<SetProps & { clock: number }> = ({ t, children, fg, clock }) => (
   <>
     <Layer d={0.6} blur={1.6}>
-      <Grad id="hosW" x={-200} y={0} w={2320} h={780} from="#CFE2E6" to="#B4CED4" />
-      <rect x={-200} y={470} width={2320} height={20} fill="#7FB0B8" /><rect x={-200} y={490} width={2320} height={290} fill="#A9C6CC" />
+      <Grad id="hosW" x={-200} y={0} w={2320} h={1000} from="#CFE2E6" to="#B4CED4" />
+      <rect x={-200} y={470} width={2320} height={20} fill="#7FB0B8" /><rect x={-200} y={490} width={2320} height={480} fill="#A9C6CC" />
       <g transform="translate(1440 110)"><rect x={-250} y={0} width={500} height={110} rx={12} fill="#D9434F" /><T x={0} y={72} s={56} w={900}>SURGERY</T><circle cx={-200} cy={55} r={14} fill="#FFFFFF" opacity={0.5 + 0.5 * Math.sin(t * 4)} /></g>
-      <rect x={1240} y={250} width={400} height={530} rx={8} fill="#8FB0B8" /><rect x={1436} y={250} width={8} height={530} fill="#6E929A" /><rect x={1290} y={320} width={110} height={150} rx={8} fill="#DDF0F4" /><rect x={1480} y={320} width={110} height={150} rx={8} fill="#DDF0F4" />
+      <rect x={1240} y={250} width={400} height={680} rx={8} fill="#8FB0B8" /><rect x={1436} y={250} width={8} height={530} fill="#6E929A" /><rect x={1290} y={320} width={110} height={150} rx={8} fill="#DDF0F4" /><rect x={1480} y={320} width={110} height={150} rx={8} fill="#DDF0F4" />
       <g transform="translate(520 240)"><circle r={110} fill="#F7F3EA" stroke="#2E3550" strokeWidth={12} />{Array.from({ length: 12 }, (_, i) => <line key={i} x1={0} y1={-92} x2={0} y2={-78} stroke="#2E3550" strokeWidth={6} transform={`rotate(${i * 30})`} />)}<line x1={0} y1={0} x2={0} y2={-54} stroke="#2E3550" strokeWidth={10} strokeLinecap="round" transform={`rotate(${clock * 30})`} /><line x1={0} y1={0} x2={0} y2={-82} stroke="#D9434F" strokeWidth={7} strokeLinecap="round" transform={`rotate(${clock * 360})`} /></g>
       {[150, 1000].map((x) => <g key={x}><rect x={x - 80} y={40} width={160} height={24} rx={8} fill="#FFFFFF" /><Bloom x={x} y={60} r={300} color="#EAF8FF" o={0.4} /></g>)}
     </Layer>
@@ -430,9 +430,10 @@ export const Hospital: React.FC<SetProps & { clock: number }> = ({ t, children, 
 export const Street: React.FC<SetProps & { light: "red" | "green"; dusk?: boolean }> = ({ t, children, fg, light }) => (
   <>
     <Layer d={0.4} blur={1.4}>
-      <Grad id="strS" x={-200} y={0} w={2320} h={760} from="#3B2A6A" to="#F08A5C" />
+      <Grad id="strS" x={-200} y={0} w={2320} h={1000} from="#3B2A6A" to="#F08A5C" />
       <circle cx={1500} cy={560} r={120} fill="#FFD9A0" /><Bloom x={1500} y={560} r={520} color="#FFB36B" o={0.7} />
       {Array.from({ length: 11 }, (_, i) => { const x = -160 + i * 210, h = 260 + ((i * 97) % 240); return <g key={i}><rect x={x} y={760 - h} width={190} height={h} fill={i % 2 ? "#2A2050" : "#34285E"} />{Array.from({ length: 12 }, (_, k) => <rect key={k} x={x + 22 + (k % 3) * 54} y={760 - h + 30 + Math.floor(k / 3) * 60} width={32} height={36} rx={4} fill="#FFD98A" opacity={rnd(i * 13 + k) > 0.45 ? 0.9 : 0.12} />)}</g>; })}
+      <rect x={-200} y={750} width={2320} height={250} fill="#8E8AA0" />
     </Layer>
     <Layer>
       <rect x={-200} y={740} width={2320} height={70} fill="#8E8AA0" /><rect x={-200} y={800} width={2320} height={300} fill="#3A3850" />
@@ -470,8 +471,9 @@ export const Car: React.FC<{ x: number; y: number; t: number; driver?: React.Rea
 export const Backstage: React.FC<SetProps> = ({ t, children, fg }) => (
   <>
     <Layer d={0.6} blur={1.8}>
-      <Grad id="bkW" x={-200} y={0} w={2320} h={780} from="#1A1430" to="#2E2450" />
+      <Grad id="bkW" x={-200} y={0} w={2320} h={1000} from="#1A1430" to="#2E2450" />
       {Array.from({ length: 12 }, (_, i) => <path key={i} d={`M ${-200 + i * 110} 0 q 30 400 0 780 l 110 0 q -30 -380 0 -780 Z`} fill={i % 2 ? "#7A1E3A" : "#8E2444"} />)}
+      <rect x={-200} y={770} width={1480} height={200} fill="#7A1E3A" />
       <rect x={1280} y={0} width={840} height={780} fill="#1E1838" />
       <g transform="translate(1640 170)"><rect x={-110} y={-44} width={220} height={88} rx={12} fill="#0E3A22" stroke="#3BE07A" strokeWidth={5} /><T x={0} y={18} s={52} w={900} c="#6BFFA6">EXIT</T><Bloom x={0} y={0} r={300} color="#3BE07A" o={0.35} /></g>
       <g transform="translate(1500 420)"><rect x={-150} y={-120} width={300} height={240} rx={14} fill="#F7F3EA" />{Array.from({ length: 10 }, (_, i) => <g key={i}><circle cx={i < 5 ? -130 + i * 65 : -130 + (i - 5) * 65} cy={i < 5 ? -104 : 104} r={12} fill="#FFE9B8" /><Bloom x={i < 5 ? -130 + i * 65 : -130 + (i - 5) * 65} y={i < 5 ? -104 : 104} r={50} color="#FFE9B8" o={0.6} /></g>)}<rect x={-120} y={-88} width={240} height={176} fill="#BFD4E6" /></g>

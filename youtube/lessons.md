@@ -164,3 +164,15 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **Close-up framing**: a head sits at `feetY - 452 * scale`; aim the camera there, not at a guessed y. (us, 2026-11-16)
 - **Thumbnail text must not reuse a title word**: "DAY 1 AGAIN" failed title.py's pairing check against
   "...Every Day Twice"; "FAIL / REDO" passes. (us, 2026-11-16)
+- **Far layers must extend below the floor line**: a far layer zooms less than the subject plane, so a wall
+  that stops at the floor leaves a black gap in close-ups. Draw walls, lockers and counters ~200 px past the
+  floor line; the floor covers the rest. (us, 2026-11-16)
+- **Labels in a far layer blur in close-ups**: anything that must be read goes in the subject layer. (us, 2026-11-16)
+- **Someone standing behind a prop (podium, desk)**: draw the prop after the person; don't clip the person,
+  or the torso floats. (us, 2026-11-16)
+- **A slammed phrase must fit between the take badge and the money counter**: keep it under ~20 characters
+  or drop it when the caption already says it. (us, 2026-11-16)
+- **Check a thumbnail's framing, not just its idea**: the first v2 thumbnail was so tight that the bubble,
+  the flowers and the girl fell out of frame. Zoom 1.3 with characters at 1.15 worked. (us, 2026-11-16)
+- **A 2-word acted line can fail the voice check** ("Your what?" scored 0.40): Whisper has little to go on.
+  Flag it for the user to listen to. (us, 2026-11-16)
