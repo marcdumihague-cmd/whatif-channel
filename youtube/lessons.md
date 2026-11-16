@@ -176,3 +176,11 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   the flowers and the girl fell out of frame. Zoom 1.3 with characters at 1.15 worked. (us, 2026-11-16)
 - **A 2-word acted line can fail the voice check** ("Your what?" scored 0.40): Whisper has little to go on.
   Flag it for the user to listen to. (us, 2026-11-16)
+- **The v2 look renders slower and bigger**: 5:33 took ~50 minutes in 4 chunks, and film grain made the
+  chunks ~640 MB. Keep 3 GB free before a render; re-encode the joined file with `-crf 21` (245 MB). (us, 2026-11-16)
+- **Keep the render chunks until the final file has been checked**: one shot needed a fix after the chunks
+  were deleted, so the fix had to be spliced in with a full re-encode. (us, 2026-11-16)
+- **Check the final file's frames at the key story moments** (hook, payoff, twist), not only the contact
+  sheet: the twist's thought bubble was cut off by a close-up. A reveal shot must show the thing revealed. (us, 2026-11-16)
+- **Old scratch folders fill the disk**: a 1.3 GB copy of the skill repos from the first session was still
+  in the temp folder. Clear scratch copies once their content is in the repo. (us, 2026-11-16)
