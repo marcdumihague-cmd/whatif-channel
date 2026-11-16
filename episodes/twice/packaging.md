@@ -69,3 +69,28 @@ previous upload.
 - **4:21 to 5:07** (take 2 of the show, the payoff): episodes before this one lost viewers here. This one
   breaks the plan first and keeps Ava's mystery open until 5:07.
 - **5:07 to the end**: the twist. If the curve holds to ~5:25, the second open loop works.
+
+## Teaser (YouTube Shorts, TikTok, Instagram Reels): one file for all three
+
+Files (not in git; re-render `TwiceTeaser`): `video/out/twice-teaser.mp4` (1080x1920, 53 s) and
+`video/out/twice-teaser-cover.png` (the opening frame). Footage from the episode: the whole cold open ("Your
+crush just said no", the table, the rewind, the same Monday) and the promise, then a jump to the new
+$1,000,000 question with no take 2 ("What color is an octopus's blood?"). It stops before the answer. End
+card: a 30-second timer, "$1,000,000", "NO SECOND TRY", then "FULL VIDEO ON MY YOUTUBE CHANNEL", spoken and
+on screen. No "link below" or "link in bio" in the video, so the same file works on every platform.
+
+Why this cut (`research/retention-hook-2026-11-16.md`, teaser patterns in `research/packaging-2026-11-12-watched.md`):
+the first frame is the episode's most striking image, already moving, with the question as on-screen text;
+the first sentence is the stake; word-by-word captions for muted viewers; it ends on an open question.
+
+**YouTube Shorts title:** My Crush Said No (Take 1) #shorts
+title.py 94, 33 characters (fits the mobile feed); it is the teaser's first line and differs from the long
+title so the two don't compete in search. Also scored: "She Said No. I Got 1 Redo" 94, "1 Question,
+$1,000,000, No Redo" 94, "30 Seconds. $1,000,000. No Second Try" 84 (cut off on mobile), "I Live Every Day
+Twice" 62.
+**Shorts description:** What if you lived every day twice? Take 1 is practice. Take 2 is real. Then comes a $1,000,000 question with no second try. Full video on my channel. #whatif #animation #storytime #timeloop
+Set "Related video" to the long video in the upload screen.
+
+**TikTok caption:** My crush said no in front of the whole school. Good thing it was only take 1. Full video on my YouTube, link in bio. What would you do on the day that doesn't count? #whatif #animation #storytime #timeloop #crush
+
+**Instagram caption:** She said no. In front of everyone. But today doesn't count. Full video on my YouTube, link in bio. What would you do on the day that doesn't count? #whatif #animation #storytime #timeloop #reels

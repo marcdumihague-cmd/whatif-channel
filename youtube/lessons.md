@@ -184,3 +184,8 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   sheet: the twist's thought bubble was cut off by a close-up. A reveal shot must show the thing revealed. (us, 2026-11-16)
 - **Old scratch folders fill the disk**: a 1.3 GB copy of the skill repos from the first session was still
   in the temp folder. Clear scratch copies once their content is in the repo. (us, 2026-11-16)
+- **One teaser file for all platforms**: end on "full video on my YouTube channel" (spoken and on screen) with
+  no "link below" / "link in bio" in the video; put the link wording in each platform's caption instead. (user, 2026-11-16)
+- **Teaser structure that fits the new hook rule**: the episode's own cold open is the teaser's opening (it
+  was written to land in 2 seconds), then the promise, then the hardest question of the climax, cut before
+  the answer. (us, 2026-11-16)
