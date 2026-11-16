@@ -108,6 +108,10 @@ instead (it is the channel's voice). It is a draft until the user approves it.
   first use and writes to `graphify-out/` (gitignored). Building a graph of documents costs tokens: only
   when the user asks for it.
 
+- `caveman` (+ `ultracave`, `megacave`): terse reply style to save output tokens (`/caveman`, "talk like
+  caveman"; off with "normal mode"). From JuliusBrussee/caveman. Only when the user turns it on, and only
+  for chat replies: scripts, packaging text, lessons and anything saved to a file stay in normal writing.
+
 Sources, versions and licences: `third_party/README.md`.
 
 ## Coding rules
