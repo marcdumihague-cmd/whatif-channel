@@ -150,3 +150,9 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   caption box. Keep big props above y ~780 when captions are on. (us, 2026-11-15)
 - **A background wait can hit its time limit** before a ~1 h voice run ends: give it the max timeout
   (3,600,000 ms) or re-arm it, and don't assume it finished. (us, 2026-11-15)
+- **Graphics must go up several notches from episode 9 on** ("a whole different level"): the user asked to
+  improve everything visual, not polish the old look. (user, 2026-11-16)
+- **Viewers leave near the payoff**: the user sees the drop in the analytics. Don't signal that the story
+  is wrapping up, don't slow down before the climax, and keep a second question open through it. (user, 2026-11-16)
+- **The hook must catch attention within 2 seconds**: "the beginning is everything". The first frame and
+  first words carry the most striking moment, not setup ("Gym class, 10:14 a.m." was setup). (user, 2026-11-16)
