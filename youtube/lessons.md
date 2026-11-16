@@ -189,3 +189,11 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
 - **Teaser structure that fits the new hook rule**: the episode's own cold open is the teaser's opening (it
   was written to land in 2 seconds), then the promise, then the hardest question of the climax, cut before
   the answer. (us, 2026-11-16)
+- **Helper scripts belong in `scripts/`, not the temp folder**: the voice chain, render, grid, sound check and
+  saturation search lived only in the session's scratchpad until 2026-11-16; a new session could not have
+  repeated the work. Anything run more than once gets saved in the repo the same day. (user, 2026-11-16)
+- **Splicing a re-rendered shot into a finished video** (frames A..B, fix.mp4 holds exactly those frames):
+  `ffmpeg -i old.mp4 -i fix.mp4 -filter_complex "[0:v]trim=end_frame=A,setpts=PTS-STARTPTS[a];[0:v]trim=start_frame=B+1,setpts=PTS-STARTPTS[c];[1:v]setpts=PTS-STARTPTS[b];[a][b][c]concat=n=3:v=1[v]" -map "[v]" -map 0:a -c:v libx264 -crf 20 -pix_fmt yuv420p -c:a copy new.mp4`. (us, 2026-11-16)
+- **With `flip`, pass a positive `turn`** to turn the head the way the body faces; episode 9 passed negative
+  values for flipped people (a small error, left in). (us, 2026-11-16)
+- **The process is a skill now**: `whatif-episode`. When a step changes, update the skill the same day. (user, 2026-11-16)

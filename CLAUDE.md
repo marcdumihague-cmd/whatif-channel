@@ -17,6 +17,12 @@ a decision about the channel changes.
 from our own mistakes, however small, goes into `youtube/lessons.md` the same day, then gets committed
 and pushed.
 
+**To make an episode, use the `whatif-episode` skill** (`.claude/skills/whatif-episode/SKILL.md` + `kit-reference.md`):
+the full step-by-step process used for episode 9, with every command, check and known mistake. The summary
+below is the short version. Helper scripts: `scripts/saturation.sh` (how big existing videos are),
+`scripts/estimate-timeline.py`, `scripts/voice-chain.sh`, `scripts/grid.py` (contact-sheet grids),
+`scripts/hf-check.py` (no high-pitched sound), `scripts/render.sh` (resumable chunked render).
+
 ## Production pipeline (working, proven on `episodes/test-scene`)
 
 Setup once per session: `./scripts/setup.sh` (Python 3.12 venv `.venv-qwen` with Qwen3-TTS and
@@ -88,6 +94,7 @@ instead (it is the channel's voice). It is a draft until the user approves it.
 
 ## Skills in this repo (`.claude/skills/`)
 
+- `whatif-episode`: this channel's own end-to-end process for making an episode (ours, written 2026-11-16).
 - `yt-*`: YouTube workflow skills (script, package, seo, chapters, shorts, edit, retention,
   comment, plan, viral, audit). From Jakeschincariol/youtube-agent-skill.
 - `ponytail*`: lazy-senior-dev coding mode, plus `/ponytail-review`, `/ponytail-audit`,
