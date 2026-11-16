@@ -1,0 +1,510 @@
+{
+ "duration": 337.93,
+ "estimated": true,
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Your crush just said no. In front of the whole school.",
+   "start": 0,
+   "end": 4.53
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "You're standing on a cafeteria table, holding flowers. 300 phones are filming.",
+   "start": 4.78,
+   "end": 9.7
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "Bro. Get down. Please get down.",
+   "start": 9.95,
+   "end": 12.55
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "And you're smiling. Because today doesn't count.",
+   "start": 12.8,
+   "end": 15.8
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Midnight. Everything rewinds. Same morning. Same alarm. Same Monday.",
+   "start": 16.05,
+   "end": 19.81
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Nobody remembers the table. Nobody but you.",
+   "start": 20.06,
+   "end": 23.05
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Starting today, you live every day twice. First a practice run. Then the real one. In 30 days you'll be a millionaire, go viral, and face the one moment you can't practice for.",
+   "start": 23.5,
+   "end": 36.49
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "The rules. Take 1: nothing counts. At midnight, it's erased. Take 2: everything is real.",
+   "start": 36.94,
+   "end": 43.01
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "So in take 2, you skip the table.",
+   "start": 43.26,
+   "end": 46.64
+  },
+  {
+   "scene": "rules",
+   "who": "YOU",
+   "text": "Hey, Ava. Cool backpack.",
+   "start": 46.89,
+   "end": 48.73
+  },
+  {
+   "scene": "rules",
+   "who": "AVA",
+   "text": "Thanks. No flowers today?",
+   "start": 48.98,
+   "end": 50.82
+  },
+  {
+   "scene": "rules",
+   "who": "YOU",
+   "text": "What?",
+   "start": 51.07,
+   "end": 51.75
+  },
+  {
+   "scene": "rules",
+   "who": "AVA",
+   "text": "Nothing.",
+   "start": 52.0,
+   "end": 52.68
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Strange thing to say. Remember it.",
+   "start": 52.93,
+   "end": 55.54
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Tuesday, take 1. A surprise math test. You fail it, and memorize every question.",
+   "start": 55.99,
+   "end": 61.68
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Tuesday, take 2. 100 percent. Your teacher checks your sleeves.",
+   "start": 61.93,
+   "end": 66.07
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "And take 1 becomes the best part of your life. Nothing counts. So you drive a golf cart through the hallway. You eat 9 burgers. You tell the principal what you really think of his tie.",
+   "start": 66.32,
+   "end": 80.47
+  },
+  {
+   "scene": "school",
+   "who": "THEO",
+   "text": "Who are you today?",
+   "start": 80.72,
+   "end": 82.56
+  },
+  {
+   "scene": "school",
+   "who": "YOU",
+   "text": "Doesn't matter. You won't remember.",
+   "start": 82.81,
+   "end": 85.03
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Then YouTube shows you a guy opening 1,000 packs of trading cards, hunting for one rare card. In February 2026, Logan Paul's Pikachu Illustrator card sold for 16.5 million dollars. One card.",
+   "start": 85.48,
+   "end": 98.09
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "The card shop near school has 40 sealed packs. Take 1: you spend your savings, 200 dollars, and open every single one.",
+   "start": 98.34,
+   "end": 107.1
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Pack 31. A card worth 2,800 dollars.",
+   "start": 107.35,
+   "end": 110.34
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Take 2: you walk in with 5 dollars.",
+   "start": 110.59,
+   "end": 113.97
+  },
+  {
+   "scene": "cards",
+   "who": "YOU",
+   "text": "Just this one, please.",
+   "start": 114.22,
+   "end": 116.06
+  },
+  {
+   "scene": "cards",
+   "who": "OWNER",
+   "text": "Lucky guess, kid.",
+   "start": 116.31,
+   "end": 117.76
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "Next, the lottery. Your mom plays your 6 numbers. Every single one misses.",
+   "start": 118.21,
+   "end": 123.51
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "In 1961, a scientist named Edward Lorenz rounded one number in a weather simulation, from 0.506127 to 0.506. The whole forecast changed. Lottery balls never bounce the same way twice.",
+   "start": 123.76,
+   "end": 135.6
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "New rule. Chance changes. Whatever is already sealed stays the same.",
+   "start": 135.85,
+   "end": 140.38
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "Sealed. Like storage units. You've seen the videos: people pay 300 dollars for an abandoned unit without knowing what's inside.",
+   "start": 140.83,
+   "end": 148.82
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "Take 1: you watch all 12 doors open. Unit 7: a 1980s arcade machine. Take 2: Theo's brother bids on one door only.",
+   "start": 149.07,
+   "end": 158.22
+  },
+  {
+   "scene": "storage",
+   "who": "THEO",
+   "text": "Why 7?",
+   "start": 158.47,
+   "end": 159.54
+  },
+  {
+   "scene": "storage",
+   "who": "YOU",
+   "text": "Feeling.",
+   "start": 159.79,
+   "end": 160.47
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "The arcade machine sells for 9,000 dollars. Theo posts the video: This kid only picks winners. 6 million views.",
+   "start": 160.72,
+   "end": 168.33
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "By week 3: 41,000 dollars. And one email.",
+   "start": 168.58,
+   "end": 171.96
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "But take 1 is changing you. One morning, in a practice run, you snap at your mom. Something you'd never say. It's fine. It's a draft.",
+   "start": 172.41,
+   "end": 182.71
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Take 2. She makes you pancakes. She doesn't remember. You do.",
+   "start": 182.96,
+   "end": 187.49
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "At least nobody else sees your drafts. That's what you think.",
+   "start": 187.74,
+   "end": 192.27
+  },
+  {
+   "scene": "aquarium",
+   "who": "NARRATOR",
+   "text": "Another take 1. You skip school, and find Ava at the aquarium. Alone. Watching the octopus.",
+   "start": 192.72,
+   "end": 199.17
+  },
+  {
+   "scene": "aquarium",
+   "who": "AVA",
+   "text": "Octopus blood is blue. Copper instead of iron. Also, 3 hearts.",
+   "start": 199.42,
+   "end": 203.95
+  },
+  {
+   "scene": "aquarium",
+   "who": "YOU",
+   "text": "Why do you know that?",
+   "start": 204.2,
+   "end": 206.43
+  },
+  {
+   "scene": "aquarium",
+   "who": "AVA",
+   "text": "Why are you skipping school?",
+   "start": 206.68,
+   "end": 208.9
+  },
+  {
+   "scene": "aquarium",
+   "who": "NARRATOR",
+   "text": "It's the best hour of your month. And at midnight, it never happened.",
+   "start": 209.15,
+   "end": 214.45
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "The email. The 1 Million Dollar Question. A live show, 20 million viewers. One contestant. One question, sealed in an envelope a week before.",
+   "start": 214.9,
+   "end": 224.43
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "Sealed. You almost laugh.",
+   "start": 224.68,
+   "end": 226.52
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "The plan. Take 1: hear the question. Take 2: answer it.",
+   "start": 226.77,
+   "end": 231.3
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "Saturday, take 1. 8:00 p.m. The envelope opens.",
+   "start": 231.75,
+   "end": 235.13
+  },
+  {
+   "scene": "final1",
+   "who": "HOST",
+   "text": "Which planet has the longest day?",
+   "start": 235.38,
+   "end": 237.98
+  },
+  {
+   "scene": "final1",
+   "who": "YOU",
+   "text": "Uh... Jupiter?",
+   "start": 238.23,
+   "end": 239.3
+  },
+  {
+   "scene": "final1",
+   "who": "HOST",
+   "text": "Venus. I'm so sorry.",
+   "start": 239.55,
+   "end": 241.39
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "You're not. You walk off stage smiling. Then your phone rings.",
+   "start": 241.64,
+   "end": 246.17
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "Your mom was driving to the studio to surprise you. 7:42 p.m. A truck ran a red light. She's in surgery.",
+   "start": 246.42,
+   "end": 254.8
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "You sit in the hospital and wait for midnight.",
+   "start": 255.05,
+   "end": 258.81
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "Take 2. 7:30 p.m. You call her.",
+   "start": 259.26,
+   "end": 262.25
+  },
+  {
+   "scene": "final2",
+   "who": "YOU",
+   "text": "Mom, don't leave yet. I can't find my lucky socks.",
+   "start": 262.5,
+   "end": 266.65
+  },
+  {
+   "scene": "final2",
+   "who": "MOM",
+   "text": "Your what?",
+   "start": 266.9,
+   "end": 267.97
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "You keep her on the phone for 14 minutes. The truck runs the red light at an empty intersection.",
+   "start": 268.22,
+   "end": 275.83
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "But you walk on stage 14 minutes late. The show started without you. A backup contestant got your envelope.",
+   "start": 276.08,
+   "end": 283.68
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "No problem. We'll open a new one.",
+   "start": 283.93,
+   "end": 286.93
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "A question you've never heard. 30 seconds. 1 million dollars. And no take 2.",
+   "start": 287.18,
+   "end": 292.86
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "What color is an octopus's blood?",
+   "start": 293.11,
+   "end": 295.72
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "A Tuesday that never happened.",
+   "start": 295.97,
+   "end": 298.19
+  },
+  {
+   "scene": "final2",
+   "who": "YOU",
+   "text": "Blue.",
+   "start": 298.44,
+   "end": 299.13
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "That is... correct!",
+   "start": 299.38,
+   "end": 300.83
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "1 million dollars. Theo screams. Your mom is in row 3. Crying. Fine.",
+   "start": 301.08,
+   "end": 306.38
+  },
+  {
+   "scene": "twist",
+   "who": "NARRATOR",
+   "text": "Backstage, Ava is waiting.",
+   "start": 306.83,
+   "end": 308.67
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "Told you. Copper.",
+   "start": 308.92,
+   "end": 310.37
+  },
+  {
+   "scene": "twist",
+   "who": "YOU",
+   "text": "You told me that in a take 1. You can't remember that.",
+   "start": 310.62,
+   "end": 315.54
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "I remember the table, too. Nice flowers.",
+   "start": 315.79,
+   "end": 318.78
+  },
+  {
+   "scene": "twist",
+   "who": "NARRATOR",
+   "text": "She's lived every day twice since she was 9.",
+   "start": 319.03,
+   "end": 322.79
+  },
+  {
+   "scene": "twist",
+   "who": "YOU",
+   "text": "Then why did you say no?",
+   "start": 323.04,
+   "end": 325.65
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "It was a draft. Ask me on a day that counts.",
+   "start": 325.9,
+   "end": 330.43
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "If you lived every day twice, what would you do on the day that doesn't count?",
+   "start": 330.88,
+   "end": 337.33
+  }
+ ]
+}

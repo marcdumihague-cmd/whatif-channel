@@ -1,0 +1,402 @@
+{
+ "title": "What If You Lived Every Day Twice?",
+ "pace": {
+  "gap": 0.25,
+  "scene_gap": 0.45
+ },
+ "cast": {
+  "NARRATOR": "narrator",
+  "YOU": "you",
+  "THEO": "theo",
+  "MOM": "mom",
+  "AVA": "roommate",
+  "HOST": "man",
+  "OWNER": "older"
+ },
+ "facts": [
+  {
+   "claim": "Logan Paul's PSA 10 Pikachu Illustrator card sold for $16,492,000 at auction (Goldin), closing 16 Feb 2026: a record for any trading card",
+   "source": "Guinness World Records (adjudicated at the sale); AP, 16-17 Feb 2026"
+  },
+  {
+   "claim": "In 1961 Edward Lorenz re-ran a weather model with 0.506 instead of 0.506127 and the forecast diverged completely",
+   "source": "APS News, 'This Month in Physics History' (Jan 2003); MIT Technology Review, 'When the Butterfly Effect Took Flight' (2011)"
+  },
+  {
+   "claim": "Octopus blood is blue (copper-based hemocyanin instead of iron-based hemoglobin) and octopuses have 3 hearts",
+   "source": "Scientific American, Octopus Chronicles; Live Science, 'How many hearts does an octopus have?'"
+  },
+  {
+   "claim": "Venus has the longest day of any planet (one rotation is about 243 Earth days)",
+   "source": "NASA Solar System Exploration, Venus facts"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Your crush just said no. In front of the whole school."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "You're standing on a cafeteria table, holding flowers. 300 phones are filming."
+  },
+  {
+   "scene": "cold_open",
+   "who": "THEO",
+   "text": "Bro. Get down. Please get down.",
+   "act": "panicked whisper"
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "And you're smiling. Because today doesn't count."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Midnight. Everything rewinds. Same morning. Same alarm. Same Monday."
+  },
+  {
+   "scene": "cold_open",
+   "who": "NARRATOR",
+   "text": "Nobody remembers the table. Nobody but you."
+  },
+  {
+   "scene": "promise",
+   "who": "NARRATOR",
+   "text": "Starting today, you live every day twice. First a practice run. Then the real one. In 30 days you'll be a millionaire, go viral, and face the one moment you can't practice for."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "The rules. Take 1: nothing counts. At midnight, it's erased. Take 2: everything is real."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "So in take 2, you skip the table."
+  },
+  {
+   "scene": "rules",
+   "who": "YOU",
+   "text": "Hey, Ava. Cool backpack."
+  },
+  {
+   "scene": "rules",
+   "who": "AVA",
+   "text": "Thanks. No flowers today?"
+  },
+  {
+   "scene": "rules",
+   "who": "YOU",
+   "text": "What?"
+  },
+  {
+   "scene": "rules",
+   "who": "AVA",
+   "text": "Nothing."
+  },
+  {
+   "scene": "rules",
+   "who": "NARRATOR",
+   "text": "Strange thing to say. Remember it."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Tuesday, take 1. A surprise math test. You fail it, and memorize every question."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "Tuesday, take 2. 100 percent. Your teacher checks your sleeves."
+  },
+  {
+   "scene": "school",
+   "who": "NARRATOR",
+   "text": "And take 1 becomes the best part of your life. Nothing counts. So you drive a golf cart through the hallway. You eat 9 burgers. You tell the principal what you really think of his tie."
+  },
+  {
+   "scene": "school",
+   "who": "THEO",
+   "text": "Who are you today?"
+  },
+  {
+   "scene": "school",
+   "who": "YOU",
+   "text": "Doesn't matter. You won't remember."
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Then YouTube shows you a guy opening 1,000 packs of trading cards, hunting for one rare card. In February 2026, Logan Paul's Pikachu Illustrator card sold for 16.5 million dollars. One card."
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "The card shop near school has 40 sealed packs. Take 1: you spend your savings, 200 dollars, and open every single one."
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Pack 31. A card worth 2,800 dollars."
+  },
+  {
+   "scene": "cards",
+   "who": "NARRATOR",
+   "text": "Take 2: you walk in with 5 dollars."
+  },
+  {
+   "scene": "cards",
+   "who": "YOU",
+   "text": "Just this one, please."
+  },
+  {
+   "scene": "cards",
+   "who": "OWNER",
+   "text": "Lucky guess, kid."
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "Next, the lottery. Your mom plays your 6 numbers. Every single one misses."
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "In 1961, a scientist named Edward Lorenz rounded one number in a weather simulation, from 0.506127 to 0.506. The whole forecast changed. Lottery balls never bounce the same way twice.",
+   "say": "In 1961, a scientist named Edward Lorenz rounded one number in a weather simulation, from zero point five oh six one two seven, to zero point five oh six. The whole forecast changed. Lottery balls never bounce the same way twice."
+  },
+  {
+   "scene": "lottery",
+   "who": "NARRATOR",
+   "text": "New rule. Chance changes. Whatever is already sealed stays the same."
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "Sealed. Like storage units. You've seen the videos: people pay 300 dollars for an abandoned unit without knowing what's inside."
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "Take 1: you watch all 12 doors open. Unit 7: a 1980s arcade machine. Take 2: Theo's brother bids on one door only."
+  },
+  {
+   "scene": "storage",
+   "who": "THEO",
+   "text": "Why 7?"
+  },
+  {
+   "scene": "storage",
+   "who": "YOU",
+   "text": "Feeling."
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "The arcade machine sells for 9,000 dollars. Theo posts the video: This kid only picks winners. 6 million views."
+  },
+  {
+   "scene": "storage",
+   "who": "NARRATOR",
+   "text": "By week 3: 41,000 dollars. And one email."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "But take 1 is changing you. One morning, in a practice run, you snap at your mom. Something you'd never say. It's fine. It's a draft."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "Take 2. She makes you pancakes. She doesn't remember. You do."
+  },
+  {
+   "scene": "cost",
+   "who": "NARRATOR",
+   "text": "At least nobody else sees your drafts. That's what you think."
+  },
+  {
+   "scene": "aquarium",
+   "who": "NARRATOR",
+   "text": "Another take 1. You skip school, and find Ava at the aquarium. Alone. Watching the octopus."
+  },
+  {
+   "scene": "aquarium",
+   "who": "AVA",
+   "text": "Octopus blood is blue. Copper instead of iron. Also, 3 hearts."
+  },
+  {
+   "scene": "aquarium",
+   "who": "YOU",
+   "text": "Why do you know that?"
+  },
+  {
+   "scene": "aquarium",
+   "who": "AVA",
+   "text": "Why are you skipping school?"
+  },
+  {
+   "scene": "aquarium",
+   "who": "NARRATOR",
+   "text": "It's the best hour of your month. And at midnight, it never happened."
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "The email. The 1 Million Dollar Question. A live show, 20 million viewers. One contestant. One question, sealed in an envelope a week before."
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "Sealed. You almost laugh."
+  },
+  {
+   "scene": "offer",
+   "who": "NARRATOR",
+   "text": "The plan. Take 1: hear the question. Take 2: answer it."
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "Saturday, take 1. 8:00 p.m. The envelope opens."
+  },
+  {
+   "scene": "final1",
+   "who": "HOST",
+   "text": "Which planet has the longest day?"
+  },
+  {
+   "scene": "final1",
+   "who": "YOU",
+   "text": "Uh... Jupiter?"
+  },
+  {
+   "scene": "final1",
+   "who": "HOST",
+   "text": "Venus. I'm so sorry."
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "You're not. You walk off stage smiling. Then your phone rings."
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "Your mom was driving to the studio to surprise you. 7:42 p.m. A truck ran a red light. She's in surgery."
+  },
+  {
+   "scene": "final1",
+   "who": "NARRATOR",
+   "text": "You sit in the hospital and wait for midnight."
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "Take 2. 7:30 p.m. You call her."
+  },
+  {
+   "scene": "final2",
+   "who": "YOU",
+   "text": "Mom, don't leave yet. I can't find my lucky socks."
+  },
+  {
+   "scene": "final2",
+   "who": "MOM",
+   "text": "Your what?",
+   "act": "confused, amused"
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "You keep her on the phone for 14 minutes. The truck runs the red light at an empty intersection."
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "But you walk on stage 14 minutes late. The show started without you. A backup contestant got your envelope."
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "No problem. We'll open a new one."
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "A question you've never heard. 30 seconds. 1 million dollars. And no take 2."
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "What color is an octopus's blood?"
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "A Tuesday that never happened."
+  },
+  {
+   "scene": "final2",
+   "who": "YOU",
+   "text": "Blue."
+  },
+  {
+   "scene": "final2",
+   "who": "HOST",
+   "text": "That is... correct!",
+   "act": "excited, shouting"
+  },
+  {
+   "scene": "final2",
+   "who": "NARRATOR",
+   "text": "1 million dollars. Theo screams. Your mom is in row 3. Crying. Fine."
+  },
+  {
+   "scene": "twist",
+   "who": "NARRATOR",
+   "text": "Backstage, Ava is waiting."
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "Told you. Copper."
+  },
+  {
+   "scene": "twist",
+   "who": "YOU",
+   "text": "You told me that in a take 1. You can't remember that."
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "I remember the table, too. Nice flowers."
+  },
+  {
+   "scene": "twist",
+   "who": "NARRATOR",
+   "text": "She's lived every day twice since she was 9."
+  },
+  {
+   "scene": "twist",
+   "who": "YOU",
+   "text": "Then why did you say no?"
+  },
+  {
+   "scene": "twist",
+   "who": "AVA",
+   "text": "It was a draft. Ask me on a day that counts.",
+   "act": "playful, teasing",
+   "take": "episodes/twice/takes/070_0.wav"
+  },
+  {
+   "scene": "endcard",
+   "who": "NARRATOR",
+   "text": "If you lived every day twice, what would you do on the day that doesn't count?"
+  }
+ ]
+}

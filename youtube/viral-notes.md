@@ -100,3 +100,12 @@ Weak on 1 (summary hook), 2 (the party-lie loop closes at 5:00), 3 (no goal unti
 most of the story), 5 (invented numbers), 6 (no planted reveal), 7 (no sceptic) and 9 (low stakes: one
 comedy set). Strong on 8 and 10, and the core idea (the most meaningful use of the power is a kind lie)
 is right.
+
+## Hook and payoff rules (the user's feedback, 2026-11-16; `research/retention-hook-2026-11-16.md`)
+
+- **The first 2 seconds carry the stake**: frame 1 is the cold open's most striking image, already moving,
+  with 2-4 huge words; the first sentence is the stake itself, never the time or place.
+- **A second open loop runs through the main payoff** and closes in the last 20 seconds with a twist.
+- **The climax goes wrong first**, so the payoff can't be predicted.
+- **No recap or explaining in the last third**; lines get shorter and cuts faster toward the end.
+- **A small payoff every 30-45 seconds.** Nothing after the last reveal except the question.

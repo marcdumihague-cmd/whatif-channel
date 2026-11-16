@@ -77,3 +77,23 @@ control panel; that is the kind of gap to close.
 - **Label anything new the first time it appears** (a power, a rule, a number): a short tag.
 - **Clarity check before every render**: for each still on the contact sheet, write one line
   "where / who / what is happening". If a line is hard to write, the shot gets fixed.
+
+## The v2 look (the user's rule, 2026-11-16: "a whole different level"), from episode 9 on
+
+Kit: `video/src/v2/kit.tsx`. Every new episode uses it; the older kits stay for re-renders only.
+
+- **Characters**: jointed limbs (shoulder, elbow, hip, knee) posed with `pose()` and keyframed with
+  `poseAt()`; walk cycles (`walk()`); hands gesture while a character talks; eyes have irises, lashes,
+  lids, brows and small darts; faces and bodies are shaded on the side away from the light.
+- **Camera**: a set is one 1920x1080 world, and a scene cuts between framings of it (`cuts()`): wide to
+  establish, a two-shot, then close-ups on whoever speaks or reacts. A cut every 2-5 seconds, each framing
+  drifting. Close-ups at zoom 2.2-2.8; a head sits at `feetY - 452 * scale`.
+- **Depth**: `Layer d` far/subject/foreground planes move at different speeds; far and foreground layers
+  blur as the camera zooms in. Anything that must be read (labels, key props) goes in the subject layer.
+- **Light**: every set has a light source with bloom, window shafts or spotlights, dust in the air, a
+  vignette and film grain over everything.
+- **Text**: word-by-word captions with the spoken word highlighted (`Captions`), slammed-in key phrases
+  (`Slam`), pill labels (`Tag`), fact cards and phone-video cards (`Card`). Keep big props and labels
+  above y ~780: captions own the bottom.
+- **One motif per episode**, graded into the picture (episode 9: TAKE 1 is drained and blue with a dashed
+  frame, TAKE 2 is warm; a clapper badge sits top-left; a rewind marks midnight).

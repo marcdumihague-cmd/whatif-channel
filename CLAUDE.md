@@ -34,8 +34,9 @@ environment, which allows the Hugging Face hosts the models download from.
    step 2 `pick` in `.venv-chatterbox`) before voice.py; a take is kept only if it still sounds like
    the character (speaker similarity >= 0.80). Lip-sync: `.venv-qwen/bin/python tts/lipsync.py <name>`
    writes `lips.json` (mouth opening + shape per frame); pass `lip` to the speaking `Person`.
-3. Visuals: Remotion in `video/` (React + SVG, 1920x1080, 30 fps), outlined cartoon style;
-   reusable character and helpers in `video/src/cartoon.tsx`. Scenes are timed from
+3. Visuals: Remotion in `video/` (React + SVG, 1920x1080, 30 fps). From episode 9 on, the v2 kit
+   `video/src/v2/kit.tsx` (jointed shaded characters, multi-plane camera with cuts and close-ups, light,
+   grain, word-by-word captions; rules in `youtube/motion.md`). Older kits: `video/src/ll/kit.tsx`, `cartoon.tsx`. Scenes are timed from
    `timeline.json`. Contact sheet: `node sheet.mjs <Comp> <everySec> <outDir>` (in `video/`). Render stills to check layout before a full render:
    `REMOTION_CHROME=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell npx remotion still|render src/index.ts <Composition> out/...`
 4. Sound: `.venv-qwen/bin/python tts/mix.py <name>` mixes voice + a generated music bed + generated
@@ -57,7 +58,7 @@ Rejected: Kokoro (flat, user found it not entertaining), Chatterbox (word slips)
 (default OmniVoice weights are non-commercial, needs a desktop/GPU). ElevenLabs: the user's API key
 was rejected (401); untested. Comparison scripts: `tts/compare/`.
 
-Every video: ends on a "what would you do?" question; the promise teases without spoiling (what, not how); no gag repeated more than 2-3 times; less explaining, more action; wish-fulfilment situations; money, girls, views or survival in it, ideally as the premise; most videos show "you" exploiting the situation to make large amounts of money, even when the premise isn't about money (user rules, `youtube/voice.md`). Scripts weave in things the average viewer has seen on YouTube (money-making videos, famous creators); graphics keep episode 5's detail level with one premise motif (user rules, see `youtube/voice.md` and `youtube/motion.md`). Every shot must be impossible to misunderstand (defining objects, establishing views, labels; see `youtube/motion.md`). Sound effects: soft and low only, never high-pitched (user rule, see `youtube/motion.md`). Facts: never say "That's real"; name the study instead (see `youtube/voice.md`).
+Every video: the first 2 seconds carry the stake (striking moving image + the stake as the first sentence); a second open loop runs through the main payoff and closes with a twist in the last 20 seconds; no recap in the last third (user feedback 2026-11-16, `youtube/viral-notes.md`); ends on a "what would you do?" question; the promise teases without spoiling (what, not how); no gag repeated more than 2-3 times; less explaining, more action; wish-fulfilment situations; money, girls, views or survival in it, ideally as the premise; most videos show "you" exploiting the situation to make large amounts of money, even when the premise isn't about money (user rules, `youtube/voice.md`). Scripts weave in things the average viewer has seen on YouTube (money-making videos, famous creators); graphics keep episode 5's detail level with one premise motif (user rules, see `youtube/voice.md` and `youtube/motion.md`). Every shot must be impossible to misunderstand (defining objects, establishing views, labels; see `youtube/motion.md`). Sound effects: soft and low only, never high-pitched (user rule, see `youtube/motion.md`). Facts: never say "That's real"; name the study instead (see `youtube/voice.md`).
 
 Music: generated ambient pad from `tts/mix.py` (first used on episode 3; the user hasn't heard it yet).
 

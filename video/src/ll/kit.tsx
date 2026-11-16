@@ -129,7 +129,7 @@ const Viseme: React.FC<{ lip: Lip; color: string }> = ({ lip, color }) => {
   }
 };
 
-const Mouth: React.FC<{ kind: string; talk: number; color: string; lip?: Lip }> = ({ kind, talk, color, lip }) => {
+export const Mouth: React.FC<{ kind: string; talk: number; color: string; lip?: Lip }> = ({ kind, talk, color, lip }) => {
   if (lip && lip.v !== "X") return <Viseme lip={lip} color={color} />;
   if (!lip && talk > 0.05) return <ellipse cx={0} cy={34} rx={13} ry={4 + talk * 11} fill={color} />;
   switch (kind) {

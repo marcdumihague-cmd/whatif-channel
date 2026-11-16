@@ -156,3 +156,11 @@ Rules the user gave are not up for debate; lessons we found ourselves can be rev
   is wrapping up, don't slow down before the climax, and keep a second question open through it. (user, 2026-11-16)
 - **The hook must catch attention within 2 seconds**: "the beginning is everything". The first frame and
   first words carry the most striking moment, not setup ("Gym class, 10:14 a.m." was setup). (user, 2026-11-16)
+- **Rendering stills starves the voice badly**: with a contact sheet running, voice.py did 3 lines in 15
+  minutes. Write code and docs while the voice runs; render only one or two test stills. (us, 2026-11-16)
+- **Build a new look on one test still first**: the v2 character rig was judged on a 7-character line-up
+  before any scene was written; that caught inverted brows, hair drawn over the body and wrong arm poses
+  in one pass. (us, 2026-11-16)
+- **Close-up framing**: a head sits at `feetY - 452 * scale`; aim the camera there, not at a guessed y. (us, 2026-11-16)
+- **Thumbnail text must not reuse a title word**: "DAY 1 AGAIN" failed title.py's pairing check against
+  "...Every Day Twice"; "FAIL / REDO" passes. (us, 2026-11-16)
